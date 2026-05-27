@@ -97,6 +97,19 @@ CARRIER_DIR  = Path(__file__).resolve().parent
 
 `parents[3]` works because `main.py` is at `<root>/src/carriers/<code>/main.py` — same depth as before.
 
+## Canonical quotes.csv columns
+
+`data/quotes.csv` headers are matched verbatim against `row["..."]` access in every carrier's `main.py`. Keep these names exact:
+
+- `Port of Loading` — required
+- `Final Destination` — optional; if filled, the Voronoi lookup resolves it to a Last CY
+- `LastCY` — **no space** (was `Last CY` in early CSVs — the column was renamed to match the code so the rename-on-load shim could be removed). If `Final Destination` is blank but `LastCY` is filled, the carrier uses POL → LastCY directly and skips the Voronoi step.
+- `ID` — quote identifier carried into outputs
+
+Other columns in the CSV (`Internal ID`, `Cargo Ready Date`, `Last CY/CFS`, etc.) are ignored by the scrapers.
+
+`build_voronoi_lookup` is `dropna()`-safe: rows with empty `Final Destination` are skipped, and if every row is in `LastCY`-direct mode the function early-returns `{}` so the spatial join is skipped entirely.
+
 ## Gotchas
 
 ### Unused-function trap
@@ -129,15 +142,27 @@ HMM and OOCL run in the `patch` conda env. Everything else runs in `schedules`. 
 
 The legacy folder at `C:\Users\LuisMiguelHernandezT\OneDrive - Prime Time Packaging\Schedules\` is the migration source. We **copy**, not move — the OneDrive copy stays intact during migration so a partial/broken state in this repo is recoverable. Delete from OneDrive only after each carrier has been verified end-to-end in the new repo.
 
+## HTML-carrier behavior (CMA + EMC)
+
+Two carriers receive HTML responses instead of JSON and need the same archive treatment. Identify an HTML carrier by checking whether the legacy `main.py` writes `*.html` files into the processing dir and then calls `batch_transform_processing_dir(...)`.
+
+**HTML archive.** Raw HTMLs are moved to `src/data/<code>/html/` instead of deleted after parsing, so a parser bug can be debugged by re-parsing the saved HTML without re-hitting the (often bot-detected) endpoint. Mechanism:
+
+- Add an optional `html_archive_dir: Path = None` parameter on `transform_html_to_json` and `batch_transform_processing_dir`. When non-None, `shutil.move(html_path, get_unique_path(html_archive_dir / html_path.name))`; otherwise fall back to `html_path.unlink()`.
+- Add `HTML_DIR = PROJECT_ROOT / "src" / "data" / "<code>" / "html"` in `main.py`.
+- Pass `HTML_DIR` to the `batch_transform_processing_dir(PROCESSING_DIR, HTML_DIR)` call.
+- `mkdir -p src/data/<code>/html` so the dir exists.
+- `.gitignore` already has `src/data/*/html/`, so no change there.
+
+**Do not replicate this for JSON carriers** — there's nothing to archive.
+
 ## CMA-specific deviations
 
-CMA is the only carrier where the API returns HTML (everyone else returns JSON). Three CMA-only behaviors:
+Two CMA-only behaviors that **don't** apply to other HTML carriers (EMC has explicit dates in its HTML, CMA doesn't):
 
-1. **HTML archive.** Raw HTMLs are moved to `src/data/cma/html/` instead of deleted, so a parser bug can be debugged by re-parsing the saved HTML without re-hitting CMA's bot-detected endpoint. Implemented via an optional `html_archive_dir` parameter on `transform_html_to_json` / `batch_transform_processing_dir`. **Do not replicate this for non-HTML carriers** — they have nothing to archive.
+1. **pod_eta -4 days for inland destinations.** CMA's HTML stores only one date per location node (the rail-ready date when there's an inland leg). For inland routes we subtract 4 days from the ocean leg's eta to approximate the actual port arrival, matching CMA's own port-only timeline. Logic at [utils.py:812-822](src/carriers/cma/utils.py#L812-L822). Trigger: `ocean[-1] is not legs[-1]`. **Don't port this to other carriers** — they have explicit eta fields.
 
-2. **pod_eta -4 days for inland destinations.** CMA's HTML stores only one date per location node (the rail-ready date when there's an inland leg). For inland routes we subtract 4 days from the ocean leg's eta to approximate the actual port arrival, matching CMA's own port-only timeline. Logic at [utils.py:812-822](src/carriers/cma/utils.py#L812-L822). Trigger: `ocean[-1] is not legs[-1]`. **Don't port this to other carriers** — they have explicit eta fields.
-
-3. **Dynamic SearchDate.** The CMA payload's `SearchDate` field is set from `fromDate = today.strftime("%d-%b-%Y")` ([main.py:220-221](src/carriers/cma/main.py#L220-L221)). `%b` is locale-dependent — fine on English Windows, would break on a non-English machine.
+2. **Dynamic SearchDate.** The CMA payload's `SearchDate` field is set from `fromDate = today.strftime("%d-%b-%Y")` ([main.py:220-221](src/carriers/cma/main.py#L220-L221)). `%b` is locale-dependent — fine on English Windows, would break on a non-English machine.
 
 ## Conda envs (reference)
 

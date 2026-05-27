@@ -1,0 +1,902 @@
+{
+  "Hai Phong, Vietnam": [
+    {
+      "display_name": "HAIPHONG, VIETNAM (VNHPH) [ZIP:35000]",
+      "unlocode": "VNHPG",
+      "short_name": "HAIPHONG, VIETNAM [ZIP:35000]"
+    }
+  ],
+  "Xiamen, China": [
+    {
+      "display_name": "XIAMEN, CHINA (CNXMN) [ZIP:361000]",
+      "unlocode": "CNXSM",
+      "short_name": "XIAMEN, CHINA [ZIP:361000]"
+    }
+  ],
+  "Qingdao, China": [
+    {
+      "display_name": "QINGDAO, CHINA (CNTAO) [ZIP:266000]",
+      "unlocode": "CNQND",
+      "short_name": "QINGDAO, CHINA [ZIP:266000]"
+    }
+  ],
+  "Ho Chi Minh, Vietnam": [
+    {
+      "display_name": "HO CHI MINH (VNSGN) [ZIP:70000]",
+      "unlocode": "VNHCM",
+      "short_name": "HO CHI MINH [ZIP:70000]"
+    }
+  ],
+  "Puerto Quetzal, Guatemala": [
+    {
+      "display_name": "PUERTO QUETZAL (GTPRQ) [ZIP:******]",
+      "unlocode": "GTZNJ",
+      "short_name": ""
+    }
+  ],
+  "Dalian, China": [
+    {
+      "display_name": "DALIAN, CHINA (CNDLC) [ZIP:116000]",
+      "unlocode": "CNDLI",
+      "short_name": "DALIAN, CHINA [ZIP:116000]"
+    }
+  ],
+  "Shanghai, China": [
+    {
+      "display_name": "SHANGHAI (CNSHA) [ZIP:200001]",
+      "unlocode": "CNSHG",
+      "short_name": "SHANGHAI [ZIP:200001]"
+    }
+  ],
+  "Vung Tau, Vietnam": [],
+  "Cai Mep, Vietnam": [
+    {
+      "display_name": "CAI MEP (VNTOT) [ZIP:76000]",
+      "unlocode": "VNVUU",
+      "short_name": "CAI MEP [ZIP:76000]"
+    }
+  ],
+  "Mundra, India": [
+    {
+      "display_name": "MUNDRA (INMUN) [ZIP:370421]",
+      "unlocode": "INMUN",
+      "short_name": "MUNDRA [ZIP:370421]"
+    }
+  ],
+  "Hong Kong, Hong Kong": [
+    {
+      "display_name": "HONG KONG (HKHKG) [ZIP:******]",
+      "unlocode": "HKHKG",
+      "short_name": "HONG KONG [ZIP:******]"
+    }
+  ],
+  "Ningbo, China": [
+    {
+      "display_name": "NINGBO, CHINA (CNNGB) [ZIP:315000]",
+      "unlocode": "CNNBO",
+      "short_name": "NINGBO, CHINA [ZIP:315000]"
+    }
+  ],
+  "Kaohsiung, Taiwan": [
+    {
+      "display_name": "KAOHSIUNG (TWKHH) [ZIP:800]",
+      "unlocode": "TWKSG",
+      "short_name": "KAOHSIUNG [ZIP:800]"
+    }
+  ],
+  "Guangzhou, China": [
+    {
+      "display_name": "GUANGZHOU, GUANGDONG (CNCAN) [ZIP:510000]",
+      "unlocode": "CNGZU",
+      "short_name": "GUANGZHOU, GUANGDONG [ZIP:510000]"
+    }
+  ],
+  "Manila, Philippines": [
+    {
+      "display_name": "MANILA (NORTH PORT) (PHMNN) [ZIP:1012]",
+      "unlocode": "PHMNL",
+      "short_name": "MANILA (NORTH PORT) [ZIP:1012]"
+    }
+  ],
+  "Manila South Port, Philippines": [
+    {
+      "display_name": "MANILA SOUTH PORT (PHMNS) [ZIP:1018]",
+      "unlocode": "PHMJJ",
+      "short_name": "MANILA SOUTH PORT [ZIP:1018]"
+    }
+  ],
+  "Sihanoukville, Cambodia": [
+    {
+      "display_name": "SIHANOUKVILLE (KHKOS) [ZIP:******]",
+      "unlocode": "KHSIH",
+      "short_name": "SIHANOUKVILLE [ZIP:******]"
+    }
+  ],
+  "Nhava Sheva, India": [
+    {
+      "display_name": "NHAVA SHEVA (INNSA) [ZIP:400707]",
+      "unlocode": "INNXV",
+      "short_name": "NHAVA SHEVA [ZIP:400707]"
+    }
+  ],
+  "Barranquilla, Colombia": [
+    {
+      "display_name": "BARRANQUILLA (COBAQ) [ZIP:******]",
+      "unlocode": "COBQL",
+      "short_name": "BARRANQUILLA [ZIP:******]"
+    }
+  ],
+  "Karachi, Pakistan": [
+    {
+      "display_name": "KARACHI (PKKHI) [ZIP:74200]",
+      "unlocode": "PKKHI",
+      "short_name": "KARACHI [ZIP:74200]"
+    }
+  ],
+  "Jebel Ali, United Arab Emirates": [
+    {
+      "display_name": "JEBEL ALI (AEJEA) [ZIP:******]",
+      "unlocode": "AEJBA",
+      "short_name": "JEBEL ALI [ZIP:******]"
+    }
+  ],
+  "Semarang, Indonesia": [
+    {
+      "display_name": "SEMARANG (IDSRG) [ZIP:50100]",
+      "unlocode": "IDSRG",
+      "short_name": "SEMARANG [ZIP:50100]"
+    }
+  ],
+  "Cartagena, Colombia": [
+    {
+      "display_name": "CARTAGENA (COCTG) [ZIP:******]",
+      "unlocode": "COCTG",
+      "short_name": "CARTAGENA [ZIP:******]"
+    }
+  ],
+  "Laem Chabang, Thailand": [
+    {
+      "display_name": "LAEM CHABANG (THLCH) [ZIP:20230]",
+      "unlocode": "THLCH",
+      "short_name": "LAEM CHABANG [ZIP:20230]"
+    }],
+    "Bangkok, Thailand": [
+      {
+        "display_name": "BANGKOK (THBKK) [ZIP:10500]",
+        "unlocode": "THBKK",
+        "short_name": "BANGKOK [ZIP:10500]"
+      }
+    ],
+  "Port Qasim, Pakistan": [
+    {
+      "display_name": "PORT QASIM (PKBQM) [ZIP:75020]",
+      "unlocode": "PKPFP",
+      "short_name": "PORT QASIM [ZIP:75020]"
+    }
+  ],
+  "Phnom Penh, Cambodia": [
+    {
+      "display_name": "PHNOM PENH (KHPNH) [ZIP:******]",
+      "unlocode": "KHPNH",
+      "short_name": "PHNOM PENH [ZIP:******]"
+    }
+  ],
+  "Yantian, China": [
+    {
+      "display_name": "YANTIAN, CHINA (CNYTN) [ZIP:518000]",
+      "unlocode": "CNYYT",
+      "short_name": "YANTIAN, CHINA [ZIP:518000]"
+    }
+  ],
+  "Seattle, WA": [
+    {
+      "display_name": "SEATTLE, WA (USSEA) [ZIP:98101]",
+      "unlocode": "USSTL",
+      "short_name": "SEATTLE, WA [ZIP:98101]"
+    },
+    {
+      "display_name": "TACOMA, WA (USTIW) [ZIP:98401]",
+      "unlocode": "USTCM",
+      "short_name": "TACOMA, WA [ZIP:98401]"
+    }
+  ],
+  "Tacoma, WA": [
+    {
+      "display_name": "TACOMA, WA (USTIW) [ZIP:98401]",
+      "unlocode": "USTCM",
+      "short_name": "TACOMA, WA [ZIP:98401]"
+    }
+  ],
+  "Olympia, WA": [
+    {
+      "display_name": "OLYMPIA, WA (USOLM) [ZIP:98501]",
+      "unlocode": "USOPA",
+      "short_name": "OLYMPIA, WA [ZIP:98501]"
+    }
+  ],
+  "Spokane, WA": [
+    {
+      "display_name": "SPOKANE, WA (USGEG) [ZIP:99201]",
+      "unlocode": "USXPE",
+      "short_name": "SPOKANE, WA [ZIP:99201]"
+    }
+  ],
+  "Clatskanie, OR": [
+    {
+      "display_name": "CLATSKANIE, OR (USYCK) [ZIP:97016]",
+      "unlocode": "USKZE",
+      "short_name": "CLATSKANIE, OR [ZIP:97016]"
+    }
+  ],
+  "Portland, OR": [
+    {
+      "display_name": "PORTLAND, OR (USPDX) [ZIP:97201]",
+      "unlocode": "USPTL",
+      "short_name": "PORTLAND, OR [ZIP:97201]"
+    }
+  ],
+  "Oakland, CA": [
+    {
+      "display_name": "OAKLAND, CA (USOAK) [ZIP:94601]",
+      "unlocode": "USOKL",
+      "short_name": "OAKLAND, CA [ZIP:94601]"
+    }
+  ],
+  "French Camp, CA": [
+    {
+      "display_name": "FRENCH CAMP, CA (USFCP) [ZIP:95231]",
+      "unlocode": "USFCM",
+      "short_name": "FRENCH CAMP, CA [ZIP:95231]"
+    }
+  ],
+  "Lathrop, CA": [
+    {
+      "display_name": "LATHROP, CA (USLRO) [ZIP:95330]",
+      "unlocode": "USLTH",
+      "short_name": "LATHROP, CA [ZIP:95330]"
+    }
+  ],
+  "Stockton, CA": [
+    {
+      "display_name": "STOCKTON, CA (USSCK) [ZIP:95201]",
+      "unlocode": "USSTK",
+      "short_name": "STOCKTON, CA [ZIP:95201]"
+    }
+  ],
+  "Los Angeles, CA": [
+    {
+      "display_name": "LOS ANGELES, CA (USLAX) [ZIP:90001]",
+      "unlocode": "USLAX",
+      "short_name": "LOS ANGELES, CA [ZIP:90001]"
+    }
+  ],
+  "Long Beach, CA": [
+    {
+      "display_name": "LONG BEACH, CA (USLGB) [ZIP:90802]",
+      "unlocode": "USLGB",
+      "short_name": "LONG BEACH, CA [ZIP:90802]"
+    }
+  ],
+  "San Bernardino, CA": [
+    {
+      "display_name": "SAN BERNARDINO, CA (USSBT) [ZIP:92401]",
+      "unlocode": "USBJJ",
+      "short_name": "SAN BERNARDINO, CA [ZIP:92401]"
+    }
+  ],
+  "Reno, NV": [
+    {
+      "display_name": "RENO, NV (USRNO) [ZIP:89501]",
+      "unlocode": "USRNO",
+      "short_name": "RENO, NV [ZIP:89501]"
+    }
+  ],
+  "Sparks, NV": [
+    {
+      "display_name": "SPARKS, NV (USSPK) [ZIP:89431]",
+      "unlocode": "USSNV",
+      "short_name": "SPARKS, NV [ZIP:89431]"
+    }
+  ],
+  "Las Vegas, NV": [
+    {
+      "display_name": "LAS VEGAS, NV (USLAS) [ZIP:89101]",
+      "unlocode": "USLSV",
+      "short_name": "LAS VEGAS, NV [ZIP:89101]"
+    }
+  ],
+  "Glendale, AZ": [
+    {
+      "display_name": "GLENDALE, AZ (USGDA) [ZIP:85301]",
+      "unlocode": "USGND",
+      "short_name": "GLENDALE, AZ [ZIP:85301]"
+    }
+  ],
+  "Phoenix, AZ": [
+    {
+      "display_name": "PHOENIX, AZ (USPHX) [ZIP:85001]",
+      "unlocode": "USPNX",
+      "short_name": "PHOENIX, AZ [ZIP:85001]"
+    }
+  ],
+  "Tucson, AZ": [
+    {
+      "display_name": "TUCSON, AZ (USTUS) [ZIP:85701]",
+      "unlocode": "USTUC",
+      "short_name": "TUCSON, AZ [ZIP:85701]"
+    }
+  ],
+  "Santa Teresa, NM": [
+    {
+      "display_name": "SANTA TERESA, NM (USSXT) [ZIP:88008]",
+      "unlocode": "USSBT",
+      "short_name": "SANTA TERESA, NM [ZIP:88008]"
+    }
+  ],
+  "Albuquerque, NM": [
+    {
+      "display_name": "ALBUQUERQUE, NM (USABQ) [ZIP:87101]",
+      "unlocode": "USABQ",
+      "short_name": "ALBUQUERQUE, NM [ZIP:87101]"
+    }
+  ],
+  "El Paso, TX": [
+    {
+      "display_name": "EL PASO, TX (USELP) [ZIP:79901]",
+      "unlocode": "USEPS",
+      "short_name": "EL PASO, TX [ZIP:79901]"
+    }
+  ],
+  "Brownsville, TX": [
+    {
+      "display_name": "BROWNSVILLE, TX (USBRO) [ZIP:78520]",
+      "unlocode": "USBRV",
+      "short_name": "BROWNSVILLE, TX [ZIP:78520]"
+    }
+  ],
+  "Donna, TX": [
+    {
+      "display_name": "DONNA, TX (USXEY) [ZIP:78537]",
+      "unlocode": "USDMA",
+      "short_name": "DONNA, TX [ZIP:78537]"
+    }
+  ],
+  "Laredo, TX": [
+    {
+      "display_name": "LAREDO, TX (USLRD) [ZIP:78040]",
+      "unlocode": "USLRD",
+      "short_name": "LAREDO, TX [ZIP:78040]"
+    }
+  ],
+  "San Antonio, TX": [
+    {
+      "display_name": "SAN ANTONIO, TX (USSAT) [ZIP:78201]",
+      "unlocode": "USSAO",
+      "short_name": "SAN ANTONIO, TX [ZIP:78201]"
+    }
+  ],
+  "Von Ormy, TX": [
+    {
+      "display_name": "VON ORMY, TX (USZJE) [ZIP:78073]",
+      "unlocode": "USZJE",
+      "short_name": "VON ORMY, TX [ZIP:78073]"
+    }
+  ],
+  "Long Mott, TX": [
+    {
+      "display_name": "LONG MOTT, TX (USGQT) [ZIP:77979]",
+      "unlocode": "USVUT",
+      "short_name": "LONG MOTT, TX [ZIP:77979]"
+    }
+  ],
+  "Victoria, TX": [
+    {
+      "display_name": "VICTORIA, TX (USVCT) [ZIP:77902]",
+      "unlocode": "USVTA",
+      "short_name": "VICTORIA, TX [ZIP:77902]"
+    }
+  ],
+  "Point Comfort, TX": [
+    {
+      "display_name": "POINT COMFORT, TX (USPCR) [ZIP:77978]",
+      "unlocode": "USOCV",
+      "short_name": "POINT COMFORT, TX [ZIP:77978]"
+    }
+  ],
+  "Port Lavaca, TX": [
+    {
+      "display_name": "PORT LAVACA, TX (USPLV) [ZIP:77979]",
+      "unlocode": "USPQL",
+      "short_name": "PORT LAVACA, TX [ZIP:77979]"
+    }
+  ],
+  "Freeport, TX": [
+    {
+      "display_name": "FREEPORT, TX (USFPO) [ZIP:77541]",
+      "unlocode": "USFPT",
+      "short_name": "FREEPORT, TX [ZIP:77541]"
+    }
+  ],
+  "Beasley, TX": [
+    {
+      "display_name": "BEASLEY, TX (USBY4) [ZIP:77417]",
+      "unlocode": "USYJE",
+      "short_name": "BEASLEY, TX [ZIP:77417]"
+    }
+  ],
+  "Houston, TX": [
+    {
+      "display_name": "HOUSTON, TX (USHOU) [ZIP:77002]",
+      "unlocode": "USHUS",
+      "short_name": "HOUSTON, TX [ZIP:77002]"
+    }
+  ],
+  "Wylie, TX": [
+    {
+      "display_name": "WYLIE, TX (USWYH) [ZIP:75098]",
+      "unlocode": "USWYJ",
+      "short_name": "WYLIE, TX [ZIP:75098]"
+    }
+  ],
+  "Alliance, TX": [],
+  "Fort Worth, TX": [
+    {
+      "display_name": "FORT WORTH, TX (USFWT) [ZIP:76102]",
+      "unlocode": "USFWT",
+      "short_name": "FORT WORTH, TX [ZIP:76102]"
+    }
+  ],
+  "Arlington, TX": [
+    {
+      "display_name": "ARLINGTON, TX (USARJ) [ZIP:76001]",
+      "unlocode": "USARE",
+      "short_name": "ARLINGTON, TX [ZIP:76001]"
+    }
+  ],
+  "Dallas, TX": [
+    {
+      "display_name": "DALLAS, TX (USDAL) [ZIP:75216]",
+      "unlocode": "USDLS",
+      "short_name": "DALLAS, TX [ZIP:75216]"
+    },
+    {
+      "display_name": "FORT WORTH, TX (USFWT) [ZIP:76102]",
+      "unlocode": "USFWT",
+      "short_name": "FORT WORTH, TX [ZIP:76102]"
+    }
+  ],
+  "Salt Lake City, UT": [
+    {
+      "display_name": "SALT LAKE CITY, UT (USSLC) [ZIP:84101]",
+      "unlocode": "USSLC",
+      "short_name": "SALT LAKE CITY, UT [ZIP:84101]"
+    }
+  ],
+  "Denver, CO": [
+    {
+      "display_name": "DENVER, CO (USDEN) [ZIP:80201]",
+      "unlocode": "USDEN",
+      "short_name": "DENVER, CO [ZIP:80201]"
+    }
+  ],
+  "Omaha, NE": [
+    {
+      "display_name": "OMAHA, NE (USOMA) [ZIP:68102]",
+      "unlocode": "USOMH",
+      "short_name": "OMAHA, NE [ZIP:68102]"
+    }
+  ],
+  "Kansas City, KS": [
+    {
+      "display_name": "KANSAS CITY, KS (USKCK) [ZIP:66101]",
+      "unlocode": "USKCK",
+      "short_name": "KANSAS CITY, KS [ZIP:66101]"
+    },
+    {
+      "display_name": "KANSAS CITY, MO (USMKC) [ZIP:64101]",
+      "unlocode": "USKAN",
+      "short_name": "KANSAS CITY, MO [ZIP:64101]"
+    }
+  ],
+  "Kansas City, MO": [
+    {
+      "display_name": "KANSAS CITY, MO (USMKC) [ZIP:64101]",
+      "unlocode": "USKAN",
+      "short_name": "KANSAS CITY, MO [ZIP:64101]"
+    }
+  ],
+  "Duluth, MN": [
+    {
+      "display_name": "DULUTH, MN (USDLH) [ZIP:55802]",
+      "unlocode": "USDUL",
+      "short_name": "DULUTH, MN [ZIP:55802]"
+    }
+  ],
+  "Minneapolis, MN": [
+    {
+      "display_name": "MINNEAPOLIS, MN (USMES) [ZIP:55401]",
+      "unlocode": "USMNA",
+      "short_name": "MINNEAPOLIS, MN [ZIP:55401]"
+    }
+  ],
+  "Saint Paul, MN": [],
+  "Arcadia, WI": [
+    {
+      "display_name": "ARCADIA, WI (USADI) [ZIP:54612]",
+      "unlocode": "USACI",
+      "short_name": "ARCADIA, WI [ZIP:54612]"
+    }
+  ],
+  "Chippewa Falls, WI": [
+    {
+      "display_name": "CHIPPEWA FALLS, WI (USCPF) [ZIP:54729]",
+      "unlocode": "USCPF",
+      "short_name": "CHIPPEWA FALLS, WI [ZIP:54729]"
+    }
+  ],
+  "Eau Claire, WI": [
+    {
+      "display_name": "EAU CLAIRE, WI (USEAU) [ZIP:54701]",
+      "unlocode": "USECR",
+      "short_name": "EAU CLAIRE, WI [ZIP:54701]"
+    }
+  ],
+  "Rochelle, IL": [
+    {
+      "display_name": "ROCHELLE, IL (USRCX) [ZIP:61068]",
+      "unlocode": "USRHU",
+      "short_name": "ROCHELLE, IL [ZIP:61068]"
+    }
+  ],
+  "Chicago, IL": [
+    {
+      "display_name": "CHICAGO, IL (USCHI) [ZIP:60601]",
+      "unlocode": "USCHI",
+      "short_name": "CHICAGO, IL [ZIP:60601]"
+    }
+  ],
+  "Decatur, IL": [
+    {
+      "display_name": "DECATUR, IL (USDEC) [ZIP:62521]",
+      "unlocode": "USDCA",
+      "short_name": "DECATUR, IL [ZIP:62521]"
+    }
+  ],
+  "East Saint Louis, IL": [
+    {
+      "display_name": "EAST SAINT LOUIS, IL (USESL) [ZIP:62201]",
+      "unlocode": "USESL",
+      "short_name": "EAST SAINT LOUIS, IL [ZIP:62201]"
+    }
+  ],
+  "Dupo, IL": [
+    {
+      "display_name": "DUPO, IL (USDUP) [ZIP:62239]",
+      "unlocode": "USDPJ",
+      "short_name": "DUPO, IL [ZIP:62239]"
+    }
+  ],
+  "Detroit, MI": [
+    {
+      "display_name": "DETROIT, MI (USDET) [ZIP:48201]",
+      "unlocode": "USDTT",
+      "short_name": "DETROIT, MI [ZIP:48201]"
+    }
+  ],
+  "Indianapolis, IN": [
+    {
+      "display_name": "INDIANAPOLIS, IN (USIND) [ZIP:46201]",
+      "unlocode": "USIDN",
+      "short_name": "INDIANAPOLIS, IN [ZIP:46201]"
+    }
+  ],
+  "Avon, IN": [
+    {
+      "display_name": "AVON, IN (USVAO) [ZIP:46123]",
+      "unlocode": "USAXO",
+      "short_name": "AVON, IN [ZIP:46123]"
+    }
+  ],
+  "Georgetown, KY": [
+    {
+      "display_name": "GEORGETOWN, KY (USGEO) [ZIP:40324]",
+      "unlocode": "USGGT",
+      "short_name": "GEORGETOWN, KY [ZIP:40324]"
+    }
+  ],
+  "Lexington, KY": [
+    {
+      "display_name": "LEXINGTON, KY (USLEX) [ZIP:40502]",
+      "unlocode": "USLXN",
+      "short_name": "LEXINGTON, KY [ZIP:40502]"
+    }
+  ],
+  "Louisville, KY": [
+    {
+      "display_name": "LOUISVILLE, KY (USLUI) [ZIP:40218]",
+      "unlocode": "USLVE",
+      "short_name": "LOUISVILLE, KY [ZIP:40218]"
+    }
+  ],
+  "Cleveland, OH": [
+    {
+      "display_name": "CLEVELAND, OH (USCLE) [ZIP:44102]",
+      "unlocode": "USCLE",
+      "short_name": "CLEVELAND, OH [ZIP:44102]"
+    }
+  ],
+  "Toledo, OH": [
+    {
+      "display_name": "TOLEDO, OH (USTOL) [ZIP:43601]",
+      "unlocode": "USTLD",
+      "short_name": "TOLEDO, OH [ZIP:43601]"
+    }
+  ],
+  "North Baltimore, OH": [
+    {
+      "display_name": "NORTH BALTIMORE, OH (USNBH) [ZIP:45872]",
+      "unlocode": "USNBC",
+      "short_name": "NORTH BALTIMORE, OH [ZIP:45872]"
+    }
+  ],
+  "Marion, OH": [],
+  "Columbus, OH": [
+    {
+      "display_name": "COLUMBUS, OH (USCMH) [ZIP:43201]",
+      "unlocode": "USCBS",
+      "short_name": "COLUMBUS, OH [ZIP:43201]"
+    }
+  ],
+  "Cincinnati, OH": [
+    {
+      "display_name": "CINCINNATI, OH (USCVG) [ZIP:45202]",
+      "unlocode": "USCIN",
+      "short_name": "CINCINNATI, OH [ZIP:45202]"
+    }
+  ],
+  "Sharonville, OH": [
+    {
+      "display_name": "SHARONVILLE, OH (USXMA) [ZIP:45241]",
+      "unlocode": "USXNV",
+      "short_name": "SHARONVILLE, OH [ZIP:45241]"
+    }
+  ],
+  "Nashville, TN": [
+    {
+      "display_name": "NASHVILLE, TN (USBNA) [ZIP:37201]",
+      "unlocode": "USNVL",
+      "short_name": "NASHVILLE, TN [ZIP:37201]"
+    }
+  ],
+  "Memphis, TN": [
+    {
+      "display_name": "MEMPHIS, TN (USMEM) [ZIP:38103]",
+      "unlocode": "USMFS",
+      "short_name": "MEMPHIS, TN [ZIP:38103]"
+    }
+  ],
+  "Saint Louis, MO": [],
+  "Shell Rock, IA": [
+    {
+      "display_name": "SHELL ROCK, IA (USSR2) [ZIP:50670]",
+      "unlocode": "USXRO",
+      "short_name": "SHELL ROCK, IA [ZIP:50670]"
+    }
+  ],
+  "Council Bluffs, IA": [
+    {
+      "display_name": "COUNCIL BLUFFS, IA (USCBF) [ZIP:51501]",
+      "unlocode": "USCBF",
+      "short_name": "COUNCIL BLUFFS, IA [ZIP:51501]"
+    }
+  ],
+  "Marion, AR": [
+    {
+      "display_name": "MARION, AR (USMQM) [ZIP:72364]",
+      "unlocode": "USQIP",
+      "short_name": "MARION, AR [ZIP:72364]"
+    }
+  ],
+  "Shreveport, LA": [
+    {
+      "display_name": "SHREVEPORT, LA (USSHV) [ZIP:71101]",
+      "unlocode": "USSHP",
+      "short_name": "SHREVEPORT, LA [ZIP:71101]"
+    }
+  ],
+  "New Orleans, LA": [
+    {
+      "display_name": "NEW ORLEANS, LA (USMSY) [ZIP:70112]",
+      "unlocode": "USNOL",
+      "short_name": "NEW ORLEANS, LA [ZIP:70112]"
+    }
+  ],
+  "Mobile, AL": [
+    {
+      "display_name": "MOBILE, AL (USMOB) [ZIP:36602]",
+      "unlocode": "USMBL",
+      "short_name": "MOBILE, AL [ZIP:36602]"
+    }
+  ],
+  "Birmingham, AL": [
+    {
+      "display_name": "BIRMINGHAM, AL (USBHM) [ZIP:35203]",
+      "unlocode": "USBMM",
+      "short_name": "BIRMINGHAM, AL [ZIP:35203]"
+    }
+  ],
+  "Bessemer, AL": [
+    {
+      "display_name": "BESSEMER, AL (USBMV) [ZIP:35020]",
+      "unlocode": "USBZM",
+      "short_name": "BESSEMER, AL [ZIP:35020]"
+    }
+  ],
+  "Mc Calla, AL": [
+    {
+      "display_name": "MC CALLA, AL (USMKX) [ZIP:35111]",
+      "unlocode": "USZCL",
+      "short_name": "MC CALLA, AL [ZIP:35111]"
+    }
+  ],
+  "Huntsville, AL": [
+    {
+      "display_name": "HUNTSVILLE, AL (USHSV) [ZIP:35801]",
+      "unlocode": "USHTV",
+      "short_name": "HUNTSVILLE, AL [ZIP:35801]"
+    }
+  ],
+  "Savannah, GA": [
+    {
+      "display_name": "SAVANNAH, GA (USSAV) [ZIP:31401]",
+      "unlocode": "USSVN",
+      "short_name": "SAVANNAH, GA [ZIP:31401]"
+    }
+  ],
+  "Crandall, GA": [
+    {
+      "display_name": "CRANDALL, GA (USKR7) [ZIP:30711]",
+      "unlocode": "USCD1",
+      "short_name": "CRANDALL, GA [ZIP:30711]"
+    }
+  ],
+  "Miami, FL": [
+    {
+      "display_name": "MIAMI, FL (USMIA) [ZIP:33109]",
+      "unlocode": "USMIA",
+      "short_name": "MIAMI, FL [ZIP:33109]"
+    },
+    {
+      "display_name": "PORT EVERGLADES, FL (USPEF) [ZIP:33316]",
+      "unlocode": "USPEG",
+      "short_name": "PORT EVERGLADES, FL [ZIP:33316]"
+    }
+  ],
+  "Fort Lauderdale, FL": [
+    {
+      "display_name": "FORT LAUDERDALE, FL (USFLL) [ZIP:33301]",
+      "unlocode": "USFTL",
+      "short_name": "FORT LAUDERDALE, FL [ZIP:33301]"
+    }
+  ],
+  "Port Everglades, FL": [
+    {
+      "display_name": "PORT EVERGLADES, FL (USPEF) [ZIP:33316]",
+      "unlocode": "USPEG",
+      "short_name": "PORT EVERGLADES, FL [ZIP:33316]"
+    }
+  ],
+  "Tampa, FL": [
+    {
+      "display_name": "TAMPA, FL (USTPA) [ZIP:33602]",
+      "unlocode": "USTPA",
+      "short_name": "TAMPA, FL [ZIP:33602]"
+    }
+  ],
+  "Jacksonville, FL": [
+    {
+      "display_name": "JACKSONVILLE, FL (USJAX) [ZIP:32202]",
+      "unlocode": "USJAX",
+      "short_name": "JACKSONVILLE, FL [ZIP:32202]"
+    }
+  ],
+  "Charleston, SC": [
+    {
+      "display_name": "CHARLESTON, SC (USCHS) [ZIP:29401]",
+      "unlocode": "USCHS",
+      "short_name": "CHARLESTON, SC [ZIP:29401]"
+    }
+  ],
+  "Greer, SC": [],
+  "Wilmington, NC": [
+    {
+      "display_name": "WILMINGTON, NC (USILM) [ZIP:28401]",
+      "unlocode": "USWMG",
+      "short_name": "WILMINGTON, NC [ZIP:28401]"
+    }
+  ],
+  "Charlotte, NC": [
+    {
+      "display_name": "CHARLOTTE, NC (USCLT) [ZIP:28201]",
+      "unlocode": "USCHL",
+      "short_name": "CHARLOTTE, NC [ZIP:28201]"
+    }
+  ],
+  "Front Royal, VA": [
+    {
+      "display_name": "FRONT ROYAL, VA (USFRR) [ZIP:22630]",
+      "unlocode": "USFNR",
+      "short_name": "FRONT ROYAL, VA [ZIP:22630]"
+    }
+  ],
+  "Greensboro, NC": [
+    {
+      "display_name": "GREENSBORO, NC (USGBO) [ZIP:27401]",
+      "unlocode": "USGSB",
+      "short_name": "GREENSBORO, NC [ZIP:27401]"
+    }
+  ],
+  "Norfolk, VA": [
+    {
+      "display_name": "NORFOLK, VA (USORF) [ZIP:23502]",
+      "unlocode": "USNFK",
+      "short_name": "NORFOLK, VA [ZIP:23502]"
+    }
+  ],
+  "Philadelphia, PA": [
+    {
+      "display_name": "PHILADELPHIA, PA (USPHL) [ZIP:19125]",
+      "unlocode": "USPHL",
+      "short_name": "PHILADELPHIA, PA [ZIP:19125]"
+    }
+  ],
+  "Harrisburg, PA": [
+    {
+      "display_name": "HARRISBURG, PA (USHAR) [ZIP:17101]",
+      "unlocode": "USHRS",
+      "short_name": "HARRISBURG, PA [ZIP:17101]"
+    }
+  ],
+  "Pittsburgh, PA": [
+    {
+      "display_name": "PITTSBURGH, PA (USPIT) [ZIP:15201]",
+      "unlocode": "USPSB",
+      "short_name": "PITTSBURGH, PA [ZIP:15201]"
+    }
+  ],
+  "New York, NY": [
+    {
+      "display_name": "NEW YORK, NY (USNYC) [ZIP:10001]",
+      "unlocode": "USNYC",
+      "short_name": "NEW YORK, NY [ZIP:10001]"
+    }
+  ],
+  "Buffalo, NY": [
+    {
+      "display_name": "BUFFALO, NY (USBUF) [ZIP:14201]",
+      "unlocode": "USBUF",
+      "short_name": "BUFFALO, NY [ZIP:14201]"
+    }
+  ],
+  "Boston, MA": [
+    {
+      "display_name": "BOSTON, MA (USBOS) [ZIP:02108]",
+      "unlocode": "USBOS",
+      "short_name": "BOSTON, MA [ZIP:02108]"
+    }
+  ],
+  "Atlanta, GA": [
+    {
+      "display_name": "ATLANTA, GA (USATL) [ZIP:30303]",
+      "unlocode": "USATL",
+      "short_name": "ATLANTA, GA [ZIP:30303]"
+    }
+  ],
+  "Newark, NJ": [
+    {
+      "display_name": "NEWARK, NJ (USEWR) [ZIP:07102]",
+      "unlocode": "USNWK",
+      "short_name": "NEWARK, NJ [ZIP:07102]"
+    }
+  ]
+}

@@ -173,8 +173,14 @@ def build_voronoi_lookup(quotes_progress, locations, gdf_voronoi):
     Returns:
         dict: {Final Destination: CityYard}
     """
-    # Step 1: Deduplicate destinations
-    unique_dest = quotes_progress[["Final Destination"]].drop_duplicates()
+    # Step 1: Deduplicate destinations.
+    # Drop rows where Final Destination is empty — those rows are using the
+    # "LastCY filled directly" workflow and don't need a Voronoi lookup. If
+    # nothing is left, return an empty mapping so main.py's apply() falls
+    # through to the existing LastCY for every row.
+    unique_dest = quotes_progress[["Final Destination"]].dropna().drop_duplicates()
+    if unique_dest.empty:
+        return {}
 
     # Step 2: Attach coordinates from locations
     unique_dest = unique_dest.merge(
