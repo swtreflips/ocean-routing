@@ -14,6 +14,13 @@ schedulesenv/
 .DS_Store
 Thumbs.db
 
+# User-managed inputs. The repo ships a template for quotes; combinations
+# is a working file. locations.csv is committed as a starter geocode cache
+# and grows locally as Nominatim adds new cities (see instructions.txt for
+# how to silence the resulting git noise).
+data/quotes.csv
+data/combinations.csv
+
 # Generated runtime data
 src/data/*/raw/
 src/data/*/log/

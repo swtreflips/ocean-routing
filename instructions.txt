@@ -1,0 +1,67 @@
+QUOTES FILE INSTRUCTIONS
+========================
+
+The scrapers read POL/POD (port-of-loading / port-of-discharge) pairs from
+data/quotes.csv. One row per query.
+
+To get started:
+    copy data\quotes.template.csv data\quotes.csv
+Then edit data/quotes.csv with your own rows.
+
+data/locations.csv is a Nominatim geocoding cache and ships with the repo
+as a starter set. The scripts append new geocoded cities to it as they
+run, so on a fresh clone there is nothing to do — it just works.
+
+Side effect: git status will show data/locations.csv as modified after
+runs. To silence that on this machine (per-clone, doesn't propagate):
+    git update-index --skip-worktree data/locations.csv
+To re-enable tracking later:
+    git update-index --no-skip-worktree data/locations.csv
+
+Required column
+---------------
+Port of Loading   Origin port, written as "City, Country".
+                  Examples: "Nhava Sheva, India", "Shanghai, China"
+
+Destination — fill EXACTLY ONE of these two columns per row
+-----------------------------------------------------------
+Final Destination A US inland or coastal city. The program runs a Voronoi
+                  spatial lookup against a yard map and resolves this city
+                  to the nearest US Last Container Yard (i.e. the carrier's
+                  Port of Discharge).
+                  Example: "Bell, CA" -> resolves internally to "Los Angeles, CA"
+                  Use this when the destination is in the US and you want
+                  the program to pick the appropriate POD for you.
+
+LastCY            A specific port to query directly (US or international).
+                  Skips the Voronoi step — useful when you already know the
+                  exact destination port.
+                  Examples:
+                      "Los Angeles, CA"      (US port)
+                      "Semarang, Indonesia"  (international port)
+                      "Kaohsiung, Taiwan"    (international port)
+
+If both columns are filled on the same row, LastCY wins and the Voronoi
+lookup is skipped for that row.
+
+Other columns
+-------------
+ID                Optional quote identifier carried into output records.
+
+Any other columns you keep in the CSV (e.g. Internal ID, Cargo Ready Date,
+Forwarder, Container Type) are ignored by the scrapers. Feel free to use
+the same CSV your other tools export — only the columns above are read.
+
+Running a carrier
+-----------------
+    src\carriers\<code>\run.bat
+
+Where <code> is one of: cma, cos, emc, hpl, hmm, msc, msk, one, oocl, whl, yml, zim.
+
+Each carrier writes:
+    src\data\<code>\raw\         - archived API responses (JSON)
+    src\data\<code>\log\         - run logs + progress CSV
+    src\data\<code>\csvs\        - per-run CSV exports
+    src\data\<code>\canonical\   - canonical JSON records
+    src\data\<code>\html\        - archived HTMLs (CMA + EMC only)
+    src\data\tables\             - aggregated cross-carrier table
