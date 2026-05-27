@@ -1,0 +1,190 @@
+Place of Discharge,Latitude,Longitude,Type
+"Seattle, WA",47.6038321,-122.330062,Port
+"Oakland, CA",37.8044557,-122.271356,Port
+"Los Angeles, CA",34.0536909,-118.242766,Port
+"Long Beach, CA",33.7690164,-118.191604,Port
+"Santa Teresa, NM",31.8588727,-106.646571,Inland
+"San Antonio, TX",29.4246002,-98.4951405,Inland
+"Houston, TX",29.7589382,-95.3676974,Port
+"Fort Worth, TX",32.753177,-97.3327459,Inland
+"Salt Lake City, UT",40.7596198,-111.886797,Inland
+"Denver, CO",39.7392364,-104.984862,Inland
+"Omaha, NE",41.2587459,-95.9383758,Inland
+"Kansas City, KS",39.1134562,-94.626497,Inland
+"Minneapolis, MN",44.9772995,-93.2654692,Inland
+"Chippewa Falls, WI",44.9371325,-91.3932118,Inland
+"Chicago, IL",41.8755616,-87.6244212,Inland
+"Detroit, MI",42.3315509,-83.0466403,Inland
+"Indianapolis, IN",39.7683331,-86.1583502,Inland
+"Louisville, KY",38.2542376,-85.759407,Inland
+"Cleveland, OH",41.4996574,-81.6936772,Inland
+"Columbus, OH",39.9622601,-83.0007065,Inland
+"Cincinnati, OH",39.1014537,-84.5124602,Inland
+"Nashville, TN",36.1622767,-86.7742984,Inland
+"Memphis, TN",35.1460249,-90.0517638,Inland
+"Saint Louis, MO",38.6280278,-90.1910154,Inland
+"New Orleans, LA",29.9559145,-90.0730259,Inland
+"Mobile, AL",30.6913462,-88.0437509,Port
+"Bessemer, AL",33.4017766,-86.954437,Inland
+"Huntsville, AL",34.729847,-86.5859011,Inland
+"Savannah, GA",32.0790074,-81.0921335,Port
+"Crandall, GA",34.8667459,-84.7454939,Inland
+"Miami, FL",25.7741728,-80.19362,Port
+"Tampa, FL",27.9477595,-82.458444,Port
+"Charleston, SC",32.7884363,-79.9399309,Port
+"Greer, SC",34.9381361,-82.2272119,Inland
+"Charlotte, NC",35.2272086,-80.8430827,Inland
+"Norfolk, VA",36.8493695,-76.2899539,Port
+"Pittsburgh, PA",40.4416941,-79.9900861,Inland
+"New York, NY",40.7127281,-74.0060152,Port
+"Buffalo, NY",42.8867166,-78.8783922,Inland
+"Boston, MA",42.3554334,-71.060511,Port
+"Seattle, WA",47.6038321,-122.330062,warehouse
+"Oakland, CA",37.8044557,-122.271356,warehouse
+"Los Angeles, CA",34.0536909,-118.242766,warehouse
+"Long Beach, CA",33.7690164,-118.191604,warehouse
+"Glendale, AZ",33.5386858,-112.185994,warehouse
+"Phoenix, AZ",33.4484367,-112.074141,warehouse
+"Santa Teresa, NM",31.8588727,-106.646571,warehouse
+"Albuquerque, NM",35.0841034,-106.650985,warehouse
+"San Antonio, TX",29.4246002,-98.4951405,warehouse
+"Houston, TX",29.7589382,-95.3676974,warehouse
+"Fort Worth, TX",32.753177,-97.3327459,warehouse
+"Salt Lake City, UT",40.7596198,-111.886797,warehouse
+"Denver, CO",39.7392364,-104.984862,warehouse
+"Omaha, NE",41.2587459,-95.9383758,warehouse
+"Kansas City, KS",39.1134562,-94.626497,warehouse
+"Duluth, MN",46.7838287,-92.1052679,warehouse
+"Minneapolis, MN",44.9772995,-93.2654692,warehouse
+"Arcadia, WI",44.2527212,-91.5014893,warehouse
+"Chippewa Falls, WI",44.9371325,-91.3932118,warehouse
+"Chicago, IL",41.8755616,-87.6244212,warehouse
+"Detroit, MI",42.3315509,-83.0466403,warehouse
+"Indianapolis, IN",39.7683331,-86.1583502,warehouse
+"Louisville, KY",38.2542376,-85.759407,warehouse
+"Cleveland, OH",41.4996574,-81.6936772,warehouse
+"Columbus, OH",39.9622601,-83.0007065,warehouse
+"Cincinnati, OH",39.1014537,-84.5124602,warehouse
+"Nashville, TN",36.1622767,-86.7742984,warehouse
+"Memphis, TN",35.1460249,-90.0517638,warehouse
+"Saint Louis, MO",38.6280278,-90.1910154,warehouse
+"New Orleans, LA",29.9559145,-90.0730259,warehouse
+"Mobile, AL",30.6913462,-88.0437509,warehouse
+"Bessemer, AL",33.4017766,-86.954437,warehouse
+"Huntsville, AL",34.729847,-86.5859011,warehouse
+"Savannah, GA",32.0790074,-81.0921335,warehouse
+"Crandall, GA",34.8667459,-84.7454939,warehouse
+"Miami, FL",25.7741728,-80.19362,warehouse
+"Tampa, FL",27.9477595,-82.458444,warehouse
+"Charleston, SC",32.7884363,-79.9399309,warehouse
+"Greer, SC",34.9381361,-82.2272119,warehouse
+"Charlotte, NC",35.2272086,-80.8430827,warehouse
+"Norfolk, VA",36.8493695,-76.2899539,warehouse
+"Pittsburgh, PA",40.4416941,-79.9900861,warehouse
+"New York, NY",40.7127281,-74.0060152,warehouse
+"Buffalo, NY",42.8867166,-78.8783922,warehouse
+"Front Royal, VA",38.9178538,-78.1917718,warehouse
+"Boston, MA",42.3554334,-71.060511,warehouse
+"La Vergne, TN",36.0156178,-86.5819394,warehouse
+"Bell, CA",33.9747806,-118.1866361,warehouse
+"Mansfield, MA",42.0334326,-71.2189405,warehouse
+"Irving, TX",32.8295183,-96.9442177,warehouse
+"Carol Stream, IL",41.9125286,-88.1347927,warehouse
+"Petaluma, CA",38.2325829,-122.636465,warehouse
+"Simi Valley, CA",34.2677404,-118.7538071,warehouse
+"Wilmington, IL",39.4794415,-90.4874557,warehouse
+"Zanesville, OH",39.9401426,-82.005019,warehouse
+"Bethel, PA",40.3442363,-80.0428314,warehouse
+"Amsterdam, NY",42.9362232,-74.1905821,warehouse
+"City Of Industry, CA",34.0182252,-117.9593061,warehouse
+"Redlands, CA",34.0550328,-117.1827445,warehouse
+"Grand Rapids, MI",42.9632425,-85.6678639,warehouse
+"Bensalem, PA",40.1045549,-74.951279,warehouse
+"Orlando, FL",28.5421109,-81.3790304,warehouse
+"Elverson, PA",40.1567641,-75.8327088,warehouse
+"Dayton, NJ",40.3823045,-74.5170514,warehouse
+"Sparks, NV",39.5404679,-119.7487235,warehouse
+"Reading, PA",40.335345,-75.9279495,warehouse
+"Hialeah, FL",25.822168,-80.2777409,warehouse
+"Coppell, TX",32.9552598,-97.0155703,warehouse
+"Greencastle, PA",39.790371,-77.7277714,warehouse
+"College Park, GA",33.6534427,-84.4493725,warehouse
+"Owensboro, KY",37.7742152,-87.1133304,warehouse
+"South River, NJ",40.446495,-74.3859831,warehouse
+"Ridgewood, NJ",40.9796683,-74.1194403,warehouse
+"Farmers Branch, TX",32.9265668,-96.8960916,warehouse
+"Roanoke, IN",40.9625467,-85.3733078,warehouse
+"Sacramento, CA",38.5810606,-121.493895,warehouse
+"Moreno Valley, CA",33.9375177,-117.2305791,warehouse
+"Commerce, CA",34.003218,-118.1541961,warehouse
+"Aurora, IL",41.7571701,-88.3147539,warehouse
+"Fresno, CA",36.7394421,-119.78483,warehouse
+"New Berlin, WI",42.9762181,-88.1084968,warehouse
+"Santa Rosa, CA",38.4404925,-122.7141049,warehouse
+"Edison, NJ",40.518157,-74.4113926,warehouse
+"Newtown, CT",41.4134764,-73.3086445,warehouse
+"Ontario, CA",34.065846,-117.64843,warehouse
+"Whitestone, NY",40.7945457,-73.8184674,warehouse
+"Perris, CA",33.7818729,-117.2298477,warehouse
+"Jersey City, NJ",40.7215682,-74.047455,warehouse
+"Hanover Park, IL",41.9994722,-88.1450735,warehouse
+"Dresden, TN",36.2914512,-88.7081123,warehouse
+"Streetsboro, OH",41.239223,-81.345941,warehouse
+"Fontana, CA",34.0922947,-117.43433,warehouse
+"Glendale Heights, IL",41.9189531,-88.076567,warehouse
+"Jacksonville, FL",30.3321838,-81.655651,warehouse
+"Kansas City, MO",39.100105,-94.5781416,warehouse
+"Bartlett, IL",41.9908485,-88.1850028,warehouse
+"Carrollton, TX",32.9515472,-96.9034244,warehouse
+"Vineland, NJ",39.4862777,-75.0254256,warehouse
+"Suwanee, GA",34.0514898,-84.0712997,warehouse
+"Phoenixville, PA",40.1303822,-75.5149128,warehouse
+"Tolleson, AZ",33.4500497,-112.259309,warehouse
+"Montgomery, NY",42.8941269,-74.4099745,warehouse
+"Beloit, WI",42.5083272,-89.031784,warehouse
+"Stockton, CA",37.9577016,-121.290779,warehouse
+"Easton, PA",40.6916081,-75.2099866,warehouse
+"Atlanta, GA",33.7544657,-84.3898151,warehouse
+"Bayonne, NJ",40.6687141,-74.1143091,warehouse
+"Jurupa Valley, CA",33.9798472,-117.4515754,warehouse
+"Clackamas, OR",45.1608821,-122.2305038,warehouse
+"Newville, PA",40.1730565,-77.3993258,warehouse
+"Moorpark, CA",34.285558,-118.8820414,warehouse
+"Baltimore, MD",39.2908816,-76.610759,warehouse
+"Jamesburg, NJ",40.3526079,-74.4401513,warehouse
+"Taunton, MA",41.9019257,-71.0931485,warehouse
+"Menands, NY",42.6920233,-73.7245639,warehouse
+"Kent, WA",47.3826903,-122.2270272,warehouse
+"Downey, CA",33.9404441,-118.1292846,warehouse
+"Wind Gap, PA",40.8481509,-75.2915694,warehouse
+"Albany, NY",42.6511674,-73.754968,warehouse
+"Fairfield, CA",38.2493581,-122.039966,warehouse
+"Loma Linda, CA",34.0537971,-117.2610925,warehouse
+"Gallatin, TN",36.3883031,-86.4475898,warehouse
+"Burlington, NJ",39.9325409,-74.7226665,warehouse
+"Langhorne, PA",40.1745538,-74.9226665,warehouse
+"Northampton, PA",40.7451356,-75.3289302,warehouse
+"Ogden, UT",41.2230048,-111.9738429,warehouse
+"Rancho Cucamonga, CA",34.1033192,-117.575173,warehouse
+"Rohnert Park, CA",38.3396367,-122.701098,warehouse
+"Lakeland, FL",28.0394654,-81.9498042,warehouse
+"Dinuba, CA",36.5432837,-119.3870656,warehouse
+"Rogers, MN",45.1888596,-93.5524563,warehouse
+"Monroe, NJ",40.8128777,-74.4423759,warehouse
+"Pelham, AL",33.285669,-86.8099884,warehouse
+"Fairview, NJ",40.3646325,-74.0788603,warehouse
+"West Chicago, IL",41.8847507,-88.2039607,warehouse
+"Livermore, CA",37.6820583,-121.768053,Geocoded
+"Marietta, GA",33.9528472,-84.5496148,Geocoded
+"North Las Vegas, NV",36.2005191,-115.1214745,Geocoded
+,29.8249495,-95.4786754,Geocoded
+"Dallas, TX",32.7762719,-96.7968559,Geocoded
+"Salt Lak City, UT",40.7643327,-111.8885995,Geocoded
+"Newark, NJ",40.735657,-74.1723667,Geocoded
+"Philadelphia, PA",39.9527237,-75.1635262,Geocoded
+"Bellevue, WA",47.6144219,-122.192337,Geocoded
+"San Diego, CA",32.7174202,-117.162772,Geocoded
+"Miramar, FL",25.9873137,-80.2322706,Geocoded
+"Garner, NC",35.7112642,-78.6141709,Geocoded
+"Raleigh, NC",35.7803977,-78.6390989,Geocoded
+"Tacoma, WA",47.2455013,-122.438329,Geocoded

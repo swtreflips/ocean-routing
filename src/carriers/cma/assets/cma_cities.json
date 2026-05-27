@@ -1,0 +1,4854 @@
+{
+  "Tallinn, Estonia": [
+    {
+      "countryCode": "EE",
+      "countryName": "Estonia",
+      "placeCode": "EETLL",
+      "placeName": "tallinn",
+      "capsule": "Port",
+      "img": "",
+      "name": "TALLINN ; EE ; EETLL",
+      "code": null,
+      "actualName": "TALLINN ; EE ; EETLL",
+      "isGroupSelection": false
+    }
+  ],
+  "Sigave, Futuna Island, Wallis And Futuna": [
+    {
+      "countryCode": "WF",
+      "countryName": "Wallis and Futuna",
+      "placeCode": "WFSIG",
+      "placeName": "sigave, futuna island",
+      "capsule": "Port",
+      "img": "",
+      "name": "SIGAVE, FUTUNA ISLAND ; WF ; WFSIG",
+      "code": null,
+      "actualName": "SIGAVE, FUTUNA ISLAND ; WF ; WFSIG",
+      "isGroupSelection": false
+    }
+  ],
+  "Bangkok, Thailand": [
+    {
+        "countryCode": "TH",
+        "countryName": "Thailand",
+        "placeCode": "THBKK",
+        "placeName": "bangkok",
+        "capsule": "Port",
+        "img": "",
+        "name": "BANGKOK ; TH ; THBKK",
+        "code": null,
+        "actualName": "BANGKOK ; TH ; THBKK",
+        "isGroupSelection": false
+    }
+  ],
+  "Kattupalli, Tn, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INKAT",
+      "placeName": "kattupalli, tn",
+      "capsule": "Port",
+      "img": "",
+      "name": "KATTUPALLI, TN ; IN ; INKAT",
+      "code": null,
+      "actualName": "KATTUPALLI, TN ; IN ; INKAT",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INKAT",
+      "placeName": "kattupalli, tn",
+      "capsule": "Port",
+      "img": "",
+      "name": "KATTUPALLI, TN ; IN ; INKAT",
+      "code": null,
+      "actualName": "KATTUPALLI, TN ; IN ; INKAT",
+      "isGroupSelection": false
+    }
+  ],
+  "Mata'Utu, Wallis And Futuna": [
+    {
+      "countryCode": "WF",
+      "countryName": "Wallis and Futuna",
+      "placeCode": "WFMAU",
+      "placeName": "mata'utu",
+      "capsule": "Port",
+      "img": "",
+      "name": "MATA'UTU ; WF ; WFMAU",
+      "code": null,
+      "actualName": "MATA'UTU ; WF ; WFMAU",
+      "isGroupSelection": false
+    }
+  ],
+  "Arcadia, WI": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USADI",
+      "placeName": "arcadia, wi",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "ARCADIA, WI ; US ; USADI",
+      "code": null,
+      "actualName": "ARCADIA, WI ; US ; USADI",
+      "isGroupSelection": false
+    }
+  ],
+  "Oranjestad, Barcadera, Aruba, Aruba": [
+    {
+      "countryCode": "AW",
+      "countryName": "Aruba",
+      "placeCode": "AWBAR",
+      "placeName": "oranjestad, barcadera, aruba",
+      "capsule": "Port",
+      "img": "",
+      "name": "ORANJESTAD, BARCADERA, ARUBA ; AW ; AWBAR",
+      "code": null,
+      "actualName": "ORANJESTAD, BARCADERA, ARUBA ; AW ; AWBAR",
+      "isGroupSelection": false
+    }
+  ],
+  "Istanbul, Ambarli Port E. Side, Turkiye": [
+    {
+      "countryCode": "TR",
+      "countryName": "Turkiye",
+      "placeCode": "TRAVC",
+      "placeName": "istanbul, ambarli port e. side",
+      "capsule": "Port",
+      "img": "",
+      "name": "ISTANBUL, AMBARLI PORT E. SIDE ; TR ; TRAVC",
+      "code": null,
+      "actualName": "ISTANBUL, AMBARLI PORT E. SIDE ; TR ; TRAVC",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "TR",
+      "countryName": "Turkiye",
+      "placeCode": "TRAVC",
+      "placeName": "istanbul, ambarli port e. side",
+      "capsule": "Port",
+      "img": "",
+      "name": "ISTANBUL, AMBARLI PORT E. SIDE ; TR ; TRAVC",
+      "code": null,
+      "actualName": "ISTANBUL, AMBARLI PORT E. SIDE ; TR ; TRAVC",
+      "isGroupSelection": false
+    }
+  ],
+  "Atlanta, GA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USATL",
+      "placeName": "atlanta, ga",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "ATLANTA, GA ; US ; USATL",
+      "code": null,
+      "actualName": "ATLANTA, GA ; US ; USATL",
+      "isGroupSelection": false
+    }
+  ],
+  "Puerto Barrios, Guatemala": [
+    {
+      "countryCode": "GT",
+      "countryName": "Guatemala",
+      "placeCode": "GTPBR",
+      "placeName": "puerto barrios",
+      "capsule": "Port",
+      "img": "",
+      "name": "PUERTO BARRIOS ; GT ; GTPBR",
+      "code": null,
+      "actualName": "PUERTO BARRIOS ; GT ; GTPBR",
+      "isGroupSelection": false
+    }
+  ],
+  "Puerto Quetzal, Guatemala": [
+    {
+      "countryCode": "GT",
+      "countryName": "Guatemala",
+      "placeCode": "GTPRQ",
+      "placeName": "puerto quetzal",
+      "capsule": "Port",
+      "img": "",
+      "name": "PUERTO QUETZAL ; GT ; GTPRQ",
+      "code": null,
+      "actualName": "PUERTO QUETZAL ; GT ; GTPRQ",
+      "isGroupSelection": false
+    }
+  ],
+  "Barranquilla, Colombia": [
+    {
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "placeCode": "COBAQ",
+      "placeName": "barranquilla",
+      "capsule": "Port",
+      "img": "",
+      "name": "BARRANQUILLA ; CO ; COBAQ",
+      "code": null,
+      "actualName": "BARRANQUILLA ; CO ; COBAQ",
+      "isGroupSelection": false
+    }
+  ],
+  "Bessemer, AL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USBMV",
+      "placeName": "bessemer, al",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "BESSEMER, AL ; US ; USBMV",
+      "code": null,
+      "actualName": "BESSEMER, AL ; US ; USBMV",
+      "isGroupSelection": false
+    }
+  ],
+  "Birmingham, AL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USBHM",
+      "placeName": "birmingham, al",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "BIRMINGHAM, AL ; US ; USBHM",
+      "code": null,
+      "actualName": "BIRMINGHAM, AL ; US ; USBHM",
+      "isGroupSelection": false
+    }
+  ],
+  "Boston, MA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USBOS",
+      "placeName": "boston, ma",
+      "capsule": "Port",
+      "img": "",
+      "name": "BOSTON, MA ; US ; USBOS",
+      "code": null,
+      "actualName": "BOSTON, MA ; US ; USBOS",
+      "isGroupSelection": false
+    }
+  ],
+  "Buffalo, NY": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USBUF",
+      "placeName": "buffalo, ny",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "BUFFALO, NY ; US ; USBUF",
+      "code": null,
+      "actualName": "BUFFALO, NY ; US ; USBUF",
+      "isGroupSelection": false
+    }
+  ],
+  "Cai Lan, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNCLN",
+      "placeName": "cai lan",
+      "capsule": "Port",
+      "img": "",
+      "name": "CAI LAN ; VN ; VNCLN",
+      "code": null,
+      "actualName": "CAI LAN ; VN ; VNCLN",
+      "isGroupSelection": false
+    }
+  ],
+  "Cartagena, Colombia": [
+    {
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "placeCode": "COCTG",
+      "placeName": "cartagena, co",
+      "capsule": "Port",
+      "img": "",
+      "name": "CARTAGENA, CO ; CO ; COCTG",
+      "code": null,
+      "actualName": "CARTAGENA, CO ; CO ; COCTG",
+      "isGroupSelection": false
+    }
+  ],
+  "Cartagena, Es, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESCAR",
+      "placeName": "cartagena, es",
+      "capsule": "Port",
+      "img": "",
+      "name": "CARTAGENA, ES ; ES ; ESCAR",
+      "code": null,
+      "actualName": "CARTAGENA, ES ; ES ; ESCAR",
+      "isGroupSelection": false
+    }
+  ],
+  "Lake Charles, LA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLCH",
+      "placeName": "lake charles, la",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAKE CHARLES, LA ; US ; USLCH",
+      "code": null,
+      "actualName": "LAKE CHARLES, LA ; US ; USLCH",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLCH",
+      "placeName": "lake charles, la",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "LAKE CHARLES, LA ; US ; USLCH",
+      "code": null,
+      "actualName": "LAKE CHARLES, LA ; US ; USLCH",
+      "isGroupSelection": false
+    }
+  ],
+  "Richards Bay, South Africa": [
+    {
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "placeCode": "ZARCB",
+      "placeName": "richards bay",
+      "capsule": "Port",
+      "img": "",
+      "name": "RICHARDS BAY ; ZA ; ZARCB",
+      "code": null,
+      "actualName": "RICHARDS BAY ; ZA ; ZARCB",
+      "isGroupSelection": false
+    }
+  ],
+  "Charlotte, NC": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCLT",
+      "placeName": "charlotte, nc",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "CHARLOTTE, NC ; US ; USCLT",
+      "code": null,
+      "actualName": "CHARLOTTE, NC ; US ; USCLT",
+      "isGroupSelection": false
+    }
+  ],
+  "Charlestown, Nevis, Saint Kitts And Nevis": [
+    {
+      "countryCode": "KN",
+      "countryName": "Saint Kitts and Nevis",
+      "placeCode": "KNNEV",
+      "placeName": "charlestown, nevis",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHARLESTOWN, NEVIS ; KN ; KNNEV",
+      "code": null,
+      "actualName": "CHARLESTOWN, NEVIS ; KN ; KNNEV",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "KN",
+      "countryName": "Saint Kitts and Nevis",
+      "placeCode": "KNNEV",
+      "placeName": "charlestown, nevis",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHARLESTOWN, NEVIS ; KN ; KNNEV",
+      "code": null,
+      "actualName": "CHARLESTOWN, NEVIS ; KN ; KNNEV",
+      "isGroupSelection": false
+    }
+  ],
+  "Charlotte Amalie, St Thomas, Virgin Islands": [
+    {
+      "countryCode": "VI",
+      "countryName": "Virgin Islands",
+      "placeCode": "VICHA",
+      "placeName": "charlotte amalie, st thomas",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHARLOTTE AMALIE, ST THOMAS ; VI ; VICHA",
+      "code": null,
+      "actualName": "CHARLOTTE AMALIE, ST THOMAS ; VI ; VICHA",
+      "isGroupSelection": false
+    }
+  ],
+  "Charleston, SC": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCHS",
+      "placeName": "charleston, sc",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHARLESTON, SC ; US ; USCHS",
+      "code": null,
+      "actualName": "CHARLESTON, SC ; US ; USCHS",
+      "isGroupSelection": false
+    }
+  ],
+  "Chicago, IL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCHI",
+      "placeName": "chicago, il",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "CHICAGO, IL ; US ; USCHI",
+      "code": null,
+      "actualName": "CHICAGO, IL ; US ; USCHI",
+      "isGroupSelection": false
+    }
+  ],
+  "Chippewa Falls, WI": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCPF",
+      "placeName": "chippewa falls, wi",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "CHIPPEWA FALLS, WI ; US ; USCPF",
+      "code": null,
+      "actualName": "CHIPPEWA FALLS, WI ; US ; USCPF",
+      "isGroupSelection": false
+    }
+  ],
+  "Cincinnati, OH": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCVG",
+      "placeName": "cincinnati, oh",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "CINCINNATI, OH ; US ; USCVG",
+      "code": null,
+      "actualName": "CINCINNATI, OH ; US ; USCVG",
+      "isGroupSelection": false
+    }
+  ],
+  "Cleveland, OH": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCLE",
+      "placeName": "cleveland, oh",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "CLEVELAND, OH ; US ; USCLE",
+      "code": null,
+      "actualName": "CLEVELAND, OH ; US ; USCLE",
+      "isGroupSelection": false
+    }
+  ],
+  "Columbus, OH": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USCMH",
+      "placeName": "columbus, oh",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "COLUMBUS, OH ; US ; USCMH",
+      "code": null,
+      "actualName": "COLUMBUS, OH ; US ; USCMH",
+      "isGroupSelection": false
+    }
+  ],
+  "Dalian, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNDLC",
+      "placeName": "dalian",
+      "capsule": "Port",
+      "img": "",
+      "name": "DALIAN ; CN ; CNDLC",
+      "code": null,
+      "actualName": "DALIAN ; CN ; CNDLC",
+      "isGroupSelection": false
+    }
+  ],
+  "Dallas, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USDAL",
+      "placeName": "dallas, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "DALLAS, TX ; US ; USDAL",
+      "code": null,
+      "actualName": "DALLAS, TX ; US ; USDAL",
+      "isGroupSelection": false
+    }
+  ],
+  "Denver, CO": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USDEN",
+      "placeName": "denver, co",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "DENVER, CO ; US ; USDEN",
+      "code": null,
+      "actualName": "DENVER, CO ; US ; USDEN",
+      "isGroupSelection": false
+    }
+  ],
+  "Detroit, MI": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USDET",
+      "placeName": "detroit, mi",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "DETROIT, MI ; US ; USDET",
+      "code": null,
+      "actualName": "DETROIT, MI ; US ; USDET",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Said East, Egypt": [
+    {
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "placeCode": "EGPSE",
+      "placeName": "port said east",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT SAID EAST ; EG ; EGPSE",
+      "code": null,
+      "actualName": "PORT SAID EAST ; EG ; EGPSE",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "placeCode": "EGPSE",
+      "placeName": "port said east",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT SAID EAST ; EG ; EGPSE",
+      "code": null,
+      "actualName": "PORT SAID EAST ; EG ; EGPSE",
+      "isGroupSelection": false
+    }
+  ],
+  "Dili, East Timor": [
+    {
+      "countryCode": "TL",
+      "countryName": "East Timor",
+      "placeCode": "TLDIL",
+      "placeName": "dili",
+      "capsule": "Port",
+      "img": "",
+      "name": "DILI ; TL ; TLDIL",
+      "code": null,
+      "actualName": "DILI ; TL ; TLDIL",
+      "isGroupSelection": false
+    }
+  ],
+  "Mar Del Plata, Argentina": [
+    {
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "placeCode": "ARMDQ",
+      "placeName": "mar del plata",
+      "capsule": "Port",
+      "img": "",
+      "name": "MAR DEL PLATA ; AR ; ARMDQ",
+      "code": null,
+      "actualName": "MAR DEL PLATA ; AR ; ARMDQ",
+      "isGroupSelection": false
+    }
+  ],
+  "El Paso, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USELP",
+      "placeName": "el paso, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "EL PASO, TX ; US ; USELP",
+      "code": null,
+      "actualName": "EL PASO, TX ; US ; USELP",
+      "isGroupSelection": false
+    }
+  ],
+  "Ehoala / Fort Dauphin, Madagascar": [
+    {
+      "countryCode": "MG",
+      "countryName": "Madagascar",
+      "placeCode": "MGEHL",
+      "placeName": "ehoala / fort dauphin",
+      "capsule": "Port",
+      "img": "",
+      "name": "EHOALA / FORT DAUPHIN ; MG ; MGEHL",
+      "code": null,
+      "actualName": "EHOALA / FORT DAUPHIN ; MG ; MGEHL",
+      "isGroupSelection": false
+    }
+  ],
+  "Fort Bay, Saba, Netherlands Antilles": [
+    {
+      "countryCode": "AN",
+      "countryName": "Netherlands Antilles",
+      "placeCode": "ANSAB",
+      "placeName": "fort bay, saba",
+      "capsule": "Port",
+      "img": "",
+      "name": "FORT BAY, SABA ; AN ; ANSAB",
+      "code": null,
+      "actualName": "FORT BAY, SABA ; AN ; ANSAB",
+      "isGroupSelection": false
+    }
+  ],
+  "Fortaleza, Brazil": [
+    {
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "placeCode": "BRFOR",
+      "placeName": "fortaleza",
+      "capsule": "Port",
+      "img": "",
+      "name": "FORTALEZA ; BR ; BRFOR",
+      "code": null,
+      "actualName": "FORTALEZA ; BR ; BRFOR",
+      "isGroupSelection": false
+    }
+  ],
+  "Vieux Fort, Saint Lucia": [
+    {
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "placeCode": "LCVIF",
+      "placeName": "vieux fort",
+      "capsule": "Port",
+      "img": "",
+      "name": "VIEUX FORT ; LC ; LCVIF",
+      "code": null,
+      "actualName": "VIEUX FORT ; LC ; LCVIF",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "placeCode": "LCVIF",
+      "placeName": "vieux fort",
+      "capsule": "Port",
+      "img": "",
+      "name": "VIEUX FORT ; LC ; LCVIF",
+      "code": null,
+      "actualName": "VIEUX FORT ; LC ; LCVIF",
+      "isGroupSelection": false
+    }
+  ],
+  "Fort De France, Martinique": [
+    {
+      "countryCode": "MQ",
+      "countryName": "Martinique",
+      "placeCode": "MQFDF",
+      "placeName": "fort de france",
+      "capsule": "Port",
+      "img": "",
+      "name": "FORT DE FRANCE ; MQ ; MQFDF",
+      "code": null,
+      "actualName": "FORT DE FRANCE ; MQ ; MQFDF",
+      "isGroupSelection": false
+    }
+  ],
+  "Freeport, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USFPO",
+      "placeName": "freeport, tx",
+      "capsule": "Port",
+      "img": "",
+      "name": "FREEPORT, TX ; US ; USFPO",
+      "code": null,
+      "actualName": "FREEPORT, TX ; US ; USFPO",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USFPO",
+      "placeName": "freeport, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "FREEPORT, TX ; US ; USFPO",
+      "code": null,
+      "actualName": "FREEPORT, TX ; US ; USFPO",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USFPO",
+      "placeName": "freeport, tx",
+      "capsule": "Port",
+      "img": "",
+      "name": "FREEPORT, TX ; US ; USFPO",
+      "code": null,
+      "actualName": "FREEPORT, TX ; US ; USFPO",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USFPO",
+      "placeName": "freeport, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "FREEPORT, TX ; US ; USFPO",
+      "code": null,
+      "actualName": "FREEPORT, TX ; US ; USFPO",
+      "isGroupSelection": false
+    }
+  ],
+  "Freeport Grand Bahama, Bahamas, The": [
+    {
+      "countryCode": "BS",
+      "countryName": "Bahamas, The",
+      "placeCode": "BSFPO",
+      "placeName": "freeport grand bahama",
+      "capsule": "Port",
+      "img": "",
+      "name": "FREEPORT GRAND BAHAMA ; BS ; BSFPO",
+      "code": null,
+      "actualName": "FREEPORT GRAND BAHAMA ; BS ; BSFPO",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "BS",
+      "countryName": "Bahamas, The",
+      "placeCode": "BSFPO",
+      "placeName": "freeport grand bahama",
+      "capsule": "Port",
+      "img": "",
+      "name": "FREEPORT GRAND BAHAMA ; BS ; BSFPO",
+      "code": null,
+      "actualName": "FREEPORT GRAND BAHAMA ; BS ; BSFPO",
+      "isGroupSelection": false
+    }
+  ],
+  "Freetown, Sierra Leone": [
+    {
+      "countryCode": "SL",
+      "countryName": "Sierra Leone",
+      "placeCode": "SLFNA",
+      "placeName": "freetown",
+      "capsule": "Port",
+      "img": "",
+      "name": "FREETOWN ; SL ; SLFNA",
+      "code": null,
+      "actualName": "FREETOWN ; SL ; SLFNA",
+      "isGroupSelection": false
+    }
+  ],
+  "Malta(Freeport), Malta": [
+    {
+      "countryCode": "MT",
+      "countryName": "Malta",
+      "placeCode": "MTMLA",
+      "placeName": "malta(freeport)",
+      "capsule": "Port",
+      "img": "",
+      "name": "MALTA(FREEPORT) ; MT ; MTMLA",
+      "code": null,
+      "actualName": "MALTA(FREEPORT) ; MT ; MTMLA",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "MT",
+      "countryName": "Malta",
+      "placeCode": "MTMLA",
+      "placeName": "malta(freeport)",
+      "capsule": "Port",
+      "img": "",
+      "name": "MALTA(FREEPORT) ; MT ; MTMLA",
+      "code": null,
+      "actualName": "MALTA(FREEPORT) ; MT ; MTMLA",
+      "isGroupSelection": false
+    }
+  ],
+  "Papeete, French Polynesia": [
+    {
+      "countryCode": "PF",
+      "countryName": "French Polynesia",
+      "placeCode": "PFPPT",
+      "placeName": "papeete",
+      "capsule": "Port",
+      "img": "",
+      "name": "PAPEETE ; PF ; PFPPT",
+      "code": null,
+      "actualName": "PAPEETE ; PF ; PFPPT",
+      "isGroupSelection": false
+    }
+  ],
+  "St Laurent Du Maroni, French Guiana": [
+    {
+      "countryCode": "GF",
+      "countryName": "French Guiana",
+      "placeCode": "GFSLM",
+      "placeName": "st laurent du maroni",
+      "capsule": "Port",
+      "img": "",
+      "name": "ST LAURENT DU MARONI ; GF ; GFSLM",
+      "code": null,
+      "actualName": "ST LAURENT DU MARONI ; GF ; GFSLM",
+      "isGroupSelection": false
+    }
+  ],
+  "Degrad Des Cannes, French Guiana": [
+    {
+      "countryCode": "GF",
+      "countryName": "French Guiana",
+      "placeCode": "GFDDC",
+      "placeName": "degrad des cannes",
+      "capsule": "Port",
+      "img": "",
+      "name": "DEGRAD DES CANNES ; GF ; GFDDC",
+      "code": null,
+      "actualName": "DEGRAD DES CANNES ; GF ; GFDDC",
+      "isGroupSelection": false
+    }
+  ],
+  "Front Royal, VA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USFRR",
+      "placeName": "front royal, va",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "FRONT ROYAL, VA ; US ; USFRR",
+      "code": null,
+      "actualName": "FRONT ROYAL, VA ; US ; USFRR",
+      "isGroupSelection": false
+    }
+  ],
+  "Saint George'S, Grenada": [
+    {
+      "countryCode": "GD",
+      "countryName": "Grenada",
+      "placeCode": "GDSTG",
+      "placeName": "saint george's",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAINT GEORGE'S ; GD ; GDSTG",
+      "code": null,
+      "actualName": "SAINT GEORGE'S ; GD ; GDSTG",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "GD",
+      "countryName": "Grenada",
+      "placeCode": "GDSTG",
+      "placeName": "saint george's",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAINT GEORGE'S ; GD ; GDSTG",
+      "code": null,
+      "actualName": "SAINT GEORGE'S ; GD ; GDSTG",
+      "isGroupSelection": false
+    }
+  ],
+  "Georgetown, Gy, Guyana": [
+    {
+      "countryCode": "GY",
+      "countryName": "Guyana",
+      "placeCode": "GYGEO",
+      "placeName": "georgetown, gy",
+      "capsule": "Port",
+      "img": "",
+      "name": "GEORGETOWN, GY ; GY ; GYGEO",
+      "code": null,
+      "actualName": "GEORGETOWN, GY ; GY ; GYGEO",
+      "isGroupSelection": false
+    }
+  ],
+  "Batumi, Georgia": [
+    {
+      "countryCode": "GE",
+      "countryName": "Georgia",
+      "placeCode": "GEBUS",
+      "placeName": "batumi",
+      "capsule": "Port",
+      "img": "",
+      "name": "BATUMI ; GE ; GEBUS",
+      "code": null,
+      "actualName": "BATUMI ; GE ; GEBUS",
+      "isGroupSelection": false
+    }
+  ],
+  "Georgetown, Grand Cayman, Cayman Islands": [
+    {
+      "countryCode": "KY",
+      "countryName": "Cayman Islands",
+      "placeCode": "KYGEC",
+      "placeName": "georgetown, grand cayman",
+      "capsule": "Port",
+      "img": "",
+      "name": "GEORGETOWN, GRAND CAYMAN ; KY ; KYGEC",
+      "code": null,
+      "actualName": "GEORGETOWN, GRAND CAYMAN ; KY ; KYGEC",
+      "isGroupSelection": false
+    }
+  ],
+  "Poti, Georgia": [
+    {
+      "countryCode": "GE",
+      "countryName": "Georgia",
+      "placeCode": "GEPTI",
+      "placeName": "poti",
+      "capsule": "Port",
+      "img": "",
+      "name": "POTI ; GE ; GEPTI",
+      "code": null,
+      "actualName": "POTI ; GE ; GEPTI",
+      "isGroupSelection": false
+    }
+  ],
+  "Kastelorizo, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRKAS",
+      "placeName": "kastelorizo",
+      "capsule": "Port",
+      "img": "",
+      "name": "KASTELORIZO ; GR ; GRKAS",
+      "code": null,
+      "actualName": "KASTELORIZO ; GR ; GRKAS",
+      "isGroupSelection": false
+    }
+  ],
+  "Greenock, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBGRK",
+      "placeName": "greenock",
+      "capsule": "Port",
+      "img": "",
+      "name": "GREENOCK ; GB ; GBGRK",
+      "code": null,
+      "actualName": "GREENOCK ; GB ; GBGRK",
+      "isGroupSelection": false
+    }
+  ],
+  "Piraeus, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRPIR",
+      "placeName": "piraeus",
+      "capsule": "Port",
+      "img": "",
+      "name": "PIRAEUS ; GR ; GRPIR",
+      "code": null,
+      "actualName": "PIRAEUS ; GR ; GRPIR",
+      "isGroupSelection": false
+    }
+  ],
+  "Astakos, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRAST",
+      "placeName": "astakos",
+      "capsule": "Port",
+      "img": "",
+      "name": "ASTAKOS ; GR ; GRAST",
+      "code": null,
+      "actualName": "ASTAKOS ; GR ; GRAST",
+      "isGroupSelection": false
+    }
+  ],
+  "Greer, SC": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USGXX",
+      "placeName": "greer, sc",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "GREER, SC ; US ; USGXX",
+      "code": null,
+      "actualName": "GREER, SC ; US ; USGXX",
+      "isGroupSelection": false
+    }
+  ],
+  "Lavrion, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRLAV",
+      "placeName": "lavrion",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAVRION ; GR ; GRLAV",
+      "code": null,
+      "actualName": "LAVRION ; GR ; GRLAV",
+      "isGroupSelection": false
+    }
+  ],
+  "Thessaloniki, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRSKG",
+      "placeName": "thessaloniki",
+      "capsule": "Port",
+      "img": "",
+      "name": "THESSALONIKI ; GR ; GRSKG",
+      "code": null,
+      "actualName": "THESSALONIKI ; GR ; GRSKG",
+      "isGroupSelection": false
+    }
+  ],
+  "Volos, Greece": [
+    {
+      "countryCode": "GR",
+      "countryName": "Greece",
+      "placeCode": "GRVOL",
+      "placeName": "volos",
+      "capsule": "Port",
+      "img": "",
+      "name": "VOLOS ; GR ; GRVOL",
+      "code": null,
+      "actualName": "VOLOS ; GR ; GRVOL",
+      "isGroupSelection": false
+    }
+  ],
+  "Greensboro, NC": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USGBO",
+      "placeName": "greensboro, nc",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "GREENSBORO, NC ; US ; USGBO",
+      "code": null,
+      "actualName": "GREENSBORO, NC ; US ; USGBO",
+      "isGroupSelection": false
+    }
+  ],
+  "Dongguan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNDGG",
+      "placeName": "dongguan",
+      "capsule": "Port",
+      "img": "",
+      "name": "DONGGUAN ; CN ; CNDGG",
+      "code": null,
+      "actualName": "DONGGUAN ; CN ; CNDGG",
+      "isGroupSelection": false
+    }
+  ],
+  "Guangzhou, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNCAN",
+      "placeName": "guangzhou",
+      "capsule": "Port",
+      "img": "",
+      "name": "GUANGZHOU ; CN ; CNCAN",
+      "code": null,
+      "actualName": "GUANGZHOU ; CN ; CNCAN",
+      "isGroupSelection": false
+    }
+  ],
+  "Guanta, Venezuela": [
+    {
+      "countryCode": "VE",
+      "countryName": "Venezuela",
+      "placeCode": "VEGUT",
+      "placeName": "guanta",
+      "capsule": "Port",
+      "img": "",
+      "name": "GUANTA ; VE ; VEGUT",
+      "code": null,
+      "actualName": "GUANTA ; VE ; VEGUT",
+      "isGroupSelection": false
+    }
+  ],
+  "Shanhaiguan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSHH",
+      "placeName": "shanhaiguan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHANHAIGUAN ; CN ; CNSHH",
+      "code": null,
+      "actualName": "SHANHAIGUAN ; CN ; CNSHH",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSHH",
+      "placeName": "shanhaiguan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHANHAIGUAN ; CN ; CNSHH",
+      "code": null,
+      "actualName": "SHANHAIGUAN ; CN ; CNSHH",
+      "isGroupSelection": false
+    }
+  ],
+  "Hai Phong, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNHPH",
+      "placeName": "haiphong",
+      "capsule": "Port",
+      "img": "",
+      "name": "HAIPHONG ; VN ; VNHPH",
+      "code": null,
+      "actualName": "HAIPHONG ; VN ; VNHPH",
+      "isGroupSelection": false
+    }
+  ],
+  "Ho Chi Minh, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNSGN",
+      "placeName": "ho chi minh city",
+      "capsule": "Port",
+      "img": "",
+      "name": "HO CHI MINH CITY ; VN ; VNSGN",
+      "code": null,
+      "actualName": "HO CHI MINH CITY ; VN ; VNSGN",
+      "isGroupSelection": false
+    }
+  ],
+  "Honghai, 46, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSHW",
+      "placeName": "honghai, 46",
+      "capsule": "Port",
+      "img": "",
+      "name": "HONGHAI, 46 ; CN ; CNSHW",
+      "code": null,
+      "actualName": "HONGHAI, 46 ; CN ; CNSHW",
+      "isGroupSelection": false
+    }
+  ],
+  "Zhongshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNZSN",
+      "placeName": "zhongshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZHONGSHAN ; CN ; CNZSN",
+      "code": null,
+      "actualName": "ZHONGSHAN ; CN ; CNZSN",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNZSN",
+      "placeName": "zhongshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZHONGSHAN ; CN ; CNZSN",
+      "code": null,
+      "actualName": "ZHONGSHAN ; CN ; CNZSN",
+      "isGroupSelection": false
+    }
+  ],
+  "Machong, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNMCH",
+      "placeName": "machong",
+      "capsule": "Port",
+      "img": "",
+      "name": "MACHONG ; CN ; CNMCH",
+      "code": null,
+      "actualName": "MACHONG ; CN ; CNMCH",
+      "isGroupSelection": false
+    }
+  ],
+  "Hong Kong, Hong Kong Sar / China": [
+    {
+      "countryCode": "HK",
+      "countryName": "Hong Kong SAR / China",
+      "placeCode": "HKHKG",
+      "placeName": "hong kong",
+      "capsule": "Port",
+      "img": "",
+      "name": "HONG KONG  ; SAR ; CHINA",
+      "code": null,
+      "actualName": "HONG KONG ; HK ; HKHKG",
+      "isGroupSelection": false
+    }
+  ],
+  "Chongqing, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNCKG",
+      "placeName": "chongqing",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHONGQING ; CN ; CNCKG",
+      "code": null,
+      "actualName": "CHONGQING ; CN ; CNCKG",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNCKG",
+      "placeName": "chongqing",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHONGQING ; CN ; CNCKG",
+      "code": null,
+      "actualName": "CHONGQING ; CN ; CNCKG",
+      "isGroupSelection": false
+    }
+  ],
+  "Chi-Zhoushan, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNY03",
+      "placeName": "chi-zhoushan, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHI-ZHOUSHAN, 33 ; CN ; CNY03",
+      "code": null,
+      "actualName": "CHI-ZHOUSHAN, 33 ; CN ; CNY03",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNY03",
+      "placeName": "chi-zhoushan, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHI-ZHOUSHAN, 33 ; CN ; CNY03",
+      "code": null,
+      "actualName": "CHI-ZHOUSHAN, 33 ; CN ; CNY03",
+      "isGroupSelection": false
+    }
+  ],
+  "Houston, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USHOU",
+      "placeName": "houston, tx",
+      "capsule": "Port",
+      "img": "",
+      "name": "HOUSTON, TX ; US ; USHOU",
+      "code": null,
+      "actualName": "HOUSTON, TX ; US ; USHOU",
+      "isGroupSelection": false
+    }
+  ],
+  "Yiulian Zhoushan, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNY02",
+      "placeName": "yiulian zhoushan, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "YIULIAN ZHOUSHAN, 33 ; CN ; CNY02",
+      "code": null,
+      "actualName": "YIULIAN ZHOUSHAN, 33 ; CN ; CNY02",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNY02",
+      "placeName": "yiulian zhoushan, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "YIULIAN ZHOUSHAN, 33 ; CN ; CNY02",
+      "code": null,
+      "actualName": "YIULIAN ZHOUSHAN, 33 ; CN ; CNY02",
+      "isGroupSelection": false
+    }
+  ],
+  "Zhoushan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNZOS",
+      "placeName": "zhoushan",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZHOUSHAN ; CN ; CNZOS",
+      "code": null,
+      "actualName": "ZHOUSHAN ; CN ; CNZOS",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNZOS",
+      "placeName": "zhoushan",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZHOUSHAN ; CN ; CNZOS",
+      "code": null,
+      "actualName": "ZHOUSHAN ; CN ; CNZOS",
+      "isGroupSelection": false
+    }
+  ],
+  "Huntsville, AL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USHSV",
+      "placeName": "huntsville, al",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "HUNTSVILLE, AL ; US ; USHSV",
+      "code": null,
+      "actualName": "HUNTSVILLE, AL ; US ; USHSV",
+      "isGroupSelection": false
+    }
+  ],
+  "Jaigad, Mh, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INJGD",
+      "placeName": "jaigad, mh",
+      "capsule": "Port",
+      "img": "",
+      "name": "JAIGAD, MH ; IN ; INJGD",
+      "code": null,
+      "actualName": "JAIGAD, MH ; IN ; INJGD",
+      "isGroupSelection": false
+    }
+  ],
+  "Visakhapatnam, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INVTZ",
+      "placeName": "visakhapatnam",
+      "capsule": "Port",
+      "img": "",
+      "name": "VISAKHAPATNAM ; IN ; INVTZ",
+      "code": null,
+      "actualName": "VISAKHAPATNAM ; IN ; INVTZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Hazira, Gj, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INHZA",
+      "placeName": "hazira, gj",
+      "capsule": "Port",
+      "img": "",
+      "name": "HAZIRA, GJ ; IN ; INHZA",
+      "code": null,
+      "actualName": "HAZIRA, GJ ; IN ; INHZA",
+      "isGroupSelection": false
+    }
+  ],
+  "Kandla, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INIXY",
+      "placeName": "kandla",
+      "capsule": "Port",
+      "img": "",
+      "name": "KANDLA ; IN ; INIXY",
+      "code": null,
+      "actualName": "KANDLA ; IN ; INIXY",
+      "isGroupSelection": false
+    }
+  ],
+  "Haldia, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INHAL",
+      "placeName": "haldia",
+      "capsule": "Port",
+      "img": "",
+      "name": "HALDIA ; IN ; INHAL",
+      "code": null,
+      "actualName": "HALDIA ; IN ; INHAL",
+      "isGroupSelection": false
+    }
+  ],
+  "Indianapolis, IN": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USIND",
+      "placeName": "indianapolis, in",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "INDIANAPOLIS, IN ; US ; USIND",
+      "code": null,
+      "actualName": "INDIANAPOLIS, IN ; US ; USIND",
+      "isGroupSelection": false
+    }
+  ],
+  "Karaikal, Py, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INKRK",
+      "placeName": "karaikal, py",
+      "capsule": "Port",
+      "img": "",
+      "name": "KARAIKAL, PY ; IN ; INKRK",
+      "code": null,
+      "actualName": "KARAIKAL, PY ; IN ; INKRK",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INKRK",
+      "placeName": "karaikal, py",
+      "capsule": "Port",
+      "img": "",
+      "name": "KARAIKAL, PY ; IN ; INKRK",
+      "code": null,
+      "actualName": "KARAIKAL, PY ; IN ; INKRK",
+      "isGroupSelection": false
+    }
+  ],
+  "Krishnapatnam, Ap, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INKRI",
+      "placeName": "krishnapatnam, ap",
+      "capsule": "Port",
+      "img": "",
+      "name": "KRISHNAPATNAM, AP ; IN ; INKRI",
+      "code": null,
+      "actualName": "KRISHNAPATNAM, AP ; IN ; INKRI",
+      "isGroupSelection": false
+    }
+  ],
+  "Marmagao, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INMRM",
+      "placeName": "marmagao",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARMAGAO ; IN ; INMRM",
+      "code": null,
+      "actualName": "MARMAGAO ; IN ; INMRM",
+      "isGroupSelection": false
+    }
+  ],
+  "Tuticorin, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INTUT",
+      "placeName": "tuticorin",
+      "capsule": "Port",
+      "img": "",
+      "name": "TUTICORIN ; IN ; INTUT",
+      "code": null,
+      "actualName": "TUTICORIN ; IN ; INTUT",
+      "isGroupSelection": false
+    }
+  ],
+  "Nhava Sheva, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INNSA",
+      "placeName": "nhava sheva",
+      "capsule": "Port",
+      "img": "",
+      "name": "NHAVA SHEVA ; IN ; INNSA",
+      "code": null,
+      "actualName": "NHAVA SHEVA ; IN ; INNSA",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INNSA",
+      "placeName": "nhava sheva",
+      "capsule": "Port",
+      "img": "",
+      "name": "NHAVA SHEVA ; IN ; INNSA",
+      "code": null,
+      "actualName": "NHAVA SHEVA ; IN ; INNSA",
+      "isGroupSelection": false
+    }
+  ],
+  "Cochin, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INCOK",
+      "placeName": "cochin",
+      "capsule": "Port",
+      "img": "",
+      "name": "COCHIN ; IN ; INCOK",
+      "code": null,
+      "actualName": "COCHIN ; IN ; INCOK",
+      "isGroupSelection": false
+    }
+  ],
+  "Mangalore, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INIXE",
+      "placeName": "mangalore",
+      "capsule": "Port",
+      "img": "",
+      "name": "MANGALORE ; IN ; INIXE",
+      "code": null,
+      "actualName": "MANGALORE ; IN ; INIXE",
+      "isGroupSelection": false
+    }
+  ],
+  "Kolkata(Calcutta), India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INCCU",
+      "placeName": "kolkata(calcutta)",
+      "capsule": "Port",
+      "img": "",
+      "name": "KOLKATA(CALCUTTA) ; IN ; INCCU",
+      "code": null,
+      "actualName": "KOLKATA(CALCUTTA) ; IN ; INCCU",
+      "isGroupSelection": false
+    }
+  ],
+  "Mumbai, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INBOM",
+      "placeName": "mumbai",
+      "capsule": "Port",
+      "img": "",
+      "name": "MUMBAI ; IN ; INBOM",
+      "code": null,
+      "actualName": "MUMBAI ; IN ; INBOM",
+      "isGroupSelection": false
+    }
+  ],
+  "Chennai, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INMAA",
+      "placeName": "chennai",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHENNAI ; IN ; INMAA",
+      "code": null,
+      "actualName": "CHENNAI ; IN ; INMAA",
+      "isGroupSelection": false
+    }
+  ],
+  "Mundra, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INMUN",
+      "placeName": "mundra",
+      "capsule": "Port",
+      "img": "",
+      "name": "MUNDRA ; IN ; INMUN",
+      "code": null,
+      "actualName": "MUNDRA ; IN ; INMUN",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INMUN",
+      "placeName": "mundra",
+      "capsule": "Port",
+      "img": "",
+      "name": "MUNDRA ; IN ; INMUN",
+      "code": null,
+      "actualName": "MUNDRA ; IN ; INMUN",
+      "isGroupSelection": false
+    }
+  ],
+  "Ennore, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INENR",
+      "placeName": "ennore",
+      "capsule": "Port",
+      "img": "",
+      "name": "ENNORE ; IN ; INENR",
+      "code": null,
+      "actualName": "ENNORE ; IN ; INENR",
+      "isGroupSelection": false
+    }
+  ],
+  "Pipavav, India": [
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INPAV",
+      "placeName": "pipavav",
+      "capsule": "Port",
+      "img": "",
+      "name": "PIPAVAV ; IN ; INPAV",
+      "code": null,
+      "actualName": "PIPAVAV ; IN ; INPAV",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "IN",
+      "countryName": "India",
+      "placeCode": "INPAV",
+      "placeName": "pipavav",
+      "capsule": "Port",
+      "img": "",
+      "name": "PIPAVAV ; IN ; INPAV",
+      "code": null,
+      "actualName": "PIPAVAV ; IN ; INPAV",
+      "isGroupSelection": false
+    }
+  ],
+  "Jacksonville, FL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USJAX",
+      "placeName": "jacksonville, fl",
+      "capsule": "Port",
+      "img": "",
+      "name": "JACKSONVILLE, FL ; US ; USJAX",
+      "code": null,
+      "actualName": "JACKSONVILLE, FL ; US ; USJAX",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USJAX",
+      "placeName": "jacksonville, fl",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "JACKSONVILLE, FL ; US ; USJAX",
+      "code": null,
+      "actualName": "JACKSONVILLE, FL ; US ; USJAX",
+      "isGroupSelection": false
+    }
+  ],
+  "Jebel Ali, United Arab Emirates": [
+    {
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "placeCode": "AEJEA",
+      "placeName": "jebel ali",
+      "capsule": "Port",
+      "img": "",
+      "name": "JEBEL ALI ; AE ; AEJEA",
+      "code": null,
+      "actualName": "JEBEL ALI ; AE ; AEJEA",
+      "isGroupSelection": false
+    }
+  ],
+  "Kansas City, KS": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USKCK",
+      "placeName": "kansas city, ks",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "KANSAS CITY, KS ; US ; USKCK",
+      "code": null,
+      "actualName": "KANSAS CITY, KS ; US ; USKCK",
+      "isGroupSelection": false
+    }
+  ],
+  "Kaohsiung, Taiwan": [
+    {
+      "countryCode": "TW",
+      "countryName": "TAIWAN / CHINA",
+      "placeCode": "TWKHH",
+      "placeName": "kaohsiung",
+      "capsule": "Port",
+      "img": "",
+      "name": "KAOHSIUNG  ; TAIWAN ; CHINA",
+      "code": null,
+      "actualName": "KAOHSIUNG ; TW ; TWKHH",
+      "isGroupSelection": false
+    }
+  ],
+  "Karachi, Pakistan": [
+    {
+      "countryCode": "PK",
+      "countryName": "Pakistan",
+      "placeCode": "PKKHI",
+      "placeName": "karachi",
+      "capsule": "Port",
+      "img": "",
+      "name": "KARACHI ; PK ; PKKHI",
+      "code": null,
+      "actualName": "KARACHI ; PK ; PKKHI",
+      "isGroupSelection": false
+    }
+  ],
+  "Laem Chabang, Thailand": [
+    {
+      "countryCode": "TH",
+      "countryName": "Thailand",
+      "placeCode": "THLCH",
+      "placeName": "laem chabang",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAEM CHABANG ; TH ; THLCH",
+      "code": null,
+      "actualName": "LAEM CHABANG ; TH ; THLCH",
+      "isGroupSelection": false
+    }
+  ],
+  "Rosslare Harbour, Ireland": [
+    {
+      "countryCode": "IE",
+      "countryName": "Ireland",
+      "placeCode": "IEROS",
+      "placeName": "rosslare harbour",
+      "capsule": "Port",
+      "img": "",
+      "name": "ROSSLARE HARBOUR ; IE ; IEROS",
+      "code": null,
+      "actualName": "ROSSLARE HARBOUR ; IE ; IEROS",
+      "isGroupSelection": false
+    }
+  ],
+  "Las Palmas, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESLPA",
+      "placeName": "las palmas",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAS PALMAS ; ES ; ESLPA",
+      "code": null,
+      "actualName": "LAS PALMAS ; ES ; ESLPA",
+      "isGroupSelection": false
+    }
+  ],
+  "Long Beach, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLGB",
+      "placeName": "long beach, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "LONG BEACH, CA ; US ; USLGB",
+      "code": null,
+      "actualName": "LONG BEACH, CA ; US ; USLGB",
+      "isGroupSelection": false
+    }
+  ],
+  "Wenling Longmen Port, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNLMG",
+      "placeName": "wenling longmen port, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "WENLING LONGMEN PORT, 33 ; CN ; CNLMG",
+      "code": null,
+      "actualName": "WENLING LONGMEN PORT, 33 ; CN ; CNLMG",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNLMG",
+      "placeName": "wenling longmen port, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "WENLING LONGMEN PORT, 33 ; CN ; CNLMG",
+      "code": null,
+      "actualName": "WENLING LONGMEN PORT, 33 ; CN ; CNLMG",
+      "isGroupSelection": false
+    }
+  ],
+  "Longkou, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNLKU",
+      "placeName": "longkou",
+      "capsule": "Port",
+      "img": "",
+      "name": "LONGKOU ; CN ; CNLKU",
+      "code": null,
+      "actualName": "LONGKOU ; CN ; CNLKU",
+      "isGroupSelection": false
+    }
+  ],
+  "Longoni, Mayotte": [
+    {
+      "countryCode": "YT",
+      "countryName": "Mayotte",
+      "placeCode": "YTLON",
+      "placeName": "longoni",
+      "capsule": "Port",
+      "img": "",
+      "name": "LONGONI ; YT ; YTLON",
+      "code": null,
+      "actualName": "LONGONI ; YT ; YTLON",
+      "isGroupSelection": false
+    }
+  ],
+  "Los Angeles, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLAX",
+      "placeName": "los angeles, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "LOS ANGELES, CA ; US ; USLAX",
+      "code": null,
+      "actualName": "LOS ANGELES, CA ; US ; USLAX",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLGB",
+      "placeName": "long beach, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "LONG BEACH, CA ; US ; USLGB",
+      "code": null,
+      "actualName": "LONG BEACH, CA ; US ; USLGB",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Louis, Mauritius": [
+    {
+      "countryCode": "MU",
+      "countryName": "Mauritius",
+      "placeCode": "MUPLU",
+      "placeName": "port louis",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT LOUIS ; MU ; MUPLU",
+      "code": null,
+      "actualName": "PORT LOUIS ; MU ; MUPLU",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "MU",
+      "countryName": "Mauritius",
+      "placeCode": "MUPLU",
+      "placeName": "port louis",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT LOUIS ; MU ; MUPLU",
+      "code": null,
+      "actualName": "PORT LOUIS ; MU ; MUPLU",
+      "isGroupSelection": false
+    }
+  ],
+  "Saint Louis, MO": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSTL",
+      "placeName": "st louis, mo",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "ST LOUIS, MO ; US ; USSTL",
+      "code": null,
+      "actualName": "ST LOUIS, MO ; US ; USSTL",
+      "isGroupSelection": false
+    }
+  ],
+  "Louisville, KY": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USLUI",
+      "placeName": "louisville, ky",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "LOUISVILLE, KY ; US ; USLUI",
+      "code": null,
+      "actualName": "LOUISVILLE, KY ; US ; USLUI",
+      "isGroupSelection": false
+    }
+  ],
+  "Tanjung Manis, 13, Malaysia": [
+    {
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "placeCode": "MYTMP",
+      "placeName": "tanjung manis, 13",
+      "capsule": "Port",
+      "img": "",
+      "name": "TANJUNG MANIS, 13 ; MY ; MYTMP",
+      "code": null,
+      "actualName": "TANJUNG MANIS, 13 ; MY ; MYTMP",
+      "isGroupSelection": false
+    }
+  ],
+  "Constanta, Romania": [
+    {
+      "countryCode": "RO",
+      "countryName": "Romania",
+      "placeCode": "ROCND",
+      "placeName": "constanta",
+      "capsule": "Port",
+      "img": "",
+      "name": "CONSTANTA ; RO ; ROCND",
+      "code": null,
+      "actualName": "CONSTANTA ; RO ; ROCND",
+      "isGroupSelection": false
+    }
+  ],
+  "Manila, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHMNL",
+      "placeName": "manila",
+      "capsule": "Port",
+      "img": "",
+      "name": "MANILA ; PH ; PHMNL",
+      "code": null,
+      "actualName": "MANILA ; PH ; PHMNL",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHMNL",
+      "placeName": "manila",
+      "capsule": "Port",
+      "img": "",
+      "name": "MANILA ; PH ; PHMNL",
+      "code": null,
+      "actualName": "MANILA ; PH ; PHMNL",
+      "isGroupSelection": false
+    }
+  ],
+  "Amarillo, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USAMA",
+      "placeName": "amarillo, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "AMARILLO, TX ; US ; USAMA",
+      "code": null,
+      "actualName": "AMARILLO, TX ; US ; USAMA",
+      "isGroupSelection": false
+    }
+  ],
+  "Saipan, Northern Mariana Island": [
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPSPN",
+      "placeName": "saipan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAIPAN ; MP ; MPSPN",
+      "code": null,
+      "actualName": "SAIPAN ; MP ; MPSPN",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPSPN",
+      "placeName": "saipan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAIPAN ; MP ; MPSPN",
+      "code": null,
+      "actualName": "SAIPAN ; MP ; MPSPN",
+      "isGroupSelection": false
+    }
+  ],
+  "Marina Di Carrara, Italy": [
+    {
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "placeCode": "ITMDC",
+      "placeName": "marina di carrara",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARINA DI CARRARA ; IT ; ITMDC",
+      "code": null,
+      "actualName": "MARINA DI CARRARA ; IT ; ITMDC",
+      "isGroupSelection": false
+    }
+  ],
+  "Marin, Pontevedra, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESMPG",
+      "placeName": "marin, pontevedra",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARIN, PONTEVEDRA ; ES ; ESMPG",
+      "code": null,
+      "actualName": "MARIN, PONTEVEDRA ; ES ; ESMPG",
+      "isGroupSelection": false
+    }
+  ],
+  "Mariel, Cuba": [
+    {
+      "countryCode": "CU",
+      "countryName": "Cuba",
+      "placeCode": "CUMAR",
+      "placeName": "mariel",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARIEL ; CU ; CUMAR",
+      "code": null,
+      "actualName": "MARIEL ; CU ; CUMAR",
+      "isGroupSelection": false
+    }
+  ],
+  "Paramaribo, Suriname": [
+    {
+      "countryCode": "SR",
+      "countryName": "Suriname",
+      "placeCode": "SRPBM",
+      "placeName": "paramaribo",
+      "capsule": "Port",
+      "img": "",
+      "name": "PARAMARIBO ; SR ; SRPBM",
+      "code": null,
+      "actualName": "PARAMARIBO ; SR ; SRPBM",
+      "isGroupSelection": false
+    }
+  ],
+  "Samarinda, Indonesia": [
+    {
+      "countryCode": "ID",
+      "countryName": "Indonesia",
+      "placeCode": "IDSRI",
+      "placeName": "samarinda",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAMARINDA ; ID ; IDSRI",
+      "code": null,
+      "actualName": "SAMARINDA ; ID ; IDSRI",
+      "isGroupSelection": false
+    }
+  ],
+  "Marigot, Guadeloupe": [
+    {
+      "countryCode": "GP",
+      "countryName": "Guadeloupe",
+      "placeCode": "GPMSB",
+      "placeName": "marigot",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARIGOT ; GP ; GPMSB",
+      "code": null,
+      "actualName": "MARIGOT ; GP ; GPMSB",
+      "isGroupSelection": false
+    }
+  ],
+  "Tinian, Northern Mariana Island": [
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPTIQ",
+      "placeName": "tinian",
+      "capsule": "Port",
+      "img": "",
+      "name": "TINIAN ; MP ; MPTIQ",
+      "code": null,
+      "actualName": "TINIAN ; MP ; MPTIQ",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPTIQ",
+      "placeName": "tinian",
+      "capsule": "Port",
+      "img": "",
+      "name": "TINIAN ; MP ; MPTIQ",
+      "code": null,
+      "actualName": "TINIAN ; MP ; MPTIQ",
+      "isGroupSelection": false
+    }
+  ],
+  "Rota, Northern Mariana Island": [
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPROP",
+      "placeName": "rota",
+      "capsule": "Port",
+      "img": "",
+      "name": "ROTA ; MP ; MPROP",
+      "code": null,
+      "actualName": "ROTA ; MP ; MPROP",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "MP",
+      "countryName": "Northern Mariana Island",
+      "placeCode": "MPROP",
+      "placeName": "rota",
+      "capsule": "Port",
+      "img": "",
+      "name": "ROTA ; MP ; MPROP",
+      "code": null,
+      "actualName": "ROTA ; MP ; MPROP",
+      "isGroupSelection": false
+    }
+  ],
+  "Imari, Japan": [
+    {
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "placeCode": "JPIMI",
+      "placeName": "imari",
+      "capsule": "Port",
+      "img": "",
+      "name": "IMARI ; JP ; JPIMI",
+      "code": null,
+      "actualName": "IMARI ; JP ; JPIMI",
+      "isGroupSelection": false
+    }
+  ],
+  "Memphis, TN": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USMEM",
+      "placeName": "memphis, tn",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "MEMPHIS, TN ; US ; USMEM",
+      "code": null,
+      "actualName": "MEMPHIS, TN ; US ; USMEM",
+      "isGroupSelection": false
+    }
+  ],
+  "Miami, FL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USMIA",
+      "placeName": "miami, fl",
+      "capsule": "Port",
+      "img": "",
+      "name": "MIAMI, FL ; US ; USMIA",
+      "code": null,
+      "actualName": "MIAMI, FL ; US ; USMIA",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPEF",
+      "placeName": "port everglades, fl",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT EVERGLADES, FL ; US ; USPEF",
+      "code": null,
+      "actualName": "PORT EVERGLADES, FL ; US ; USPEF",
+      "isGroupSelection": false
+    }
+  ],
+  "Mobile, AL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USMOB",
+      "placeName": "mobile, al",
+      "capsule": "Port",
+      "img": "",
+      "name": "MOBILE, AL ; US ; USMOB",
+      "code": null,
+      "actualName": "MOBILE, AL ; US ; USMOB",
+      "isGroupSelection": false
+    }
+  ],
+  "Nashville, TN": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USBNA",
+      "placeName": "nashville, tn",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "NASHVILLE, TN ; US ; USBNA",
+      "code": null,
+      "actualName": "NASHVILLE, TN ; US ; USBNA",
+      "isGroupSelection": false
+    }
+  ],
+  "Vavouto, New Caledonia": [
+    {
+      "countryCode": "NC",
+      "countryName": "New Caledonia",
+      "placeCode": "NCVAV",
+      "placeName": "vavouto",
+      "capsule": "Port",
+      "img": "",
+      "name": "VAVOUTO ; NC ; NCVAV",
+      "code": null,
+      "actualName": "VAVOUTO ; NC ; NCVAV",
+      "isGroupSelection": false
+    }
+  ],
+  "Lyttelton, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZLYT",
+      "placeName": "lyttelton",
+      "capsule": "Port",
+      "img": "",
+      "name": "LYTTELTON ; NZ ; NZLYT",
+      "code": null,
+      "actualName": "LYTTELTON ; NZ ; NZLYT",
+      "isGroupSelection": false
+    }
+  ],
+  "Motukea Island, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGMTK",
+      "placeName": "motukea island",
+      "capsule": "Port",
+      "img": "",
+      "name": "MOTUKEA ISLAND ; PG ; PGMTK",
+      "code": null,
+      "actualName": "MOTUKEA ISLAND ; PG ; PGMTK",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Chalmers, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZPOE",
+      "placeName": "port chalmers",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT CHALMERS ; NZ ; NZPOE",
+      "code": null,
+      "actualName": "PORT CHALMERS ; NZ ; NZPOE",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZPOE",
+      "placeName": "port chalmers",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT CHALMERS ; NZ ; NZPOE",
+      "code": null,
+      "actualName": "PORT CHALMERS ; NZ ; NZPOE",
+      "isGroupSelection": false
+    }
+  ],
+  "New Plymouth, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZNPL",
+      "placeName": "new plymouth",
+      "capsule": "Port",
+      "img": "",
+      "name": "NEW PLYMOUTH ; NZ ; NZNPL",
+      "code": null,
+      "actualName": "NEW PLYMOUTH ; NZ ; NZNPL",
+      "isGroupSelection": false
+    }
+  ],
+  "Marsden Point, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZMAP",
+      "placeName": "marsden point",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARSDEN POINT ; NZ ; NZMAP",
+      "code": null,
+      "actualName": "MARSDEN POINT ; NZ ; NZMAP",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZMAP",
+      "placeName": "marsden point",
+      "capsule": "Port",
+      "img": "",
+      "name": "MARSDEN POINT ; NZ ; NZMAP",
+      "code": null,
+      "actualName": "MARSDEN POINT ; NZ ; NZMAP",
+      "isGroupSelection": false
+    }
+  ],
+  "New Orleans, LA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USMSY",
+      "placeName": "new orleans, la",
+      "capsule": "Port",
+      "img": "",
+      "name": "NEW ORLEANS, LA ; US ; USMSY",
+      "code": null,
+      "actualName": "NEW ORLEANS, LA ; US ; USMSY",
+      "isGroupSelection": false
+    }
+  ],
+  "Orobay, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGROR",
+      "placeName": "orobay",
+      "capsule": "Port",
+      "img": "",
+      "name": "OROBAY ; PG ; PGROR",
+      "code": null,
+      "actualName": "OROBAY ; PG ; PGROR",
+      "isGroupSelection": false
+    }
+  ],
+  "Noumea, New Caledonia": [
+    {
+      "countryCode": "NC",
+      "countryName": "New Caledonia",
+      "placeCode": "NCNOU",
+      "placeName": "noumea",
+      "capsule": "Port",
+      "img": "",
+      "name": "NOUMEA ; NC ; NCNOU",
+      "code": null,
+      "actualName": "NOUMEA ; NC ; NCNOU",
+      "isGroupSelection": false
+    }
+  ],
+  "Lae, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGLAE",
+      "placeName": "lae",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAE ; PG ; PGLAE",
+      "code": null,
+      "actualName": "LAE ; PG ; PGLAE",
+      "isGroupSelection": false
+    }
+  ],
+  "Alotau, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGGUR",
+      "placeName": "alotau",
+      "capsule": "Port",
+      "img": "",
+      "name": "ALOTAU ; PG ; PGGUR",
+      "code": null,
+      "actualName": "ALOTAU ; PG ; PGGUR",
+      "isGroupSelection": false
+    }
+  ],
+  "Wewak, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGWWK",
+      "placeName": "wewak",
+      "capsule": "Port",
+      "img": "",
+      "name": "WEWAK ; PG ; PGWWK",
+      "code": null,
+      "actualName": "WEWAK ; PG ; PGWWK",
+      "isGroupSelection": false
+    }
+  ],
+  "Lorengau, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGLOR",
+      "placeName": "lorengau",
+      "capsule": "Port",
+      "img": "",
+      "name": "LORENGAU ; PG ; PGLOR",
+      "code": null,
+      "actualName": "LORENGAU ; PG ; PGLOR",
+      "isGroupSelection": false
+    }
+  ],
+  "New Westminster, Bc, Canada": [
+    {
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "placeCode": "CANWE",
+      "placeName": "new westminster, bc",
+      "capsule": "Port",
+      "img": "",
+      "name": "NEW WESTMINSTER, BC ; CA ; CANWE",
+      "code": null,
+      "actualName": "NEW WESTMINSTER, BC ; CA ; CANWE",
+      "isGroupSelection": false
+    }
+  ],
+  "Timaru, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZTIU",
+      "placeName": "timaru",
+      "capsule": "Port",
+      "img": "",
+      "name": "TIMARU ; NZ ; NZTIU",
+      "code": null,
+      "actualName": "TIMARU ; NZ ; NZTIU",
+      "isGroupSelection": false
+    }
+  ],
+  "Vanimo, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGVAI",
+      "placeName": "vanimo",
+      "capsule": "Port",
+      "img": "",
+      "name": "VANIMO ; PG ; PGVAI",
+      "code": null,
+      "actualName": "VANIMO ; PG ; PGVAI",
+      "isGroupSelection": false
+    }
+  ],
+  "Picton, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZPCN",
+      "placeName": "picton",
+      "capsule": "Port",
+      "img": "",
+      "name": "PICTON ; NZ ; NZPCN",
+      "code": null,
+      "actualName": "PICTON ; NZ ; NZPCN",
+      "isGroupSelection": false
+    }
+  ],
+  "Bluff, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZBLU",
+      "placeName": "bluff",
+      "capsule": "Port",
+      "img": "",
+      "name": "BLUFF ; NZ ; NZBLU",
+      "code": null,
+      "actualName": "BLUFF ; NZ ; NZBLU",
+      "isGroupSelection": false
+    }
+  ],
+  "Tauranga, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZTRG",
+      "placeName": "tauranga",
+      "capsule": "Port",
+      "img": "",
+      "name": "TAURANGA ; NZ ; NZTRG",
+      "code": null,
+      "actualName": "TAURANGA ; NZ ; NZTRG",
+      "isGroupSelection": false
+    }
+  ],
+  "Nelson, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZNSN",
+      "placeName": "nelson",
+      "capsule": "Port",
+      "img": "",
+      "name": "NELSON ; NZ ; NZNSN",
+      "code": null,
+      "actualName": "NELSON ; NZ ; NZNSN",
+      "isGroupSelection": false
+    }
+  ],
+  "Kieta, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGKIE",
+      "placeName": "kieta",
+      "capsule": "Port",
+      "img": "",
+      "name": "KIETA ; PG ; PGKIE",
+      "code": null,
+      "actualName": "KIETA ; PG ; PGKIE",
+      "isGroupSelection": false
+    }
+  ],
+  "Rabaul, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGRAB",
+      "placeName": "rabaul",
+      "capsule": "Port",
+      "img": "",
+      "name": "RABAUL ; PG ; PGRAB",
+      "code": null,
+      "actualName": "RABAUL ; PG ; PGRAB",
+      "isGroupSelection": false
+    }
+  ],
+  "Lihir Island, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGLNV",
+      "placeName": "lihir island",
+      "capsule": "Port",
+      "img": "",
+      "name": "LIHIR ISLAND ; PG ; PGLNV",
+      "code": null,
+      "actualName": "LIHIR ISLAND ; PG ; PGLNV",
+      "isGroupSelection": false
+    }
+  ],
+  "Kimbe, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGKIM",
+      "placeName": "kimbe",
+      "capsule": "Port",
+      "img": "",
+      "name": "KIMBE ; PG ; PGKIM",
+      "code": null,
+      "actualName": "KIMBE ; PG ; PGKIM",
+      "isGroupSelection": false
+    }
+  ],
+  "Auckland, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZAKL",
+      "placeName": "auckland",
+      "capsule": "Port",
+      "img": "",
+      "name": "AUCKLAND ; NZ ; NZAKL",
+      "code": null,
+      "actualName": "AUCKLAND ; NZ ; NZAKL",
+      "isGroupSelection": false
+    }
+  ],
+  "Kavieng, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGKVG",
+      "placeName": "kavieng",
+      "capsule": "Port",
+      "img": "",
+      "name": "KAVIENG ; PG ; PGKVG",
+      "code": null,
+      "actualName": "KAVIENG ; PG ; PGKVG",
+      "isGroupSelection": false
+    }
+  ],
+  "Wellington, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZWLG",
+      "placeName": "wellington",
+      "capsule": "Port",
+      "img": "",
+      "name": "WELLINGTON ; NZ ; NZWLG",
+      "code": null,
+      "actualName": "WELLINGTON ; NZ ; NZWLG",
+      "isGroupSelection": false
+    }
+  ],
+  "Madang, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGMAG",
+      "placeName": "madang",
+      "capsule": "Port",
+      "img": "",
+      "name": "MADANG ; PG ; PGMAG",
+      "code": null,
+      "actualName": "MADANG ; PG ; PGMAG",
+      "isGroupSelection": false
+    }
+  ],
+  "Napier, New Zealand": [
+    {
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "placeCode": "NZNPE",
+      "placeName": "napier",
+      "capsule": "Port",
+      "img": "",
+      "name": "NAPIER ; NZ ; NZNPE",
+      "code": null,
+      "actualName": "NAPIER ; NZ ; NZNPE",
+      "isGroupSelection": false
+    }
+  ],
+  "New York, NY": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USNYC",
+      "placeName": "new york, ny",
+      "capsule": "Port",
+      "img": "",
+      "name": "NEW YORK, NY ; US ; USNYC",
+      "code": null,
+      "actualName": "NEW YORK, NY ; US ; USNYC",
+      "isGroupSelection": false
+    }
+  ],
+  "Buka Island, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGBUA",
+      "placeName": "buka island",
+      "capsule": "Port",
+      "img": "",
+      "name": "BUKA ISLAND ; PG ; PGBUA",
+      "code": null,
+      "actualName": "BUKA ISLAND ; PG ; PGBUA",
+      "isGroupSelection": false
+    }
+  ],
+  "Prony, New Caledonia": [
+    {
+      "countryCode": "NC",
+      "countryName": "New Caledonia",
+      "placeCode": "NCPNY",
+      "placeName": "prony",
+      "capsule": "Port",
+      "img": "",
+      "name": "PRONY ; NC ; NCPNY",
+      "code": null,
+      "actualName": "PRONY ; NC ; NCPNY",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Moresby, Papua New Guinea": [
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGPOM",
+      "placeName": "port moresby",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT MORESBY ; PG ; PGPOM",
+      "code": null,
+      "actualName": "PORT MORESBY ; PG ; PGPOM",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "PG",
+      "countryName": "Papua New Guinea",
+      "placeCode": "PGPOM",
+      "placeName": "port moresby",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT MORESBY ; PG ; PGPOM",
+      "code": null,
+      "actualName": "PORT MORESBY ; PG ; PGPOM",
+      "isGroupSelection": false
+    }
+  ],
+  "Ningbo, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNNGB",
+      "placeName": "ningbo",
+      "capsule": "Port",
+      "img": "",
+      "name": "NINGBO ; CN ; CNNGB",
+      "code": null,
+      "actualName": "NINGBO ; CN ; CNNGB",
+      "isGroupSelection": false
+    }
+  ],
+  "Nanning, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNNNG",
+      "placeName": "nanning",
+      "capsule": "Port",
+      "img": "",
+      "name": "NANNING ; CN ; CNNNG",
+      "code": null,
+      "actualName": "NANNING ; CN ; CNNNG",
+      "isGroupSelection": false
+    }
+  ],
+  "Jiaxing - Haining, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNHIN",
+      "placeName": "jiaxing - haining, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "JIAXING - HAINING, 33 ; CN ; CNHIN",
+      "code": null,
+      "actualName": "JIAXING - HAINING, 33 ; CN ; CNHIN",
+      "isGroupSelection": false
+    }
+  ],
+  "Kaliningrad, Russia": [
+    {
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "placeCode": "RUKGD",
+      "placeName": "kaliningrad",
+      "capsule": "Port",
+      "img": "",
+      "name": "KALININGRAD ; RU ; RUKGD",
+      "code": null,
+      "actualName": "KALININGRAD ; RU ; RUKGD",
+      "isGroupSelection": false
+    }
+  ],
+  "Ningde, 35, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNNDE",
+      "placeName": "ningde, 35",
+      "capsule": "Port",
+      "img": "",
+      "name": "NINGDE, 35 ; CN ; CNNDE",
+      "code": null,
+      "actualName": "NINGDE, 35 ; CN ; CNNDE",
+      "isGroupSelection": false
+    }
+  ],
+  "Norfolk, VA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USORF",
+      "placeName": "norfolk, va",
+      "capsule": "Port",
+      "img": "",
+      "name": "NORFOLK, VA ; US ; USORF",
+      "code": null,
+      "actualName": "NORFOLK, VA ; US ; USORF",
+      "isGroupSelection": false
+    }
+  ],
+  "North Baltimore, OH": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USNBH",
+      "placeName": "north baltimore, oh",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "NORTH BALTIMORE, OH ; US ; USNBH",
+      "code": null,
+      "actualName": "NORTH BALTIMORE, OH ; US ; USNBH",
+      "isGroupSelection": false
+    }
+  ],
+  "Oakland, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USOAK",
+      "placeName": "oakland, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "OAKLAND, CA ; US ; USOAK",
+      "code": null,
+      "actualName": "OAKLAND, CA ; US ; USOAK",
+      "isGroupSelection": false
+    }
+  ],
+  "Omaha, NE": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USOMA",
+      "placeName": "omaha, ne",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "OMAHA, NE ; US ; USOMA",
+      "code": null,
+      "actualName": "OMAHA, NE ; US ; USOMA",
+      "isGroupSelection": false
+    }
+  ],
+  "Batangas, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHBTG",
+      "placeName": "batangas",
+      "capsule": "Port",
+      "img": "",
+      "name": "BATANGAS ; PH ; PHBTG",
+      "code": null,
+      "actualName": "BATANGAS ; PH ; PHBTG",
+      "isGroupSelection": false
+    }
+  ],
+  "General Santos, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHGES",
+      "placeName": "general santos",
+      "capsule": "Port",
+      "img": "",
+      "name": "GENERAL SANTOS ; PH ; PHGES",
+      "code": null,
+      "actualName": "GENERAL SANTOS ; PH ; PHGES",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHGES",
+      "placeName": "general santos",
+      "capsule": "Port",
+      "img": "",
+      "name": "GENERAL SANTOS ; PH ; PHGES",
+      "code": null,
+      "actualName": "GENERAL SANTOS ; PH ; PHGES",
+      "isGroupSelection": false
+    }
+  ],
+  "Davao, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHDVO",
+      "placeName": "davao",
+      "capsule": "Port",
+      "img": "",
+      "name": "DAVAO ; PH ; PHDVO",
+      "code": null,
+      "actualName": "DAVAO ; PH ; PHDVO",
+      "isGroupSelection": false
+    }
+  ],
+  "Philadelphia, PA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPHL",
+      "placeName": "philadelphia, pa",
+      "capsule": "Port",
+      "img": "",
+      "name": "PHILADELPHIA, PA ; US ; USPHL",
+      "code": null,
+      "actualName": "PHILADELPHIA, PA ; US ; USPHL",
+      "isGroupSelection": false
+    }
+  ],
+  "Subic Bay, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHSFS",
+      "placeName": "subic bay",
+      "capsule": "Port",
+      "img": "",
+      "name": "SUBIC BAY ; PH ; PHSFS",
+      "code": null,
+      "actualName": "SUBIC BAY ; PH ; PHSFS",
+      "isGroupSelection": false
+    }
+  ],
+  "Iloilo, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHILO",
+      "placeName": "iloilo",
+      "capsule": "Port",
+      "img": "",
+      "name": "ILOILO ; PH ; PHILO",
+      "code": null,
+      "actualName": "ILOILO ; PH ; PHILO",
+      "isGroupSelection": false
+    }
+  ],
+  "Philipsburg, Netherlands Antilles": [
+    {
+      "countryCode": "AN",
+      "countryName": "Netherlands Antilles",
+      "placeCode": "ANPHI",
+      "placeName": "philipsburg",
+      "capsule": "Port",
+      "img": "",
+      "name": "PHILIPSBURG ; AN ; ANPHI",
+      "code": null,
+      "actualName": "PHILIPSBURG ; AN ; ANPHI",
+      "isGroupSelection": false
+    }
+  ],
+  "Zamboanga, Zas, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHZAM",
+      "placeName": "zamboanga, zas",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZAMBOANGA, ZAS ; PH ; PHZAM",
+      "code": null,
+      "actualName": "ZAMBOANGA, ZAS ; PH ; PHZAM",
+      "isGroupSelection": false
+    }
+  ],
+  "Cebu, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHCEB",
+      "placeName": "cebu",
+      "capsule": "Port",
+      "img": "",
+      "name": "CEBU ; PH ; PHCEB",
+      "code": null,
+      "actualName": "CEBU ; PH ; PHCEB",
+      "isGroupSelection": false
+    }
+  ],
+  "Cagayan De Oro, Philippines": [
+    {
+      "countryCode": "PH",
+      "countryName": "Philippines",
+      "placeCode": "PHCGY",
+      "placeName": "cagayan de oro",
+      "capsule": "Port",
+      "img": "",
+      "name": "CAGAYAN DE ORO ; PH ; PHCGY",
+      "code": null,
+      "actualName": "CAGAYAN DE ORO ; PH ; PHCGY",
+      "isGroupSelection": false
+    }
+  ],
+  "Phnom Penh, Cambodia": [
+    {
+      "countryCode": "KH",
+      "countryName": "Cambodia",
+      "placeCode": "KHPNH",
+      "placeName": "phnom penh",
+      "capsule": "Port",
+      "img": "",
+      "name": "PHNOM PENH ; KH ; KHPNH",
+      "code": null,
+      "actualName": "PHNOM PENH ; KH ; KHPNH",
+      "isGroupSelection": false
+    }
+  ],
+  "Phoenix, AZ": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPHX",
+      "placeName": "phoenix, az",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PHOENIX, AZ ; US ; USPHX",
+      "code": null,
+      "actualName": "PHOENIX, AZ ; US ; USPHX",
+      "isGroupSelection": false
+    }
+  ],
+  "Pittsburgh, PA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPIT",
+      "placeName": "pittsburgh, pa",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PITTSBURGH, PA ; US ; USPIT",
+      "code": null,
+      "actualName": "PITTSBURGH, PA ; US ; USPIT",
+      "isGroupSelection": false
+    }
+  ],
+  "Pointe Noire, Congo, Republic Of The": [
+    {
+      "countryCode": "CG",
+      "countryName": "Congo, Republic of the",
+      "placeCode": "CGPNR",
+      "placeName": "pointe noire",
+      "capsule": "Port",
+      "img": "",
+      "name": "POINTE NOIRE ; CG ; CGPNR",
+      "code": null,
+      "actualName": "POINTE NOIRE ; CG ; CGPNR",
+      "isGroupSelection": false
+    }
+  ],
+  "Pointe A Pitre, Guadeloupe": [
+    {
+      "countryCode": "GP",
+      "countryName": "Guadeloupe",
+      "placeCode": "GPPTP",
+      "placeName": "pointe a pitre",
+      "capsule": "Port",
+      "img": "",
+      "name": "POINTE A PITRE ; GP ; GPPTP",
+      "code": null,
+      "actualName": "POINTE A PITRE ; GP ; GPPTP",
+      "isGroupSelection": false
+    }
+  ],
+  "Pointe Des Galets, Reunion": [
+    {
+      "countryCode": "RE",
+      "countryName": "Reunion",
+      "placeCode": "REPDG",
+      "placeName": "pointe des galets",
+      "capsule": "Port",
+      "img": "",
+      "name": "POINTE DES GALETS ; RE ; REPDG",
+      "code": null,
+      "actualName": "POINTE DES GALETS ; RE ; REPDG",
+      "isGroupSelection": false
+    }
+  ],
+  "Point Lisas, Trinidad And Tobago": [
+    {
+      "countryCode": "TT",
+      "countryName": "Trinidad and Tobago",
+      "placeCode": "TTPTS",
+      "placeName": "point lisas",
+      "capsule": "Port",
+      "img": "",
+      "name": "POINT LISAS ; TT ; TTPTS",
+      "code": null,
+      "actualName": "POINT LISAS ; TT ; TTPTS",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Gentil, Gabon": [
+    {
+      "countryCode": "GA",
+      "countryName": "Gabon",
+      "placeCode": "GAPOG",
+      "placeName": "port gentil",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT GENTIL ; GA ; GAPOG",
+      "code": null,
+      "actualName": "PORT GENTIL ; GA ; GAPOG",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Harcourt, Nigeria": [
+    {
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "placeCode": "NGPHC",
+      "placeName": "port harcourt",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT HARCOURT ; NG ; NGPHC",
+      "code": null,
+      "actualName": "PORT HARCOURT ; NG ; NGPHC",
+      "isGroupSelection": false
+    }
+  ],
+  "Songkhla Port, Thailand": [
+    {
+      "countryCode": "TH",
+      "countryName": "Thailand",
+      "placeCode": "THSGZ",
+      "placeName": "songkhla port",
+      "capsule": "Port",
+      "img": "",
+      "name": "SONGKHLA PORT ; TH ; THSGZ",
+      "code": null,
+      "actualName": "SONGKHLA PORT ; TH ; THSGZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Said, Egypt": [
+    {
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "placeCode": "EGPSD",
+      "placeName": "port said",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT SAID ; EG ; EGPSD",
+      "code": null,
+      "actualName": "PORT SAID ; EG ; EGPSD",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Said, Suez Canal Cntr Term, Egypt": [
+    {
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "placeCode": "EGSUZ",
+      "placeName": "port said, suez canal cntr term",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT SAID, SUEZ CANAL CNTR TERM ; EG ; EGSUZ",
+      "code": null,
+      "actualName": "PORT SAID, SUEZ CANAL CNTR TERM ; EG ; EGSUZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Hadlock, WA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USABC",
+      "placeName": "port hadlock, wa",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT HADLOCK, WA ; US ; USABC",
+      "code": null,
+      "actualName": "PORT HADLOCK, WA ; US ; USABC",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USABC",
+      "placeName": "port hadlock, wa",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PORT HADLOCK, WA ; US ; USABC",
+      "code": null,
+      "actualName": "PORT HADLOCK, WA ; US ; USABC",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Hedland, Australia": [
+    {
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "placeCode": "AUPHE",
+      "placeName": "port hedland",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT HEDLAND ; AU ; AUPHE",
+      "code": null,
+      "actualName": "PORT HEDLAND ; AU ; AUPHE",
+      "isGroupSelection": false
+    }
+  ],
+  "Canical, 30, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTCNL",
+      "placeName": "canical, 30",
+      "capsule": "Port",
+      "img": "",
+      "name": "CANICAL, 30 ; PT ; PTCNL",
+      "code": null,
+      "actualName": "CANICAL, 30 ; PT ; PTCNL",
+      "isGroupSelection": false
+    }
+  ],
+  "Horta, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTHOR",
+      "placeName": "horta",
+      "capsule": "Port",
+      "img": "",
+      "name": "HORTA ; PT ; PTHOR",
+      "code": null,
+      "actualName": "HORTA ; PT ; PTHOR",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Qasim, Pakistan": [
+    {
+      "countryCode": "PK",
+      "countryName": "Pakistan",
+      "placeCode": "PKBQM",
+      "placeName": "port qasim",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT QASIM ; PK ; PKBQM",
+      "code": null,
+      "actualName": "PORT QASIM ; PK ; PKBQM",
+      "isGroupSelection": false
+    }
+  ],
+  "London Gateway Port, Ess, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBLGP",
+      "placeName": "london gateway port, ess",
+      "capsule": "Port",
+      "img": "",
+      "name": "LONDON GATEWAY PORT, ESS ; GB ; GBLGP",
+      "code": null,
+      "actualName": "LONDON GATEWAY PORT, ESS ; GB ; GBLGP",
+      "isGroupSelection": false
+    }
+  ],
+  "Praia Da Graciosa, 20, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTPRG",
+      "placeName": "praia da graciosa, 20",
+      "capsule": "Port",
+      "img": "",
+      "name": "PRAIA DA GRACIOSA, 20 ; PT ; PTPRG",
+      "code": null,
+      "actualName": "PRAIA DA GRACIOSA, 20 ; PT ; PTPRG",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Mathurin, Mauritius": [
+    {
+      "countryCode": "MU",
+      "countryName": "Mauritius",
+      "placeCode": "MUPMA",
+      "placeName": "port mathurin",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT MATHURIN ; MU ; MUPMA",
+      "code": null,
+      "actualName": "PORT MATHURIN ; MU ; MUPMA",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Vendres, France": [
+    {
+      "countryCode": "FR",
+      "countryName": "France",
+      "placeCode": "FRPOV",
+      "placeName": "port vendres",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT VENDRES ; FR ; FRPOV",
+      "code": null,
+      "actualName": "PORT VENDRES ; FR ; FRPOV",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Victoria, Seychelles": [
+    {
+      "countryCode": "SC",
+      "countryName": "Seychelles",
+      "placeCode": "SCPOV",
+      "placeName": "port victoria",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT VICTORIA ; SC ; SCPOV",
+      "code": null,
+      "actualName": "PORT VICTORIA ; SC ; SCPOV",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "SC",
+      "countryName": "Seychelles",
+      "placeCode": "SCPOV",
+      "placeName": "port victoria",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT VICTORIA ; SC ; SCPOV",
+      "code": null,
+      "actualName": "PORT VICTORIA ; SC ; SCPOV",
+      "isGroupSelection": false
+    }
+  ],
+  "Portland, ME": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPWM",
+      "placeName": "portland, me",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORTLAND, ME ; US ; USPWM",
+      "code": null,
+      "actualName": "PORTLAND, ME ; US ; USPWM",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPWM",
+      "placeName": "portland, me",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PORTLAND, ME ; US ; USPWM",
+      "code": null,
+      "actualName": "PORTLAND, ME ; US ; USPWM",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Allen, LA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPLL",
+      "placeName": "port allen, la",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PORT ALLEN, LA ; US ; USPLL",
+      "code": null,
+      "actualName": "PORT ALLEN, LA ; US ; USPLL",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Of Spain, Trinidad And Tobago": [
+    {
+      "countryCode": "TT",
+      "countryName": "Trinidad and Tobago",
+      "placeCode": "TTPOS",
+      "placeName": "port of spain",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT OF SPAIN ; TT ; TTPOS",
+      "code": null,
+      "actualName": "PORT OF SPAIN ; TT ; TTPOS",
+      "isGroupSelection": false
+    }
+  ],
+  "Figueira Da Foz, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTFDF",
+      "placeName": "figueira da foz",
+      "capsule": "Port",
+      "img": "",
+      "name": "FIGUEIRA DA FOZ ; PT ; PTFDF",
+      "code": null,
+      "actualName": "FIGUEIRA DA FOZ ; PT ; PTFDF",
+      "isGroupSelection": false
+    }
+  ],
+  "Setubal, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTSET",
+      "placeName": "setubal",
+      "capsule": "Port",
+      "img": "",
+      "name": "SETUBAL ; PT ; PTSET",
+      "code": null,
+      "actualName": "SETUBAL ; PT ; PTSET",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Everglades, FL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPEF",
+      "placeName": "port everglades, fl",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT EVERGLADES, FL ; US ; USPEF",
+      "code": null,
+      "actualName": "PORT EVERGLADES, FL ; US ; USPEF",
+      "isGroupSelection": false
+    }
+  ],
+  "Madalena, 20, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTMAD",
+      "placeName": "madalena, 20",
+      "capsule": "Port",
+      "img": "",
+      "name": "MADALENA, 20 ; PT ; PTMAD",
+      "code": null,
+      "actualName": "MADALENA, 20 ; PT ; PTMAD",
+      "isGroupSelection": false
+    }
+  ],
+  "Teesport, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBTEE",
+      "placeName": "teesport",
+      "capsule": "Port",
+      "img": "",
+      "name": "TEESPORT ; GB ; GBTEE",
+      "code": null,
+      "actualName": "TEESPORT ; GB ; GBTEE",
+      "isGroupSelection": false
+    }
+  ],
+  "Khalifa Port, Abu Dhabi, United Arab Emirates": [
+    {
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "placeCode": "AEKHL",
+      "placeName": "khalifa port, abu dhabi",
+      "capsule": "Port",
+      "img": "",
+      "name": "KHALIFA PORT, ABU DHABI ; AE ; AEKHL",
+      "code": null,
+      "actualName": "KHALIFA PORT, ABU DHABI ; AE ; AEKHL",
+      "isGroupSelection": false
+    }
+  ],
+  "Funchal, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTFNC",
+      "placeName": "funchal",
+      "capsule": "Port",
+      "img": "",
+      "name": "FUNCHAL ; PT ; PTFNC",
+      "code": null,
+      "actualName": "FUNCHAL ; PT ; PTFNC",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Sudan, Sudan": [
+    {
+      "countryCode": "SD",
+      "countryName": "Sudan",
+      "placeCode": "SDPZU",
+      "placeName": "port sudan",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT SUDAN ; SD ; SDPZU",
+      "code": null,
+      "actualName": "PORT SUDAN ; SD ; SDPZU",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Vila, Vanuatu": [
+    {
+      "countryCode": "VU",
+      "countryName": "Vanuatu",
+      "placeCode": "VUVLI",
+      "placeName": "port vila",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT VILA ; VU ; VUVLI",
+      "code": null,
+      "actualName": "PORT VILA ; VU ; VUVLI",
+      "isGroupSelection": false
+    }
+  ],
+  "Leixoes, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTLEI",
+      "placeName": "leixoes",
+      "capsule": "Port",
+      "img": "",
+      "name": "LEIXOES ; PT ; PTLEI",
+      "code": null,
+      "actualName": "LEIXOES ; PT ; PTLEI",
+      "isGroupSelection": false
+    }
+  ],
+  "Lisboa, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTLIS",
+      "placeName": "lisboa",
+      "capsule": "Port",
+      "img": "",
+      "name": "LISBOA ; PT ; PTLIS",
+      "code": null,
+      "actualName": "LISBOA ; PT ; PTLIS",
+      "isGroupSelection": false
+    }
+  ],
+  "Vostochny,Port, Russia": [
+    {
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "placeCode": "RUVYP",
+      "placeName": "vostochny,port",
+      "capsule": "Port",
+      "img": "",
+      "name": "VOSTOCHNY,PORT ; RU ; RUVYP",
+      "code": null,
+      "actualName": "VOSTOCHNY,PORT ; RU ; RUVYP",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "placeCode": "RUVYP",
+      "placeName": "vostochny,port",
+      "capsule": "Port",
+      "img": "",
+      "name": "VOSTOCHNY,PORT ; RU ; RUVYP",
+      "code": null,
+      "actualName": "VOSTOCHNY,PORT ; RU ; RUVYP",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Au Prince, Haiti": [
+    {
+      "countryCode": "HT",
+      "countryName": "Haiti",
+      "placeCode": "HTPAP",
+      "placeName": "port au prince",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT AU PRINCE ; HT ; HTPAP",
+      "code": null,
+      "actualName": "PORT AU PRINCE ; HT ; HTPAP",
+      "isGroupSelection": false
+    }
+  ],
+  "Chan May Port, 26, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNCMY",
+      "placeName": "chan may port, 26",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHAN MAY PORT, 26 ; VN ; VNCMY",
+      "code": null,
+      "actualName": "CHAN MAY PORT, 26 ; VN ; VNCMY",
+      "isGroupSelection": false
+    }
+  ],
+  "Porto Vecchio, 2A, France": [
+    {
+      "countryCode": "FR",
+      "countryName": "France",
+      "placeCode": "FRPVO",
+      "placeName": "porto vecchio, 2a",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORTO VECCHIO, 2A ; FR ; FRPVO",
+      "code": null,
+      "actualName": "PORTO VECCHIO, 2A ; FR ; FRPVO",
+      "isGroupSelection": false
+    }
+  ],
+  "Cais Do Pico, 20, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTCDP",
+      "placeName": "cais do pico, 20",
+      "capsule": "Port",
+      "img": "",
+      "name": "CAIS DO PICO, 20 ; PT ; PTCDP",
+      "code": null,
+      "actualName": "CAIS DO PICO, 20 ; PT ; PTCDP",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Hueneme, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USNTD",
+      "placeName": "port hueneme, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT HUENEME, CA ; US ; USNTD",
+      "code": null,
+      "actualName": "PORT HUENEME, CA ; US ; USNTD",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USNTD",
+      "placeName": "port hueneme, ca",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PORT HUENEME, CA ; US ; USNTD",
+      "code": null,
+      "actualName": "PORT HUENEME, CA ; US ; USNTD",
+      "isGroupSelection": false
+    }
+  ],
+  "Vila De Porto Santo, 30, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTPXO",
+      "placeName": "vila de porto santo, 30",
+      "capsule": "Port",
+      "img": "",
+      "name": "VILA DE PORTO SANTO, 30 ; PT ; PTPXO",
+      "code": null,
+      "actualName": "VILA DE PORTO SANTO, 30 ; PT ; PTPXO",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTPXO",
+      "placeName": "vila de porto santo, 30",
+      "capsule": "Port",
+      "img": "",
+      "name": "VILA DE PORTO SANTO, 30 ; PT ; PTPXO",
+      "code": null,
+      "actualName": "VILA DE PORTO SANTO, 30 ; PT ; PTPXO",
+      "isGroupSelection": false
+    }
+  ],
+  "Sines, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTSIE",
+      "placeName": "sines",
+      "capsule": "Port",
+      "img": "",
+      "name": "SINES ; PT ; PTSIE",
+      "code": null,
+      "actualName": "SINES ; PT ; PTSIE",
+      "isGroupSelection": false
+    }
+  ],
+  "Praia Da Vitoria, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTPRV",
+      "placeName": "praia da vitoria",
+      "capsule": "Port",
+      "img": "",
+      "name": "PRAIA DA VITORIA ; PT ; PTPRV",
+      "code": null,
+      "actualName": "PRAIA DA VITORIA ; PT ; PTPRV",
+      "isGroupSelection": false
+    }
+  ],
+  "Thames Port, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBTHP",
+      "placeName": "thames port",
+      "capsule": "Port",
+      "img": "",
+      "name": "THAMES PORT ; GB ; GBTHP",
+      "code": null,
+      "actualName": "THAMES PORT ; GB ; GBTHP",
+      "isGroupSelection": false
+    }
+  ],
+  "Portland, OR": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USPDX",
+      "placeName": "portland, or",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "PORTLAND, OR ; US ; USPDX",
+      "code": null,
+      "actualName": "PORTLAND, OR ; US ; USPDX",
+      "isGroupSelection": false
+    }
+  ],
+  "Bahrain Khalifa Bin Salman Port, Bahrain": [
+    {
+      "countryCode": "BH",
+      "countryName": "Bahrain",
+      "placeCode": "BHKBS",
+      "placeName": "bahrain khalifa bin salman port",
+      "capsule": "Port",
+      "img": "",
+      "name": "BAHRAIN KHALIFA BIN SALMAN PORT ; BH ; BHKBS",
+      "code": null,
+      "actualName": "BAHRAIN KHALIFA BIN SALMAN PORT ; BH ; BHKBS",
+      "isGroupSelection": false
+    }
+  ],
+  "Lajes Das Flores, 20, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTLAJ",
+      "placeName": "lajes das flores, 20",
+      "capsule": "Port",
+      "img": "",
+      "name": "LAJES DAS FLORES, 20 ; PT ; PTLAJ",
+      "code": null,
+      "actualName": "LAJES DAS FLORES, 20 ; PT ; PTLAJ",
+      "isGroupSelection": false
+    }
+  ],
+  "Portsmouth, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBPME",
+      "placeName": "portsmouth",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORTSMOUTH ; GB ; GBPME",
+      "code": null,
+      "actualName": "PORTSMOUTH ; GB ; GBPME",
+      "isGroupSelection": false
+    }
+  ],
+  "Portland, United Kingdom": [
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "placeCode": "GBPTL",
+      "placeName": "portland",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORTLAND ; GB ; GBPTL",
+      "code": null,
+      "actualName": "PORTLAND ; GB ; GBPTL",
+      "isGroupSelection": false
+    }
+  ],
+  "Vietnam Lee Man Port, Ct, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNLMP",
+      "placeName": "vietnam lee man port, ct",
+      "capsule": "Port",
+      "img": "",
+      "name": "VIETNAM LEE MAN PORT, CT ; VN ; VNLMP",
+      "code": null,
+      "actualName": "VIETNAM LEE MAN PORT, CT ; VN ; VNLMP",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Klang, Malaysia": [
+    {
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "placeCode": "MYPKG",
+      "placeName": "port klang",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT KLANG ; MY ; MYPKG",
+      "code": null,
+      "actualName": "PORT KLANG ; MY ; MYPKG",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Elizabeth, South Africa": [
+    {
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "placeCode": "ZAPLZ",
+      "placeName": "port elizabeth",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT ELIZABETH ; ZA ; ZAPLZ",
+      "code": null,
+      "actualName": "PORT ELIZABETH ; ZA ; ZAPLZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Kembla, Australia": [
+    {
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "placeCode": "AUPKL",
+      "placeName": "port kembla",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT KEMBLA ; AU ; AUPKL",
+      "code": null,
+      "actualName": "PORT KEMBLA ; AU ; AUPKL",
+      "isGroupSelection": false
+    }
+  ],
+  "Ponta Delgada, Portugal": [
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "placeCode": "PTPDL",
+      "placeName": "ponta delgada",
+      "capsule": "Port",
+      "img": "",
+      "name": "PONTA DELGADA ; PT ; PTPDL",
+      "code": null,
+      "actualName": "PONTA DELGADA ; PT ; PTPDL",
+      "isGroupSelection": false
+    }
+  ],
+  "Tanjung Bruas Port, Malacca, Malaysia": [
+    {
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "placeCode": "MYMKZ",
+      "placeName": "tanjung bruas port, malacca",
+      "capsule": "Port",
+      "img": "",
+      "name": "TANJUNG BRUAS PORT, MALACCA ; MY ; MYMKZ",
+      "code": null,
+      "actualName": "TANJUNG BRUAS PORT, MALACCA ; MY ; MYMKZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Port Alma, Australia": [
+    {
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "placeCode": "AUPTL",
+      "placeName": "port alma",
+      "capsule": "Port",
+      "img": "",
+      "name": "PORT ALMA ; AU ; AUPTL",
+      "code": null,
+      "actualName": "PORT ALMA ; AU ; AUPTL",
+      "isGroupSelection": false
+    }
+  ],
+  "Anqing, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNAQG",
+      "placeName": "anqing",
+      "capsule": "Port",
+      "img": "",
+      "name": "ANQING ; CN ; CNAQG",
+      "code": null,
+      "actualName": "ANQING ; CN ; CNAQG",
+      "isGroupSelection": false
+    }
+  ],
+  "Jiangyin, Fuqing,Fuzhou, 35, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNFUG",
+      "placeName": "jiangyin, fuqing,fuzhou, 35",
+      "capsule": "Port",
+      "img": "",
+      "name": "JIANGYIN, FUQING,FUZHOU, 35 ; CN ; CNFUG",
+      "code": null,
+      "actualName": "JIANGYIN, FUQING,FUZHOU, 35 ; CN ; CNFUG",
+      "isGroupSelection": false
+    }
+  ],
+  "Qingdao, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNTAO",
+      "placeName": "qingdao",
+      "capsule": "Port",
+      "img": "",
+      "name": "QINGDAO ; CN ; CNTAO",
+      "code": null,
+      "actualName": "QINGDAO ; CN ; CNTAO",
+      "isGroupSelection": false
+    }
+  ],
+  "Qingyuan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNQYN",
+      "placeName": "qingyuan",
+      "capsule": "Port",
+      "img": "",
+      "name": "QINGYUAN ; CN ; CNQYN",
+      "code": null,
+      "actualName": "QINGYUAN ; CN ; CNQYN",
+      "isGroupSelection": false
+    }
+  ],
+  "Zhaoqing, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNZQG",
+      "placeName": "zhaoqing",
+      "capsule": "Port",
+      "img": "",
+      "name": "ZHAOQING ; CN ; CNZQG",
+      "code": null,
+      "actualName": "ZHAOQING ; CN ; CNZQG",
+      "isGroupSelection": false
+    }
+  ],
+  "Deqing, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNDEI",
+      "placeName": "deqing, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "DEQING, 33 ; CN ; CNDEI",
+      "code": null,
+      "actualName": "DEQING, 33 ; CN ; CNDEI",
+      "isGroupSelection": false
+    }
+  ],
+  "La Rochelle, France": [
+    {
+      "countryCode": "FR",
+      "countryName": "France",
+      "placeCode": "FRLRH",
+      "placeName": "la rochelle",
+      "capsule": "Port",
+      "img": "",
+      "name": "LA ROCHELLE ; FR ; FRLRH",
+      "code": null,
+      "actualName": "LA ROCHELLE ; FR ; FRLRH",
+      "isGroupSelection": false
+    }
+  ],
+  "Campden Park, Saint Vincent And The Grenadines": [
+    {
+      "countryCode": "VC",
+      "countryName": "Saint Vincent and The Grenadines",
+      "placeCode": "VCCRP",
+      "placeName": "campden park",
+      "capsule": "Port",
+      "img": "",
+      "name": "CAMPDEN PARK ; VC ; VCCRP",
+      "code": null,
+      "actualName": "CAMPDEN PARK ; VC ; VCCRP",
+      "isGroupSelection": false
+    }
+  ],
+  "Kingstown, Saint Vincent And The Grenadines": [
+    {
+      "countryCode": "VC",
+      "countryName": "Saint Vincent and The Grenadines",
+      "placeCode": "VCKTN",
+      "placeName": "kingstown",
+      "capsule": "Port",
+      "img": "",
+      "name": "KINGSTOWN ; VC ; VCKTN",
+      "code": null,
+      "actualName": "KINGSTOWN ; VC ; VCKTN",
+      "isGroupSelection": false
+    }
+  ],
+  "Saint Petersburg, Russia": [
+    {
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "placeCode": "RULED",
+      "placeName": "saint petersburg",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAINT PETERSBURG ; RU ; RULED",
+      "code": null,
+      "actualName": "SAINT PETERSBURG ; RU ; RULED",
+      "isGroupSelection": false
+    }
+  ],
+  "Basseterre, Saint Kitts And Nevis": [
+    {
+      "countryCode": "KN",
+      "countryName": "Saint Kitts and Nevis",
+      "placeCode": "KNBAS",
+      "placeName": "basseterre",
+      "capsule": "Port",
+      "img": "",
+      "name": "BASSETERRE ; KN ; KNBAS",
+      "code": null,
+      "actualName": "BASSETERRE ; KN ; KNBAS",
+      "isGroupSelection": false
+    }
+  ],
+  "Castries, Saint Lucia": [
+    {
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "placeCode": "LCCAS",
+      "placeName": "castries",
+      "capsule": "Port",
+      "img": "",
+      "name": "CASTRIES ; LC ; LCCAS",
+      "code": null,
+      "actualName": "CASTRIES ; LC ; LCCAS",
+      "isGroupSelection": false
+    }
+  ],
+  "Minneapolis, MN": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSTP",
+      "placeName": "saint paul, mn",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "SAINT PAUL, MN ; US ; USSTP",
+      "code": null,
+      "actualName": "SAINT PAUL, MN ; US ; USSTP",
+      "isGroupSelection": false
+    }
+  ],
+  "Saint John, Nb, Canada": [
+    {
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "placeCode": "CASJB",
+      "placeName": "saint john, nb",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAINT JOHN, NB ; CA ; CASJB",
+      "code": null,
+      "actualName": "SAINT JOHN, NB ; CA ; CASJB",
+      "isGroupSelection": false
+    }
+  ],
+  "Salt Lake City, UT": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSLC",
+      "placeName": "salt lake city, ut",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "SALT LAKE CITY, UT ; US ; USSLC",
+      "code": null,
+      "actualName": "SALT LAKE CITY, UT ; US ; USSLC",
+      "isGroupSelection": false
+    }
+  ],
+  "San Vicente, Chile": [
+    {
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "placeCode": "CLSVE",
+      "placeName": "san vicente",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN VICENTE ; CL ; CLSVE",
+      "code": null,
+      "actualName": "SAN VICENTE ; CL ; CLSVE",
+      "isGroupSelection": false
+    }
+  ],
+  "San Lorenzo, Honduras": [
+    {
+      "countryCode": "HN",
+      "countryName": "Honduras",
+      "placeCode": "HNSLO",
+      "placeName": "san lorenzo",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN LORENZO ; HN ; HNSLO",
+      "code": null,
+      "actualName": "SAN LORENZO ; HN ; HNSLO",
+      "isGroupSelection": false
+    }
+  ],
+  "San Juan, Puerto Rico": [
+    {
+      "countryCode": "PR",
+      "countryName": "Puerto Rico",
+      "placeCode": "PRSJU",
+      "placeName": "san juan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN JUAN ; PR ; PRSJU",
+      "code": null,
+      "actualName": "SAN JUAN ; PR ; PRSJU",
+      "isGroupSelection": false
+    }
+  ],
+  "San Antonio, TX": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSAT",
+      "placeName": "san antonio, tx",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "SAN ANTONIO, TX ; US ; USSAT",
+      "code": null,
+      "actualName": "SAN ANTONIO, TX ; US ; USSAT",
+      "isGroupSelection": false
+    }
+  ],
+  "San Antonio, Chile": [
+    {
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "placeCode": "CLSAI",
+      "placeName": "san antonio",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN ANTONIO ; CL ; CLSAI",
+      "code": null,
+      "actualName": "SAN ANTONIO ; CL ; CLSAI",
+      "isGroupSelection": false
+    }
+  ],
+  "San Antonio Este, Argentina": [
+    {
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "placeCode": "ARSAE",
+      "placeName": "san antonio este",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN ANTONIO ESTE ; AR ; ARSAE",
+      "code": null,
+      "actualName": "SAN ANTONIO ESTE ; AR ; ARSAE",
+      "isGroupSelection": false
+    }
+  ],
+  "San Pedro, Cote D'Ivoire": [
+    {
+      "countryCode": "CI",
+      "countryName": "Cote D'Ivoire",
+      "placeCode": "CISPY",
+      "placeName": "san pedro",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN PEDRO ; CI ; CISPY",
+      "code": null,
+      "actualName": "SAN PEDRO ; CI ; CISPY",
+      "isGroupSelection": false
+    }
+  ],
+  "San Diego, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSAN",
+      "placeName": "san diego, ca",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAN DIEGO, CA ; US ; USSAN",
+      "code": null,
+      "actualName": "SAN DIEGO, CA ; US ; USSAN",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSAN",
+      "placeName": "san diego, ca",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "SAN DIEGO, CA ; US ; USSAN",
+      "code": null,
+      "actualName": "SAN DIEGO, CA ; US ; USSAN",
+      "isGroupSelection": false
+    }
+  ],
+  "Santarem, Brazil": [
+    {
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "placeCode": "BRSTM",
+      "placeName": "santarem",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTAREM ; BR ; BRSTM",
+      "code": null,
+      "actualName": "SANTAREM ; BR ; BRSTM",
+      "isGroupSelection": false
+    }
+  ],
+  "Santa Marta, Colombia": [
+    {
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "placeCode": "COSMR",
+      "placeName": "santa marta",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTA MARTA ; CO ; COSMR",
+      "code": null,
+      "actualName": "SANTA MARTA ; CO ; COSMR",
+      "isGroupSelection": false
+    }
+  ],
+  "Santa Cruz De La Palma, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESSPC",
+      "placeName": "santa cruz de la palma",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTA CRUZ DE LA PALMA ; ES ; ESSPC",
+      "code": null,
+      "actualName": "SANTA CRUZ DE LA PALMA ; ES ; ESSPC",
+      "isGroupSelection": false
+    }
+  ],
+  "Santa Cruz De Tenerife, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESSCT",
+      "placeName": "santa cruz de tenerife",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTA CRUZ DE TENERIFE ; ES ; ESSCT",
+      "code": null,
+      "actualName": "SANTA CRUZ DE TENERIFE ; ES ; ESSCT",
+      "isGroupSelection": false
+    }
+  ],
+  "Santos, Brazil": [
+    {
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "placeCode": "BRSSZ",
+      "placeName": "santos",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTOS ; BR ; BRSSZ",
+      "code": null,
+      "actualName": "SANTOS ; BR ; BRSSZ",
+      "isGroupSelection": false
+    }
+  ],
+  "Santo Tomas De Castilla, Guatemala": [
+    {
+      "countryCode": "GT",
+      "countryName": "Guatemala",
+      "placeCode": "GTSTC",
+      "placeName": "santo tomas de castilla",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTO TOMAS DE CASTILLA ; GT ; GTSTC",
+      "code": null,
+      "actualName": "SANTO TOMAS DE CASTILLA ; GT ; GTSTC",
+      "isGroupSelection": false
+    }
+  ],
+  "Santo, Vanuatu": [
+    {
+      "countryCode": "VU",
+      "countryName": "Vanuatu",
+      "placeCode": "VUSAN",
+      "placeName": "santo",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTO ; VU ; VUSAN",
+      "code": null,
+      "actualName": "SANTO ; VU ; VUSAN",
+      "isGroupSelection": false
+    }
+  ],
+  "Santiago De Cuba, Cuba": [
+    {
+      "countryCode": "CU",
+      "countryName": "Cuba",
+      "placeCode": "CUSCU",
+      "placeName": "santiago de cuba",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTIAGO DE CUBA ; CU ; CUSCU",
+      "code": null,
+      "actualName": "SANTIAGO DE CUBA ; CU ; CUSCU",
+      "isGroupSelection": false
+    }
+  ],
+  "Santana, Brazil": [
+    {
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "placeCode": "BRSAN",
+      "placeName": "santana",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTANA ; BR ; BRSAN",
+      "code": null,
+      "actualName": "SANTANA ; BR ; BRSAN",
+      "isGroupSelection": false
+    }
+  ],
+  "Santander, Spain": [
+    {
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "placeCode": "ESSDR",
+      "placeName": "santander",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANTANDER ; ES ; ESSDR",
+      "code": null,
+      "actualName": "SANTANDER ; ES ; ESSDR",
+      "isGroupSelection": false
+    }
+  ],
+  "Santa Teresa, NM": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSXT",
+      "placeName": "santa teresa, nm",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "SANTA TERESA, NM ; US ; USSXT",
+      "code": null,
+      "actualName": "SANTA TERESA, NM ; US ; USSXT",
+      "isGroupSelection": false
+    }
+  ],
+  "Savannah, GA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSAV",
+      "placeName": "savannah, ga",
+      "capsule": "Port",
+      "img": "",
+      "name": "SAVANNAH, GA ; US ; USSAV",
+      "code": null,
+      "actualName": "SAVANNAH, GA ; US ; USSAV",
+      "isGroupSelection": false
+    }
+  ],
+  "Seattle, WA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSEA",
+      "placeName": "seattle, wa",
+      "capsule": "Port",
+      "img": "",
+      "name": "SEATTLE, WA ; US ; USSEA",
+      "code": null,
+      "actualName": "SEATTLE, WA ; US ; USSEA",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USTIW",
+      "placeName": "tacoma, wa",
+      "capsule": "Port",
+      "img": "",
+      "name": "TACOMA, WA ; US ; USTIW",
+      "code": null,
+      "actualName": "TACOMA, WA ; US ; USTIW",
+      "isGroupSelection": false
+    }
+  ],
+  "Semarang, Indonesia": [
+    {
+      "countryCode": "ID",
+      "countryName": "Indonesia",
+      "placeCode": "IDSRG",
+      "placeName": "semarang",
+      "capsule": "Port",
+      "img": "",
+      "name": "SEMARANG ; ID ; IDSRG",
+      "code": null,
+      "actualName": "SEMARANG ; ID ; IDSRG",
+      "isGroupSelection": false
+    }
+  ],
+  "Dongshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNDSN",
+      "placeName": "dongshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "DONGSHAN ; CN ; CNDSN",
+      "code": null,
+      "actualName": "DONGSHAN ; CN ; CNDSN",
+      "isGroupSelection": false
+    }
+  ],
+  "Chi-Cic Changxing/Shanghai, 31, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNY04",
+      "placeName": "chi-cic changxing/shanghai, 31",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHI-CIC CHANGXING/SHANGHAI, 31 ; CN ; CNY04",
+      "code": null,
+      "actualName": "CHI-CIC CHANGXING/SHANGHAI, 31 ; CN ; CNY04",
+      "isGroupSelection": false
+    }
+  ],
+  "Shantou, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSWA",
+      "placeName": "shantou",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHANTOU ; CN ; CNSWA",
+      "code": null,
+      "actualName": "SHANTOU ; CN ; CNSWA",
+      "isGroupSelection": false
+    }
+  ],
+  "Sanshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSHG",
+      "placeName": "sanshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "SANSHAN ; CN ; CNSHG",
+      "code": null,
+      "actualName": "SANSHAN ; CN ; CNSHG",
+      "isGroupSelection": false
+    }
+  ],
+  "Shanghai, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSHA",
+      "placeName": "shanghai",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHANGHAI ; CN ; CNSHA",
+      "code": null,
+      "actualName": "SHANGHAI ; CN ; CNSHA",
+      "isGroupSelection": false
+    }
+  ],
+  "Jingtang (Tangshan), China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNJIN",
+      "placeName": "jingtang (tangshan)",
+      "capsule": "Port",
+      "img": "",
+      "name": "JINGTANG (TANGSHAN) ; CN ; CNJIN",
+      "code": null,
+      "actualName": "JINGTANG (TANGSHAN) ; CN ; CNJIN",
+      "isGroupSelection": false
+    }
+  ],
+  "Heshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNHSN",
+      "placeName": "heshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "HESHAN ; CN ; CNHSN",
+      "code": null,
+      "actualName": "HESHAN ; CN ; CNHSN",
+      "isGroupSelection": false
+    }
+  ],
+  "Maanshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNMAA",
+      "placeName": "maanshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "MAANSHAN ; CN ; CNMAA",
+      "code": null,
+      "actualName": "MAANSHAN ; CN ; CNMAA",
+      "isGroupSelection": false
+    }
+  ],
+  "Shanwei, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNSWE",
+      "placeName": "shanwei",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHANWEI ; CN ; CNSWE",
+      "code": null,
+      "actualName": "SHANWEI ; CN ; CNSWE",
+      "isGroupSelection": false
+    }
+  ],
+  "Lanshan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNLSN",
+      "placeName": "lanshan",
+      "capsule": "Port",
+      "img": "",
+      "name": "LANSHAN ; CN ; CNLSN",
+      "code": null,
+      "actualName": "LANSHAN ; CN ; CNLSN",
+      "isGroupSelection": false
+    }
+  ],
+  "Lianhuashan, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNLIH",
+      "placeName": "lianhuashan",
+      "capsule": "Port",
+      "img": "",
+      "name": "LIANHUASHAN ; CN ; CNLIH",
+      "code": null,
+      "actualName": "LIANHUASHAN ; CN ; CNLIH",
+      "isGroupSelection": false
+    }
+  ],
+  "Dushan, 33, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNDS3",
+      "placeName": "dushan, 33",
+      "capsule": "Port",
+      "img": "",
+      "name": "DUSHAN, 33 ; CN ; CNDS3",
+      "code": null,
+      "actualName": "DUSHAN, 33 ; CN ; CNDS3",
+      "isGroupSelection": false
+    }
+  ],
+  "Sharjah, United Arab Emirates": [
+    {
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "placeCode": "AESHJ",
+      "placeName": "sharjah",
+      "capsule": "Port",
+      "img": "",
+      "name": "SHARJAH ; AE ; AESHJ",
+      "code": null,
+      "actualName": "SHARJAH ; AE ; AESHJ",
+      "isGroupSelection": false
+    }
+  ],
+  "Sihanoukville, Cambodia": [
+    {
+      "countryCode": "KH",
+      "countryName": "Cambodia",
+      "placeCode": "KHKOS",
+      "placeName": "sihanoukville",
+      "capsule": "Port",
+      "img": "",
+      "name": "SIHANOUKVILLE ; KH ; KHKOS",
+      "code": null,
+      "actualName": "SIHANOUKVILLE ; KH ; KHKOS",
+      "isGroupSelection": false
+    }
+  ],
+  "Stockton, CA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USSCK",
+      "placeName": "stockton, ca",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "STOCKTON, CA ; US ; USSCK",
+      "code": null,
+      "actualName": "STOCKTON, CA ; US ; USSCK",
+      "isGroupSelection": false
+    }
+  ],
+  "Stockholm, Sweden": [
+    {
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "placeCode": "SESTO",
+      "placeName": "stockholm",
+      "capsule": "Port",
+      "img": "",
+      "name": "STOCKHOLM ; SE ; SESTO",
+      "code": null,
+      "actualName": "STOCKHOLM ; SE ; SESTO",
+      "isGroupSelection": false
+    }
+  ],
+  "Tacoma, WA": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USTIW",
+      "placeName": "tacoma, wa",
+      "capsule": "Port",
+      "img": "",
+      "name": "TACOMA, WA ; US ; USTIW",
+      "code": null,
+      "actualName": "TACOMA, WA ; US ; USTIW",
+      "isGroupSelection": false
+    }
+  ],
+  "Itacoatiara, Brazil": [
+    {
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "placeCode": "BRITA",
+      "placeName": "itacoatiara",
+      "capsule": "Port",
+      "img": "",
+      "name": "ITACOATIARA ; BR ; BRITA",
+      "code": null,
+      "actualName": "ITACOATIARA ; BR ; BRITA",
+      "isGroupSelection": false
+    }
+  ],
+  "Tampa, FL": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USTPA",
+      "placeName": "tampa, fl",
+      "capsule": "Port",
+      "img": "",
+      "name": "TAMPA, FL ; US ; USTPA",
+      "code": null,
+      "actualName": "TAMPA, FL ; US ; USTPA",
+      "isGroupSelection": false
+    }
+  ],
+  "Tucson, AZ": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USTUS",
+      "placeName": "tucson, az",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "TUCSON, AZ ; US ; USTUS",
+      "code": null,
+      "actualName": "TUCSON, AZ ; US ; USTUS",
+      "isGroupSelection": false
+    }
+  ],
+  "Christiansted, Virgin Islands": [
+    {
+      "countryCode": "VI",
+      "countryName": "Virgin Islands",
+      "placeCode": "VICTD",
+      "placeName": "christiansted",
+      "capsule": "Port",
+      "img": "",
+      "name": "CHRISTIANSTED ; VI ; VICTD",
+      "code": null,
+      "actualName": "CHRISTIANSTED ; VI ; VICTD",
+      "isGroupSelection": false
+    }
+  ],
+  "Vung Tau, Vietnam": [
+    {
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "placeCode": "VNVUT",
+      "placeName": "vung tau",
+      "capsule": "Port",
+      "img": "",
+      "name": "VUNG TAU ; VN ; VNVUT",
+      "code": null,
+      "actualName": "VUNG TAU ; VN ; VNVUT",
+      "isGroupSelection": false
+    }
+  ],
+  "Wilmington, NC": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USILM",
+      "placeName": "wilmington, nc",
+      "capsule": "Port",
+      "img": "",
+      "name": "WILMINGTON, NC ; US ; USILM",
+      "code": null,
+      "actualName": "WILMINGTON, NC ; US ; USILM",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USILM",
+      "placeName": "wilmington, nc",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "WILMINGTON, NC ; US ; USILM",
+      "code": null,
+      "actualName": "WILMINGTON, NC ; US ; USILM",
+      "isGroupSelection": false
+    }
+  ],
+  "Wilmington, DE": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USILG",
+      "placeName": "wilmington, de",
+      "capsule": "Port",
+      "img": "",
+      "name": "WILMINGTON, DE ; US ; USILG",
+      "code": null,
+      "actualName": "WILMINGTON, DE ; US ; USILG",
+      "isGroupSelection": false
+    },
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "placeCode": "USILG",
+      "placeName": "wilmington, de",
+      "capsule": "Ramp • Door",
+      "img": "",
+      "name": "WILMINGTON, DE ; US ; USILG",
+      "code": null,
+      "actualName": "WILMINGTON, DE ; US ; USILG",
+      "isGroupSelection": false
+    }
+  ],
+  "Xiamen, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNXMN",
+      "placeName": "xiamen",
+      "capsule": "Port",
+      "img": "",
+      "name": "XIAMEN ; CN ; CNXMN",
+      "code": null,
+      "actualName": "XIAMEN ; CN ; CNXMN",
+      "isGroupSelection": false
+    }
+  ],
+  "Yantai, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNYNT",
+      "placeName": "yantai",
+      "capsule": "Port",
+      "img": "",
+      "name": "YANTAI ; CN ; CNYNT",
+      "code": null,
+      "actualName": "YANTAI ; CN ; CNYNT",
+      "isGroupSelection": false
+    }
+  ],
+  "Yantian, China": [
+    {
+      "countryCode": "CN",
+      "countryName": "China",
+      "placeCode": "CNYTN",
+      "placeName": "yantian",
+      "capsule": "Port",
+      "img": "",
+      "name": "YANTIAN ; CN ; CNYTN",
+      "code": null,
+      "actualName": "YANTIAN ; CN ; CNYTN",
+      "isGroupSelection": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+schedulesenv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated runtime data
+src/data/*/raw/
+src/data/*/log/
+src/data/*/csvs/
+src/data/*/canonical/
+src/data/*/html/
+src/data/tables/
+
+# Carriers should still ship their lookup assets
+!src/carriers/*/assets/
