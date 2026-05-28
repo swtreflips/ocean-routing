@@ -1,0 +1,1636 @@
+{
+  "Hai Phong, Vietnam": [
+    {
+      "locationNumber": 9084,
+      "businessLocationName": "HAIPHONG",
+      "businessLocode": "VNHPH",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "VN",
+      "standardBusinessLocode": "VNHPH"
+    }
+  ],
+  "Laem Chabang, Thailand": [
+    {
+      "locationNumber": 19353,
+      "businessLocationName": "LAEM CHABANG",
+      "businessLocode": "THLCH",
+      "businessPostalCode": "20110",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "TH",
+      "standardBusinessLocode": "THLCH"
+    }
+  ],
+  "Bangkok, Thailand": [
+    {
+      "locationNumber": 8133,
+      "businessLocationName": "BANGKOK",
+      "businessLocode": "THBKK",
+      "businessPostalCode": "10100",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "TH",
+      "standardBusinessLocode": "THBKK"
+    }
+  ],
+  "Sihanoukville, Cambodia": [
+    {
+      "locationNumber": 5672,
+      "businessLocationName": "SIHANOUKVILLE",
+      "businessLocode": "KHKOS",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "KH",
+      "standardBusinessLocode": "KHKOS"
+    }
+  ],
+  "Barranquilla, Colombia": [
+    {
+      "locationNumber": 1547,
+      "businessLocationName": "BARRANQUILLA",
+      "businessLocode": "COBAQ",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "CO",
+      "standardBusinessLocode": "COBAQ"
+    }
+  ],
+  "Ningbo, China": [
+    {
+      "locationNumber": 1503,
+      "businessLocationName": "NINGBO",
+      "businessLocode": "CNNGB",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNNGB"
+    }
+  ],
+  "Hong Kong, Hong Kong": [
+    {
+      "locationNumber": 4467,
+      "businessLocationName": "HONG KONG",
+      "businessLocode": "HKHKG",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "HK",
+      "standardBusinessLocode": "HKHKG"
+    }
+  ],
+  "Dalian, China": [
+    {
+      "locationNumber": 1476,
+      "businessLocationName": "DALIAN",
+      "businessLocode": "CNDAL",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNDAL"
+    }
+  ],
+  "Mundra, India": [
+    {
+      "locationNumber": 31901,
+      "businessLocationName": "MUNDRA",
+      "businessLocode": "INMUN",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "IN",
+      "standardBusinessLocode": "INMUN"
+    }
+  ],
+  "Yantian, China": [
+    {
+      "locationNumber": 19548,
+      "businessLocationName": "YANTIAN",
+      "businessLocode": "CNYTN",
+      "businessPostalCode": "518000",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNYTN"
+    }
+  ],
+  "Jebel Ali, United Arab Emirates": [
+    {
+      "locationNumber": 6,
+      "businessLocationName": "JEBEL ALI",
+      "businessLocode": "AEJEA",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "AE",
+      "standardBusinessLocode": "AEJEA"
+    }
+  ],
+  "Nhava Sheva, India": [
+    {
+      "locationNumber": 16547,
+      "businessLocationName": "NHAVA SHEVA",
+      "businessLocode": "INNSA",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "IN",
+      "standardBusinessLocode": "INNSA"
+    }
+  ],
+  "Pipavav, India": [
+    {
+      "locationNumber": 4949,
+      "businessLocationName": "PIPAVAV",
+      "businessLocode": "INPAV",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "IN",
+      "standardBusinessLocode": "INPAV"
+    }
+  ],
+  "Puerto Quetzal, Guatemala": [
+    {
+      "locationNumber": 4458,
+      "businessLocationName": "PUERTO QUETZAL",
+      "businessLocode": "GTPRQ",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "GT",
+      "standardBusinessLocode": "GTPRQ"
+    }
+  ],
+  "Guangzhou, China": [
+    {
+      "locationNumber": 1467,
+      "businessLocationName": "GUANGZHOU",
+      "businessLocode": "CNGGZ",
+      "businessPostalCode": "510000",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNGGZ"
+    }
+  ],
+  "Phnom Penh, Cambodia": [
+    {
+      "locationNumber": 5673,
+      "businessLocationName": "PHNOM PENH",
+      "businessLocode": "KHPNH",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "KH",
+      "standardBusinessLocode": "KHPNH"
+    }
+  ],
+  "Kaohsiung, Taiwan": [
+    {
+      "locationNumber": 8316,
+      "businessLocationName": "KAOHSIUNG",
+      "businessLocode": "TWKHH",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "TW",
+      "standardBusinessLocode": "TWKHH"
+    }
+  ],
+  "Shanghai, China": [
+    {
+      "locationNumber": 1513,
+      "businessLocationName": "SHANGHAI",
+      "businessLocode": "CNSHA",
+      "businessPostalCode": "200000",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNSHA"
+    }
+  ],
+  "Semarang, Indonesia": [
+    {
+      "locationNumber": 4748,
+      "businessLocationName": "SEMARANG",
+      "businessLocode": "IDSRG",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "ID",
+      "standardBusinessLocode": "IDSRG"
+    }
+  ],
+  "Manila, Philippines": [
+    {
+      "locationNumber": 7185,
+      "businessLocationName": "MANILA",
+      "businessLocode": "PHMNL",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "PH",
+      "standardBusinessLocode": "PHMNL"
+    }
+  ],
+  "Ho Chi Minh, Vietnam": [
+    {
+      "locationNumber": 9088,
+      "businessLocationName": "HO CHI MINH CITY",
+      "businessLocode": "VNSGN",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "VN",
+      "standardBusinessLocode": "VNSGN"
+    }
+  ],
+  "Xiamen, China": [
+    {
+      "locationNumber": 1536,
+      "businessLocationName": "XIAMEN",
+      "businessLocode": "CNXMN",
+      "businessPostalCode": "361000",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNXMN"
+    }
+  ],
+  "Vung Tau, Vietnam": [
+    {
+      "locationNumber": 16807,
+      "businessLocationName": "VUNG TAU",
+      "businessLocode": "VNVUT",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "VN",
+      "standardBusinessLocode": "VNVUT"
+    }
+  ],
+  "Cartagena, Colombia": [
+    {
+      "locationNumber": 1553,
+      "businessLocationName": "CARTAGENA (COLOMBIA)",
+      "businessLocode": "COCTG",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "CO",
+      "standardBusinessLocode": "COCTG"
+    }
+  ],
+  "Karachi, Pakistan": [
+    {
+      "locationNumber": 7320,
+      "businessLocationName": "KARACHI",
+      "businessLocode": "PKKHI",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "PK",
+      "standardBusinessLocode": "PKKHI"
+    }
+  ],
+  "Qingdao, China": [
+    {
+      "locationNumber": 1520,
+      "businessLocationName": "QINGDAO",
+      "businessLocode": "CNTAO",
+      "businessPostalCode": "",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AS",
+      "country": "CN",
+      "standardBusinessLocode": "CNTAO"
+    }
+  ],
+  "Duluth, MN": [
+    {
+      "locationNumber": 8520,
+      "businessLocationName": "DULUTH, MN",
+      "businessLocode": "USDLH",
+      "businessPostalCode": "55816",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USDLH"
+    }
+  ],
+  "Arcadia, WI": [
+    {
+      "locationNumber": 17978,
+      "businessLocationName": "ARCADIA, WI",
+      "businessLocode": "USADI",
+      "businessPostalCode": "54612",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USADI"
+    }
+  ],
+  "Fort Lauderdale, FL": [
+    {
+      "locationNumber": 8566,
+      "businessLocationName": "FORT LAUDERDALE, FL",
+      "businessLocode": "USFLL",
+      "businessPostalCode": "33310",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USFLL"
+    }
+  ],
+  "San Antonio, TX": [
+    {
+      "locationNumber": 8883,
+      "businessLocationName": "SAN ANTONIO, TX",
+      "businessLocode": "USSAT",
+      "businessPostalCode": "78201",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSAT"
+    }
+  ],
+  "Sparks, NV": [
+    {
+      "locationNumber": 11676,
+      "businessLocationName": "SPARKS, NV",
+      "businessLocode": "USSPK",
+      "businessPostalCode": "89431",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USRNO"
+    }
+  ],
+  "Long Beach, CA": [
+    {
+      "locationNumber": 8675,
+      "businessLocationName": "LONG BEACH, CA",
+      "businessLocode": "USLGB",
+      "businessPostalCode": "90745",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLGB"
+    }
+  ],
+  "Olympia, WA": [
+    {
+      "locationNumber": 8771,
+      "businessLocationName": "OLYMPIA, WA",
+      "businessLocode": "USOLM",
+      "businessPostalCode": "98501",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USOLM"
+    }
+  ],
+  "Brownsville, TX": [
+    {
+      "locationNumber": 8436,
+      "businessLocationName": "BROWNSVILLE, TX",
+      "businessLocode": "USBRO",
+      "businessPostalCode": "78520",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBRO"
+    }
+  ],
+  "Birmingham, AL": [
+    {
+      "locationNumber": 8418,
+      "businessLocationName": "BIRMINGHAM, AL",
+      "businessLocode": "USBHM",
+      "businessPostalCode": "35203",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBHM"
+    }
+  ],
+  "Marion, OH": [
+    {
+      "locationNumber": 10000588,
+      "businessLocationName": "MARION, OH",
+      "businessLocode": "USMNN",
+      "businessPostalCode": "43302",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMNN"
+    }
+  ],
+  "Mc Calla, AL": [
+    {
+      "locationNumber": 45503,
+      "businessLocationName": "MC CALLA, AL",
+      "businessLocode": "USMKX",
+      "businessPostalCode": "35111",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBMV"
+    }
+  ],
+  "Harrisburg, PA": [
+    {
+      "locationNumber": 8610,
+      "businessLocationName": "HARRISBURG, PA",
+      "businessLocode": "USHAR",
+      "businessPostalCode": "17101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USHAR"
+    }
+  ],
+  "Rochelle, IL": [
+    {
+      "locationNumber": 10003902,
+      "businessLocationName": "ROCHELLE, IL",
+      "businessLocode": "USRCX",
+      "businessPostalCode": "61068",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USRCX"
+    }
+  ],
+  "Reno, NV": [
+    {
+      "locationNumber": 8869,
+      "businessLocationName": "RENO, NV",
+      "businessLocode": "USRNO",
+      "businessPostalCode": "89501",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USRNO"
+    }
+  ],
+  "Columbus, OH": [
+    {
+      "locationNumber": 8476,
+      "businessLocationName": "COLUMBUS, OH",
+      "businessLocode": "USCMH",
+      "businessPostalCode": "43251",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCMH"
+    }
+  ],
+  "Oakland, CA": [
+    {
+      "locationNumber": 8765,
+      "businessLocationName": "OAKLAND, CA",
+      "businessLocode": "USOAK",
+      "businessPostalCode": "94601",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USOAK"
+    }
+  ],
+  "Las Vegas, NV": [
+    {
+      "locationNumber": 8664,
+      "businessLocationName": "LAS VEGAS, NV",
+      "businessLocode": "USLAS",
+      "businessPostalCode": "89101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLAS"
+    }
+  ],
+  "Huntsville, AL": [
+    {
+      "locationNumber": 8629,
+      "businessLocationName": "HUNTSVILLE, AL",
+      "businessLocode": "USHSV",
+      "businessPostalCode": "35801",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USHSV"
+    }
+  ],
+  "Buffalo, NY": [
+    {
+      "locationNumber": 8445,
+      "businessLocationName": "BUFFALO, NY",
+      "businessLocode": "USBUF",
+      "businessPostalCode": "14201",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBUF"
+    }
+  ],
+  "Donna, TX": [
+    {
+      "locationNumber": 47700,
+      "businessLocationName": "DONNA, TX",
+      "businessLocode": "USXEY",
+      "businessPostalCode": "78537",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USTXC"
+    }
+  ],
+  "Kansas City, MO": [
+    {
+      "locationNumber": 8711,
+      "businessLocationName": "KANSAS CITY, MO",
+      "businessLocode": "USMKC",
+      "businessPostalCode": "64101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMKC"
+    }
+  ],
+  "Jacksonville, FL": [
+    {
+      "locationNumber": 8642,
+      "businessLocationName": "JACKSONVILLE, FL",
+      "businessLocode": "USJAX",
+      "businessPostalCode": "32206",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USJAX"
+    }
+  ],
+  "Avon, IN": [
+    {
+      "locationNumber": 34787,
+      "businessLocationName": "AVON, IN",
+      "businessLocode": "USVAO",
+      "businessPostalCode": "46123",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USIND"
+    }
+  ],
+  "Freeport, TX": [
+    {
+      "locationNumber": 8575,
+      "businessLocationName": "FREEPORT, TX",
+      "businessLocode": "USFPO",
+      "businessPostalCode": "77541",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USFPO"
+    }
+  ],
+  "New York, NY": [
+    {
+      "locationNumber": 8764,
+      "businessLocationName": "NEW YORK, NY",
+      "businessLocode": "USNYC",
+      "businessPostalCode": "10001",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USNYC"
+    }
+  ],
+  "Point Comfort, TX": [
+    {
+      "locationNumber": 8796,
+      "businessLocationName": "POINT COMFORT, TX",
+      "businessLocode": "USPCR",
+      "businessPostalCode": "77978",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPCR"
+    }
+  ],
+  "Miami, FL": [
+    {
+      "locationNumber": 8708,
+      "businessLocationName": "MIAMI, FL",
+      "businessLocode": "USMIA",
+      "businessPostalCode": "33172",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMIA"
+    },
+    {
+      "locationNumber": 8801,
+      "businessLocationName": "PORT EVERGLADES, FL",
+      "businessLocode": "USPEF",
+      "businessPostalCode": "33316",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPEF"
+    }
+  ],
+  "Port Lavaca, TX": [
+    {
+      "locationNumber": 8820,
+      "businessLocationName": "PORT LAVACA, TX",
+      "businessLocode": "USPLV",
+      "businessPostalCode": "77979",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPLV"
+    }
+  ],
+  "Philadelphia, PA": [
+    {
+      "locationNumber": 8808,
+      "businessLocationName": "PHILADELPHIA, PA",
+      "businessLocode": "USPHL",
+      "businessPostalCode": "19104",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPHL"
+    }
+  ],
+  "Glendale, AZ": [
+    {
+      "locationNumber": 11792,
+      "businessLocationName": "GLENDALE, AZ",
+      "businessLocode": "USGDA",
+      "businessPostalCode": "85301",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USGDA"
+    }
+  ],
+  "Salt Lake City, UT": [
+    {
+      "locationNumber": 8907,
+      "businessLocationName": "SALT LAKE CITY, UT",
+      "businessLocode": "USSLC",
+      "businessPostalCode": "84101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSLC"
+    }
+  ],
+  "Cincinnati, OH": [
+    {
+      "locationNumber": 8496,
+      "businessLocationName": "CINCINNATI, OH",
+      "businessLocode": "USCVG",
+      "businessPostalCode": "45217",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCVG"
+    }
+  ],
+  "Phoenix, AZ": [
+    {
+      "locationNumber": 8810,
+      "businessLocationName": "PHOENIX, AZ",
+      "businessLocode": "USPHX",
+      "businessPostalCode": "85003",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPHX"
+    }
+  ],
+  "Shreveport, LA": [
+    {
+      "locationNumber": 8899,
+      "businessLocationName": "SHREVEPORT, LA",
+      "businessLocode": "USSHV",
+      "businessPostalCode": "71101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSHV"
+    }
+  ],
+  "Von Ormy, TX": [
+    {
+      "locationNumber": 24610,
+      "businessLocationName": "VON ORMY, TX",
+      "businessLocode": "USZJE",
+      "businessPostalCode": "78073",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSAT"
+    }
+  ],
+  "Sharonville, OH": [
+    {
+      "locationNumber": 23564,
+      "businessLocationName": "SHARONVILLE, OH",
+      "businessLocode": "USXMA",
+      "businessPostalCode": "45241",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USXMA"
+    }
+  ],
+  "Tacoma, WA": [
+    {
+      "locationNumber": 8945,
+      "businessLocationName": "TACOMA, WA",
+      "businessLocode": "USTIW",
+      "businessPostalCode": "98401",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USTIW"
+    },
+    {
+      "locationNumber": 8894,
+      "businessLocationName": "SEATTLE, WA",
+      "businessLocode": "USSEA",
+      "businessPostalCode": "98101",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSEA"
+    }
+  ],
+  "Atlanta, GA": [
+    {
+      "locationNumber": 8390,
+      "businessLocationName": "ATLANTA, GA",
+      "businessLocode": "USATL",
+      "businessPostalCode": "30301",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USATL"
+    }
+  ],
+  "Lathrop, CA": [
+    {
+      "locationNumber": 22985,
+      "businessLocationName": "LATHROP, CA",
+      "businessLocode": "USLRO",
+      "businessPostalCode": "95330",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSCK"
+    }
+  ],
+  "Chicago, IL": [
+    {
+      "locationNumber": 8466,
+      "businessLocationName": "CHICAGO, IL",
+      "businessLocode": "USCHI",
+      "businessPostalCode": "60677",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCHI"
+    }
+  ],
+  "Decatur, IL": [
+    {
+      "locationNumber": 8506,
+      "businessLocationName": "DECATUR, IL",
+      "businessLocode": "USDEC",
+      "businessPostalCode": "62521",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USDEC"
+    }
+  ],
+  "Port Everglades, FL": [
+    {
+      "locationNumber": 8801,
+      "businessLocationName": "PORT EVERGLADES, FL",
+      "businessLocode": "USPEF",
+      "businessPostalCode": "33316",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPEF"
+    }
+  ],
+  "Wilmington, NC": [
+    {
+      "locationNumber": 8635,
+      "businessLocationName": "WILMINGTON, NC",
+      "businessLocode": "USILM",
+      "businessPostalCode": "28401",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USILM"
+    }
+  ],
+  "Eau Claire, WI": [
+    {
+      "locationNumber": 10000205,
+      "businessLocationName": "EAU CLAIRE, WI",
+      "businessLocode": "USEAU",
+      "businessPostalCode": "54701",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USEAU"
+    }
+  ],
+  "Pittsburgh, PA": [
+    {
+      "locationNumber": 8816,
+      "businessLocationName": "PITTSBURGH, PA",
+      "businessLocode": "USPIT",
+      "businessPostalCode": "15201",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPIT"
+    }
+  ],
+  "Arlington, TX": [
+    {
+      "locationNumber": 13899,
+      "businessLocationName": "ARLINGTON, TX",
+      "businessLocode": "USARJ",
+      "businessPostalCode": "76001",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USARJ"
+    }
+  ],
+  "Los Angeles, CA": [
+    {
+      "locationNumber": 8666,
+      "businessLocationName": "LOS ANGELES, CA",
+      "businessLocode": "USLAX",
+      "businessPostalCode": "90001",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLAX"
+    }
+  ],
+  "Dallas, TX": [
+    {
+      "locationNumber": 8509,
+      "businessLocationName": "DALLAS, TX",
+      "businessLocode": "USDAL",
+      "businessPostalCode": "75201",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USDAL"
+    }
+  ],
+  "Memphis, TN": [
+    {
+      "locationNumber": 8704,
+      "businessLocationName": "MEMPHIS, TN",
+      "businessLocode": "USMEM",
+      "businessPostalCode": "38101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMEM"
+    }
+  ],
+  "Boston, MA": [
+    {
+      "locationNumber": 8431,
+      "businessLocationName": "BOSTON, MA",
+      "businessLocode": "USBOS",
+      "businessPostalCode": "02212",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBOS"
+    }
+  ],
+  "Saint Louis, MO": [
+    {
+      "locationNumber": 8926,
+      "businessLocationName": "SAINT LOUIS, MO",
+      "businessLocode": "USSTL",
+      "businessPostalCode": "63101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSTL"
+    }
+  ],
+  "Seattle, WA": [
+    {
+      "locationNumber": 8894,
+      "businessLocationName": "SEATTLE, WA",
+      "businessLocode": "USSEA",
+      "businessPostalCode": "98101",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSEA"
+    }
+  ],
+  "Louisville, KY": [
+    {
+      "locationNumber": 8688,
+      "businessLocationName": "LOUISVILLE, KY",
+      "businessLocode": "USLUI",
+      "businessPostalCode": "40287",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLUI"
+    }
+  ],
+  "El Paso, TX": [
+    {
+      "locationNumber": 8535,
+      "businessLocationName": "EL PASO, TX",
+      "businessLocode": "USELP",
+      "businessPostalCode": "79835",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USELP"
+    }
+  ],
+  "Santa Teresa, NM": [
+    {
+      "locationNumber": 28069,
+      "businessLocationName": "SANTA TERESA, NM",
+      "businessLocode": "USSXT",
+      "businessPostalCode": "88008",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSXT"
+    }
+  ],
+  "Shell Rock, IA": [
+    {
+      "locationNumber": 39954,
+      "businessLocationName": "SHELL ROCK, IA",
+      "businessLocode": "USSR2",
+      "businessPostalCode": "50670",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSR2"
+    }
+  ],
+  "New Orleans, LA": [
+    {
+      "locationNumber": 8731,
+      "businessLocationName": "NEW ORLEANS, LA",
+      "businessLocode": "USMSY",
+      "businessPostalCode": "70130",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMSY"
+    }
+  ],
+  "Cleveland, OH": [
+    {
+      "locationNumber": 8471,
+      "businessLocationName": "CLEVELAND, OH",
+      "businessLocode": "USCLE",
+      "businessPostalCode": "44101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCLE"
+    }
+  ],
+  "Lexington, KY": [
+    {
+      "locationNumber": 8673,
+      "businessLocationName": "LEXINGTON, KY",
+      "businessLocode": "USLEX",
+      "businessPostalCode": "40598",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLEX"
+    }
+  ],
+  "Greer, SC": [
+    {
+      "locationNumber": 10001470,
+      "businessLocationName": "GREER, SC",
+      "businessLocode": "USGXX",
+      "businessPostalCode": "29650",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USGXX"
+    }
+  ],
+  "Savannah, GA": [
+    {
+      "locationNumber": 8884,
+      "businessLocationName": "SAVANNAH, GA",
+      "businessLocode": "USSAV",
+      "businessPostalCode": "31402",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSAV"
+    }
+  ],
+  "Charleston, SC": [
+    {
+      "locationNumber": 8467,
+      "businessLocationName": "CHARLESTON, SC",
+      "businessLocode": "USCHS",
+      "businessPostalCode": "29401",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCHS"
+    }
+  ],
+  "Toledo, OH": [
+    {
+      "locationNumber": 8946,
+      "businessLocationName": "TOLEDO, OH",
+      "businessLocode": "USTOL",
+      "businessPostalCode": "43623",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USTOL"
+    }
+  ],
+  "Victoria, TX": [
+    {
+      "locationNumber": 27860,
+      "businessLocationName": "VICTORIA, TX",
+      "businessLocode": "USVCT",
+      "businessPostalCode": "77901",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPLV"
+    }
+  ],
+  "French Camp, CA": [
+    {
+      "locationNumber": 10003664,
+      "businessLocationName": "FRENCH CAMP, CA",
+      "businessLocode": "USFCP",
+      "businessPostalCode": "95231",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSCK"
+    }
+  ],
+  "Norfolk, VA": [
+    {
+      "locationNumber": 8777,
+      "businessLocationName": "NORFOLK, VA",
+      "businessLocode": "USORF",
+      "businessPostalCode": "23510",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USORF"
+    }
+  ],
+  "Front Royal, VA": [
+    {
+      "locationNumber": 10002560,
+      "businessLocationName": "FRONT ROYAL, VA",
+      "businessLocode": "USFRR",
+      "businessPostalCode": "22630",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USFRR"
+    }
+  ],
+  "Wylie, TX": [
+    {
+      "locationNumber": 27789,
+      "businessLocationName": "WYLIE, TX",
+      "businessLocode": "USWYH",
+      "businessPostalCode": "75098",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USWYH"
+    }
+  ],
+  "Bessemer, AL": [
+    {
+      "locationNumber": 34218,
+      "businessLocationName": "BESSEMER, AL",
+      "businessLocode": "USBMV",
+      "businessPostalCode": "35020",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBMV"
+    }
+  ],
+  "North Baltimore, OH": [
+    {
+      "locationNumber": 24278,
+      "businessLocationName": "NORTH BALTIMORE, OH",
+      "businessLocode": "USNBH",
+      "businessPostalCode": "45872",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USNBH"
+    }
+  ],
+  "Spokane, WA": [
+    {
+      "locationNumber": 8585,
+      "businessLocationName": "SPOKANE, WA",
+      "businessLocode": "USGEG",
+      "businessPostalCode": "99200",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USGEG"
+    }
+  ],
+  "Chippewa Falls, WI": [
+    {
+      "locationNumber": 24733,
+      "businessLocationName": "CHIPPEWA FALLS, WI",
+      "businessLocode": "USCPF",
+      "businessPostalCode": "54729",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USEAU"
+    }
+  ],
+  "Albuquerque, NM": [
+    {
+      "locationNumber": 8367,
+      "businessLocationName": "ALBUQUERQUE, NM",
+      "businessLocode": "USABQ",
+      "businessPostalCode": "87101",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USABQ"
+    }
+  ],
+  "Council Bluffs, IA": [
+    {
+      "locationNumber": 8458,
+      "businessLocationName": "COUNCIL BLUFFS, IA",
+      "businessLocode": "USCBF",
+      "businessPostalCode": "51501",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCBF"
+    }
+  ],
+  "Portland, OR": [
+    {
+      "locationNumber": 8798,
+      "businessLocationName": "PORTLAND, OR",
+      "businessLocode": "USPDX",
+      "businessPostalCode": "97201",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPDX"
+    }
+  ],
+  "Greensboro, NC": [
+    {
+      "locationNumber": 8603,
+      "businessLocationName": "GREENSBORO, NC",
+      "businessLocode": "USGBO",
+      "businessPostalCode": "27401",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USGBO"
+    }
+  ],
+  "Mobile, AL": [
+    {
+      "locationNumber": 8715,
+      "businessLocationName": "MOBILE, AL",
+      "businessLocode": "USMOB",
+      "businessPostalCode": "36601",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMOB"
+    }
+  ],
+  "Fort Worth, TX": [
+    {
+      "locationNumber": 8580,
+      "businessLocationName": "FORT WORTH, TX",
+      "businessLocode": "USFWT",
+      "businessPostalCode": "76102",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USFWT"
+    }
+  ],
+  "Marion, AR": [
+    {
+      "locationNumber": 22195,
+      "businessLocationName": "MARION, AR",
+      "businessLocode": "USMQM",
+      "businessPostalCode": "72364",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMQM"
+    }
+  ],
+  "Denver, CO": [
+    {
+      "locationNumber": 8507,
+      "businessLocationName": "DENVER, CO",
+      "businessLocode": "USDEN",
+      "businessPostalCode": "80202",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USDEN"
+    }
+  ],
+  "Minneapolis, MN": [
+    {
+      "locationNumber": 8728,
+      "businessLocationName": "MINNEAPOLIS, MN",
+      "businessLocode": "USMES",
+      "businessPostalCode": "55407",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USMES"
+    }
+  ],
+  "Long Mott, TX": [
+    {
+      "locationNumber": 95994,
+      "businessLocationName": "LONG MOTT, TX",
+      "businessLocode": "USGQT",
+      "businessPostalCode": "77979",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USPLV"
+    }
+  ],
+  "Kansas City, KS": [
+    {
+      "locationNumber": 8654,
+      "businessLocationName": "KANSAS CITY, KS",
+      "businessLocode": "USKCK",
+      "businessPostalCode": "66119",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USKCK"
+    }
+  ],
+  "Detroit, MI": [
+    {
+      "locationNumber": 8508,
+      "businessLocationName": "DETROIT, MI",
+      "businessLocode": "USDET",
+      "businessPostalCode": "48267",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USDET"
+    }
+  ],
+  "Omaha, NE": [
+    {
+      "locationNumber": 8772,
+      "businessLocationName": "OMAHA, NE",
+      "businessLocode": "USOMA",
+      "businessPostalCode": "68102",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USOMA"
+    }
+  ],
+  "Charlotte, NC": [
+    {
+      "locationNumber": 8473,
+      "businessLocationName": "CHARLOTTE, NC",
+      "businessLocode": "USCLT",
+      "businessPostalCode": "28202",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USCLT"
+    }
+  ],
+  "Laredo, TX": [
+    {
+      "locationNumber": 8685,
+      "businessLocationName": "LAREDO, TX",
+      "businessLocode": "USLRD",
+      "businessPostalCode": "78040",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USLRD"
+    }
+  ],
+  "Indianapolis, IN": [
+    {
+      "locationNumber": 8636,
+      "businessLocationName": "INDIANAPOLIS, IN",
+      "businessLocode": "USIND",
+      "businessPostalCode": "46234",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USIND"
+    }
+  ],
+  "Dupo, IL": [
+    {
+      "locationNumber": 26383,
+      "businessLocationName": "DUPO, IL",
+      "businessLocode": "USDUP",
+      "businessPostalCode": "62239",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSTL"
+    }
+  ],
+  "Tampa, FL": [
+    {
+      "locationNumber": 8948,
+      "businessLocationName": "TAMPA, FL",
+      "businessLocode": "USTPA",
+      "businessPostalCode": "33602",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USTPA"
+    }
+  ],
+  "Tucson, AZ": [
+    {
+      "locationNumber": 8953,
+      "businessLocationName": "TUCSON, AZ",
+      "businessLocode": "USTUZ",
+      "businessPostalCode": "85701",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USTUZ"
+    }
+  ],
+  "Stockton, CA": [
+    {
+      "locationNumber": 8888,
+      "businessLocationName": "STOCKTON, CA",
+      "businessLocode": "USSCK",
+      "businessPostalCode": "95201",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSCK"
+    }
+  ],
+  "Nashville, TN": [
+    {
+      "locationNumber": 8428,
+      "businessLocationName": "NASHVILLE, TN",
+      "businessLocode": "USBNA",
+      "businessPostalCode": "37202",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USBNA"
+    }
+  ],
+  "Crandall, GA": [
+    {
+      "locationNumber": 63866,
+      "businessLocationName": "CRANDALL, GA",
+      "businessLocode": "USKR7",
+      "businessPostalCode": "30711",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USXDT"
+    }
+  ],
+  "Beasley, TX": [
+    {
+      "locationNumber": 44012,
+      "businessLocationName": "BEASLEY, TX",
+      "businessLocode": "USBY4",
+      "businessPostalCode": "77417",
+      "locationType": "SUB",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USRSG"
+    }
+  ],
+  "Houston, TX": [
+    {
+      "locationNumber": 8622,
+      "businessLocationName": "HOUSTON, TX",
+      "businessLocode": "USHOU",
+      "businessPostalCode": "77029",
+      "locationType": "STD",
+      "portType": "S",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USHOU"
+    }
+  ],
+  "San Bernardino, CA": [
+    {
+      "locationNumber": 10580,
+      "businessLocationName": "SAN BERNARDINO, CA",
+      "businessLocode": "USSBT",
+      "businessPostalCode": "92410",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USSBT"
+    }
+  ],
+  "Georgetown, KY": [
+    {
+      "locationNumber": 8586,
+      "businessLocationName": "GEORGETOWN, KY",
+      "businessLocode": "USGEO",
+      "businessPostalCode": "40324",
+      "locationType": "STD",
+      "portType": "N",
+      "continent": "AM",
+      "country": "US",
+      "standardBusinessLocode": "USGEO"
+    }
+  ]
+}

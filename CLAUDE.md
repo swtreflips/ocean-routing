@@ -2,7 +2,7 @@
 
 Conventions established when migrating from the legacy Schedules folder (OneDrive) to this repo. Read this before migrating any of the remaining carriers (COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM).
 
-The plan lives in [TREE.md](TREE.md). CMA is the only carrier migrated so far and is the reference implementation.
+The plan lives in [TREE.md](TREE.md). Migrated so far: **CMA, COS, EMC, HPL**. CMA is the reference implementation; CMA + EMC are the HTML carriers. Remaining: HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM.
 
 ## Carrier-code naming
 
@@ -45,7 +45,7 @@ Output directories sit under `src/data/<code>/`:
 - `log/` — run logs + progress CSV
 - `csvs/` — per-run CSV exports
 - `canonical/` — canonical JSON records
-- `html/` — **CMA only**, see below
+- `html/` — **CMA + EMC only** (HTML carriers), see below
 - `tables/` (at `src/data/tables/`) — aggregated cross-carrier table
 
 All `src/data/*/{raw,log,csvs,canonical,html}/` are gitignored. Assets and code are committed.
