@@ -24,6 +24,10 @@ data/combinations.csv
 # Per-carrier scratch notes (personal TODO files, not part of the repo)
 src/carriers/*/pendingFixes*
 
+# Per-carrier runtime caches that live in the carrier folder (not static
+# assets — they are rewritten on each run). E.g. MSK's Maersk geo-code cache.
+src/carriers/*/city_codes.json
+
 # Generated runtime data
 src/data/*/raw/
 src/data/*/log/
