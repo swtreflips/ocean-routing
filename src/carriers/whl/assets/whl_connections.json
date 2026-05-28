@@ -1,0 +1,24 @@
+{
+  "inlands": {
+    "Cincinnati, OH": ["Norfolk, VA"],
+    "Cleveland, OH": ["Norfolk, VA"],
+    "Columbus, OH": ["Los Angeles, CA", "Norfolk, VA"],
+    "Dallas, TX": ["Los Angeles, CA"],
+    "Greer, SC": ["Charleston, SC"],
+    "Kansas City, KS": ["Los Angeles, CA"],
+    "Louisville, KY": ["Norfolk, VA"],
+    "Memphis, TN": ["Los Angeles, CA"],
+    "Phoenix, AZ": ["Los Angeles, CA"],
+    "Chicago, IL": ["Los Angeles, CA", "Norfolk, VA"]
+  },
+  "ports": {
+    "Charleston, SC": ["Greer, SC"],
+    "Long Beach, CA": [],
+    "Los Angeles, CA": ["Columbus, OH", "Dallas, TX", "Kansas City, KS", "Memphis, TN", "Phoenix, AZ", "Chicago, IL"],
+    "New York, NY": [],
+    "Norfolk, VA": ["Cincinnati, OH", "Cleveland, OH", "Columbus, OH", "Louisville, KY", "Chicago, IL"],
+    "Oakland, CA": [],
+    "Savannah, GA": [],
+    "Seattle, WA": []
+  }
+}

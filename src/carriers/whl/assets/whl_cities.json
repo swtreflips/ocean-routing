@@ -1,0 +1,3736 @@
+{
+  "Al Mutae, Bahrain": [
+    {
+      "country": "BAHRAIN",
+      "port": "AL MUTAE",
+      "countrycode": "BH"
+    }
+  ],
+  "Bahrain, Bahrain": [
+    {
+      "country": "BAHRAIN",
+      "port": "BAHRAIN",
+      "portcode": "BHBAH",
+      "countrycode": "BH"
+    }
+  ],
+  "Manama, Bahrain": [
+    {
+      "country": "BAHRAIN",
+      "port": "MANAMA",
+      "countrycode": "BH"
+    }
+  ],
+  "Mina Sulman, Bahrain": [
+    {
+      "country": "BAHRAIN",
+      "port": "MINA SULMAN",
+      "countrycode": "BH"
+    }
+  ],
+  "Sitra, Bahrain": [
+    {
+      "country": "BAHRAIN",
+      "port": "SITRA",
+      "countrycode": "BH"
+    }
+  ],
+  "Chattogram, Bangladesh": [
+    {
+      "country": "BANGLADESH",
+      "port": "CHATTOGRAM",
+      "portcode": "BDCGP",
+      "countrycode": "BD"
+    }
+  ],
+  "Icd Dhaka, Bangladesh": [
+    {
+      "country": "BANGLADESH",
+      "port": "ICD DHAKA",
+      "portcode": "BDDAC",
+      "countrycode": "BD"
+    }
+  ],
+  "Pangaon, Bangladesh": [
+    {
+      "country": "BANGLADESH",
+      "port": "PANGAON",
+      "countrycode": "BD"
+    }
+  ],
+  "Phnom penh, Cambodia": [
+    {
+      "country": "CAMBODIA",
+      "port": "PHNOMPENH",
+      "portcode": "KHPNH",
+      "countrycode": "KH"
+    }
+  ],
+  "Sihanoukville, Cambodia": [
+    {
+      "country": "CAMBODIA",
+      "port": "SIHANOUKVILLE",
+      "portcode": "KHSIH",
+      "countrycode": "KH"
+    }
+  ],
+  "San Antonio, Chile": [
+    {
+      "country": "CHILE",
+      "port": "SAN ANTONIO",
+      "portcode": "CLSAI",
+      "countrycode": "CL"
+    }
+  ],
+  "Valparaiso, Chile": [
+    {
+      "country": "CHILE",
+      "port": "VALPARAISO",
+      "portcode": "CLVAP",
+      "countrycode": "CL"
+    }
+  ],
+  "Anji, China": [
+    {
+      "country": "CHINA",
+      "port": "ANJI",
+      "portcode": "CNANJ",
+      "countrycode": "CN"
+    }
+  ],
+  "Anqing, China": [
+    {
+      "country": "CHINA",
+      "port": "ANQING安徽安慶",
+      "portcode": "CNAQG",
+      "countrycode": "CN"
+    }
+  ],
+  "Anyang, China": [
+    {
+      "country": "CHINA",
+      "port": "ANYANG",
+      "portcode": "CNAYN",
+      "countrycode": "CN"
+    }
+  ],
+  "Basuo, China": [
+    {
+      "country": "CHINA",
+      "port": "BASUO",
+      "portcode": "CNBSP",
+      "countrycode": "CN"
+    }
+  ],
+  "Beicun, China": [
+    {
+      "country": "CHINA",
+      "port": "BEICUN北村",
+      "portcode": "CNBEC",
+      "countrycode": "CN"
+    }
+  ],
+  "Beihai, China": [
+    {
+      "country": "CHINA",
+      "port": "BEIHAI北海",
+      "portcode": "CNBEH",
+      "countrycode": "CN"
+    }
+  ],
+  "Beijiao, China": [
+    {
+      "country": "CHINA",
+      "port": "BEIJIAO北滘",
+      "portcode": "CNBJO",
+      "countrycode": "CN"
+    }
+  ],
+  "Beijing, China": [
+    {
+      "country": "CHINA",
+      "port": "BEIJING北京",
+      "portcode": "CNBJS",
+      "countrycode": "CN"
+    }
+  ],
+  "Chang Xing, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANG XING長興",
+      "portcode": "CNCXG",
+      "countrycode": "CN"
+    }
+  ],
+  "Changchun, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGCHUN",
+      "portcode": "CNCGQ",
+      "countrycode": "CN"
+    }
+  ],
+  "Changsha, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGSHA長沙",
+      "portcode": "CNCSX",
+      "countrycode": "CN"
+    }
+  ],
+  "Changshadibg Railway Station, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGSHADIBG RAILWAY STATION長沙北火车站",
+      "portcode": "CNCSD",
+      "countrycode": "CN"
+    }
+  ],
+  "Changshu, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGSHU常熟",
+      "portcode": "CNCSU",
+      "countrycode": "CN"
+    }
+  ],
+  "Changwantao, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGWANTAO",
+      "portcode": "CNCWT",
+      "countrycode": "CN"
+    }
+  ],
+  "Changzhou China, China": [
+    {
+      "country": "CHINA",
+      "port": "CHANGZHOU CHINA常州",
+      "portcode": "CNCZX",
+      "countrycode": "CN"
+    }
+  ],
+  "Chaozhou, China": [
+    {
+      "country": "CHINA",
+      "port": "CHAOZHOU潮州",
+      "portcode": "CNCOZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Chengdu, China": [
+    {
+      "country": "CHINA",
+      "port": "CHENGDU",
+      "portcode": "CNCDU",
+      "countrycode": "CN"
+    }
+  ],
+  "Chenglinji, China": [
+    {
+      "country": "CHINA",
+      "port": "CHENGLINJI",
+      "portcode": "CNCLJ",
+      "countrycode": "CN"
+    }
+  ],
+  "Qinhuangdao, China": [
+    {
+      "country": "CHINA",
+      "port": "CHINGWANTAO=QINHUANGDAO",
+      "portcode": "CNQHA",
+      "countrycode": "CN"
+    }
+  ],
+  "Chiwan, China": [
+    {
+      "country": "CHINA",
+      "port": "CHIWAN赤灣",
+      "portcode": "CNCWN",
+      "countrycode": "CN"
+    }
+  ],
+  "Chizhou, China": [
+    {
+      "country": "CHINA",
+      "port": "CHIZHOU安徽池州",
+      "portcode": "CNCHI",
+      "countrycode": "CN"
+    }
+  ],
+  "Chongqing, China": [
+    {
+      "country": "CHINA",
+      "port": "CHONGQING重慶",
+      "portcode": "CNCKG",
+      "countrycode": "CN"
+    }
+  ],
+  "Civet Port, China": [
+    {
+      "country": "CHINA",
+      "port": "CIVET PORT珠海西域碼頭",
+      "portcode": "CNZCT",
+      "countrycode": "CN"
+    }
+  ],
+  "Da Chan Bay, China": [
+    {
+      "country": "CHINA",
+      "port": "DA CHAN BAY大鏟灣",
+      "portcode": "CNDCB",
+      "countrycode": "CN"
+    }
+  ],
+  "Dalian, China": [
+    {
+      "country": "CHINA",
+      "port": "DALIAN大連",
+      "portcode": "CNDLC",
+      "countrycode": "CN"
+    }
+  ],
+  "Dandong, China": [
+    {
+      "country": "CHINA",
+      "port": "DANDONG",
+      "portcode": "CNDOD",
+      "countrycode": "CN"
+    }
+  ],
+  "De Qing, China": [
+    {
+      "country": "CHINA",
+      "port": "DE QING德慶",
+      "portcode": "CNDEQ",
+      "countrycode": "CN"
+    }
+  ],
+  "Deqing, China": [
+    {
+      "country": "CHINA",
+      "port": "DEQING德清",
+      "portcode": "CNDEI",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Container Tml, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN CONTAINER TML虎門港7、8號泊位",
+      "portcode": "CNHU7",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Heighten Terminal, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN HEIGHTEN TERMINAL東莞海騰碼頭",
+      "portcode": "CNHTN",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Port, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN PORT 9&10 BERTH東莞虎門港9、10號泊位",
+      "portcode": "CNHU9",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Rongxuan Port, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN RONGXUAN PORT東莞榮軒碼頭",
+      "portcode": "CNPD5",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Sinotrans Shilong Terminal, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN SINOTRANS SHILONG TERMINAL",
+      "portcode": "CNDGS",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongguan Waimao, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGGUAN WAIMAO東莞 外貿碼頭",
+      "portcode": "CNWMO",
+      "countrycode": "CN"
+    }
+  ],
+  "Dongshan, China": [
+    {
+      "country": "CHINA",
+      "port": "DONGSHAN東山",
+      "portcode": "CNDSN",
+      "countrycode": "CN"
+    }
+  ],
+  "Dou Men, China": [
+    {
+      "country": "CHINA",
+      "port": "DOU MEN斗門",
+      "portcode": "CNDMN",
+      "countrycode": "CN"
+    }
+  ],
+  "Enping, Guangdong, China": [
+    {
+      "country": "CHINA",
+      "port": "ENPING, GUANGDONG",
+      "countrycode": "CN"
+    }
+  ],
+  "Erenhot, China": [
+    {
+      "country": "CHINA",
+      "port": "ERENHOT",
+      "portcode": "CNERC",
+      "countrycode": "CN"
+    }
+  ],
+  "Fangcheng, China": [
+    {
+      "country": "CHINA",
+      "port": "FANGCHENG防城",
+      "portcode": "CNFAN",
+      "countrycode": "CN"
+    }
+  ],
+  "Foshan Jiujiang, China": [
+    {
+      "country": "CHINA",
+      "port": "FOSHAN JIUJIANG佛山九江",
+      "portcode": "CNJIU",
+      "countrycode": "CN"
+    }
+  ],
+  "Fuzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "FUZHOU福州-馬尾",
+      "portcode": "CNFOC",
+      "countrycode": "CN"
+    }
+  ],
+  "Ganzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "GANZHOU贛州",
+      "portcode": "CNGZH",
+      "countrycode": "CN"
+    }
+  ],
+  "Gao Ming, China": [
+    {
+      "country": "CHINA",
+      "port": "GAO MING高明",
+      "portcode": "CNGMG",
+      "countrycode": "CN"
+    }
+  ],
+  "Gao Yao, China": [
+    {
+      "country": "CHINA",
+      "port": "GAO YAO高要",
+      "portcode": "CNGYO",
+      "countrycode": "CN"
+    }
+  ],
+  "Gaolan, China": [
+    {
+      "country": "CHINA",
+      "port": "GAOLAN珠海高欄港",
+      "portcode": "CNGLN",
+      "countrycode": "CN"
+    }
+  ],
+  "Gaosha, China": [
+    {
+      "country": "CHINA",
+      "port": "GAOSHA江門 高沙港(珠江西岸)",
+      "portcode": "CNGAO",
+      "countrycode": "CN"
+    }
+  ],
+  "Gong Yi, China": [
+    {
+      "country": "CHINA",
+      "port": "GONG YI公益港",
+      "portcode": "CNGNY",
+      "countrycode": "CN"
+    }
+  ],
+  "Guangao Port,Shantou, China": [
+    {
+      "country": "CHINA",
+      "port": "GUANGAO PORT,SHANTOU汕頭廣澳碼頭",
+      "countrycode": "CN"
+    }
+  ],
+  "Guixi,Jiangxi, China": [
+    {
+      "country": "CHINA",
+      "port": "GUIXI,JIANGXI江西貴溪",
+      "countrycode": "CN"
+    }
+  ],
+  "Guiyang, China": [
+    {
+      "country": "CHINA",
+      "port": "GUIYANG",
+      "portcode": "CNGYS",
+      "countrycode": "CN"
+    }
+  ],
+  "Haian, China": [
+    {
+      "country": "CHINA",
+      "port": "HAIAN徐聞海安新港",
+      "portcode": "CNXWH",
+      "countrycode": "CN"
+    }
+  ],
+  "Haikou, China": [
+    {
+      "country": "CHINA",
+      "port": "HAIKOU海口",
+      "portcode": "CNHAK",
+      "countrycode": "CN"
+    }
+  ],
+  "Hangzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "HANGZHOU杭州",
+      "portcode": "CNHZU",
+      "countrycode": "CN"
+    }
+  ],
+  "Harbin, China": [
+    {
+      "country": "CHINA",
+      "port": "HARBIN",
+      "portcode": "CNHRB",
+      "countrycode": "CN"
+    }
+  ],
+  "Hefei, China": [
+    {
+      "country": "CHINA",
+      "port": "HEFEI合肥",
+      "portcode": "CNHFI",
+      "countrycode": "CN"
+    }
+  ],
+  "Heshan Port, China": [
+    {
+      "country": "CHINA",
+      "port": "HESHAN鶴山",
+      "portcode": "CNHSN",
+      "countrycode": "CN"
+    }
+  ],
+  "Heshan Yard, China": [
+    {
+      "country": "CHINA",
+      "port": "HESHAN江門鐵路北站",
+      "portcode": "CNHAS",
+      "countrycode": "CN"
+    }
+  ],
+  "Hohhot, China": [
+    {
+      "country": "CHINA",
+      "port": "HOHHOT",
+      "portcode": "CNHET",
+      "countrycode": "CN"
+    }
+  ],
+  "Hongwan, China": [
+    {
+      "country": "CHINA",
+      "port": "HONGWAN珠海洪灣碼頭",
+      "portcode": "CNHGW",
+      "countrycode": "CN"
+    }
+  ],
+  "Huadu, China": [
+    {
+      "country": "CHINA",
+      "port": "HUADU花都",
+      "portcode": "CNHUD",
+      "countrycode": "CN"
+    }
+  ],
+  "Huangpu, China": [
+    {
+      "country": "CHINA",
+      "port": "HUANGPU廣州黃埔",
+      "portcode": "CNHUA",
+      "countrycode": "CN"
+    }
+  ],
+  "Huangshi, China": [
+    {
+      "country": "CHINA",
+      "port": "HUANGSHI黃石港",
+      "portcode": "CNHSI",
+      "countrycode": "CN"
+    }
+  ],
+  "Huizhou, China": [
+    {
+      "country": "CHINA",
+      "port": "HUIZHOU惠州",
+      "portcode": "CNHUZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Jian,Jiangxi, China": [
+    {
+      "country": "CHINA",
+      "port": "JIAN,JIANGXI江西吉安",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiangmen Hetang, China": [
+    {
+      "country": "CHINA",
+      "port": "JIANGMEN HETANG江門荷塘",
+      "portcode": "CNXGZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiangmen New Port, China": [
+    {
+      "country": "CHINA",
+      "port": "JIANGMEN NEW PORT江門高新港",
+      "portcode": "CNJMN",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiangyin Jiangsu, China": [
+    {
+      "country": "CHINA",
+      "port": "JIANGYIN, JIANGSU CHINA江蘇-江陰",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiangyin Fujian, China": [
+    {
+      "country": "CHINA",
+      "port": "JIANGYIN,FUJIAN CHINA福州-江陰",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiaoxin, China": [
+    {
+      "country": "CHINA",
+      "port": "JIAOXIN滘心",
+      "portcode": "CNJXZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiaxing Pt, China": [
+    {
+      "country": "CHINA",
+      "port": "JIAXING PT嘉興",
+      "portcode": "CNJAX",
+      "countrycode": "CN"
+    }
+  ],
+  "Jinan, China": [
+    {
+      "country": "CHINA",
+      "port": "JINAN濟南",
+      "portcode": "CNTNA",
+      "countrycode": "CN"
+    }
+  ],
+  "Jing Zhou, China": [
+    {
+      "country": "CHINA",
+      "port": "JING ZHOU荊州",
+      "portcode": "CNJGZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Jinjiang Dry Port, China": [
+    {
+      "country": "CHINA",
+      "port": "JINJIANG DRY PORT",
+      "portcode": "CNJJD",
+      "countrycode": "CN"
+    }
+  ],
+  "Jinzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "JINZHOU錦州",
+      "portcode": "CNJNZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Jiujiang, China": [
+    {
+      "country": "CHINA",
+      "port": "JIUJIANG九江(江西省)",
+      "portcode": "CNJJG",
+      "countrycode": "CN"
+    }
+  ],
+  "Kashi, China": [
+    {
+      "country": "CHINA",
+      "port": "KASHI",
+      "portcode": "CNKHG",
+      "countrycode": "CN"
+    }
+  ],
+  "Kunshan, China": [
+    {
+      "country": "CHINA",
+      "port": "KUNSHAN昆山",
+      "portcode": "CNKSN",
+      "countrycode": "CN"
+    }
+  ],
+  "Lian Hua Shan, China": [
+    {
+      "country": "CHINA",
+      "port": "LIAN HUA SHAN蓮花山",
+      "portcode": "CNLHS",
+      "countrycode": "CN"
+    }
+  ],
+  "Lianyungang, China": [
+    {
+      "country": "CHINA",
+      "port": "LIANYUNGANG連雲港",
+      "portcode": "CNLYG",
+      "countrycode": "CN"
+    }
+  ],
+  "Liudu, China": [
+    {
+      "country": "CHINA",
+      "port": "LIUDU六都",
+      "portcode": "CNLID",
+      "countrycode": "CN"
+    }
+  ],
+  "Luzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "LUZHOU瀘州",
+      "portcode": "CNLUZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Machong, China": [
+    {
+      "country": "CHINA",
+      "port": "MACHONG麻涌",
+      "portcode": "CNMHG",
+      "countrycode": "CN"
+    }
+  ],
+  "Manzhouli, China": [
+    {
+      "country": "CHINA",
+      "port": "MANZHOULI",
+      "portcode": "CNMAN",
+      "countrycode": "CN"
+    }
+  ],
+  "Mawan, China": [
+    {
+      "country": "CHINA",
+      "port": "MAWAN媽灣",
+      "portcode": "CNMWN",
+      "countrycode": "CN"
+    }
+  ],
+  "Nanchang, China": [
+    {
+      "country": "CHINA",
+      "port": "NANCHANG南昌",
+      "portcode": "CNNCH",
+      "countrycode": "CN"
+    }
+  ],
+  "Nangang, China": [
+    {
+      "country": "CHINA",
+      "port": "NANGANG南港",
+      "portcode": "CNNNG",
+      "countrycode": "CN"
+    }
+  ],
+  "Nanjing, China": [
+    {
+      "country": "CHINA",
+      "port": "NANJING南京",
+      "portcode": "CNNKG",
+      "countrycode": "CN"
+    }
+  ],
+  "Nansha New Port, China": [
+    {
+      "country": "CHINA",
+      "port": "NANSHA NEW PORT南沙新港 (深水港)",
+      "portcode": "CNNSS",
+      "countrycode": "CN"
+    }
+  ],
+  "Nansha Old Port, China": [
+    {
+      "country": "CHINA",
+      "port": "NANSHA OLD PORT南沙舊港 (南偉)",
+      "portcode": "CNNSA",
+      "countrycode": "CN"
+    }
+  ],
+  "Nantong, China": [
+    {
+      "country": "CHINA",
+      "port": "NANTONG南通",
+      "portcode": "CNNTG",
+      "countrycode": "CN"
+    }
+  ],
+  "Ningbo, China": [
+    {
+      "country": "CHINA",
+      "port": "NINGBO寧波",
+      "portcode": "CNNGB",
+      "countrycode": "CN"
+    }
+  ],
+  "Ningde, China": [
+    {
+      "country": "CHINA",
+      "port": "NINGDE寧德",
+      "portcode": "CNNDE",
+      "countrycode": "CN"
+    }
+  ],
+  "Ocean Gate, China": [
+    {
+      "country": "CHINA",
+      "port": "OCEAN GATE",
+      "portcode": "CNXMO",
+      "countrycode": "CN"
+    }
+  ],
+  "Peihat, China": [
+    {
+      "country": "CHINA",
+      "port": "PEIHAT",
+      "portcode": "CNPHI",
+      "countrycode": "CN"
+    }
+  ],
+  "Pingxiang, China": [
+    {
+      "country": "CHINA",
+      "port": "PINGXIANG",
+      "portcode": "CNPIN",
+      "countrycode": "CN"
+    }
+  ],
+  "Psa Dongguan Terminal, China": [
+    {
+      "country": "CHINA",
+      "port": "PSA DONGGUAN TERMINAL虎門港5、6號泊位",
+      "portcode": "CNPSA",
+      "countrycode": "CN"
+    }
+  ],
+  "Putian, China": [
+    {
+      "country": "CHINA",
+      "port": "PUTIAN莆田",
+      "portcode": "CNPUT",
+      "countrycode": "CN"
+    }
+  ],
+  "Qin Huang Dao, China": [
+    {
+      "country": "CHINA",
+      "port": "QIN HUANG DAO秦皇島",
+      "portcode": "CNSHP",
+      "countrycode": "CN"
+    }
+  ],
+  "Qingdao, China": [
+    {
+      "country": "CHINA",
+      "port": "QINGDAO青島",
+      "portcode": "CNTAO",
+      "countrycode": "CN"
+    }
+  ],
+  "Qingyang, China": [
+    {
+      "country": "CHINA",
+      "port": "QINGYANG",
+      "portcode": "CNIQN",
+      "countrycode": "CN"
+    }
+  ],
+  "Qingyuan, China": [
+    {
+      "country": "CHINA",
+      "port": "QINGYUAN清遠",
+      "portcode": "CNQYN",
+      "countrycode": "CN"
+    }
+  ],
+  "Qinzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "QINZHOU欽州",
+      "portcode": "CNQZH",
+      "countrycode": "CN"
+    }
+  ],
+  "Rizhao, China": [
+    {
+      "country": "CHINA",
+      "port": "RIZHAO日照",
+      "portcode": "CNRZH",
+      "countrycode": "CN"
+    }
+  ],
+  "San Bu, China": [
+    {
+      "country": "CHINA",
+      "port": "SAN BU",
+      "portcode": "CNSNB",
+      "countrycode": "CN"
+    }
+  ],
+  "Sanming,Fujian, China": [
+    {
+      "country": "CHINA",
+      "port": "SANMING,FUJIAN福建三明",
+      "countrycode": "CN"
+    }
+  ],
+  "Sanshan, China": [
+    {
+      "country": "CHINA",
+      "port": "SANSHAN三山",
+      "portcode": "CNSSN",
+      "countrycode": "CN"
+    }
+  ],
+  "Sanshui New Port, China": [
+    {
+      "country": "CHINA",
+      "port": "SANSHUI NEW PORT三水新港",
+      "portcode": "CNSSO",
+      "countrycode": "CN"
+    }
+  ],
+  "Sanya, China": [
+    {
+      "country": "CHINA",
+      "port": "SANYA",
+      "portcode": "CNSYX",
+      "countrycode": "CN"
+    }
+  ],
+  "Shanghai, China": [
+    {
+      "country": "CHINA",
+      "port": "SHANGHAI上海",
+      "portcode": "CNSHA",
+      "countrycode": "CN"
+    }
+  ],
+  "Shatian, China": [
+    {
+      "country": "CHINA",
+      "port": "SHATIAN東莞 沙田",
+      "portcode": "CNSTN",
+      "countrycode": "CN"
+    }
+  ],
+  "Shekou, China": [
+    {
+      "country": "CHINA",
+      "port": "SHEKOU蛇口",
+      "portcode": "CNSKU",
+      "countrycode": "CN"
+    }
+  ],
+  "Shen Wan, China": [
+    {
+      "country": "CHINA",
+      "port": "SHEN WAN神灣",
+      "portcode": "CNSWN",
+      "countrycode": "CN"
+    }
+  ],
+  "Shenyang, China": [
+    {
+      "country": "CHINA",
+      "port": "SHENYANG",
+      "portcode": "CNSHE",
+      "countrycode": "CN"
+    }
+  ],
+  "Shijiazhuang, China": [
+    {
+      "country": "CHINA",
+      "port": "SHIJIAZHUANG石家莊",
+      "portcode": "CNSJA",
+      "countrycode": "CN"
+    }
+  ],
+  "Shuidong Pt, China": [
+    {
+      "country": "CHINA",
+      "port": "SHUIDONG PT茂名水東港",
+      "portcode": "CNSDG",
+      "countrycode": "CN"
+    }
+  ],
+  "Shunde Leliu Wharf, China": [
+    {
+      "country": "CHINA",
+      "port": "SHUNDE LELIU WHARF順德勒流港",
+      "portcode": "CNPLW",
+      "countrycode": "CN"
+    }
+  ],
+  "Shunde New Port, China": [
+    {
+      "country": "CHINA",
+      "port": "SHUNDE NEW PORT順德新港",
+      "portcode": "CNSUD",
+      "countrycode": "CN"
+    }
+  ],
+  "Si Hui (Ma Fang), China": [
+    {
+      "country": "CHINA",
+      "port": "SI HUI (MA FANG)肇慶四會(馬房)",
+      "portcode": "CNMAF",
+      "countrycode": "CN"
+    }
+  ],
+  "Sichjan, China": [
+    {
+      "country": "CHINA",
+      "port": "SICHJAN",
+      "portcode": "CNSJY",
+      "countrycode": "CN"
+    }
+  ],
+  "Suifenhe, China": [
+    {
+      "country": "CHINA",
+      "port": "SUIFENHE",
+      "portcode": "CNSFE",
+      "countrycode": "CN"
+    }
+  ],
+  "Taicang, China": [
+    {
+      "country": "CHINA",
+      "port": "TAICANG太倉",
+      "portcode": "CNTAG",
+      "countrycode": "CN"
+    }
+  ],
+  "Taizhou, Jiangsu China, China": [
+    {
+      "country": "CHINA",
+      "port": "TAIZHOU, JIANGSU CHINA泰州",
+      "countrycode": "CN"
+    }
+  ],
+  "Taizhou, Zhejiang China, China": [
+    {
+      "country": "CHINA",
+      "port": "TAIZHOU, ZHEJIANG CHINA台州",
+      "countrycode": "CN"
+    }
+  ],
+  "Takubar=Tanggu, China": [
+    {
+      "country": "CHINA",
+      "port": "TAKUBAR=TANGGU",
+      "portcode": "CNTGA",
+      "countrycode": "CN"
+    }
+  ],
+  "Tianjinxingang, China": [
+    {
+      "country": "CHINA",
+      "port": "TIANJINXINGANG天津新港",
+      "portcode": "CNHSK",
+      "countrycode": "CN"
+    }
+  ],
+  "Tongling, China": [
+    {
+      "country": "CHINA",
+      "port": "TONGLING安徽銅陵",
+      "portcode": "CNTOL",
+      "countrycode": "CN"
+    }
+  ],
+  "Tumen, China": [
+    {
+      "country": "CHINA",
+      "port": "TUMEN",
+      "portcode": "CNTME",
+      "countrycode": "CN"
+    }
+  ],
+  "Wenzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "WENZHOU溫州",
+      "portcode": "CNWNZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Whampoa, China": [
+    {
+      "country": "CHINA",
+      "port": "WHAMPOA",
+      "portcode": "CNWHA",
+      "countrycode": "CN"
+    }
+  ],
+  "Wu Zhou, China": [
+    {
+      "country": "CHINA",
+      "port": "WU ZHOU梧州",
+      "portcode": "CNWUZ",
+      "countrycode": "CN"
+    }
+  ],
+  "Wuhan, China": [
+    {
+      "country": "CHINA",
+      "port": "WUHAN武漢",
+      "portcode": "CNWHN",
+      "countrycode": "CN"
+    }
+  ],
+  "Wuhu, China": [
+    {
+      "country": "CHINA",
+      "port": "WUHU蕪湖",
+      "portcode": "CNWHI",
+      "countrycode": "CN"
+    }
+  ],
+  "Wuxi, China": [
+    {
+      "country": "CHINA",
+      "port": "WUXI無錫",
+      "portcode": "CNWXS",
+      "countrycode": "CN"
+    }
+  ],
+  "Xiamen, China": [
+    {
+      "country": "CHINA",
+      "port": "XIAMEN廈門",
+      "portcode": "CNXMN",
+      "countrycode": "CN"
+    }
+  ],
+  "Xiaochantan, China": [
+    {
+      "country": "CHINA",
+      "port": "XIAOCHANTAN",
+      "portcode": "CNXCT",
+      "countrycode": "CN"
+    }
+  ],
+  "Xiaolan, China": [
+    {
+      "country": "CHINA",
+      "port": "XIAOLAN小欖",
+      "portcode": "CNXLN",
+      "countrycode": "CN"
+    }
+  ],
+  "Xin Tang, China": [
+    {
+      "country": "CHINA",
+      "port": "XIN TANG新塘",
+      "portcode": "CNXTG",
+      "countrycode": "CN"
+    }
+  ],
+  "Xinhui, China": [
+    {
+      "country": "CHINA",
+      "port": "XINHUI新會",
+      "portcode": "CNXHI",
+      "countrycode": "CN"
+    }
+  ],
+  "Xinhui Pt, China": [
+    {
+      "country": "CHINA",
+      "port": "XINHUI PT",
+      "portcode": "CNXIN",
+      "countrycode": "CN"
+    }
+  ],
+  "Xining, China": [
+    {
+      "country": "CHINA",
+      "port": "XINING",
+      "portcode": "CNXNN",
+      "countrycode": "CN"
+    }
+  ],
+  "Yang Zhou, China": [
+    {
+      "country": "CHINA",
+      "port": "YANG ZHOU揚洲",
+      "portcode": "CNYZU",
+      "countrycode": "CN"
+    }
+  ],
+  "Yangpu Pt, China": [
+    {
+      "country": "CHINA",
+      "port": "YANGPU PT洋浦",
+      "portcode": "CNYPG",
+      "countrycode": "CN"
+    }
+  ],
+  "Yantai, China": [
+    {
+      "country": "CHINA",
+      "port": "YANTAI煙台",
+      "portcode": "CNYTI",
+      "countrycode": "CN"
+    }
+  ],
+  "Yantian, China": [
+    {
+      "country": "CHINA",
+      "port": "YANTIAN鹽田",
+      "portcode": "CNYTN",
+      "countrycode": "CN"
+    }
+  ],
+  "Yichang, China": [
+    {
+      "country": "CHINA",
+      "port": "YICHANG宜昌",
+      "portcode": "CNYIC",
+      "countrycode": "CN"
+    }
+  ],
+  "Yinchuan, China": [
+    {
+      "country": "CHINA",
+      "port": "YINCHUAN",
+      "portcode": "CNINC",
+      "countrycode": "CN"
+    }
+  ],
+  "Ying Kou, China": [
+    {
+      "country": "CHINA",
+      "port": "YING KOU營口 靠近大連",
+      "portcode": "CNPYO",
+      "countrycode": "CN"
+    }
+  ],
+  "Yiwu, China": [
+    {
+      "country": "CHINA",
+      "port": "YIWU義烏",
+      "portcode": "CNYIW",
+      "countrycode": "CN"
+    }
+  ],
+  "Yongan Fujian, China": [
+    {
+      "country": "CHINA",
+      "port": "YONGAN,FUJIAN福建永安",
+      "countrycode": "CN"
+    }
+  ],
+  "Yueyang, China": [
+    {
+      "country": "CHINA",
+      "port": "YUEYANG岳陽",
+      "portcode": "CNYYA",
+      "countrycode": "CN"
+    }
+  ],
+  "Yueyang Lukoupu Railway Station, China": [
+    {
+      "country": "CHINA",
+      "port": "YUEYANG LUKOUPU RAILWAY STATION岳陽路口鋪火车站",
+      "portcode": "CNYEY",
+      "countrycode": "CN"
+    }
+  ],
+  "Yunnan, China": [
+    {
+      "country": "CHINA",
+      "port": "YUNNAN",
+      "portcode": "CNYNN",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhangjiagang, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHANGJIAGANG張家港",
+      "portcode": "CNZTG",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhangjiakou, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHANGJIAKOU",
+      "portcode": "CNZJA",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhangzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHANGZHOU漳州",
+      "portcode": "CNZZU",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhanjiang, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHANJIANG湛江",
+      "portcode": "CNZHA",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhaoqing, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHAOQING肇慶",
+      "portcode": "CNZQG",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhaoqing New Port, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHAOQING NEW PORT肇慶新港",
+      "portcode": "CNZQN",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhapu, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHAPU乍浦",
+      "portcode": "CNZAP",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhen Jiang, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHEN JIANG鎮江",
+      "portcode": "CNZNJ",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhongshan, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHONGSHAN中山",
+      "portcode": "CNZSN",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhongshan Huangpu, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHONGSHAN HUANGPU中山黃圃碼頭",
+      "portcode": "CNZHP",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhongshan Waimao, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHONGSHAN WAIMAO中山外貿港(珠江西岸)",
+      "portcode": "CNWIO",
+      "countrycode": "CN"
+    }
+  ],
+  "Zhuzhou, China": [
+    {
+      "country": "CHINA",
+      "port": "ZHUZHOU株洲北火车站",
+      "portcode": "CNZZO",
+      "countrycode": "CN"
+    }
+  ],
+  "Buenaventura, Colombia": [
+    {
+      "country": "COLOMBIA",
+      "port": "BUENAVENTURA",
+      "portcode": "COBUN",
+      "countrycode": "CO"
+    }
+  ],
+  "Guayaquil, Ecuador": [
+    {
+      "country": "ECUADOR",
+      "port": "GUAYAQUIL",
+      "portcode": "ECGYE",
+      "countrycode": "EC"
+    }
+  ],
+  "Alexandria, Egypt": [
+    {
+      "country": "EGYPT",
+      "port": "ALEXANDRIA",
+      "portcode": "EGALY",
+      "countrycode": "EG"
+    }
+  ],
+  "El Dekheila, Egypt": [
+    {
+      "country": "EGYPT",
+      "port": "EL DEKHEILA",
+      "portcode": "EGEDK",
+      "countrycode": "EG"
+    }
+  ],
+  "Ain Sokhna, Egypt": [
+    {
+      "country": "EGYPT",
+      "port": "SOKHNA PORT",
+      "portcode": "EGSOK",
+      "countrycode": "EG"
+    }
+  ],
+  "Puerto Quetzal, Guatemala": [
+    {
+      "country": "GUATEMALA",
+      "port": "PUERTO QUETZAL",
+      "portcode": "GTPRQ",
+      "countrycode": "GT"
+    }
+  ],
+  "Hong Kong, Hong Kong": [
+    {
+      "country": "HONG KONG",
+      "port": "HONG KONG",
+      "portcode": "HKHKG",
+      "countrycode": "HK"
+    }
+  ],
+  "Hong Kong Mid Stream, Hong Kong": [
+    {
+      "country": "HONG KONG",
+      "port": "HONG KONG MID STREAM",
+      "countrycode": "HK"
+    }
+  ],
+  "Modern Terminal Limited, Hong Kong": [
+    {
+      "country": "HONG KONG",
+      "port": "MODERN TERMINAL LIMITED",
+      "countrycode": "HK"
+    }
+  ],
+  "Swire, Hong Kong": [
+    {
+      "country": "HONG KONG",
+      "port": "SWIRE",
+      "countrycode": "HK"
+    }
+  ],
+  "Ahmedabad, India": [
+    {
+      "country": "INDIA",
+      "port": "AHMEDABAD",
+      "portcode": "INAMD",
+      "countrycode": "IN"
+    }
+  ],
+  "Ankleshwar, India": [
+    {
+      "country": "INDIA",
+      "port": "ANKLESHWAR",
+      "portcode": "INAKV",
+      "countrycode": "IN"
+    }
+  ],
+  "Bangalore, India": [
+    {
+      "country": "INDIA",
+      "port": "BANGALORE",
+      "portcode": "INBLR",
+      "countrycode": "IN"
+    }
+  ],
+  "Baroda, India": [
+    {
+      "country": "INDIA",
+      "port": "BARODA (ICD VARNAMA)",
+      "portcode": "INBRC",
+      "countrycode": "IN"
+    }
+  ],
+  "Chennai, India": [
+    {
+      "country": "INDIA",
+      "port": "CHENNAI",
+      "portcode": "INMAA",
+      "countrycode": "IN"
+    }
+  ],
+  "Cochin, India": [
+    {
+      "country": "INDIA",
+      "port": "COCHIN",
+      "portcode": "INCOK",
+      "countrycode": "IN"
+    }
+  ],
+  "Dadri, India": [
+    {
+      "country": "INDIA",
+      "port": "DADRI",
+      "portcode": "INDRI",
+      "countrycode": "IN"
+    }
+  ],
+  "Tughlakabad, India": [
+    {
+      "country": "INDIA",
+      "port": "DELHI-TUGHLAKABAD",
+      "portcode": "INDEL",
+      "countrycode": "IN"
+    }
+  ],
+  "Dighi, India": [
+    {
+      "country": "INDIA",
+      "port": "DIGHI",
+      "countrycode": "IN"
+    }
+  ],
+  "Durgapur, India": [
+    {
+      "country": "INDIA",
+      "port": "DURGAPUR",
+      "countrycode": "IN"
+    }
+  ],
+  "Sonipat, India": [
+    {
+      "country": "INDIA",
+      "port": "Delhi International Cargo TML(ICD SONIPAT)",
+      "portcode": "INBDM",
+      "countrycode": "IN"
+    }
+  ],
+  "Ennore, India": [
+    {
+      "country": "INDIA",
+      "port": "ENNORE",
+      "countrycode": "IN"
+    }
+  ],
+  "Faridabad, India": [
+    {
+      "country": "INDIA",
+      "port": "FARIDABAD",
+      "portcode": "INFBD",
+      "countrycode": "IN"
+    }
+  ],
+  "Gurugram, India": [
+    {
+      "country": "INDIA",
+      "port": "GURGAON (GARHI HARSARU)",
+      "portcode": "INGGN",
+      "countrycode": "IN"
+    }
+  ],
+  "Haldia, India": [
+    {
+      "country": "INDIA",
+      "port": "HALDIA",
+      "countrycode": "IN"
+    }
+  ],
+  "Surat, India": [
+    {
+      "country": "INDIA",
+      "port": "HAZIRA PORT/SURAT",
+      "countrycode": "IN"
+    }
+  ],
+  "Hyderabad, India": [
+    {
+      "country": "INDIA",
+      "port": "HYDERABAD",
+      "portcode": "INHYD",
+      "countrycode": "IN"
+    }
+  ],
+  "Kota, India": [
+    {
+      "country": "INDIA",
+      "port": "ICD KOTA",
+      "countrycode": "IN"
+    }
+  ],
+  "Pune, India": [
+    {
+      "country": "INDIA",
+      "port": "ICD TALEGAON,Pune",
+      "countrycode": "IN"
+    }
+  ],
+  "Tumb, India": [
+    {
+      "country": "INDIA",
+      "port": "ICD TUMB",
+      "countrycode": "IN"
+    }
+  ],
+  "Jaipur, India": [
+    {
+      "country": "INDIA",
+      "port": "JAIPUR",
+      "portcode": "INJAI",
+      "countrycode": "IN"
+    }
+  ],
+  "Jodhpur, India": [
+    {
+      "country": "INDIA",
+      "port": "JODHPUR",
+      "countrycode": "IN"
+    }
+  ],
+  "Kanpur, India": [
+    {
+      "country": "INDIA",
+      "port": "KANPUR",
+      "portcode": "INKNU",
+      "countrycode": "IN"
+    }
+  ],
+  "Kashipur, India": [
+    {
+      "country": "INDIA",
+      "port": "KASHIPUR",
+      "countrycode": "IN"
+    }
+  ],
+  "Kattupalli, India": [
+    {
+      "country": "INDIA",
+      "port": "KATTUPALLI",
+      "portcode": "INKAT",
+      "countrycode": "IN"
+    }
+  ],
+  "Kheda, India": [
+    {
+      "country": "INDIA",
+      "port": "KHEDA (DHAR)",
+      "countrycode": "IN"
+    }
+  ],
+  "Kolkata, India": [
+    {
+      "country": "INDIA",
+      "port": "KOLKATA",
+      "portcode": "INCCU",
+      "countrycode": "IN"
+    }
+  ],
+  "Krishnapatnam, India": [
+    {
+      "country": "INDIA",
+      "port": "KRISHNAPATNAM",
+      "countrycode": "IN"
+    }
+  ],
+  "Loni, India": [
+    {
+      "country": "INDIA",
+      "port": "LONI",
+      "countrycode": "IN"
+    }
+  ],
+  "Ludhiana, India": [
+    {
+      "country": "INDIA",
+      "port": "LUDHIANA",
+      "portcode": "INLDA",
+      "countrycode": "IN"
+    }
+  ],
+  "Malanpur, India": [
+    {
+      "country": "INDIA",
+      "port": "MALANPUR",
+      "countrycode": "IN"
+    }
+  ],
+  "Moradabad, India": [
+    {
+      "country": "INDIA",
+      "port": "MORADABAD",
+      "countrycode": "IN"
+    }
+  ],
+  "Morbi, India": [
+    {
+      "country": "INDIA",
+      "port": "MORBI",
+      "portcode": "INMOB",
+      "countrycode": "IN"
+    }
+  ],
+  "Mumbai, India": [
+    {
+      "country": "INDIA",
+      "port": "MUMBAI",
+      "countrycode": "IN"
+    }
+  ],
+  "Mundra, India": [
+    {
+      "country": "INDIA",
+      "port": "MUNDRA",
+      "portcode": "INMUN",
+      "countrycode": "IN"
+    }
+  ],
+  "Nagpur, India": [
+    {
+      "country": "INDIA",
+      "port": "NAGPUR",
+      "portcode": "INNAG",
+      "countrycode": "IN"
+    }
+  ],
+  "New Mangalore, India": [
+    {
+      "country": "INDIA",
+      "port": "NEW MANGALORE",
+      "portcode": "INNML",
+      "countrycode": "IN"
+    }
+  ],
+  "Nhava - Nisct, India": [
+    {
+      "country": "INDIA",
+      "port": "NHAVA - NISCT",
+      "countrycode": "IN"
+    }
+  ],
+  "Nhava Sheva, India": [
+    {
+      "country": "INDIA",
+      "port": "NHAVA SHEVA",
+      "portcode": "INNSA",
+      "countrycode": "IN"
+    }
+  ],
+  "Pantnagar, India": [
+    {
+      "country": "INDIA",
+      "port": "PANTNAGAR",
+      "countrycode": "IN"
+    }
+  ],
+  "Paradip, India": [
+    {
+      "country": "INDIA",
+      "port": "PARADIP",
+      "countrycode": "IN"
+    }
+  ],
+  "Patli, India": [
+    {
+      "country": "INDIA",
+      "port": "PATLI",
+      "portcode": "INPTL",
+      "countrycode": "IN"
+    }
+  ],
+  "Pipavav, India": [
+    {
+      "country": "INDIA",
+      "port": "PIPAVAV",
+      "countrycode": "IN",
+      "portcode": "INPAV"
+    }
+  ],
+  "Sachana, India": [
+    {
+      "country": "INDIA",
+      "port": "SACHANA ICD",
+      "countrycode": "IN"
+    }
+  ],
+  "Sachin, India": [
+    {
+      "country": "INDIA",
+      "port": "SACHIN",
+      "countrycode": "IN"
+    }
+  ],
+  "Samalkha, India": [
+    {
+      "country": "INDIA",
+      "port": "SAMALKHA ICD/PANIPAT",
+      "countrycode": "IN"
+    }
+  ],
+  "Sanand, India": [
+    {
+      "country": "INDIA",
+      "port": "SANAND",
+      "portcode": "INSAA",
+      "countrycode": "IN"
+    }
+  ],
+  "Tuticorin, India": [
+    {
+      "country": "INDIA",
+      "port": "TUTICORIN (NEW TUTICORIN)",
+      "portcode": "INTUT",
+      "countrycode": "IN"
+    }
+  ],
+  "Vapi, India": [
+    {
+      "country": "INDIA",
+      "port": "VAPI",
+      "countrycode": "IN"
+    }
+  ],
+  "Vizag, India": [
+    {
+      "country": "INDIA",
+      "port": "VIZAG",
+      "portcode": "INVIZ",
+      "countrycode": "IN"
+    }
+  ],
+  "Balikpapan, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BALIKPAPAN",
+      "portcode": "IDBPN",
+      "countrycode": "ID"
+    }
+  ],
+  "Bandung, Java, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BANDUNG, JAVA",
+      "countrycode": "ID"
+    }
+  ],
+  "Banjarmasin, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BANJARMASIN",
+      "portcode": "IDBDJ",
+      "countrycode": "ID"
+    }
+  ],
+  "Batam, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BATAM",
+      "portcode": "IDBTM",
+      "countrycode": "ID"
+    }
+  ],
+  "Batuampar, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BATUAMPAR",
+      "countrycode": "ID"
+    }
+  ],
+  "Belawan, Sumatra, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "BELAWAN, SUMATRA",
+      "countrycode": "ID"
+    }
+  ],
+  "Cikarang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "CIKARANG",
+      "portcode": "IDCKR",
+      "countrycode": "ID"
+    }
+  ],
+  "Dumai, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "DUMAI, SUMATRA",
+      "countrycode": "ID"
+    }
+  ],
+  "Jakarta, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "JAKARTA",
+      "portcode": "IDJKT",
+      "countrycode": "ID"
+    }
+  ],
+  "Jambi, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "JAMBI",
+      "portcode": "IDDJB",
+      "countrycode": "ID"
+    }
+  ],
+  "Kualatanjung, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "KUALATANJUNG",
+      "countrycode": "ID"
+    }
+  ],
+  "Merak, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "MERAK",
+      "countrycode": "ID"
+    }
+  ],
+  "Padang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PADANG, SUMATRA",
+      "countrycode": "ID"
+    }
+  ],
+  "Palembang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PALEMBANG",
+      "portcode": "IDPLM",
+      "countrycode": "ID"
+    }
+  ],
+  "Palu, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PALU",
+      "portcode": "IDPAL",
+      "countrycode": "ID"
+    }
+  ],
+  "Panjang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PANJANG",
+      "portcode": "IDPJN",
+      "countrycode": "ID"
+    }
+  ],
+  "Perawang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PERAWANG",
+      "countrycode": "ID"
+    }
+  ],
+  "Pontianak, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "PONTIANAK KALIMANTAN",
+      "portcode": "IDPNK",
+      "countrycode": "ID"
+    }
+  ],
+  "Samarinda, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "SAMARINDA, KALIMANTAN",
+      "countrycode": "ID"
+    }
+  ],
+  "Sampit, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "SAMPIT",
+      "countrycode": "ID"
+    }
+  ],
+  "Semarang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "SEMARANG",
+      "portcode": "IDSRG",
+      "countrycode": "ID"
+    }
+  ],
+  "Surabaya, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "SURABAYA",
+      "portcode": "IDSUB",
+      "countrycode": "ID"
+    }
+  ],
+  "Tarakan, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "TARAKAN, KALIMANTAN",
+      "countrycode": "ID"
+    }
+  ],
+  "Ujung Pandang, Indonesia": [
+    {
+      "country": "INDONESIA",
+      "port": "UJUNG PANDANG",
+      "portcode": "IDUPG",
+      "countrycode": "ID"
+    }
+  ],
+  "Umm Qasr, Iraq": [
+    {
+      "country": "IRAQ",
+      "port": "UMM QASR",
+      "portcode": "IQUQR",
+      "countrycode": "IQ"
+    }
+  ],
+  "Chiba, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "CHIBA",
+      "portcode": "JPCHB",
+      "countrycode": "JP"
+    }
+  ],
+  "Fukuyama, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "FUKUYAMA",
+      "portcode": "JPFKY",
+      "countrycode": "JP"
+    }
+  ],
+  "Hakata, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "HAKATA",
+      "portcode": "JPHKT",
+      "countrycode": "JP"
+    }
+  ],
+  "Hirara, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "HIRARA(MIYAKOJIMA),OKINAWA",
+      "countrycode": "JP"
+    }
+  ],
+  "Hiroshima, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "HIROSHIMA",
+      "portcode": "JPHIJ",
+      "countrycode": "JP"
+    }
+  ],
+  "Imabari, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "IMABARI",
+      "countrycode": "JP"
+    }
+  ],
+  "Ishigaki, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "ISHIGAKI",
+      "countrycode": "JP"
+    }
+  ],
+  "Iwakuni, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "IWAKUNI",
+      "countrycode": "JP"
+    }
+  ],
+  "Kashima, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "KASHIMA, IBARAKI",
+      "countrycode": "JP"
+    }
+  ],
+  "Kawasaki, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "KAWASAKI",
+      "portcode": "JPKWS",
+      "countrycode": "JP"
+    }
+  ],
+  "Kobe, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "KOBE",
+      "portcode": "JPUKB",
+      "countrycode": "JP"
+    }
+  ],
+  "Matsuyama, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "MATSUYAMA",
+      "portcode": "JPMYJ",
+      "countrycode": "JP"
+    }
+  ],
+  "Mishima, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "MISHIMA, KAWANOE (IYOMISHIMA )",
+      "countrycode": "JP"
+    }
+  ],
+  "Mizushima, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "MIZUSHIMA",
+      "portcode": "JPMIZ",
+      "countrycode": "JP"
+    }
+  ],
+  "Moji, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "MOJI",
+      "portcode": "JPMOJ",
+      "countrycode": "JP"
+    }
+  ],
+  "Nagoya, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "NAGOYA",
+      "portcode": "JPNGO",
+      "countrycode": "JP"
+    }
+  ],
+  "Naha Okinawa, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "NAHA OKINAWA",
+      "portcode": "JPNAH",
+      "countrycode": "JP"
+    }
+  ],
+  "Nakanoseki, Yamaguchi, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "NAKANOSEKI, YAMAGUCHI",
+      "countrycode": "JP"
+    }
+  ],
+  "Oita, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "OITA, OITA",
+      "countrycode": "JP"
+    }
+  ],
+  "Osaka, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "OSAKA",
+      "portcode": "JPOSA",
+      "countrycode": "JP"
+    }
+  ],
+  "Sendai, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "SENDAI, MIYAGI",
+      "countrycode": "JP"
+    }
+  ],
+  "Shibushi, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "SHIBUSHI, KAGOSHIMA",
+      "countrycode": "JP"
+    }
+  ],
+  "Shimizu, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "SHIMIZU",
+      "portcode": "JPSMZ",
+      "countrycode": "JP"
+    }
+  ],
+  "Tokuyama, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "TOKUYAMA",
+      "portcode": "JPTKY",
+      "countrycode": "JP"
+    }
+  ],
+  "Tokyo, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "TOKYO",
+      "portcode": "JPTYO",
+      "countrycode": "JP"
+    }
+  ],
+  "Yokkaichi, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "YOKKAICHI",
+      "portcode": "JPYKK",
+      "countrycode": "JP"
+    }
+  ],
+  "Yokohama, Japan": [
+    {
+      "country": "JAPAN",
+      "port": "YOKOHAMA",
+      "portcode": "JPYOK",
+      "countrycode": "JP"
+    }
+  ],
+  "Aqaba, Jordan": [
+    {
+      "country": "JORDAN",
+      "port": "AQABA",
+      "portcode": "JOAQJ",
+      "countrycode": "JO"
+    }
+  ],
+  "Busan New Port, Korea": [
+    {
+      "country": "KOREA",
+      "port": "BUSAN NEW PORT",
+      "portcode": "KRBNP",
+      "countrycode": "KR"
+    }
+  ],
+  "Daesan, Korea": [
+    {
+      "country": "KOREA",
+      "port": "DAESAN",
+      "countrycode": "KR"
+    }
+  ],
+  "Incheon, Korea": [
+    {
+      "country": "KOREA",
+      "port": "INCHEON",
+      "portcode": "KRINC",
+      "countrycode": "KR"
+    }
+  ],
+  "Kwangyang, Korea": [
+    {
+      "country": "KOREA",
+      "port": "KWANGYANG",
+      "portcode": "KRKWY",
+      "countrycode": "KR"
+    }
+  ],
+  "Masan, Korea": [
+    {
+      "country": "KOREA",
+      "port": "MASAN",
+      "countrycode": "KR"
+    }
+  ],
+  "Pusan, Korea": [
+    {
+      "country": "KOREA",
+      "port": "PUSAN",
+      "portcode": "KRPUS",
+      "countrycode": "KR"
+    }
+  ],
+  "Seoul, Korea": [
+    {
+      "country": "KOREA",
+      "port": "SEOUL",
+      "countrycode": "KR"
+    }
+  ],
+  "Ulsan, Korea": [
+    {
+      "country": "KOREA",
+      "port": "ULSAN",
+      "portcode": "KRUSN",
+      "countrycode": "KR"
+    }
+  ],
+  "Shuaiba, Kuwait": [
+    {
+      "country": "KUWAIT",
+      "port": "SHUAIBA",
+      "portcode": "KWSAA",
+      "countrycode": "KW"
+    }
+  ],
+  "Shuwaikh, Kuwait": [
+    {
+      "country": "KUWAIT",
+      "port": "SHUWAIKH",
+      "portcode": "KWSWK",
+      "countrycode": "KW"
+    }
+  ],
+  "Bintulu, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "BINTULU, SARAWAK",
+      "countrycode": "MY"
+    }
+  ],
+  "Ipoh, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "IPOH",
+      "countrycode": "MY"
+    }
+  ],
+  "Kota Kinabalu, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "KOTA KINABALU",
+      "portcode": "MYBKI",
+      "countrycode": "MY"
+    }
+  ],
+  "Kuantan, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "KUANTAN",
+      "portcode": "MYKUA",
+      "countrycode": "MY"
+    }
+  ],
+  "Kuching, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "KUCHING",
+      "portcode": "MYKCH",
+      "countrycode": "MY"
+    }
+  ],
+  "Labuan, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "LABUAN",
+      "portcode": "MYLBH",
+      "countrycode": "MY"
+    }
+  ],
+  "Lahad Datu, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "LAHAD DATU, SABAH",
+      "countrycode": "MY"
+    }
+  ],
+  "Miri, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "MIRI",
+      "portcode": "MYMYY",
+      "countrycode": "MY"
+    }
+  ],
+  "Pasir Gudang, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "PASIR GUDANG,JOHOR",
+      "countrycode": "MY"
+    }
+  ],
+  "Penang, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "PENANG",
+      "portcode": "MYPEN",
+      "countrycode": "MY"
+    }
+  ],
+  "Pengerang, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "PENGERANG",
+      "countrycode": "MY"
+    }
+  ],
+  "Port Klang North Port, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "PORT KLANG NORTH PORT",
+      "portcode": "MYPKG",
+      "countrycode": "MY"
+    }
+  ],
+  "Port Klang West Port, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "PORT KLANG WEST PORT",
+      "portcode": "MYPKW",
+      "countrycode": "MY"
+    }
+  ],
+  "Samalaju, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "SAMALAJU",
+      "portcode": "MYSIP",
+      "countrycode": "MY"
+    }
+  ],
+  "Sandakan, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "SANDAKAN",
+      "portcode": "MYSDK",
+      "countrycode": "MY"
+    }
+  ],
+  "Sibu, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "SIBU",
+      "portcode": "MYSBW",
+      "countrycode": "MY"
+    }
+  ],
+  "Sipitang, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "SIPITANG",
+      "countrycode": "MY"
+    }
+  ],
+  "Sungei Way, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "SUNGEI WAY, PORT DICKSON",
+      "countrycode": "MY"
+    }
+  ],
+  "Tanjung Langsat, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "TANJUNG LANGSAT",
+      "countrycode": "MY"
+    }
+  ],
+  "Tanjung Pelepas, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "TANJUNG PELEPAS",
+      "countrycode": "MY"
+    }
+  ],
+  "Tanjung Setapa, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "TANJUNG SETAPA",
+      "countrycode": "MY"
+    }
+  ],
+  "Tawau, Malaysia": [
+    {
+      "country": "MALAYSIA",
+      "port": "TAWAU",
+      "portcode": "MYTWU",
+      "countrycode": "MY"
+    }
+  ],
+  "Cuernavaca, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "CUERNAVACA",
+      "countrycode": "MX"
+    }
+  ],
+  "Ensenada, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "ENSENADA",
+      "portcode": "MXESE",
+      "countrycode": "MX"
+    }
+  ],
+  "Guadalajara, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "GUADALAJARA",
+      "countrycode": "MX"
+    }
+  ],
+  "Lazaro Cardenas, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "LAZARO CARDENAS",
+      "portcode": "MXLZC",
+      "countrycode": "MX"
+    }
+  ],
+  "Leon, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "LEON",
+      "portcode": "MXLEN",
+      "countrycode": "MX"
+    }
+  ],
+  "Manzanillo, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "MANZANILLO",
+      "portcode": "MXZLO",
+      "countrycode": "MX"
+    }
+  ],
+  "Mexico City, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "MEXICO CITY",
+      "portcode": "MXMEX",
+      "countrycode": "MX"
+    }
+  ],
+  "Monterrey, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "MONTERREY",
+      "portcode": "MXMTY",
+      "countrycode": "MX"
+    }
+  ],
+  "Puebla, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "PUEBLA",
+      "countrycode": "MX"
+    }
+  ],
+  "Queretaro, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "QUERETARO",
+      "countrycode": "MX"
+    }
+  ],
+  "San Luis Potosi, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "SAN LUIS POTOSI",
+      "countrycode": "MX"
+    }
+  ],
+  "Tijuana, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "TIJUANA",
+      "countrycode": "MX"
+    }
+  ],
+  "Toluca, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "TOLUCA",
+      "portcode": "MXTLC",
+      "countrycode": "MX"
+    }
+  ],
+  "Vista Hermosa, Mexico": [
+    {
+      "country": "MEXICO",
+      "port": "VISTA HERMOSA ,MICHOACAN",
+      "countrycode": "MX"
+    }
+  ],
+  "Yangon, Myanmar": [
+    {
+      "country": "MYANMAR",
+      "port": "YANGON",
+      "portcode": "MMRGN",
+      "countrycode": "MM"
+    }
+  ],
+  "Sohar, Oman": [
+    {
+      "country": "OMAN",
+      "port": "SOHAR",
+      "portcode": "OMSOH",
+      "countrycode": "OM"
+    }
+  ],
+  "Bahawalpur, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "BAHAWALPUR",
+      "countrycode": "PK"
+    }
+  ],
+  "Bannu, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "BANNU",
+      "countrycode": "PK"
+    }
+  ],
+  "Campbellpore, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "CAMPBELLPORE",
+      "countrycode": "PK"
+    }
+  ],
+  "Chamam, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "CHAMAM",
+      "countrycode": "PK"
+    }
+  ],
+  "Chammam, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "CHAMMAM",
+      "countrycode": "PK"
+    }
+  ],
+  "Chitral, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "CHITRAL",
+      "countrycode": "PK"
+    }
+  ],
+  "Dadu, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "DADU",
+      "countrycode": "PK"
+    }
+  ],
+  "Dalbandin, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "DALBANDIN",
+      "countrycode": "PK"
+    }
+  ],
+  "Dera Ghazi Khan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "DERA GHAZI KHAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Dera Ismail Khan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "DERA ISMAIL KHAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Faisalabad, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "FAISALABAD",
+      "countrycode": "PK"
+    }
+  ],
+  "Gilgit, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "GILGIT",
+      "countrycode": "PK"
+    }
+  ],
+  "Gujrat, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "GUJRAT",
+      "countrycode": "PK"
+    }
+  ],
+  "Gwadar, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "GWADAR",
+      "countrycode": "PK"
+    }
+  ],
+  "Hyderabad, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "HYDERABAD",
+      "portcode": "INHYD",
+      "countrycode": "PK"
+    }
+  ],
+  "Islamabad, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "ISLAMABAD",
+      "countrycode": "PK"
+    }
+  ],
+  "Jacobabad, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "JACOBABAD",
+      "countrycode": "PK"
+    }
+  ],
+  "Jiwani, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "JIWANI",
+      "countrycode": "PK"
+    }
+  ],
+  "Karachi (Kict), Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KARACHI (KICT)",
+      "portcode": "PKKCT",
+      "countrycode": "PK"
+    }
+  ],
+  "Karachi, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KARACHI(KGTL)",
+      "portcode": "PKKHI",
+      "countrycode": "PK"
+    }
+  ],
+  "Karachi(Sapt), Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KARACHI(SAPT)",
+      "countrycode": "PK"
+    }
+  ],
+  "Keti Bunder, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KETI BUNDER",
+      "countrycode": "PK"
+    }
+  ],
+  "Keti Bunder/Kohi-Taftan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KETI BUNDER/KOHI-TAFTAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Khokhoroper, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KHOKHOROPER",
+      "countrycode": "PK"
+    }
+  ],
+  "Khokhroper, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KHOKHROPER",
+      "countrycode": "PK"
+    }
+  ],
+  "Khuzdar, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KHUZDAR",
+      "countrycode": "PK"
+    }
+  ],
+  "Koh-I-Taftan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KOH-I-TAFTAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Kohat, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "KOHAT",
+      "countrycode": "PK"
+    }
+  ],
+  "Lahore, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "LAHORE",
+      "countrycode": "PK"
+    }
+  ],
+  "Mawabshah, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MAWABSHAH",
+      "countrycode": "PK"
+    }
+  ],
+  "Mianwali, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MIANWALI",
+      "countrycode": "PK"
+    }
+  ],
+  "Mirpur Khas, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MIRPUR KHAS (= SINDHRI)",
+      "countrycode": "PK"
+    }
+  ],
+  "Mogulpara, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MOGULPARA",
+      "countrycode": "PK"
+    }
+  ],
+  "Mogulpura, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MOGULPURA/LAHORE",
+      "countrycode": "PK"
+    }
+  ],
+  "Mohenjodaro, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MOHENJODARO",
+      "countrycode": "PK"
+    }
+  ],
+  "Multan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MULTAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Muzaffarabad, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MUZAFFARABAD",
+      "countrycode": "PK"
+    }
+  ],
+  "Muzaffargarh, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "MUZAFFARGARH",
+      "countrycode": "PK"
+    }
+  ],
+  "Nok Kundi, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "NOK KUNDI",
+      "countrycode": "PK"
+    }
+  ],
+  "Ormara, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "ORMARA",
+      "countrycode": "PK"
+    }
+  ],
+  "Panjgur, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "PANJGUR",
+      "countrycode": "PK"
+    }
+  ],
+  "Pasni, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "PASNI",
+      "countrycode": "PK"
+    }
+  ],
+  "Peshawar, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "PESHAWAR",
+      "countrycode": "PK"
+    }
+  ],
+  "Port Bunder, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "PORT BUNDER",
+      "countrycode": "PK"
+    }
+  ],
+  "Port Qasim, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "PORT QASIM",
+      "countrycode": "PK",
+      "portcode": "PKBQM"
+    }
+  ],
+  "Quetta, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "QUETTA",
+      "countrycode": "PK"
+    }
+  ],
+  "Rahim Yar Khan, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "RAHIM YAR KHAN",
+      "countrycode": "PK"
+    }
+  ],
+  "Rawala Kot, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "RAWALA KOT",
+      "countrycode": "PK"
+    }
+  ],
+  "Saidu Sharif, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "SAIDU SHARIF",
+      "countrycode": "PK"
+    }
+  ],
+  "Sialkot, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "SIALKOT",
+      "countrycode": "PK"
+    }
+  ],
+  "Skardu, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "SKARDU",
+      "countrycode": "PK"
+    }
+  ],
+  "Sui, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "SUI",
+      "countrycode": "PK"
+    }
+  ],
+  "Sukkur, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "SUKKUR",
+      "countrycode": "PK"
+    }
+  ],
+  "Tarbela, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "TARBELA",
+      "countrycode": "PK"
+    }
+  ],
+  "Torkham, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "TORKHAM",
+      "countrycode": "PK"
+    }
+  ],
+  "Turbat, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "TURBAT",
+      "countrycode": "PK"
+    }
+  ],
+  "Waga, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "WAGA",
+      "countrycode": "PK"
+    }
+  ],
+  "Wagah, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "WAGAH",
+      "countrycode": "PK"
+    }
+  ],
+  "Zhob, Pakistan": [
+    {
+      "country": "PAKISTAN",
+      "port": "ZHOB",
+      "countrycode": "PK"
+    }
+  ],
+  "Callao, Peru": [
+    {
+      "country": "PERU",
+      "port": "CALLAO",
+      "portcode": "PECLL",
+      "countrycode": "PE"
+    }
+  ],
+  "Paita, Peru": [
+    {
+      "country": "PERU",
+      "port": "PAITA",
+      "portcode": "PEPAI",
+      "countrycode": "PE"
+    }
+  ],
+  "Batangas, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "BATANGAS,LUZON",
+      "countrycode": "PH"
+    }
+  ],
+  "Cagayan De Oro, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "CAGAYAN DE ORO",
+      "portcode": "PHCGY",
+      "countrycode": "PH"
+    }
+  ],
+  "Cebu, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "CEBU",
+      "portcode": "PHCEB",
+      "countrycode": "PH"
+    }
+  ],
+  "Davao, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "DAVAO",
+      "portcode": "PHDVO",
+      "countrycode": "PH"
+    }
+  ],
+  "General Santos, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "GENERAL SANTOS",
+      "countrycode": "PH"
+    }
+  ],
+  "Manila, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "MANILA NORTH PORT",
+      "portcode": "PHMNN",
+      "countrycode": "PH"
+    }
+  ],
+  "Manila South Port, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "MANILA SOUTH PORT",
+      "portcode": "PHMNS",
+      "countrycode": "PH"
+    }
+  ],
+  "Subic Bay, Philippines": [
+    {
+      "country": "PHILIPPINES",
+      "port": "SUBIC BAY",
+      "portcode": "PHSFS",
+      "countrycode": "PH"
+    }
+  ],
+  "Hamad, Qatar": [
+    {
+      "country": "QATAR",
+      "port": "HAMAD",
+      "portcode": "QAHMD",
+      "countrycode": "QA"
+    }
+  ],
+  "Mesaieed, Qatar": [
+    {
+      "country": "QATAR",
+      "port": "MESAIEED",
+      "portcode": "QAMSD",
+      "countrycode": "QA"
+    }
+  ],
+  "Ad Dammam, Saudi Arabia": [
+    {
+      "country": "SAUDI ARABIA",
+      "port": "AD DAMMAM",
+      "portcode": "SADMN",
+      "countrycode": "SA"
+    }
+  ],
+  "Jeddah, Saudi Arabia": [
+    {
+      "country": "SAUDI ARABIA",
+      "port": "JEDDAH",
+      "portcode": "SAJED",
+      "countrycode": "SA"
+    }
+  ],
+  "Jubail, Saudi Arabia": [
+    {
+      "country": "SAUDI ARABIA",
+      "port": "JUBAIL",
+      "portcode": "SAJUB",
+      "countrycode": "SA"
+    }
+  ],
+  "Singapore, Singapore": [
+    {
+      "country": "SINGAPORE",
+      "port": "SINGAPORE",
+      "portcode": "SGSIN",
+      "countrycode": "SG"
+    }
+  ],
+  "Colombo, Sri Lanka": [
+    {
+      "country": "SRI LANKA",
+      "port": "COLOMBO",
+      "portcode": "LKCMB",
+      "countrycode": "LK"
+    }
+  ],
+  "Hsinchu, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "HSINCHU",
+      "portcode": "TWSHU",
+      "countrycode": "TW"
+    }
+  ],
+  "Kaohsiung, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "KAOHSIUNG",
+      "portcode": "TWKHH",
+      "countrycode": "TW"
+    }
+  ],
+  "Keelung, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "KEELUNG",
+      "portcode": "TWKEL",
+      "countrycode": "TW"
+    }
+  ],
+  "Taichung, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "TAICHUNG",
+      "portcode": "TWTXG",
+      "countrycode": "TW"
+    }
+  ],
+  "Taipei, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "TAIPEI",
+      "portcode": "TWTPE",
+      "countrycode": "TW"
+    }
+  ],
+  "Taoyuan, Taiwan": [
+    {
+      "country": "TAIWAN",
+      "port": "TAOYUAN",
+      "portcode": "TWTNY",
+      "countrycode": "TW"
+    }
+  ],
+  "Bangkok, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "BANGKOK",
+      "portcode": "THBKK",
+      "countrycode": "TH"
+    }
+  ],
+  "Bangkok Modern Terminal, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "BANGKOK MODERN TERMINAL",
+      "countrycode": "TH"
+    }
+  ],
+  "Ekachai, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "EKACHAI",
+      "countrycode": "TH"
+    }
+  ],
+  "Hat Yai, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "HAT YAI",
+      "countrycode": "TH"
+    }
+  ],
+  "Laem Chabang, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "LAEM CHABANG",
+      "portcode": "THLCH",
+      "countrycode": "TH"
+    }
+  ],
+  "Lat Krabang, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "LAT KRABANG",
+      "portcode": "THLKA",
+      "countrycode": "TH"
+    }
+  ],
+  "Nh Prosperity, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "NH PROSPERITY",
+      "countrycode": "TH"
+    }
+  ],
+  "Sahathai Terminal, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "SAHATHAI TERMINAL",
+      "portcode": "THSHT",
+      "countrycode": "TH"
+    }
+  ],
+  "Siam Container Terminal, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "SIAM CONTAINER TERMINAL",
+      "portcode": "THSCT",
+      "countrycode": "TH"
+    }
+  ],
+  "Thai Prosperity Terminal, Thailand": [
+    {
+      "country": "THAILAND",
+      "port": "THAI PROSPERITY TERMINAL",
+      "countrycode": "TH"
+    }
+  ],
+  "Istanbul, Turkiye": [
+    {
+      "country": "TURKIYE",
+      "port": "ISTANBUL",
+      "portcode": "TRIST",
+      "countrycode": "TR"
+    }
+  ],
+  "Izmit, Turkiye": [
+    {
+      "country": "TURKIYE",
+      "port": "IZMIT",
+      "portcode": "TRIZT",
+      "countrycode": "TR"
+    }
+  ],
+  "Mersin, Turkiye": [
+    {
+      "country": "TURKIYE",
+      "port": "MERSIN",
+      "portcode": "TRMER",
+      "countrycode": "TR"
+    }
+  ],
+  "Abu Dhabi, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "ABU DHABI",
+      "portcode": "AEAUH",
+      "countrycode": "AE"
+    }
+  ],
+  "Ajman, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "AJMAN",
+      "portcode": "AEAJM",
+      "countrycode": "AE"
+    }
+  ],
+  "Fujairah, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "FUJAIRAH",
+      "countrycode": "AE"
+    }
+  ],
+  "Jebel Ali, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "JEBEL ALI",
+      "portcode": "AEJEA",
+      "countrycode": "AE"
+    }
+  ],
+  "Khorfakkan, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "KHORFAKKAN",
+      "countrycode": "AE"
+    }
+  ],
+  "Port Rashid, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "PORT RASHID",
+      "countrycode": "AE"
+    }
+  ],
+  "Ras Al Khaimah, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "RAS AL KHAIMAH",
+      "portcode": "AERKT",
+      "countrycode": "AE"
+    }
+  ],
+  "Sharjah, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "SHARJAH",
+      "portcode": "AESHJ",
+      "countrycode": "AE"
+    }
+  ],
+  "Umm Al Quwain, United Arab Emirates": [
+    {
+      "country": "UNITED ARAB EMIRATES",
+      "port": "UMM AL QUWAIN",
+      "portcode": "AEQIW",
+      "countrycode": "AE"
+    }
+  ],
+  "Binh Duong Port, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "BINH DUONG PORT",
+      "portcode": "VNBDG",
+      "countrycode": "VN"
+    }
+  ],
+  "Ho Chi Minh, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "CAI MEP",
+      "countrycode": "VN"
+    }
+  ],
+  "Cat Lai Port Hochiminh, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "CAT LAI PORT HOCHIMINH",
+      "portcode": "VNCLP",
+      "countrycode": "VN"
+    }
+  ],
+  "Da Nang, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "DA NANG (PORT)",
+      "portcode": "VNDAD",
+      "countrycode": "VN"
+    }
+  ],
+  "Dong Nai Port, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "DONG NAI PORT",
+      "portcode": "VNDNA",
+      "countrycode": "VN"
+    }
+  ],
+  "Giao Long, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "GIAO LONG",
+      "countrycode": "VN"
+    }
+  ],
+  "Hai Phong, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "HAIPHONG",
+      "portcode": "VNHPH",
+      "countrycode": "VN"
+    }
+  ],
+  "Hai Phong International Container Terminal, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "HAIPHONG INTERNATIONAL CONTAINER TERMINAL",
+      "countrycode": "VN"
+    }
+  ],
+  "Hanoi, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "HANOI",
+      "countrycode": "VN"
+    }
+  ],
+  "Ho Chi Minh Saigon, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "HOCHIMINH VICT",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Phuoc Long 1, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD PHUOC LONG 1",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Phuoc Long 3, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD PHUOC LONG 3",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Song Than, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD SONG THAN",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Sotrans, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD SOTRANS",
+      "portcode": "VNSTR",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Sowatco Long Binh, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD SOWATCO LONG BINH",
+      "portcode": "VNLBP",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Tan Cang Nhon Trach, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD TAN CANG NHON TRACH",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Tanamexco, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD TANAMEXCO",
+      "portcode": "VNTAM",
+      "countrycode": "VN"
+    }
+  ],
+  "Icd Transimex, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "ICD TRANSIMEX",
+      "portcode": "VNPTR",
+      "countrycode": "VN"
+    }
+  ],
+  "Phuoc An Port, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "PHUOC AN PORT",
+      "portcode": "VNPAP",
+      "countrycode": "VN"
+    }
+  ],
+  "Quy Nhon, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "QUY NHON",
+      "portcode": "VNUIH",
+      "countrycode": "VN"
+    }
+  ],
+  "Sp-Itc Port Hochiminh, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "SP-ITC PORT,HOCHIMINH",
+      "countrycode": "VN"
+    }
+  ],
+  "Tan Cang Hiep Phuoc, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "TAN CANG HIEP PHUOC",
+      "portcode": "VNHPP",
+      "countrycode": "VN"
+    }
+  ],
+  "Tan Cang Long Binh Icd, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "TAN CANG LONG BINH ICD",
+      "portcode": "VNILB",
+      "countrycode": "VN"
+    }
+  ],
+  "Tan Cang Nhon Trach, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "TAN CANG NHON TRACH",
+      "countrycode": "VN"
+    }
+  ],
+  "Tan Cang, Hochiminh, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "TAN CANG, HOCHIMINH",
+      "countrycode": "VN"
+    }
+  ],
+  "Tan Thuan, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "TAN THUAN",
+      "countrycode": "VN"
+    }
+  ],
+  "Vietnam Lee & Man Port, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "VIETNAM LEE & MAN PORT",
+      "countrycode": "VN"
+    }
+  ],
+  "Vung Tau, Vietnam": [
+    {
+      "country": "VIETNAM",
+      "port": "VUNG TAU",
+      "countrycode": "VN"
+    }
+  ],
+  "Cincinnati, OH": [
+    {
+      "country": "UNITED STATES",
+      "port": "CINCINNATI, OH",
+      "countrycode": "US",
+      "portcode": "USCVG"
+    }
+  ],
+  "Cleveland, OH": [
+    {
+      "country": "UNITED STATES",
+      "port": "CLEVELAND, OH",
+      "countrycode": "US",
+      "portcode": "USCLE"
+    }
+  ],
+  "Columbus, OH": [
+    {
+      "country": "UNITED STATES",
+      "port": "COLUMBUS, OH",
+      "countrycode": "US",
+      "portcode": "USCMH"
+    }
+  ],
+  "Dallas, TX": [
+    {
+      "country": "UNITED STATES",
+      "port": "DALLAS, TX",
+      "countrycode": "US",
+      "portcode": "USDAL"
+    }
+  ],
+  "Greer, SC": [
+    {
+      "country": "UNITED STATES",
+      "port": "GREENVILLE-GREER APT,SC",
+      "countrycode": "US",
+      "portcode": "USGSP"
+    }
+  ],
+  "Kansas City, KS": [
+    {
+      "country": "UNITED STATES",
+      "port": "KANSAS CITY, KS",
+      "countrycode": "US",
+      "portcode": "USKCK"
+    }
+  ],
+  "Louisville, KY": [
+    {
+      "country": "UNITED STATES",
+      "port": "LOUISVILLE, KY",
+      "countrycode": "US",
+      "portcode": "USLUI"
+    }
+  ],
+  "Memphis, TN": [
+    {
+      "country": "UNITED STATES",
+      "port": "MEMPHIS, TN",
+      "countrycode": "US",
+      "portcode": "USMEM"
+    }
+  ],
+  "Phoenix, AZ": [
+    {
+      "country": "UNITED STATES",
+      "port": "PHOENIX, AZ",
+      "countrycode": "US",
+      "portcode": "USPHX"
+    }
+  ],
+  "Charleston, SC": [
+    {
+      "country": "UNITED STATES",
+      "port": "CHARLESTON, SC",
+      "countrycode": "US",
+      "portcode": "USCHS"
+    }
+  ],
+  "Long Beach, CA": [
+    {
+      "country": "UNITED STATES",
+      "port": "LONG BEACH, CA",
+      "countrycode": "US",
+      "portcode": "USLGB"
+    }
+  ],
+  "Los Angeles, CA": [
+    {
+      "country": "UNITED STATES",
+      "port": "LOS ANGELES, CA",
+      "countrycode": "US",
+      "portcode": "USLAX"
+    }
+  ],
+  "New York, NY": [
+    {
+      "country": "UNITED STATES",
+      "port": "NEW YORK, NY",
+      "countrycode": "US",
+      "portcode": "USNYC"
+    }
+  ],
+  "Norfolk, VA": [
+    {
+      "country": "UNITED STATES",
+      "port": "NORFOLK, VA",
+      "countrycode": "US",
+      "portcode": "USORF"
+    }
+  ],
+  "Oakland, CA": [
+    {
+      "country": "UNITED STATES",
+      "port": "OAKLAND, CA",
+      "countrycode": "US",
+      "portcode": "USOAK"
+    }
+  ],
+  "Savannah, GA": [
+    {
+      "country": "UNITED STATES",
+      "port": "SAVANNAH, GA",
+      "countrycode": "US",
+      "portcode": "USSAV"
+    }
+  ],
+  "Seattle, WA": [
+    {
+      "country": "UNITED STATES",
+      "port": "SEATTLE, WA",
+      "countrycode": "US",
+      "portcode": "USSEA"
+    }
+  ],
+  "Chicago, IL": [
+    {
+      "country": "UNITED STATES",
+      "ports": "CHICAGO, IL",
+      "countrycode": "US",
+      "portcode": "USCHI"
+    }
+  ]
+}

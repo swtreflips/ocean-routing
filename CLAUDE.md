@@ -2,7 +2,7 @@
 
 Conventions established when migrating from the legacy Schedules folder (OneDrive) to this repo. Read this before migrating any of the remaining carriers (COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM).
 
-The plan lives in [TREE.md](TREE.md). Migrated so far: **CMA, COS, EMC, HPL**. CMA is the reference implementation; CMA + EMC are the HTML carriers. Remaining: HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM.
+The plan lives in [TREE.md](TREE.md). Migrated so far: **CMA, COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL**. CMA is the reference implementation; CMA, EMC, WHL are the HTML carriers. Remaining: YML, ZIM.
 
 ## Carrier-code naming
 
@@ -45,7 +45,7 @@ Output directories sit under `src/data/<code>/`:
 - `log/` — run logs + progress CSV
 - `csvs/` — per-run CSV exports
 - `canonical/` — canonical JSON records
-- `html/` — **CMA + EMC only** (HTML carriers), see below
+- `html/` — **HTML carriers only** (CMA, EMC, WHL), see below
 - `tables/` (at `src/data/tables/`) — aggregated cross-carrier table
 
 All `src/data/*/{raw,log,csvs,canonical,html}/` are gitignored. Assets and code are committed.
@@ -142,9 +142,9 @@ HMM and OOCL run in the `patch` conda env. Everything else runs in `schedules`. 
 
 The legacy folder at `C:\Users\LuisMiguelHernandezT\OneDrive - Prime Time Packaging\Schedules\` is the migration source. We **copy**, not move — the OneDrive copy stays intact during migration so a partial/broken state in this repo is recoverable. Delete from OneDrive only after each carrier has been verified end-to-end in the new repo.
 
-## HTML-carrier behavior (CMA + EMC)
+## HTML-carrier behavior (CMA, EMC, WHL)
 
-Two carriers receive HTML responses instead of JSON and need the same archive treatment. Identify an HTML carrier by checking whether the legacy `main.py` writes `*.html` files into the processing dir and then calls `batch_transform_processing_dir(...)`.
+These carriers receive HTML responses instead of JSON and need the same archive treatment. Identify an HTML carrier by checking whether the legacy `main.py` writes `*.html` files into the processing dir and then calls `batch_transform_processing_dir(...)`.
 
 **HTML archive.** Raw HTMLs are moved to `src/data/<code>/html/` instead of deleted after parsing, so a parser bug can be debugged by re-parsing the saved HTML without re-hitting the (often bot-detected) endpoint. Mechanism:
 
