@@ -21,6 +21,9 @@ Thumbs.db
 data/quotes.csv
 data/combinations.csv
 
+# Per-carrier scratch notes (personal TODO files, not part of the repo)
+src/carriers/*/pendingFixes*
+
 # Generated runtime data
 src/data/*/raw/
 src/data/*/log/

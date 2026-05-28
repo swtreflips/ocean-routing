@@ -1,0 +1,5768 @@
+{
+  "Ports": {
+    "Aalborg, Denmark": {
+      "PortId": 896,
+      "LocationName": "AALBORG",
+      "LocationCode": "DKAAL",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 57.047036,
+      "LocationLongitude": 10.055766
+    },
+    "Aarhus, Denmark": {
+      "PortId": 424,
+      "LocationName": "AARHUS",
+      "LocationCode": "DKAAR",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 56.1535,
+      "LocationLongitude": 10.2408
+    },
+    "Abidjan, Cote D'Ivoire": {
+      "PortId": 454,
+      "LocationName": "ABIDJAN",
+      "LocationCode": "CIABJ",
+      "CountryId": null,
+      "CountryName": "COTE D'IVOIRE",
+      "CountryIsoCode": "CI",
+      "LocationLatitude": 5.272861,
+      "LocationLongitude": -4.012153
+    },
+    "Abu Dhabi, United Arab Emirates": {
+      "PortId": 498,
+      "LocationName": "ABU DHABI",
+      "LocationCode": "AEAUH",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 24.466667,
+      "LocationLongitude": 54.366667
+    },
+    "Abu Kir, Egypt": {
+      "PortId": 1594,
+      "LocationName": "ABU KIR",
+      "LocationCode": "EGAKI",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.311621,
+      "LocationLongitude": 30.060686
+    },
+    "Acajutla, El Salvador": {
+      "PortId": 1097,
+      "LocationName": "ACAJUTLA",
+      "LocationCode": "SVAQJ",
+      "CountryId": null,
+      "CountryName": "EL SALVADOR",
+      "CountryIsoCode": "SV",
+      "LocationLatitude": 13.577395,
+      "LocationLongitude": -89.831959
+    },
+    "Ad Dammam, Saudi Arabia": {
+      "PortId": 844,
+      "LocationName": "AD DAMMAM",
+      "LocationCode": "SADMM",
+      "CountryId": null,
+      "CountryName": "SAUDI ARABIA",
+      "CountryIsoCode": "SA",
+      "LocationLatitude": 26.509615,
+      "LocationLongitude": 50.198998
+    },
+    "Adelaide, Australia": {
+      "PortId": 494,
+      "LocationName": "ADELAIDE",
+      "LocationCode": "AUADL",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -34.770536,
+      "LocationLongitude": 138.489982
+    },
+    "Aden, Yemen": {
+      "PortId": 54,
+      "LocationName": "ADEN",
+      "LocationCode": "YEADE",
+      "CountryId": null,
+      "CountryName": "YEMEN",
+      "CountryIsoCode": "YE",
+      "LocationLatitude": 12.796675,
+      "LocationLongitude": 45.006414
+    },
+    "Agadir, Morocco": {
+      "PortId": 1191,
+      "LocationName": "AGADIR",
+      "LocationCode": "MAAGA",
+      "CountryId": null,
+      "CountryName": "MOROCCO",
+      "CountryIsoCode": "MA",
+      "LocationLatitude": 30.429567,
+      "LocationLongitude": -9.646429
+    },
+    "Ahus, Sweden": {
+      "PortId": 147,
+      "LocationName": "AHUS",
+      "LocationCode": "SEAHU",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 55.928729,
+      "LocationLongitude": 14.325376
+    },
+    "Ajman, United Arab Emirates": {
+      "PortId": 497,
+      "LocationName": "AJMAN",
+      "LocationCode": "AEAJM",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 25.421429,
+      "LocationLongitude": 55.452767
+    },
+    "Akita, Japan": {
+      "PortId": 285,
+      "LocationName": "AKITA",
+      "LocationCode": "JPAXT",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 39.768337,
+      "LocationLongitude": 140.04931
+    },
+    "Al 'Aqabah, Jordan": {
+      "PortId": 299,
+      "LocationName": "AL 'AQABAH",
+      "LocationCode": "JOAQJ",
+      "CountryId": null,
+      "CountryName": "JORDAN",
+      "CountryIsoCode": "JO",
+      "LocationLatitude": 29.469625,
+      "LocationLongitude": 34.975677
+    },
+    "Alesund, Norway": {
+      "PortId": 206,
+      "LocationName": "ALESUND",
+      "LocationCode": "NOAES",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 62.468493,
+      "LocationLongitude": 6.139647
+    },
+    "Alexandria El Dekheila, Egypt": {
+      "PortId": 638,
+      "LocationName": "ALEXANDRIA EL DEKHEILA",
+      "LocationCode": "EGEDK",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.119101,
+      "LocationLongitude": 29.810539
+    },
+    "Alexandria Old Port, Egypt": {
+      "PortId": 421,
+      "LocationName": "ALEXANDRIA OLD PORT",
+      "LocationCode": "EGALY",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.142982,
+      "LocationLongitude": 29.792856
+    },
+    "Algeciras, Spain": {
+      "PortId": 405,
+      "LocationName": "ALGECIRAS",
+      "LocationCode": "ESALG",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 36.142538,
+      "LocationLongitude": -5.438306
+    },
+    "Alger, Algeria": {
+      "PortId": 417,
+      "LocationName": "ALGER",
+      "LocationCode": "DZALG",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 36.759663,
+      "LocationLongitude": 3.067818
+    },
+    "Aliaga, Turkiye": {
+      "PortId": 1212,
+      "LocationName": "ALIAGA",
+      "LocationCode": "TRALI",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 38.767561,
+      "LocationLongitude": 26.934428
+    },
+    "Alicante, Spain": {
+      "PortId": 851,
+      "LocationName": "ALICANTE",
+      "LocationCode": "ESALC",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 38.3271,
+      "LocationLongitude": -0.4948
+    },
+    "Almeria, Spain": {
+      "PortId": 1486,
+      "LocationName": "ALMERIA",
+      "LocationCode": "ESLEI",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 36.841862,
+      "LocationLongitude": -2.46379
+    },
+    "Altamira, Mexico": {
+      "PortId": 231,
+      "LocationName": "ALTAMIRA",
+      "LocationCode": "MXATM",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 22.479197,
+      "LocationLongitude": -97.883954
+    },
+    "Amsterdam, Netherlands": {
+      "PortId": 216,
+      "LocationName": "AMSTERDAM",
+      "LocationCode": "NLAMS",
+      "CountryId": null,
+      "CountryName": "NETHERLANDS",
+      "CountryIsoCode": "NL",
+      "LocationLatitude": 52.4224,
+      "LocationLongitude": 4.7666
+    },
+    "Ancona, Italy": {
+      "PortId": 306,
+      "LocationName": "ANCONA",
+      "LocationCode": "ITAOI",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 43.620085,
+      "LocationLongitude": 13.493691
+    },
+    "Annaba, Algeria": {
+      "PortId": 1072,
+      "LocationName": "ANNABA",
+      "LocationCode": "DZAAE",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 36.895619,
+      "LocationLongitude": 7.760563
+    },
+    "Antalya, Turkiye": {
+      "PortId": 103,
+      "LocationName": "ANTALYA",
+      "LocationCode": "TRAYT",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 36.838729,
+      "LocationLongitude": 30.610888
+    },
+    "Antofagasta, Chile": {
+      "PortId": 560,
+      "LocationName": "ANTOFAGASTA",
+      "LocationCode": "CLANF",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -23.652742,
+      "LocationLongitude": -70.404388
+    },
+    "Antwerp, Belgium": {
+      "PortId": 481,
+      "LocationName": "ANTWERP",
+      "LocationCode": "BEANR",
+      "CountryId": null,
+      "CountryName": "BELGIUM",
+      "CountryIsoCode": "BE",
+      "LocationLatitude": 51.322825,
+      "LocationLongitude": 4.333416
+    },
+    "Apapa, Nigeria": {
+      "PortId": 212,
+      "LocationName": "APAPA",
+      "LocationCode": "NGAPP",
+      "CountryId": null,
+      "CountryName": "NIGERIA",
+      "CountryIsoCode": "NG",
+      "LocationLatitude": 6.439293,
+      "LocationLongitude": 3.387645
+    },
+    "Apia, Samoa": {
+      "PortId": 1039,
+      "LocationName": "APIA",
+      "LocationCode": "WSAPW",
+      "CountryId": null,
+      "CountryName": "SAMOA",
+      "CountryIsoCode": "WS",
+      "LocationLatitude": -13.826351,
+      "LocationLongitude": -171.761029
+    },
+    "Arica, Chile": {
+      "PortId": 456,
+      "LocationName": "ARICA",
+      "LocationCode": "CLARI",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -18.471873,
+      "LocationLongitude": -70.327959
+    },
+    "Arrecife De Lanzarote, Spain": {
+      "PortId": 403,
+      "LocationName": "ARRECIFE DE LANZAROTE",
+      "LocationCode": "ESACE",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 28.9695,
+      "LocationLongitude": -13.529873
+    },
+    "Ashdod, Israel": {
+      "PortId": 318,
+      "LocationName": "ASHDOD",
+      "LocationCode": "ILASH",
+      "CountryId": null,
+      "CountryName": "ISRAEL",
+      "CountryIsoCode": "IL",
+      "LocationLatitude": 31.8349,
+      "LocationLongitude": 34.646133
+    },
+    "Auckland, New Zealand": {
+      "PortId": 171,
+      "LocationName": "AUCKLAND",
+      "LocationCode": "NZAKL",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -36.842406,
+      "LocationLongitude": 174.785005
+    },
+    "Augusta Port Of Catania, Italy": {
+      "PortId": 307,
+      "LocationName": "AUGUSTA PORT OF CATANIA",
+      "LocationCode": "ITAUG",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 37.2371,
+      "LocationLongitude": 15.1934
+    },
+    "Bahrain, Bahrain": {
+      "PortId": 484,
+      "LocationName": "BAHRAIN",
+      "LocationCode": "BHKBS",
+      "CountryId": null,
+      "CountryName": "BAHRAIN",
+      "CountryIsoCode": "BH",
+      "LocationLatitude": 26.066019,
+      "LocationLongitude": 50.559655
+    },
+    "Balboa, Panama": {
+      "PortId": 166,
+      "LocationName": "BALBOA",
+      "LocationCode": "PABLB",
+      "CountryId": null,
+      "CountryName": "PANAMA",
+      "CountryIsoCode": "PA",
+      "LocationLatitude": 8.958933,
+      "LocationLongitude": -79.56542
+    },
+    "Bandirma, Turkiye": {
+      "PortId": 1422,
+      "LocationName": "BANDIRMA",
+      "LocationCode": "TRBDM",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.354786,
+      "LocationLongitude": 27.9616
+    },
+    "Bangkok, Thailand": {
+      "PortId": 15,
+      "LocationName": "BANGKOK MODERN TERMINALS/BANGKOK",
+      "LocationCode": "THBMT",
+      "CountryId": null,
+      "CountryName": "THAILAND",
+      "CountryIsoCode": "TH",
+      "LocationLatitude": 13.604885,
+      "LocationLongitude": 100.574445
+    },
+    "Banjarmasin, Indonesia": {
+      "PortId": 1601,
+      "LocationName": "BANJARMASIN",
+      "LocationCode": "IDBDJ",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -3.328499,
+      "LocationLongitude": 114.589218
+    },
+    "Banjul, Gambia": {
+      "PortId": 351,
+      "LocationName": "BANJUL",
+      "LocationCode": "GMBJL",
+      "CountryId": null,
+      "CountryName": "GAMBIA",
+      "CountryIsoCode": "GM",
+      "LocationLatitude": 13.445245,
+      "LocationLongitude": -16.57296
+    },
+    "Bar, Montenegro": {
+      "PortId": 626,
+      "LocationName": "BAR",
+      "LocationCode": "MEBAR",
+      "CountryId": null,
+      "CountryName": "MONTENEGRO",
+      "CountryIsoCode": "ME",
+      "LocationLatitude": 42.0884,
+      "LocationLongitude": 19.084948
+    },
+    "Barcelona, Spain": {
+      "PortId": 406,
+      "LocationName": "BARCELONA",
+      "LocationCode": "ESBCN",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 41.340409,
+      "LocationLongitude": 2.148582
+    },
+    "Bari, Italy": {
+      "PortId": 309,
+      "LocationName": "BARI",
+      "LocationCode": "ITBRI",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 41.141522,
+      "LocationLongitude": 16.869133
+    },
+    "Batam Island, Indonesia": {
+      "PortId": 1297,
+      "LocationName": "BATAM ISLAND",
+      "LocationCode": "IDBTM",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": 1.164873,
+      "LocationLongitude": 103.99928
+    },
+    "Batangas, Luzon, Philippines": {
+      "PortId": 1500,
+      "LocationName": "BATANGAS, LUZON",
+      "LocationCode": "PHBTG",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 13.7605,
+      "LocationLongitude": 121.0442
+    },
+    "Batumi, Georgia": {
+      "PortId": 1047,
+      "LocationName": "BATUMI",
+      "LocationCode": "GEBUS",
+      "CountryId": null,
+      "CountryName": "GEORGIA",
+      "CountryIsoCode": "GE",
+      "LocationLatitude": 41.648897,
+      "LocationLongitude": 41.657365
+    },
+    "Beira, Mozambique": {
+      "PortId": 223,
+      "LocationName": "BEIRA",
+      "LocationCode": "MZBEW",
+      "CountryId": null,
+      "CountryName": "MOZAMBIQUE",
+      "CountryIsoCode": "MZ",
+      "LocationLatitude": -19.819478,
+      "LocationLongitude": 34.83456
+    },
+    "Beirut, Lebanon": {
+      "PortId": 251,
+      "LocationName": "BEIRUT",
+      "LocationCode": "LBBEY",
+      "CountryId": null,
+      "CountryName": "LEBANON",
+      "CountryIsoCode": "LB",
+      "LocationLatitude": 33.907683,
+      "LocationLongitude": 35.531039
+    },
+    "Bejaia, Algeria": {
+      "PortId": 418,
+      "LocationName": "BEJAIA",
+      "LocationCode": "DZBJA",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 36.742624,
+      "LocationLongitude": 5.078339
+    },
+    "Belawan, Sumatra, Indonesia": {
+      "PortId": 335,
+      "LocationName": "BELAWAN, SUMATRA",
+      "LocationCode": "IDBLW",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": 3.792627,
+      "LocationLongitude": 98.715632
+    },
+    "Belfast, United Kingdom": {
+      "PortId": 367,
+      "LocationName": "BELFAST",
+      "LocationCode": "GBBEL",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 54.632197,
+      "LocationLongitude": -5.885155
+    },
+    "Belize City, Belize": {
+      "PortId": 1090,
+      "LocationName": "BELIZE CITY",
+      "LocationCode": "BZBZE",
+      "CountryId": null,
+      "CountryName": "BELIZE",
+      "CountryIsoCode": "BZ",
+      "LocationLatitude": 17.473808,
+      "LocationLongitude": -88.200893
+    },
+    "Bell Bay, Australia": {
+      "PortId": 1034,
+      "LocationName": "BELL BAY",
+      "LocationCode": "AUBEL",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -41.138956,
+      "LocationLongitude": 146.855706
+    },
+    "Berbera, Somalia": {
+      "PortId": 126,
+      "LocationName": "BERBERA",
+      "LocationCode": "SOBBO",
+      "CountryId": null,
+      "CountryName": "SOMALIA",
+      "CountryIsoCode": "SO",
+      "LocationLatitude": 10.437728,
+      "LocationLongitude": 44.997558
+    },
+    "Bergen, Norway": {
+      "PortId": 207,
+      "LocationName": "BERGEN",
+      "LocationCode": "NOBGO",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 60.389749,
+      "LocationLongitude": 5.310368
+    },
+    "Bilbao, Spain": {
+      "PortId": 407,
+      "LocationName": "BILBAO",
+      "LocationCode": "ESBIO",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 43.34566,
+      "LocationLongitude": -3.041067
+    },
+    "Bingazi, Libya": {
+      "PortId": 254,
+      "LocationName": "BINGAZI",
+      "LocationCode": "LYBEN",
+      "CountryId": null,
+      "CountryName": "LIBYA",
+      "CountryIsoCode": "LY",
+      "LocationLatitude": 32.114506,
+      "LocationLongitude": 20.046074
+    },
+    "Bintulu, Sarawak, Malaysia": {
+      "PortId": 1099,
+      "LocationName": "BINTULU, SARAWAK",
+      "LocationCode": "MYBTU",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 3.265402,
+      "LocationLongitude": 113.072672
+    },
+    "Bissau, Guinea-Bissau": {
+      "PortId": 859,
+      "LocationName": "BISSAU",
+      "LocationCode": "GWOXB",
+      "CountryId": null,
+      "CountryName": "GUINEA-BISSAU",
+      "CountryIsoCode": "GW",
+      "LocationLatitude": 11.856559,
+      "LocationLongitude": -15.575329
+    },
+    "Bluff, New Zealand": {
+      "PortId": 172,
+      "LocationName": "BLUFF",
+      "LocationCode": "NZBLU",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -46.593421,
+      "LocationLongitude": 168.334572
+    },
+    "Bremerhaven, Germany": {
+      "PortId": 429,
+      "LocationName": "BREMERHAVEN",
+      "LocationCode": "DEBRV",
+      "CountryId": null,
+      "CountryName": "GERMANY",
+      "CountryIsoCode": "DE",
+      "LocationLatitude": 53.570929,
+      "LocationLongitude": 8.544396
+    },
+    "Brest, France": {
+      "PortId": 1082,
+      "LocationName": "BREST",
+      "LocationCode": "FRBES",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 48.381832,
+      "LocationLongitude": -4.475993
+    },
+    "Brevik, Norway": {
+      "PortId": 193,
+      "LocationName": "BREVIK",
+      "LocationCode": "NOBVK",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.066138,
+      "LocationLongitude": 9.698699
+    },
+    "Bridgetown, Barbados": {
+      "PortId": 490,
+      "LocationName": "BRIDGETOWN",
+      "LocationCode": "BBBGI",
+      "CountryId": null,
+      "CountryName": "BARBADOS",
+      "CountryIsoCode": "BB",
+      "LocationLatitude": 13.105411,
+      "LocationLongitude": -59.629449
+    },
+    "Brisbane, Australia": {
+      "PortId": 495,
+      "LocationName": "BRISBANE",
+      "LocationCode": "AUBNE",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -27.365995,
+      "LocationLongitude": 153.176949
+    },
+    "Buenaventura, Colombia": {
+      "PortId": 451,
+      "LocationName": "BUENAVENTURA",
+      "LocationCode": "COBUN",
+      "CountryId": null,
+      "CountryName": "COLOMBIA",
+      "CountryIsoCode": "CO",
+      "LocationLatitude": 3.89333,
+      "LocationLongitude": -77.071871
+    },
+    "Buenos Aires, Argentina": {
+      "PortId": 512,
+      "LocationName": "BUENOS AIRES",
+      "LocationCode": "ARBUE",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -34.5851,
+      "LocationLongitude": -58.3626
+    },
+    "Burgas, Bulgaria": {
+      "PortId": 482,
+      "LocationName": "BURGAS",
+      "LocationCode": "BGBOJ",
+      "CountryId": null,
+      "CountryName": "BULGARIA",
+      "CountryIsoCode": "BG",
+      "LocationLatitude": 42.484644,
+      "LocationLongitude": 27.459286
+    },
+    "Busan, Korea, Republic Of": {
+      "PortId": 274,
+      "LocationName": "BUSAN",
+      "LocationCode": "KRPUS",
+      "CountryId": null,
+      "CountryName": "KOREA, REPUBLIC OF",
+      "CountryIsoCode": "KR",
+      "LocationLatitude": 35.079404,
+      "LocationLongitude": 128.803243
+    },
+    "Caacupemi Asuncion, Paraguay": {
+      "PortId": 1028,
+      "LocationName": "CAACUPEMI ASUNCION",
+      "LocationCode": "PYBCM",
+      "CountryId": null,
+      "CountryName": "PARAGUAY",
+      "CountryIsoCode": "PY",
+      "LocationLatitude": -25.225872,
+      "LocationLongitude": -57.571514
+    },
+    "Caacupemi Pilar, Paraguay": {
+      "PortId": 1031,
+      "LocationName": "CAACUPEMI PILAR",
+      "LocationCode": "PYPIL",
+      "CountryId": null,
+      "CountryName": "PARAGUAY",
+      "CountryIsoCode": "PY",
+      "LocationLatitude": -26.868786,
+      "LocationLongitude": -58.317994
+    },
+    "Cadiz, Spain": {
+      "PortId": 408,
+      "LocationName": "CADIZ",
+      "LocationCode": "ESCAD",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 36.539201,
+      "LocationLongitude": -6.288114
+    },
+    "Cagayan De Oro, Mindanao, Philippines": {
+      "PortId": 1586,
+      "LocationName": "CAGAYAN DE ORO, MINDANAO",
+      "LocationCode": "PHCGY",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 8.41739,
+      "LocationLongitude": 124.613274
+    },
+    "Cagliari, Italy": {
+      "PortId": 850,
+      "LocationName": "CAGLIARI",
+      "LocationCode": "ITCAG",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 39.213572,
+      "LocationLongitude": 9.073613
+    },
+    "Caldera, Costa Rica": {
+      "PortId": 520,
+      "LocationName": "CALDERA",
+      "LocationCode": "CRCAL",
+      "CountryId": null,
+      "CountryName": "COSTA RICA",
+      "CountryIsoCode": "CR",
+      "LocationLatitude": 9.91123,
+      "LocationLongitude": -84.720922
+    },
+    "Callao, Peru": {
+      "PortId": 168,
+      "LocationName": "CALLAO",
+      "LocationCode": "PECLL",
+      "CountryId": null,
+      "CountryName": "PERU",
+      "CountryIsoCode": "PE",
+      "LocationLatitude": -12.045299,
+      "LocationLongitude": -77.144572
+    },
+    "Campana, Argentina": {
+      "PortId": 1520,
+      "LocationName": "CAMPANA",
+      "LocationCode": "ARCMP",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -34.162529,
+      "LocationLongitude": -58.959412
+    },
+    "Campden Park, Saint Vincent And The Grenadines": {
+      "PortId": 1404,
+      "LocationName": "CAMPDEN PARK",
+      "LocationCode": "VCCRP",
+      "CountryId": null,
+      "CountryName": "SAINT VINCENT AND THE GRENADINES",
+      "CountryIsoCode": "VC",
+      "LocationLatitude": 13.1667,
+      "LocationLongitude": -61.233299
+    },
+    "Cape Town, South Africa": {
+      "PortId": 62,
+      "LocationName": "CAPE TOWN",
+      "LocationCode": "ZACPT",
+      "CountryId": null,
+      "CountryName": "SOUTH AFRICA",
+      "CountryIsoCode": "ZA",
+      "LocationLatitude": -33.907,
+      "LocationLongitude": 18.4463
+    },
+    "Cartagena, Colombia": {
+      "PortId": 452,
+      "LocationName": "CARTAGENA",
+      "LocationCode": "COCTG",
+      "CountryId": null,
+      "CountryName": "COLOMBIA",
+      "CountryIsoCode": "CO",
+      "LocationLatitude": 10.377431,
+      "LocationLongitude": -75.509705
+    },
+    "Cartagena, Spain": {
+      "PortId": 853,
+      "LocationName": "CARTAGENA",
+      "LocationCode": "ESCAR",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 37.594761,
+      "LocationLongitude": -0.9728
+    },
+    "Casablanca, Morocco": {
+      "PortId": 259,
+      "LocationName": "CASABLANCA",
+      "LocationCode": "MACAS",
+      "CountryId": null,
+      "CountryName": "MOROCCO",
+      "CountryIsoCode": "MA",
+      "LocationLatitude": 33.610797,
+      "LocationLongitude": -7.596293
+    },
+    "Castellon De La Plana, Spain": {
+      "PortId": 409,
+      "LocationName": "CASTELLON DE LA PLANA",
+      "LocationCode": "ESCAS",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 39.96223,
+      "LocationLongitude": 0.028734
+    },
+    "Castries, Saint Lucia": {
+      "PortId": 561,
+      "LocationName": "CASTRIES",
+      "LocationCode": "LCCAS",
+      "CountryId": null,
+      "CountryName": "SAINT LUCIA",
+      "CountryIsoCode": "LC",
+      "LocationLatitude": 14.010478,
+      "LocationLongitude": -60.993445
+    },
+    "Caucedo, Dominican Republic": {
+      "PortId": 517,
+      "LocationName": "CAUCEDO",
+      "LocationCode": "DOCAU",
+      "CountryId": null,
+      "CountryName": "DOMINICAN REPUBLIC",
+      "CountryIsoCode": "DO",
+      "LocationLatitude": 18.425165,
+      "LocationLongitude": -69.631032
+    },
+    "Cebu, Philippines": {
+      "PortId": 1553,
+      "LocationName": "CEBU",
+      "LocationCode": "PHCEB",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 10.3063,
+      "LocationLongitude": 123.9261
+    },
+    "Chattogram, Bangladesh": {
+      "PortId": 587,
+      "LocationName": "CHATTOGRAM",
+      "LocationCode": "BDCGP",
+      "CountryId": null,
+      "CountryName": "BANGLADESH",
+      "CountryIsoCode": "BD",
+      "LocationLatitude": 22.300498,
+      "LocationLongitude": 91.794525
+    },
+    "Chennai, India": {
+      "PortId": 325,
+      "LocationName": "CHENNAI",
+      "LocationCode": "INMAA",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 13.104433,
+      "LocationLongitude": 80.297379
+    },
+    "Chiba, Japan": {
+      "PortId": 1164,
+      "LocationName": "CHIBA",
+      "LocationCode": "JPCHB",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.595465,
+      "LocationLongitude": 140.093172
+    },
+    "Chornomorsk, Ukraine": {
+      "PortId": 14,
+      "LocationName": "CHORNOMORSK",
+      "LocationCode": "UAILK",
+      "CountryId": null,
+      "CountryName": "UKRAINE",
+      "CountryIsoCode": "UA",
+      "LocationLatitude": 46.313934,
+      "LocationLongitude": 30.664024
+    },
+    "Civitavecchia, Italy": {
+      "PortId": 1025,
+      "LocationName": "CIVITAVECCHIA",
+      "LocationCode": "ITCVV",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 42.106702,
+      "LocationLongitude": 11.770717
+    },
+    "Cochin, India": {
+      "PortId": 322,
+      "LocationName": "COCHIN",
+      "LocationCode": "INCOK",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 9.966459,
+      "LocationLongitude": 76.269843
+    },
+    "Coega, South Africa": {
+      "PortId": 1193,
+      "LocationName": "COEGA",
+      "LocationCode": "ZAZBA",
+      "CountryId": null,
+      "CountryName": "SOUTH AFRICA",
+      "CountryIsoCode": "ZA",
+      "LocationLatitude": -33.801353,
+      "LocationLongitude": 25.682269
+    },
+    "Colombo, Sri Lanka": {
+      "PortId": 252,
+      "LocationName": "COLOMBO",
+      "LocationCode": "LKCMB",
+      "CountryId": null,
+      "CountryName": "SRI LANKA",
+      "CountryIsoCode": "LK",
+      "LocationLatitude": 6.942743,
+      "LocationLongitude": 79.851137
+    },
+    "Colon, Panama": {
+      "PortId": 1343,
+      "LocationName": "COLON",
+      "LocationCode": "PAONX",
+      "CountryId": null,
+      "CountryName": "PANAMA",
+      "CountryIsoCode": "PA",
+      "LocationLatitude": 9.361606,
+      "LocationLongitude": -79.883418
+    },
+    "Conakry, Guinea": {
+      "PortId": 352,
+      "LocationName": "CONAKRY",
+      "LocationCode": "GNCKY",
+      "CountryId": null,
+      "CountryName": "GUINEA",
+      "CountryIsoCode": "GN",
+      "LocationLatitude": 9.511331,
+      "LocationLongitude": -13.720217
+    },
+    "Constanta, Romania": {
+      "PortId": 156,
+      "LocationName": "CONSTANTA",
+      "LocationCode": "ROCND",
+      "CountryId": null,
+      "CountryName": "ROMANIA",
+      "CountryIsoCode": "RO",
+      "LocationLatitude": 44.152138,
+      "LocationLongitude": 28.645216
+    },
+    "Copenhagen, Denmark": {
+      "PortId": 425,
+      "LocationName": "COPENHAGEN",
+      "LocationCode": "DKCPH",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 55.710908,
+      "LocationLongitude": 12.606354
+    },
+    "Coquimbo, Chile": {
+      "PortId": 1555,
+      "LocationName": "COQUIMBO",
+      "LocationCode": "CLCQQ",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -30.221632,
+      "LocationLongitude": -71.329812
+    },
+    "Corinto, Nicaragua": {
+      "PortId": 1210,
+      "LocationName": "CORINTO",
+      "LocationCode": "NICIO",
+      "CountryId": null,
+      "CountryName": "NICARAGUA",
+      "CountryIsoCode": "NI",
+      "LocationLatitude": 12.482323,
+      "LocationLongitude": -87.168281
+    },
+    "Cork, Ireland": {
+      "PortId": 330,
+      "LocationName": "CORK",
+      "LocationCode": "IEORK",
+      "CountryId": null,
+      "CountryName": "IRELAND",
+      "CountryIsoCode": "IE",
+      "LocationLatitude": 51.9007,
+      "LocationLongitude": -8.4164
+    },
+    "Corner Brook, Canada": {
+      "PortId": 1235,
+      "LocationName": "CORNER BROOK",
+      "LocationCode": "CACBK",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 48.959474,
+      "LocationLongitude": -57.941334
+    },
+    "Coronel, Chile": {
+      "PortId": 1112,
+      "LocationName": "CORONEL",
+      "LocationCode": "CLCNL",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -37.033149,
+      "LocationLongitude": -73.149087
+    },
+    "Cotonou, Benin": {
+      "PortId": 487,
+      "LocationName": "COTONOU",
+      "LocationCode": "BJCOO",
+      "CountryId": null,
+      "CountryName": "BENIN",
+      "CountryIsoCode": "BJ",
+      "LocationLatitude": 6.348689,
+      "LocationLongitude": 2.418895
+    },
+    "Cristobal, Panama": {
+      "PortId": 167,
+      "LocationName": "CRISTOBAL",
+      "LocationCode": "PACTB",
+      "CountryId": null,
+      "CountryName": "PANAMA",
+      "CountryIsoCode": "PA",
+      "LocationLatitude": 9.352367,
+      "LocationLongitude": -79.906628
+    },
+    "Da Chan Bay, China": {
+      "PortId": 1523,
+      "LocationName": "DA CHAN BAY",
+      "LocationCode": "CNDCB",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 22.5351,
+      "LocationLongitude": 113.8628
+    },
+    "Da-Nang, Viet Nam": {
+      "PortId": 53,
+      "LocationName": "DA-NANG",
+      "LocationCode": "VNDAD",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 16.118318,
+      "LocationLongitude": 108.216594
+    },
+    "Dakar, Senegal": {
+      "PortId": 125,
+      "LocationName": "DAKAR",
+      "LocationCode": "SNDKR",
+      "CountryId": null,
+      "CountryName": "SENEGAL",
+      "CountryIsoCode": "SN",
+      "LocationLatitude": 14.68839,
+      "LocationLongitude": -17.427236
+    },
+    "Dalian, China": {
+      "PortId": 463,
+      "LocationName": "DALIAN",
+      "LocationCode": "CNDLC",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 39.00652,
+      "LocationLongitude": 121.86606
+    },
+    "Damietta, Egypt": {
+      "PortId": 514,
+      "LocationName": "DAMIETTA",
+      "LocationCode": "EGDAM",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.458389,
+      "LocationLongitude": 31.757343
+    },
+    "Dar Es Salaam, Tanzania, United Republic Of": {
+      "PortId": 97,
+      "LocationName": "DAR ES SALAAM",
+      "LocationCode": "TZDAR",
+      "CountryId": null,
+      "CountryName": "TANZANIA, UNITED REPUBLIC OF",
+      "CountryIsoCode": "TZ",
+      "LocationLatitude": -6.840313,
+      "LocationLongitude": 39.295805
+    },
+    "Davao, Mindanao, Philippines": {
+      "PortId": 1513,
+      "LocationName": "DAVAO, MINDANAO",
+      "LocationCode": "PHDVO",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 7.06567,
+      "LocationLongitude": 125.611008
+    },
+    "Derince, Turkiye": {
+      "PortId": 1505,
+      "LocationName": "DERINCE",
+      "LocationCode": "TRDRC",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.760601,
+      "LocationLongitude": 29.820101
+    },
+    "Diego Suarez, Madagascar": {
+      "PortId": 261,
+      "LocationName": "DIEGO SUAREZ",
+      "LocationCode": "MGDIE",
+      "CountryId": null,
+      "CountryName": "MADAGASCAR",
+      "CountryIsoCode": "MG",
+      "LocationLatitude": -12.268759,
+      "LocationLongitude": 49.288599
+    },
+    "Dili, Timor-Leste": {
+      "PortId": 1478,
+      "LocationName": "DILI",
+      "LocationCode": "TLDIL",
+      "CountryId": null,
+      "CountryName": "TIMOR-LESTE",
+      "CountryIsoCode": "TL",
+      "LocationLatitude": -8.56904,
+      "LocationLongitude": 125.570557
+    },
+    "Djen-Djen, Algeria": {
+      "PortId": 1368,
+      "LocationName": "DJEN-DJEN",
+      "LocationCode": "DZDJE",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 36.826292,
+      "LocationLongitude": 5.892405
+    },
+    "Djibouti, Djibouti": {
+      "PortId": 423,
+      "LocationName": "DJIBOUTI",
+      "LocationCode": "DJJIB",
+      "CountryId": null,
+      "CountryName": "DJIBOUTI",
+      "CountryIsoCode": "DJ",
+      "LocationLatitude": 11.604962,
+      "LocationLongitude": 43.138416
+    },
+    "Dong Nai, Viet Nam": {
+      "PortId": 1609,
+      "LocationName": "DONG NAI",
+      "LocationCode": "VNDNA",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 10.905528,
+      "LocationLongitude": 106.830971
+    },
+    "Douala, Cameroon": {
+      "PortId": 460,
+      "LocationName": "DOUALA",
+      "LocationCode": "CMDLA",
+      "CountryId": null,
+      "CountryName": "CAMEROON",
+      "CountryIsoCode": "CM",
+      "LocationLatitude": 4.039936,
+      "LocationLongitude": 9.678355
+    },
+    "Dublin, Ireland": {
+      "PortId": 329,
+      "LocationName": "DUBLIN",
+      "LocationCode": "IEDUB",
+      "CountryId": null,
+      "CountryName": "IRELAND",
+      "CountryIsoCode": "IE",
+      "LocationLatitude": 53.3474,
+      "LocationLongitude": -6.2018
+    },
+    "Dunkerque, France": {
+      "PortId": 375,
+      "LocationName": "DUNKERQUE",
+      "LocationCode": "FRDKK",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 51.013644,
+      "LocationLongitude": 2.181732
+    },
+    "Duqm, Oman": {
+      "PortId": 1453,
+      "LocationName": "DUQM",
+      "LocationCode": "OMDQM",
+      "CountryId": null,
+      "CountryName": "OMAN",
+      "CountryIsoCode": "OM",
+      "LocationLatitude": 19.634,
+      "LocationLongitude": 57.6331
+    },
+    "Durban, South Africa": {
+      "PortId": 63,
+      "LocationName": "DURBAN",
+      "LocationCode": "ZADUR",
+      "CountryId": null,
+      "CountryName": "SOUTH AFRICA",
+      "CountryIsoCode": "ZA",
+      "LocationLatitude": -29.8846,
+      "LocationLongitude": 31.0224
+    },
+    "Durres, Albania": {
+      "PortId": 504,
+      "LocationName": "DURRES",
+      "LocationCode": "ALDRZ",
+      "CountryId": null,
+      "CountryName": "ALBANIA",
+      "CountryIsoCode": "AL",
+      "LocationLatitude": 41.311671,
+      "LocationLongitude": 19.451281
+    },
+    "East London, South Africa": {
+      "PortId": 64,
+      "LocationName": "EAST LONDON",
+      "LocationCode": "ZAELS",
+      "CountryId": null,
+      "CountryName": "SOUTH AFRICA",
+      "CountryIsoCode": "ZA",
+      "LocationLatitude": -33.0262,
+      "LocationLongitude": 27.9135
+    },
+    "Egersund, Norway": {
+      "PortId": 1333,
+      "LocationName": "EGERSUND",
+      "LocationCode": "NOEGE",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 58.45219,
+      "LocationLongitude": 6.00348
+    },
+    "Ennore, India": {
+      "PortId": 1516,
+      "LocationName": "ENNORE",
+      "LocationCode": "INENR",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 13.2175,
+      "LocationLongitude": 80.321548
+    },
+    "Ensenada, Mexico": {
+      "PortId": 229,
+      "LocationName": "ENSENADA",
+      "LocationCode": "MXESE",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 31.86545,
+      "LocationLongitude": -116.59343
+    },
+    "Esperance, Australia": {
+      "PortId": 1424,
+      "LocationName": "ESPERANCE",
+      "LocationCode": "AUEPR",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -33.862309,
+      "LocationLongitude": 121.887367
+    },
+    "Evyap Port, Turkiye": {
+      "PortId": 1286,
+      "LocationName": "EVYAP PORT",
+      "LocationCode": "TREYP",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.77561,
+      "LocationLongitude": 29.709505
+    },
+    "Felixstowe, United Kingdom": {
+      "PortId": 365,
+      "LocationName": "FELIXSTOWE",
+      "LocationCode": "GBFXT",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 51.955745,
+      "LocationLongitude": 1.308713
+    },
+    "Figueira Da Foz, Portugal": {
+      "PortId": 1258,
+      "LocationName": "FIGUEIRA DA FOZ",
+      "LocationCode": "PTFDF",
+      "CountryId": null,
+      "CountryName": "PORTUGAL",
+      "CountryIsoCode": "PT",
+      "LocationLatitude": 40.147445,
+      "LocationLongitude": -8.851909
+    },
+    "Floro, Norway": {
+      "PortId": 829,
+      "LocationName": "FLORO",
+      "LocationCode": "NOFRO",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 61.601486,
+      "LocationLongitude": 5.02347
+    },
+    "Fos-Sur-Mer, France": {
+      "PortId": 376,
+      "LocationName": "FOS-SUR-MER",
+      "LocationCode": "FRFOS",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 43.416109,
+      "LocationLongitude": 4.831395
+    },
+    "Fredericia, Denmark": {
+      "PortId": 427,
+      "LocationName": "FREDERICIA",
+      "LocationCode": "DKFRC",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 55.558515,
+      "LocationLongitude": 9.738459
+    },
+    "Fredrikstad, Norway": {
+      "PortId": 194,
+      "LocationName": "FREDRIKSTAD",
+      "LocationCode": "NOFRK",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.180596,
+      "LocationLongitude": 10.956634
+    },
+    "Freeport, Grand Bahama, Bahamas": {
+      "PortId": 477,
+      "LocationName": "FREEPORT, GRAND BAHAMA",
+      "LocationCode": "BSFPO",
+      "CountryId": null,
+      "CountryName": "BAHAMAS",
+      "CountryIsoCode": "BS",
+      "LocationLatitude": 26.529162,
+      "LocationLongitude": -78.766958
+    },
+    "Freetown, Sierra Leone": {
+      "PortId": 124,
+      "LocationName": "FREETOWN",
+      "LocationCode": "SLFNA",
+      "CountryId": null,
+      "CountryName": "SIERRA LEONE",
+      "CountryIsoCode": "SL",
+      "LocationLatitude": 8.49301,
+      "LocationLongitude": -13.213448
+    },
+    "Fremantle, Australia": {
+      "PortId": 491,
+      "LocationName": "FREMANTLE",
+      "LocationCode": "AUFRE",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -32.041757,
+      "LocationLongitude": 115.745837
+    },
+    "Fukuyama, Hiroshima, Japan": {
+      "PortId": 857,
+      "LocationName": "FUKUYAMA, HIROSHIMA",
+      "LocationCode": "JPFKY",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.450003,
+      "LocationLongitude": 133.419113
+    },
+    "Fuzhou, China": {
+      "PortId": 438,
+      "LocationName": "FUZHOU",
+      "LocationCode": "CNFOC",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 26.00634,
+      "LocationLongitude": 119.475462
+    },
+    "Gangavaram, India": {
+      "PortId": 1592,
+      "LocationName": "GANGAVARAM",
+      "LocationCode": "INGGV",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 14.623838,
+      "LocationLongitude": 78.677811
+    },
+    "Gavle, Sweden": {
+      "PortId": 137,
+      "LocationName": "GAVLE",
+      "LocationCode": "SEGVX",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 60.693242,
+      "LocationLongitude": 17.222644
+    },
+    "Gdansk, Poland": {
+      "PortId": 157,
+      "LocationName": "GDANSK",
+      "LocationCode": "PLGDN",
+      "CountryId": null,
+      "CountryName": "POLAND",
+      "CountryIsoCode": "PL",
+      "LocationLatitude": 54.3822,
+      "LocationLongitude": 18.6538
+    },
+    "Gdynia, Poland": {
+      "PortId": 158,
+      "LocationName": "GDYNIA",
+      "LocationCode": "PLGDY",
+      "CountryId": null,
+      "CountryName": "POLAND",
+      "CountryIsoCode": "PL",
+      "LocationLatitude": 54.545095,
+      "LocationLongitude": 18.512216
+    },
+    "Gebze, Turkiye": {
+      "PortId": 935,
+      "LocationName": "GEBZE",
+      "LocationCode": "TRGEB",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.767459,
+      "LocationLongitude": 29.536461
+    },
+    "Gemlik, Turkiye": {
+      "PortId": 104,
+      "LocationName": "GEMLIK",
+      "LocationCode": "TRGEM",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.416981,
+      "LocationLongitude": 29.115256
+    },
+    "General Santos, Philippines": {
+      "PortId": 1512,
+      "LocationName": "GENERAL SANTOS",
+      "LocationCode": "PHGES",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 6.0925,
+      "LocationLongitude": 125.1553
+    },
+    "Genoa, Italy": {
+      "PortId": 300,
+      "LocationName": "GENOA",
+      "LocationCode": "ITGOA",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 44.421083,
+      "LocationLongitude": 8.783583
+    },
+    "Georgetown, Guyana": {
+      "PortId": 342,
+      "LocationName": "GEORGETOWN",
+      "LocationCode": "GYGEO",
+      "CountryId": null,
+      "CountryName": "GUYANA",
+      "CountryIsoCode": "GY",
+      "LocationLatitude": 6.810909,
+      "LocationLongitude": -58.168396
+    },
+    "Ghazaouet, Algeria": {
+      "PortId": 1590,
+      "LocationName": "GHAZAOUET",
+      "LocationCode": "DZGHZ",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 35.093862,
+      "LocationLongitude": -1.86322
+    },
+    "Gijon, Spain": {
+      "PortId": 1030,
+      "LocationName": "GIJON",
+      "LocationCode": "ESGIJ",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 43.554194,
+      "LocationLongitude": -5.68884
+    },
+    "Gioia Tauro, Italy": {
+      "PortId": 17,
+      "LocationName": "GIOIA TAURO",
+      "LocationCode": "ITGIT",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 38.460058,
+      "LocationLongitude": 15.910001
+    },
+    "Giresun, Turkiye": {
+      "PortId": 1568,
+      "LocationName": "GIRESUN",
+      "LocationCode": "TRGIR",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.916119,
+      "LocationLongitude": 38.38232
+    },
+    "Gjemnes, Norway": {
+      "PortId": 1192,
+      "LocationName": "GJEMNES",
+      "LocationCode": "NOGJM",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 62.969183,
+      "LocationLongitude": 7.732682
+    },
+    "Goteborg, Sweden": {
+      "PortId": 136,
+      "LocationName": "GOTEBORG",
+      "LocationCode": "SEGOT",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 57.690603,
+      "LocationLongitude": 11.862211
+    },
+    "Grangemouth, United Kingdom": {
+      "PortId": 366,
+      "LocationName": "GRANGEMOUTH",
+      "LocationCode": "GBGRG",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 56.03021,
+      "LocationLongitude": -3.693432
+    },
+    "Greenock, United Kingdom": {
+      "PortId": 1213,
+      "LocationName": "GREENOCK",
+      "LocationCode": "GBGRK",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 55.954549,
+      "LocationLongitude": -4.75959
+    },
+    "Guayaquil, Ecuador": {
+      "PortId": 420,
+      "LocationName": "GUAYAQUIL",
+      "LocationCode": "ECGYE",
+      "CountryId": null,
+      "CountryName": "ECUADOR",
+      "CountryIsoCode": "EC",
+      "LocationLatitude": -2.283445,
+      "LocationLongitude": -79.900671
+    },
+    "Guaymas, Mexico": {
+      "PortId": 230,
+      "LocationName": "GUAYMAS",
+      "LocationCode": "MXGYM",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 27.920066,
+      "LocationLongitude": -110.868551
+    },
+    "Gwangyang, Korea, Republic Of": {
+      "PortId": 899,
+      "LocationName": "GWANGYANG",
+      "LocationCode": "KRKAN",
+      "CountryId": null,
+      "CountryName": "KOREA, REPUBLIC OF",
+      "CountryIsoCode": "KR",
+      "LocationLatitude": 34.897785,
+      "LocationLongitude": 127.653654
+    },
+    "Hachinohe, Aomori, Japan": {
+      "PortId": 286,
+      "LocationName": "HACHINOHE, AOMORI",
+      "LocationCode": "JPHHE",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 40.539983,
+      "LocationLongitude": 141.512825
+    },
+    "Haifa, Israel": {
+      "PortId": 319,
+      "LocationName": "HAIFA",
+      "LocationCode": "ILHFA",
+      "CountryId": null,
+      "CountryName": "ISRAEL",
+      "CountryIsoCode": "IL",
+      "LocationLatitude": 32.813497,
+      "LocationLongitude": 35.012706
+    },
+    "Hai Phong, Vietnam": {
+      "PortId": 51,
+      "LocationName": "HAIPHONG",
+      "LocationCode": "VNHPH",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 20.862952,
+      "LocationLongitude": 106.724224
+    },
+    "Hakata, Fukuoka, Japan": {
+      "PortId": 288,
+      "LocationName": "HAKATA, FUKUOKA",
+      "LocationCode": "JPHKT",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.651816,
+      "LocationLongitude": 130.408655
+    },
+    "Halden, Norway": {
+      "PortId": 195,
+      "LocationName": "HALDEN",
+      "LocationCode": "NOHAL",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.115592,
+      "LocationLongitude": 11.375459
+    },
+    "Haldia, India": {
+      "PortId": 323,
+      "LocationName": "HALDIA",
+      "LocationCode": "INHAL",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 22.037058,
+      "LocationLongitude": 88.085596
+    },
+    "Halifax, Canada": {
+      "PortId": 469,
+      "LocationName": "HALIFAX",
+      "LocationCode": "CAHAL",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 45.019663,
+      "LocationLongitude": -63.107269
+    },
+    "Halmstad, Sweden": {
+      "PortId": 1219,
+      "LocationName": "HALMSTAD",
+      "LocationCode": "SEHAD",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 56.652016,
+      "LocationLongitude": 12.853116
+    },
+    "Hamad, Qatar": {
+      "PortId": 1449,
+      "LocationName": "HAMAD",
+      "LocationCode": "QAHMD",
+      "CountryId": null,
+      "CountryName": "QATAR",
+      "CountryIsoCode": "QA",
+      "LocationLatitude": 25.019779,
+      "LocationLongitude": 51.606753
+    },
+    "Hamada, Japan": {
+      "PortId": 558,
+      "LocationName": "HAMADA",
+      "LocationCode": "JPHMD",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.880796,
+      "LocationLongitude": 132.058346
+    },
+    "Hambantota, Sri Lanka": {
+      "PortId": 1549,
+      "LocationName": "HAMBANTOTA",
+      "LocationCode": "LKHBA",
+      "CountryId": null,
+      "CountryName": "SRI LANKA",
+      "CountryIsoCode": "LK",
+      "LocationLatitude": 6.1246,
+      "LocationLongitude": 81.1159
+    },
+    "Hamburg, Germany": {
+      "PortId": 432,
+      "LocationName": "HAMBURG",
+      "LocationCode": "DEHAM",
+      "CountryId": null,
+      "CountryName": "GERMANY",
+      "CountryIsoCode": "DE",
+      "LocationLatitude": 53.530405,
+      "LocationLongitude": 9.905771
+    },
+    "Haugesund, Norway": {
+      "PortId": 196,
+      "LocationName": "HAUGESUND",
+      "LocationCode": "NOHAU",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.408693,
+      "LocationLongitude": 5.266497
+    },
+    "Hazira Port/Surat, India": {
+      "PortId": 1362,
+      "LocationName": "HAZIRA PORT/SURAT",
+      "LocationCode": "INHZA",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 21.085701,
+      "LocationLongitude": 72.631756
+    },
+    "Helsingborg, Sweden": {
+      "PortId": 138,
+      "LocationName": "HELSINGBORG",
+      "LocationCode": "SEHEL",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 56.030482,
+      "LocationLongitude": 12.692406
+    },
+    "Helsinki, Finland": {
+      "PortId": 387,
+      "LocationName": "HELSINKI",
+      "LocationCode": "FIHEL",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 60.212119,
+      "LocationLongitude": 25.189839
+    },
+    "Heraklion, Greece": {
+      "PortId": 355,
+      "LocationName": "HERAKLION",
+      "LocationCode": "GRHER",
+      "CountryId": null,
+      "CountryName": "GREECE",
+      "CountryIsoCode": "GR",
+      "LocationLatitude": 35.3444,
+      "LocationLongitude": 25.1468
+    },
+    "Hibikishinko, Japan": {
+      "PortId": 1293,
+      "LocationName": "HIBIKISHINKO",
+      "LocationCode": "JPHBK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.932191,
+      "LocationLongitude": 130.767149
+    },
+    "Hiroshima, Japan": {
+      "PortId": 287,
+      "LocationName": "HIROSHIMA",
+      "LocationCode": "JPHIJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.346673,
+      "LocationLongitude": 132.439853
+    },
+    "Hitachinaka, Japan": {
+      "PortId": 905,
+      "LocationName": "HITACHINAKA",
+      "LocationCode": "JPHIC",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 36.407791,
+      "LocationLongitude": 140.610926
+    },
+    "Ho Chi Minh, Vietnam": {
+      "PortId": 52,
+      "LocationName": "HO CHI MINH CITY",
+      "LocationCode": "VNSGN",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 10.785603,
+      "LocationLongitude": 106.711808
+    },
+    "Hong Kong, Hong Kong": {
+      "PortId": 343,
+      "LocationName": "HONG KONG",
+      "LocationCode": "HKHKG",
+      "CountryId": null,
+      "CountryName": "HONG KONG",
+      "CountryIsoCode": "HK",
+      "LocationLatitude": 22.340768,
+      "LocationLongitude": 114.112805
+    },
+    "Honiara, Guadalcanal Is, Solomon Islands": {
+      "PortId": 1429,
+      "LocationName": "HONIARA, GUADALCANAL IS",
+      "LocationCode": "SBHIR",
+      "CountryId": null,
+      "CountryName": "SOLOMON ISLANDS",
+      "CountryIsoCode": "SB",
+      "LocationLatitude": -9.43809,
+      "LocationLongitude": 159.922455
+    },
+    "Hososhima, Japan": {
+      "PortId": 707,
+      "LocationName": "HOSOSHIMA",
+      "LocationCode": "JPHSM",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 32.443946,
+      "LocationLongitude": 131.66382
+    },
+    "Ikornnes, Norway": {
+      "PortId": 1296,
+      "LocationName": "IKORNNES",
+      "LocationCode": "NOIKR",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 62.386271,
+      "LocationLongitude": 6.558621
+    },
+    "Imabari, Japan": {
+      "PortId": 906,
+      "LocationName": "IMABARI",
+      "LocationCode": "JPIMB",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.056329,
+      "LocationLongitude": 133.027825
+    },
+    "Imari, Japan": {
+      "PortId": 525,
+      "LocationName": "IMARI",
+      "LocationCode": "JPIMI",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.339821,
+      "LocationLongitude": 129.842437
+    },
+    "Imbituba, Brazil": {
+      "PortId": 1042,
+      "LocationName": "IMBITUBA",
+      "LocationCode": "BRIBB",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -28.229074,
+      "LocationLongitude": -48.651041
+    },
+    "Immingham, United Kingdom": {
+      "PortId": 669,
+      "LocationName": "IMMINGHAM",
+      "LocationCode": "GBIMM",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 53.630246,
+      "LocationLongitude": -0.193787
+    },
+    "Incheon, Korea, Republic Of": {
+      "PortId": 1446,
+      "LocationName": "INCHEON",
+      "LocationCode": "KRINC",
+      "CountryId": null,
+      "CountryName": "KOREA, REPUBLIC OF",
+      "CountryIsoCode": "KR",
+      "LocationLatitude": 37.4735,
+      "LocationLongitude": 126.7081
+    },
+    "Iquique, Chile": {
+      "PortId": 559,
+      "LocationName": "IQUIQUE",
+      "LocationCode": "CLIQQ",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -20.204174,
+      "LocationLongitude": -70.157153
+    },
+    "Ishikari, Japan": {
+      "PortId": 289,
+      "LocationName": "ISHIKARI",
+      "LocationCode": "JPISI",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 43.18952,
+      "LocationLongitude": 141.294567
+    },
+    "Iskenderun, Turkiye": {
+      "PortId": 1246,
+      "LocationName": "ISKENDERUN",
+      "LocationCode": "TRISK",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 36.685653,
+      "LocationLongitude": 36.199402
+    },
+    "Istanbul, Turkiye": {
+      "PortId": 106,
+      "LocationName": "ISTANBUL",
+      "LocationCode": "TRIST",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.9594,
+      "LocationLongitude": 28.6689
+    },
+    "Itaguai, Brazil": {
+      "PortId": 949,
+      "LocationName": "ITAGUAI",
+      "LocationCode": "BRIGI",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -22.865729,
+      "LocationLongitude": -43.785662
+    },
+    "Itajai, Brazil": {
+      "PortId": 479,
+      "LocationName": "ITAJAI",
+      "LocationCode": "BRITJ",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -26.900486,
+      "LocationLongitude": -48.668191
+    },
+    "Itapoa, Brazil": {
+      "PortId": 1281,
+      "LocationName": "ITAPOA",
+      "LocationCode": "BRIOA",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -26.180568,
+      "LocationLongitude": -48.593854
+    },
+    "Iwakuni, Japan": {
+      "PortId": 290,
+      "LocationName": "IWAKUNI",
+      "LocationCode": "JPIWK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.187296,
+      "LocationLongitude": 132.236025
+    },
+    "Iyomishima, Japan": {
+      "PortId": 831,
+      "LocationName": "IYOMISHIMA",
+      "LocationCode": "JPIYM",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.987499,
+      "LocationLongitude": 133.538998
+    },
+    "Izmir, Turkiye": {
+      "PortId": 107,
+      "LocationName": "IZMIR",
+      "LocationCode": "TRIZM",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 38.443994,
+      "LocationLongitude": 27.155299
+    },
+    "Jakarta, Java, Indonesia": {
+      "PortId": 336,
+      "LocationName": "JAKARTA, JAVA",
+      "LocationCode": "IDJKT",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -6.098517,
+      "LocationLongitude": 106.902376
+    },
+    "Jambi, Sumatra, Indonesia": {
+      "PortId": 1576,
+      "LocationName": "JAMBI, SUMATRA",
+      "LocationCode": "IDDJB",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -1.59455,
+      "LocationLongitude": 103.614777
+    },
+    "Jebel Ali, United Arab Emirates": {
+      "PortId": 500,
+      "LocationName": "JEBEL ALI",
+      "LocationCode": "AEJEA",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 24.987353,
+      "LocationLongitude": 55.059918
+    },
+    "Jeddah, Saudi Arabia": {
+      "PortId": 143,
+      "LocationName": "JEDDAH",
+      "LocationCode": "SAJED",
+      "CountryId": null,
+      "CountryName": "SAUDI ARABIA",
+      "CountryIsoCode": "SA",
+      "LocationLatitude": 21.452482,
+      "LocationLongitude": 39.160281
+    },
+    "Jubail, Saudi Arabia": {
+      "PortId": 947,
+      "LocationName": "JUBAIL",
+      "LocationCode": "SAJUB",
+      "CountryId": null,
+      "CountryName": "SAUDI ARABIA",
+      "CountryIsoCode": "SA",
+      "LocationLatitude": 27.02604,
+      "LocationLongitude": 49.685639
+    },
+    "Kakinada, India": {
+      "PortId": 1448,
+      "LocationName": "KAKINADA",
+      "LocationCode": "INKAK",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 16.958139,
+      "LocationLongitude": 82.246643
+    },
+    "Kalundborg, Denmark": {
+      "PortId": 1067,
+      "LocationName": "KALUNDBORG",
+      "LocationCode": "DKKAL",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 55.676206,
+      "LocationLongitude": 11.091602
+    },
+    "Kamaishi, Japan": {
+      "PortId": 1431,
+      "LocationName": "KAMAISHI",
+      "LocationCode": "JPKIS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 42.149101,
+      "LocationLongitude": 139.924042
+    },
+    "Sihanoukville, Cambodia": {
+      "PortId": 1248,
+      "LocationName": "KAMPONG SAOM (SIHANOUKVILLE)",
+      "LocationCode": "KHKOS",
+      "CountryId": null,
+      "CountryName": "CAMBODIA",
+      "CountryIsoCode": "KH",
+      "LocationLatitude": 10.646044,
+      "LocationLongitude": 103.509598
+    },
+    "Kanazawa, Japan": {
+      "PortId": 709,
+      "LocationName": "KANAZAWA",
+      "LocationCode": "JPKNZ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 36.612006,
+      "LocationLongitude": 136.625233
+    },
+    "Kaohsiung, Taiwan": {
+      "PortId": 95,
+      "LocationName": "KAOHSIUNG",
+      "LocationCode": "TWKHH",
+      "CountryId": null,
+      "CountryName": "TAIWAN",
+      "CountryIsoCode": "TW",
+      "LocationLatitude": 22.571853,
+      "LocationLongitude": 120.310045
+    },
+    "Karachi, Pakistan": {
+      "PortId": 741,
+      "LocationName": "KARACHI",
+      "LocationCode": "PKKHI",
+      "CountryId": null,
+      "CountryName": "PAKISTAN",
+      "CountryIsoCode": "PK",
+      "LocationLatitude": 24.824821,
+      "LocationLongitude": 66.97596
+    },
+    "Karachi-Muhammad Bin Qasim, Pakistan": {
+      "PortId": 333,
+      "LocationName": "KARACHI-MUHAMMAD BIN QASIM",
+      "LocationCode": "PKBQM",
+      "CountryId": null,
+      "CountryName": "PAKISTAN",
+      "CountryIsoCode": "PK",
+      "LocationLatitude": 24.766895,
+      "LocationLongitude": 67.330959
+    },
+    "Karlshamn, Sweden": {
+      "PortId": 1467,
+      "LocationName": "KARLSHAMN",
+      "LocationCode": "SEKAN",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 58.482552,
+      "LocationLongitude": 16.10458
+    },
+    "Kashima, Ibaraki, Japan": {
+      "PortId": 1300,
+      "LocationName": "KASHIMA, IBARAKI",
+      "LocationCode": "JPKSM",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.927951,
+      "LocationLongitude": 140.655226
+    },
+    "Kattupalli, India": {
+      "PortId": 1410,
+      "LocationName": "KATTUPALLI",
+      "LocationCode": "INKAT",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 13.314013,
+      "LocationLongitude": 80.348481
+    },
+    "Kawasaki, Japan": {
+      "PortId": 907,
+      "LocationName": "KAWASAKI",
+      "LocationCode": "JPKWS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.504737,
+      "LocationLongitude": 139.767121
+    },
+    "Keelung, Taiwan": {
+      "PortId": 94,
+      "LocationName": "KEELUNG",
+      "LocationCode": "TWKEL",
+      "CountryId": null,
+      "CountryName": "TAIWAN",
+      "CountryIsoCode": "TW",
+      "LocationLatitude": 25.150334,
+      "LocationLongitude": 121.749606
+    },
+    "Kemi, Finland": {
+      "PortId": 389,
+      "LocationName": "KEMI",
+      "LocationCode": "FIKEM",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 65.667662,
+      "LocationLongitude": 24.51835
+    },
+    "Khoms, Libya": {
+      "PortId": 255,
+      "LocationName": "KHOMS",
+      "LocationCode": "LYKHO",
+      "CountryId": null,
+      "CountryName": "LIBYA",
+      "CountryIsoCode": "LY",
+      "LocationLatitude": 32.673315,
+      "LocationLongitude": 14.24537
+    },
+    "Khor Al Fakkan, United Arab Emirates": {
+      "PortId": 548,
+      "LocationName": "KHOR AL FAKKAN",
+      "LocationCode": "AEKLF",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 25.354697,
+      "LocationLongitude": 56.367414
+    },
+    "King Abdullah Port, Saudi Arabia": {
+      "PortId": 1366,
+      "LocationName": "KING ABDULLAH PORT",
+      "LocationCode": "SAKAC",
+      "CountryId": null,
+      "CountryName": "SAUDI ARABIA",
+      "CountryIsoCode": "SA",
+      "LocationLatitude": 22.516194,
+      "LocationLongitude": 39.079168
+    },
+    "Kingston, Jamaica": {
+      "PortId": 298,
+      "LocationName": "KINGSTON",
+      "LocationCode": "JMKIN",
+      "CountryId": null,
+      "CountryName": "JAMAICA",
+      "CountryIsoCode": "JM",
+      "LocationLatitude": 17.9837,
+      "LocationLongitude": 76.8381
+    },
+    "Klaipeda, Lithuania": {
+      "PortId": 115,
+      "LocationName": "KLAIPEDA",
+      "LocationCode": "LTKLJ",
+      "CountryId": null,
+      "CountryName": "LITHUANIA",
+      "CountryIsoCode": "LT",
+      "LocationLatitude": 55.680477,
+      "LocationLongitude": 21.14245
+    },
+    "Kobe, Japan": {
+      "PortId": 263,
+      "LocationName": "KOBE",
+      "LocationCode": "JPUKB",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.661476,
+      "LocationLongitude": 135.233035
+    },
+    "Kochi, Japan": {
+      "PortId": 890,
+      "LocationName": "KOCHI",
+      "LocationCode": "JPKCZ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.076692,
+      "LocationLongitude": 133.112873
+    },
+    "Kokkola (Karleby), Finland": {
+      "PortId": 1074,
+      "LocationName": "KOKKOLA (KARLEBY)",
+      "LocationCode": "FIKOK",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 63.8668,
+      "LocationLongitude": 23.0236
+    },
+    "Kolkata, India": {
+      "PortId": 321,
+      "LocationName": "KOLKATA",
+      "LocationCode": "INCCU",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 22.540167,
+      "LocationLongitude": 88.300391
+    },
+    "Koper, Slovenia": {
+      "PortId": 56,
+      "LocationName": "KOPER",
+      "LocationCode": "SIKOP",
+      "CountryId": null,
+      "CountryName": "SLOVENIA",
+      "CountryIsoCode": "SI",
+      "LocationLatitude": 45.554009,
+      "LocationLongitude": 13.734779
+    },
+    "Kota Kinabalu, Sabah, Malaysia": {
+      "PortId": 724,
+      "LocationName": "KOTA KINABALU, SABAH",
+      "LocationCode": "MYBKI",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 5.996915,
+      "LocationLongitude": 116.080901
+    },
+    "Kotka, Finland": {
+      "PortId": 390,
+      "LocationName": "KOTKA",
+      "LocationCode": "FIKTK",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 60.4252,
+      "LocationLongitude": 26.9155
+    },
+    "Kribi, Cameroon": {
+      "PortId": 1608,
+      "LocationName": "KRIBI",
+      "LocationCode": "CMKBI",
+      "CountryId": null,
+      "CountryName": "CAMEROON",
+      "CountryIsoCode": "CM",
+      "LocationLatitude": 2.932,
+      "LocationLongitude": 9.9107
+    },
+    "Krishnapatnam, India": {
+      "PortId": 1274,
+      "LocationName": "KRISHNAPATNAM",
+      "LocationCode": "INKRI",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 14.253367,
+      "LocationLongitude": 80.120697
+    },
+    "Kristiansand, Norway": {
+      "PortId": 34,
+      "LocationName": "KRISTIANSAND",
+      "LocationCode": "NOKRS",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 58.141025,
+      "LocationLongitude": 7.992696
+    },
+    "Kualatanjung, Indonesia": {
+      "PortId": 1627,
+      "LocationName": "KUALATANJUNG",
+      "LocationCode": "IDKTJ",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": 3.356189,
+      "LocationLongitude": 99.446352
+    },
+    "Kuching, Sarawak, Malaysia": {
+      "PortId": 1098,
+      "LocationName": "KUCHING, SARAWAK",
+      "LocationCode": "MYKCH",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 1.613913,
+      "LocationLongitude": 110.456368
+    },
+    "Kumamoto, Japan": {
+      "PortId": 951,
+      "LocationName": "KUMAMOTO",
+      "LocationCode": "JPKMJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 32.762884,
+      "LocationLongitude": 130.583243
+    },
+    "Kushiro, Japan": {
+      "PortId": 578,
+      "LocationName": "KUSHIRO",
+      "LocationCode": "JPKUH",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 42.986368,
+      "LocationLongitude": 144.36743
+    },
+    "La Guaira, Venezuela": {
+      "PortId": 68,
+      "LocationName": "LA GUAIRA",
+      "LocationCode": "VELAG",
+      "CountryId": null,
+      "CountryName": "VENEZUELA",
+      "CountryIsoCode": "VE",
+      "LocationLatitude": 10.599172,
+      "LocationLongitude": -66.950045
+    },
+    "La Plata, Argentina": {
+      "PortId": 1445,
+      "LocationName": "LA PLATA",
+      "LocationCode": "ARLPG",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -34.917499,
+      "LocationLongitude": -57.967209
+    },
+    "La Spezia, Italy": {
+      "PortId": 294,
+      "LocationName": "LA SPEZIA",
+      "LocationCode": "ITSPE",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 44.106729,
+      "LocationLongitude": 9.846237
+    },
+    "Labuan, Sabah, Malaysia": {
+      "PortId": 1517,
+      "LocationName": "LABUAN, SABAH",
+      "LocationCode": "MYLBU",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 5.283138,
+      "LocationLongitude": 115.248146
+    },
+    "Laem Chabang, Thailand": {
+      "PortId": 36,
+      "LocationName": "LAEM CHABANG",
+      "LocationCode": "THLCH",
+      "CountryId": null,
+      "CountryName": "THAILAND",
+      "CountryIsoCode": "TH",
+      "LocationLatitude": 13.065302,
+      "LocationLongitude": 100.896831
+    },
+    "Lahad Datu, Sabah, Malaysia": {
+      "PortId": 1623,
+      "LocationName": "LAHAD DATU, SABAH",
+      "LocationCode": "MYLDU",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 5.024206,
+      "LocationLongitude": 118.330746
+    },
+    "Larvik, Norway": {
+      "PortId": 199,
+      "LocationName": "LARVIK",
+      "LocationCode": "NOLAR",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.038831,
+      "LocationLongitude": 10.042157
+    },
+    "Las Palmas, Spain": {
+      "PortId": 392,
+      "LocationName": "LAS PALMAS",
+      "LocationCode": "ESLPA",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 28.134116,
+      "LocationLongitude": -15.412973
+    },
+    "Lattakia, Syrian Arab Republic": {
+      "PortId": 110,
+      "LocationName": "LATTAKIA",
+      "LocationCode": "SYLTK",
+      "CountryId": null,
+      "CountryName": "SYRIAN ARAB REPUBLIC",
+      "CountryIsoCode": "SY",
+      "LocationLatitude": 35.52372,
+      "LocationLongitude": 35.77011
+    },
+    "Lautoka, Fiji": {
+      "PortId": 1259,
+      "LocationName": "LAUTOKA",
+      "LocationCode": "FJLTK",
+      "CountryId": null,
+      "CountryName": "FIJI",
+      "CountryIsoCode": "FJ",
+      "LocationLatitude": -17.603272,
+      "LocationLongitude": 177.438727
+    },
+    "Lazaro Cardenas, Mexico": {
+      "PortId": 1102,
+      "LocationName": "LAZARO CARDENAS",
+      "LocationCode": "MXLZC",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 17.92665,
+      "LocationLongitude": -102.181633
+    },
+    "Le Havre, France": {
+      "PortId": 377,
+      "LocationName": "LE HAVRE",
+      "LocationCode": "FRLEH",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 49.467721,
+      "LocationLongitude": 0.190717
+    },
+    "Leghorn, Italy": {
+      "PortId": 301,
+      "LocationName": "LEGHORN",
+      "LocationCode": "ITLIV",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 43.5745,
+      "LocationLongitude": 10.3072
+    },
+    "Leixoes, Portugal": {
+      "PortId": 149,
+      "LocationName": "LEIXOES",
+      "LocationCode": "PTLEI",
+      "CountryId": null,
+      "CountryName": "PORTUGAL",
+      "CountryIsoCode": "PT",
+      "LocationLatitude": 41.192159,
+      "LocationLongitude": -8.685053
+    },
+    "Lekki, Nigeria": {
+      "PortId": 1502,
+      "LocationName": "LEKKI",
+      "LocationCode": "NGLKK",
+      "CountryId": null,
+      "CountryName": "NIGERIA",
+      "CountryIsoCode": "NG",
+      "LocationLatitude": 6.5,
+      "LocationLongitude": 4.116
+    },
+    "Lianyungang, China": {
+      "PortId": 440,
+      "LocationName": "LIANYUNGANG",
+      "LocationCode": "CNLYG",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 34.743586,
+      "LocationLongitude": 119.425997
+    },
+    "Libreville, Gabon": {
+      "PortId": 373,
+      "LocationName": "LIBREVILLE",
+      "LocationCode": "GALBV",
+      "CountryId": null,
+      "CountryName": "GABON",
+      "CountryIsoCode": "GA",
+      "LocationLatitude": 0.284184,
+      "LocationLongitude": 9.503407
+    },
+    "Limas, Turkiye": {
+      "PortId": 1435,
+      "LocationName": "LIMAS",
+      "LocationCode": "TRLMA",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.713533,
+      "LocationLongitude": 29.869809
+    },
+    "Limassol, Cyprus": {
+      "PortId": 437,
+      "LocationName": "LIMASSOL",
+      "LocationCode": "CYLMS",
+      "CountryId": null,
+      "CountryName": "CYPRUS",
+      "CountryIsoCode": "CY",
+      "LocationLatitude": 34.6491,
+      "LocationLongitude": 33.0148
+    },
+    "Lirquen, Chile": {
+      "PortId": 1066,
+      "LocationName": "LIRQUEN",
+      "LocationCode": "CLLQN",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -36.711556,
+      "LocationLongitude": -72.985224
+    },
+    "Liverpool, United Kingdom": {
+      "PortId": 362,
+      "LocationName": "LIVERPOOL",
+      "LocationCode": "GBLIV",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 53.4616,
+      "LocationLongitude": -3.0225
+    },
+    "Lobito, Angola": {
+      "PortId": 510,
+      "LocationName": "LOBITO",
+      "LocationCode": "AOLOB",
+      "CountryId": null,
+      "CountryName": "ANGOLA",
+      "CountryIsoCode": "AO",
+      "LocationLatitude": -12.349192,
+      "LocationLongitude": 13.548921
+    },
+    "Lome, Togo": {
+      "PortId": 111,
+      "LocationName": "LOME",
+      "LocationCode": "TGLFW",
+      "CountryId": null,
+      "CountryName": "TOGO",
+      "CountryIsoCode": "TG",
+      "LocationLatitude": 6.136697,
+      "LocationLongitude": 1.277964
+    },
+    "London Gateway Port, United Kingdom": {
+      "PortId": 1375,
+      "LocationName": "LONDON GATEWAY PORT",
+      "LocationCode": "GBLGP",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 51.505665,
+      "LocationLongitude": 0.499807
+    },
+    "Longoni, Mayotte": {
+      "PortId": 39,
+      "LocationName": "LONGONI",
+      "LocationCode": "YTLON",
+      "CountryId": null,
+      "CountryName": "MAYOTTE",
+      "CountryIsoCode": "YT",
+      "LocationLatitude": -12.720333,
+      "LocationLongitude": 45.164374
+    },
+    "Luanda, Angola": {
+      "PortId": 509,
+      "LocationName": "LUANDA",
+      "LocationCode": "AOLAD",
+      "CountryId": null,
+      "CountryName": "ANGOLA",
+      "CountryIsoCode": "AO",
+      "LocationLatitude": -8.800088,
+      "LocationLongitude": 13.246338
+    },
+    "Lubeck, Germany": {
+      "PortId": 823,
+      "LocationName": "LUBECK",
+      "LocationCode": "DELBC",
+      "CountryId": null,
+      "CountryName": "GERMANY",
+      "CountryIsoCode": "DE",
+      "LocationLatitude": 53.865467,
+      "LocationLongitude": 10.686559
+    },
+    "Lyttelton, New Zealand": {
+      "PortId": 175,
+      "LocationName": "LYTTELTON",
+      "LocationCode": "NZLYT",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -43.608668,
+      "LocationLongitude": 172.725839
+    },
+    "Maizuru, Japan": {
+      "PortId": 908,
+      "LocationName": "MAIZURU",
+      "LocationCode": "JPMAI",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.456891,
+      "LocationLongitude": 135.321502
+    },
+    "Majunga, Madagascar": {
+      "PortId": 238,
+      "LocationName": "MAJUNGA",
+      "LocationCode": "MGMJN",
+      "CountryId": null,
+      "CountryName": "MADAGASCAR",
+      "CountryIsoCode": "MG",
+      "LocationLatitude": -15.72702,
+      "LocationLongitude": 46.311529
+    },
+    "Makassar, Indonesia": {
+      "PortId": 1262,
+      "LocationName": "MAKASSAR",
+      "LocationCode": "IDMAK",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -5.129953,
+      "LocationLongitude": 119.404799
+    },
+    "Malaga, Spain": {
+      "PortId": 404,
+      "LocationName": "MALAGA",
+      "LocationCode": "ESAGP",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 36.70396,
+      "LocationLongitude": -4.421883
+    },
+    "Male, Maldives": {
+      "PortId": 247,
+      "LocationName": "MALE",
+      "LocationCode": "MVMLE",
+      "CountryId": null,
+      "CountryName": "MALDIVES",
+      "CountryIsoCode": "MV",
+      "LocationLatitude": 4.180429,
+      "LocationLongitude": 73.505845
+    },
+    "Maloy, Norway": {
+      "PortId": 731,
+      "LocationName": "MALOY",
+      "LocationCode": "NOMAY",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 61.938708,
+      "LocationLongitude": 5.138487
+    },
+    "Manaus, Brazil": {
+      "PortId": 1088,
+      "LocationName": "MANAUS",
+      "LocationCode": "BRMAO",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -3.156149,
+      "LocationLongitude": -59.990957
+    },
+    "Manila, Philippines": {
+      "PortId": 1473,
+      "LocationName": "MANILA NORTH HARBOUR",
+      "LocationCode": "PHMNN",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 14.615999,
+      "LocationLongitude": 120.957061
+    },
+    "Manila South Harbour, Philippines": {
+      "PortId": 1474,
+      "LocationName": "MANILA SOUTH HARBOUR",
+      "LocationCode": "PHMNS",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 14.57917,
+      "LocationLongitude": 120.975891
+    },
+    "Manzanillo, Mexico": {
+      "PortId": 236,
+      "LocationName": "MANZANILLO",
+      "LocationCode": "MXZLO",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 19.071761,
+      "LocationLongitude": -104.289691
+    },
+    "Manzanillo, Panama": {
+      "PortId": 1111,
+      "LocationName": "MANZANILLO",
+      "LocationCode": "PAMIT",
+      "CountryId": null,
+      "CountryName": "PANAMA",
+      "CountryIsoCode": "PA",
+      "LocationLatitude": 9.362361,
+      "LocationLongitude": -79.882592
+    },
+    "Maputo, Mozambique": {
+      "PortId": 225,
+      "LocationName": "MAPUTO",
+      "LocationCode": "MZMPM",
+      "CountryId": null,
+      "CountryName": "MOZAMBIQUE",
+      "CountryIsoCode": "MZ",
+      "LocationLatitude": -25.960509,
+      "LocationLongitude": 32.546261
+    },
+    "Marin, Pontevedra, Spain": {
+      "PortId": 1201,
+      "LocationName": "MARIN, PONTEVEDRA",
+      "LocationCode": "ESMPG",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 42.40349,
+      "LocationLongitude": -8.690978
+    },
+    "Marmugao (Marmagao), India": {
+      "PortId": 946,
+      "LocationName": "MARMUGAO (MARMAGAO)",
+      "LocationCode": "INMRM",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 15.404203,
+      "LocationLongitude": 73.806804
+    },
+    "Marsaxlokk, Malta": {
+      "PortId": 33,
+      "LocationName": "MARSAXLOKK",
+      "LocationCode": "MTMAR",
+      "CountryId": null,
+      "CountryName": "MALTA",
+      "CountryIsoCode": "MT",
+      "LocationLatitude": 35.818667,
+      "LocationLongitude": 14.536318
+    },
+    "Marsden Point, New Zealand": {
+      "PortId": 1472,
+      "LocationName": "MARSDEN POINT",
+      "LocationCode": "NZMAP",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -35.834813,
+      "LocationLongitude": 174.480664
+    },
+    "Matadi, Congo, The Democratic Republic Of The": {
+      "PortId": 45,
+      "LocationName": "MATADI",
+      "LocationCode": "CDMAT",
+      "CountryId": null,
+      "CountryName": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
+      "CountryIsoCode": "CD",
+      "LocationLatitude": -5.823321,
+      "LocationLongitude": 13.452264
+    },
+    "Matsuyama, Japan": {
+      "PortId": 281,
+      "LocationName": "MATSUYAMA",
+      "LocationCode": "JPMYJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.847775,
+      "LocationLongitude": 132.69906
+    },
+    "Mazatlan, Mexico": {
+      "PortId": 232,
+      "LocationName": "MAZATLAN",
+      "LocationCode": "MXMZT",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 23.194432,
+      "LocationLongitude": -106.415947
+    },
+    "Melbourne, Australia": {
+      "PortId": 493,
+      "LocationName": "MELBOURNE",
+      "LocationCode": "AUMEL",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -37.811172,
+      "LocationLongitude": 144.91685
+    },
+    "Mersin, Turkiye": {
+      "PortId": 108,
+      "LocationName": "MERSIN",
+      "LocationCode": "TRMER",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 36.802798,
+      "LocationLongitude": 34.642075
+    },
+    "Mesaieed, Qatar": {
+      "PortId": 555,
+      "LocationName": "MESAIEED",
+      "LocationCode": "QAMES",
+      "CountryId": null,
+      "CountryName": "QATAR",
+      "CountryIsoCode": "QA",
+      "LocationLatitude": 24.965429,
+      "LocationLongitude": 51.597029
+    },
+    "Miike, Fukuoka, Japan": {
+      "PortId": 952,
+      "LocationName": "MIIKE, FUKUOKA",
+      "LocationCode": "JPMII",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.0169,
+      "LocationLongitude": 130.412231
+    },
+    "Mindelo, Cape Verde": {
+      "PortId": 18,
+      "LocationName": "MINDELO",
+      "LocationCode": "CVMIN",
+      "CountryId": null,
+      "CountryName": "CAPE VERDE",
+      "CountryIsoCode": "CV",
+      "LocationLatitude": 16.889203,
+      "LocationLongitude": -24.997729
+    },
+    "Miri, Sarawak, Malaysia": {
+      "PortId": 1582,
+      "LocationName": "MIRI, SARAWAK",
+      "LocationCode": "MYMYY",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 4.241444,
+      "LocationLongitude": 113.888185
+    },
+    "Misurata, Libya": {
+      "PortId": 256,
+      "LocationName": "MISURATA",
+      "LocationCode": "LYMRA",
+      "CountryId": null,
+      "CountryName": "LIBYA",
+      "CountryIsoCode": "LY",
+      "LocationLatitude": 32.364553,
+      "LocationLongitude": 15.219189
+    },
+    "Mizushima, Japan": {
+      "PortId": 532,
+      "LocationName": "MIZUSHIMA",
+      "LocationCode": "JPMIZ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.485092,
+      "LocationLongitude": 133.726013
+    },
+    "Moerdijk, Netherlands": {
+      "PortId": 1206,
+      "LocationName": "MOERDIJK",
+      "LocationCode": "NLMOE",
+      "CountryId": null,
+      "CountryName": "NETHERLANDS",
+      "CountryIsoCode": "NL",
+      "LocationLatitude": 51.683327,
+      "LocationLongitude": 4.596413
+    },
+    "Mogadishu, Somalia": {
+      "PortId": 127,
+      "LocationName": "MOGADISHU",
+      "LocationCode": "SOMGQ",
+      "CountryId": null,
+      "CountryName": "SOMALIA",
+      "CountryIsoCode": "SO",
+      "LocationLatitude": 2.025232,
+      "LocationLongitude": 45.336217
+    },
+    "Moin, Costa Rica": {
+      "PortId": 1273,
+      "LocationName": "MOIN",
+      "LocationCode": "CRMOB",
+      "CountryId": null,
+      "CountryName": "COSTA RICA",
+      "CountryIsoCode": "CR",
+      "LocationLatitude": 10.00217,
+      "LocationLongitude": -83.076917
+    },
+    "Moji/Kitakyushu, Japan": {
+      "PortId": 280,
+      "LocationName": "MOJI/KITAKYUSHU",
+      "LocationCode": "JPMOJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.967325,
+      "LocationLongitude": 131.004677
+    },
+    "Mombasa, Kenya": {
+      "PortId": 266,
+      "LocationName": "MOMBASA",
+      "LocationCode": "KEMBA",
+      "CountryId": null,
+      "CountryName": "KENYA",
+      "CountryIsoCode": "KE",
+      "LocationLatitude": -4.044411,
+      "LocationLongitude": 39.627643
+    },
+    "Mongla, Bangladesh": {
+      "PortId": 1327,
+      "LocationName": "MONGLA",
+      "LocationCode": "BDMGL",
+      "CountryId": null,
+      "CountryName": "BANGLADESH",
+      "CountryIsoCode": "BD",
+      "LocationLatitude": 22.491818,
+      "LocationLongitude": 89.591019
+    },
+    "Monrovia, Liberia": {
+      "PortId": 253,
+      "LocationName": "MONROVIA",
+      "LocationCode": "LRMLW",
+      "CountryId": null,
+      "CountryName": "LIBERIA",
+      "CountryIsoCode": "LR",
+      "LocationLatitude": 6.342918,
+      "LocationLongitude": -10.794805
+    },
+    "Montevideo, Uruguay": {
+      "PortId": 65,
+      "LocationName": "MONTEVIDEO",
+      "LocationCode": "UYMVD",
+      "CountryId": null,
+      "CountryName": "URUGUAY",
+      "CountryIsoCode": "UY",
+      "LocationLatitude": -34.900344,
+      "LocationLongitude": -56.20636
+    },
+    "Montoir-De-Bretagne, France": {
+      "PortId": 382,
+      "LocationName": "MONTOIR-DE-BRETAGNE",
+      "LocationCode": "FRMTX",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 47.296926,
+      "LocationLongitude": -2.155524
+    },
+    "Montreal, Canada": {
+      "PortId": 464,
+      "LocationName": "MONTREAL",
+      "LocationCode": "CAMTR",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 45.573357,
+      "LocationLongitude": -73.513535
+    },
+    "Moroni, Comoros": {
+      "PortId": 269,
+      "LocationName": "MORONI",
+      "LocationCode": "KMYVA",
+      "CountryId": null,
+      "CountryName": "COMOROS",
+      "CountryIsoCode": "KM",
+      "LocationLatitude": -11.703441,
+      "LocationLongitude": 43.247895
+    },
+    "Moss, Norway": {
+      "PortId": 200,
+      "LocationName": "MOSS",
+      "LocationCode": "NOMSS",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.427058,
+      "LocationLongitude": 10.657501
+    },
+    "Mostaganem, Algeria": {
+      "PortId": 1610,
+      "LocationName": "MOSTAGANEM",
+      "LocationCode": "DZMOS",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 35.93115,
+      "LocationLongitude": 0.08918
+    },
+    "Mtwara, Tanzania, United Republic Of": {
+      "PortId": 98,
+      "LocationName": "MTWARA",
+      "LocationCode": "TZMYW",
+      "CountryId": null,
+      "CountryName": "TANZANIA, UNITED REPUBLIC OF",
+      "CountryIsoCode": "TZ",
+      "LocationLatitude": -10.2678,
+      "LocationLongitude": 40.1987
+    },
+    "Muara, Brunei Darussalam": {
+      "PortId": 1599,
+      "LocationName": "MUARA",
+      "LocationCode": "BNMUA",
+      "CountryId": null,
+      "CountryName": "BRUNEI DARUSSALAM",
+      "CountryIsoCode": "BN",
+      "LocationLatitude": 5.02851,
+      "LocationLongitude": 115.05452
+    },
+    "Mukalla, Yemen": {
+      "PortId": 1374,
+      "LocationName": "MUKALLA",
+      "LocationCode": "YEMKX",
+      "CountryId": null,
+      "CountryName": "YEMEN",
+      "CountryIsoCode": "YE",
+      "LocationLatitude": 14.52161,
+      "LocationLongitude": 49.149936
+    },
+    "Mundra, India": {
+      "PortId": 16,
+      "LocationName": "MUNDRA",
+      "LocationCode": "INMUN",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 22.741372,
+      "LocationLongitude": 69.697404
+    },
+    "Muroran, Japan": {
+      "PortId": 909,
+      "LocationName": "MURORAN",
+      "LocationCode": "JPMUR",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 42.365992,
+      "LocationLongitude": 140.930635
+    },
+    "Mutsamudu, Comoros": {
+      "PortId": 268,
+      "LocationName": "MUTSAMUDU",
+      "LocationCode": "KMMUT",
+      "CountryId": null,
+      "CountryName": "COMOROS",
+      "CountryIsoCode": "KM",
+      "LocationLatitude": -12.166719,
+      "LocationLongitude": 44.391378
+    },
+    "Nacala, Mozambique": {
+      "PortId": 224,
+      "LocationName": "NACALA",
+      "LocationCode": "MZMNC",
+      "CountryId": null,
+      "CountryName": "MOZAMBIQUE",
+      "CountryIsoCode": "MZ",
+      "LocationLatitude": -14.543518,
+      "LocationLongitude": 40.666581
+    },
+    "Nador, Morocco": {
+      "PortId": 1482,
+      "LocationName": "NADOR",
+      "LocationCode": "MANDR",
+      "CountryId": null,
+      "CountryName": "MOROCCO",
+      "CountryIsoCode": "MA",
+      "LocationLatitude": 35.17627,
+      "LocationLongitude": -2.9316
+    },
+    "Nagasaki, Japan": {
+      "PortId": 283,
+      "LocationName": "NAGASAKI",
+      "LocationCode": "JPNGS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 32.703932,
+      "LocationLongitude": 129.843662
+    },
+    "Nagoya, Japan": {
+      "PortId": 282,
+      "LocationName": "NAGOYA",
+      "LocationCode": "JPNGO",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.032797,
+      "LocationLongitude": 136.836392
+    },
+    "Naha, Okinawa, Japan": {
+      "PortId": 1104,
+      "LocationName": "NAHA, OKINAWA",
+      "LocationCode": "JPNAH",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 26.252834,
+      "LocationLongitude": 127.68546
+    },
+    "Nakanoseki, Japan": {
+      "PortId": 910,
+      "LocationName": "NAKANOSEKI",
+      "LocationCode": "JPNAN",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.009894,
+      "LocationLongitude": 131.560665
+    },
+    "Namibe, Angola": {
+      "PortId": 511,
+      "LocationName": "NAMIBE",
+      "LocationCode": "AOMSZ",
+      "CountryId": null,
+      "CountryName": "ANGOLA",
+      "CountryIsoCode": "AO",
+      "LocationLatitude": -15.193815,
+      "LocationLongitude": 12.131998
+    },
+    "Nansha, China": {
+      "PortId": 900,
+      "LocationName": "NANSHA",
+      "LocationCode": "CNNSA",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 22.644744,
+      "LocationLongitude": 113.680022
+    },
+    "Naoetsu, Japan": {
+      "PortId": 911,
+      "LocationName": "NAOETSU",
+      "LocationCode": "JPNAO",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 37.193393,
+      "LocationLongitude": 138.261117
+    },
+    "Napier, New Zealand": {
+      "PortId": 176,
+      "LocationName": "NAPIER",
+      "LocationCode": "NZNPE",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -39.47512,
+      "LocationLongitude": 176.91541
+    },
+    "Naples, Italy": {
+      "PortId": 304,
+      "LocationName": "NAPLES",
+      "LocationCode": "ITNAP",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 40.839197,
+      "LocationLongitude": 14.285759
+    },
+    "Nassau, Bahamas": {
+      "PortId": 478,
+      "LocationName": "NASSAU",
+      "LocationCode": "BSNAS",
+      "CountryId": null,
+      "CountryName": "BAHAMAS",
+      "CountryIsoCode": "BS",
+      "LocationLatitude": 25.083062,
+      "LocationLongitude": -77.357436
+    },
+    "Navegantes, Brazil": {
+      "PortId": 1032,
+      "LocationName": "NAVEGANTES",
+      "LocationCode": "BRNVT",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -26.896492,
+      "LocationLongitude": -48.662968
+    },
+    "Nelson, New Zealand": {
+      "PortId": 178,
+      "LocationName": "NELSON",
+      "LocationCode": "NZNSN",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -41.26151,
+      "LocationLongitude": 173.271048
+    },
+    "Neom, Saudi Arabia": {
+      "PortId": 1585,
+      "LocationName": "NEOM",
+      "LocationCode": "SANEO",
+      "CountryId": null,
+      "CountryName": "SAUDI ARABIA",
+      "CountryIsoCode": "SA",
+      "LocationLatitude": 27.3542,
+      "LocationLongitude": 35.6995
+    },
+    "New Mangalore, India": {
+      "PortId": 326,
+      "LocationName": "NEW MANGALORE",
+      "LocationCode": "INNML",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 12.933197,
+      "LocationLongitude": 74.818745
+    },
+    "Nhava Sheva, India": {
+      "PortId": 31,
+      "LocationName": "NHAVA SHEVA",
+      "LocationCode": "INNSA",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 18.955806,
+      "LocationLongitude": 72.951205
+    },
+    "Niigata, Japan": {
+      "PortId": 291,
+      "LocationName": "NIIGATA",
+      "LocationCode": "JPKIJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 37.93754,
+      "LocationLongitude": 139.069852
+    },
+    "Ningbo, China": {
+      "PortId": 441,
+      "LocationName": "NINGBO",
+      "LocationCode": "CNNGB",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 29.889437,
+      "LocationLongitude": 122.033721
+    },
+    "Norrkoping, Sweden": {
+      "PortId": 140,
+      "LocationName": "NORRKOPING",
+      "LocationCode": "SENRK",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 58.622899,
+      "LocationLongitude": 16.242322
+    },
+    "Nouadhibou, Mauritania": {
+      "PortId": 244,
+      "LocationName": "NOUADHIBOU",
+      "LocationCode": "MRNDB",
+      "CountryId": null,
+      "CountryName": "MAURITANIA",
+      "CountryIsoCode": "MR",
+      "LocationLatitude": 20.898013,
+      "LocationLongitude": -17.053394
+    },
+    "Nouakchott, Mauritania": {
+      "PortId": 245,
+      "LocationName": "NOUAKCHOTT",
+      "LocationCode": "MRNKC",
+      "CountryId": null,
+      "CountryName": "MAURITANIA",
+      "CountryIsoCode": "MR",
+      "LocationLatitude": 17.990776,
+      "LocationLongitude": -16.035116
+    },
+    "Noumea, New Caledonia": {
+      "PortId": 211,
+      "LocationName": "NOUMEA",
+      "LocationCode": "NCNOU",
+      "CountryId": null,
+      "CountryName": "NEW CALEDONIA",
+      "CountryIsoCode": "NC",
+      "LocationLatitude": -22.265948,
+      "LocationLongitude": 166.43338
+    },
+    "Novorossiysk, Russian Federation": {
+      "PortId": 117,
+      "LocationName": "NOVOROSSIYSK",
+      "LocationCode": "RUNVS",
+      "CountryId": null,
+      "CountryName": "RUSSIAN FEDERATION",
+      "CountryIsoCode": "RU",
+      "LocationLatitude": 44.724196,
+      "LocationLongitude": 37.814843
+    },
+    "Nuku'Alofa, Tonga": {
+      "PortId": 1063,
+      "LocationName": "NUKU'ALOFA",
+      "LocationCode": "TOTBU",
+      "CountryId": null,
+      "CountryName": "TONGA",
+      "CountryIsoCode": "TO",
+      "LocationLatitude": -21.137303,
+      "LocationLongitude": -175.179613
+    },
+    "Odesa, Ukraine": {
+      "PortId": 118,
+      "LocationName": "ODESA",
+      "LocationCode": "UAODS",
+      "CountryId": null,
+      "CountryName": "UKRAINE",
+      "CountryIsoCode": "UA",
+      "LocationLatitude": 46.4882,
+      "LocationLongitude": 30.7593
+    },
+    "Oita, Japan": {
+      "PortId": 284,
+      "LocationName": "OITA",
+      "LocationCode": "JPOIT",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.246004,
+      "LocationLongitude": 131.587007
+    },
+    "Omaezaki, Japan": {
+      "PortId": 1245,
+      "LocationName": "OMAEZAKI",
+      "LocationCode": "JPOMZ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.624955,
+      "LocationLongitude": 138.219228
+    },
+    "Onahama, Japan": {
+      "PortId": 825,
+      "LocationName": "ONAHAMA",
+      "LocationCode": "JPONA",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 36.924206,
+      "LocationLongitude": 140.870905
+    },
+    "Onne, Nigeria": {
+      "PortId": 213,
+      "LocationName": "ONNE",
+      "LocationCode": "NGONN",
+      "CountryId": null,
+      "CountryName": "NIGERIA",
+      "CountryIsoCode": "NG",
+      "LocationLatitude": 4.716667,
+      "LocationLongitude": 7.15
+    },
+    "Oran, Algeria": {
+      "PortId": 419,
+      "LocationName": "ORAN",
+      "LocationCode": "DZORN",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 35.710225,
+      "LocationLongitude": -0.63324
+    },
+    "Orkanger, Norway": {
+      "PortId": 1057,
+      "LocationName": "ORKANGER",
+      "LocationCode": "NOORK",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 63.318324,
+      "LocationLongitude": 9.849015
+    },
+    "Osaka, Japan": {
+      "PortId": 276,
+      "LocationName": "OSAKA",
+      "LocationCode": "JPOSA",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.634615,
+      "LocationLongitude": 135.406874
+    },
+    "Oslo, Norway": {
+      "PortId": 201,
+      "LocationName": "OSLO",
+      "LocationCode": "NOOSL",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.881572,
+      "LocationLongitude": 10.765397
+    },
+    "Oulu (Uleaborg), Finland": {
+      "PortId": 380,
+      "LocationName": "OULU (ULEABORG)",
+      "LocationCode": "FIOUL",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 64.9974,
+      "LocationLongitude": 25.4149
+    },
+    "Padang, Indonesia": {
+      "PortId": 1265,
+      "LocationName": "PADANG",
+      "LocationCode": "IDPDG",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -1.000422,
+      "LocationLongitude": 100.371184
+    },
+    "Pago Pago, American Samoa": {
+      "PortId": 950,
+      "LocationName": "PAGO PAGO",
+      "LocationCode": "ASPPG",
+      "CountryId": null,
+      "CountryName": "AMERICAN SAMOA",
+      "CountryIsoCode": "AS",
+      "LocationLatitude": -14.277257,
+      "LocationLongitude": -170.686352
+    },
+    "Paita, Peru": {
+      "PortId": 169,
+      "LocationName": "PAITA",
+      "LocationCode": "PEPAI",
+      "CountryId": null,
+      "CountryName": "PERU",
+      "CountryIsoCode": "PE",
+      "LocationLatitude": -5.081635,
+      "LocationLongitude": -81.108607
+    },
+    "Palembang, Sumatra, Indonesia": {
+      "PortId": 529,
+      "LocationName": "PALEMBANG, SUMATRA",
+      "LocationCode": "IDPLM",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -2.980538,
+      "LocationLongitude": 104.782855
+    },
+    "Palermo, Italy": {
+      "PortId": 305,
+      "LocationName": "PALERMO",
+      "LocationCode": "ITPMO",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 38.132676,
+      "LocationLongitude": 13.36217
+    },
+    "Panjang, Indonesia": {
+      "PortId": 28,
+      "LocationName": "PANJANG",
+      "LocationCode": "IDPNJ",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -5.465793,
+      "LocationLongitude": 105.316536
+    },
+    "Papeete, French Polynesia": {
+      "PortId": 163,
+      "LocationName": "PAPEETE",
+      "LocationCode": "PFPPT",
+      "CountryId": null,
+      "CountryName": "FRENCH POLYNESIA",
+      "CountryIsoCode": "PF",
+      "LocationLatitude": -17.537065,
+      "LocationLongitude": -149.576341
+    },
+    "Paradip Garh, India": {
+      "PortId": 1583,
+      "LocationName": "PARADIP GARH",
+      "LocationCode": "INPRT",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 20.2659,
+      "LocationLongitude": 86.659
+    },
+    "Paramaribo, Suriname": {
+      "PortId": 128,
+      "LocationName": "PARAMARIBO",
+      "LocationCode": "SRPBM",
+      "CountryId": null,
+      "CountryName": "SURINAME",
+      "CountryIsoCode": "SR",
+      "LocationLatitude": 5.812529,
+      "LocationLongitude": -55.166115
+    },
+    "Paranagua, Brazil": {
+      "PortId": 480,
+      "LocationName": "PARANAGUA",
+      "LocationCode": "BRPNG",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -25.502254,
+      "LocationLongitude": -48.501653
+    },
+    "Pasir Gudang, Johor, Malaysia": {
+      "PortId": 220,
+      "LocationName": "PASIR GUDANG, JOHOR",
+      "LocationCode": "MYPGU",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 1.436325,
+      "LocationLongitude": 103.892069
+    },
+    "Pat Bangkok, Thailand": {
+      "PortId": 923,
+      "LocationName": "PAT BANGKOK",
+      "LocationCode": "THPAT",
+      "CountryId": null,
+      "CountryName": "THAILAND",
+      "CountryIsoCode": "TH",
+      "LocationLatitude": 13.707228,
+      "LocationLongitude": 100.567656
+    },
+    "Pecem, Brazil": {
+      "PortId": 332,
+      "LocationName": "PECEM",
+      "LocationCode": "BRPEC",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -3.534189,
+      "LocationLongitude": -38.799465
+    },
+    "Penang, Malaysia": {
+      "PortId": 219,
+      "LocationName": "PENANG",
+      "LocationCode": "MYPEN",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 5.413361,
+      "LocationLongitude": 100.360355
+    },
+    "Perawang, Indonesia": {
+      "PortId": 1326,
+      "LocationName": "PERAWANG",
+      "LocationCode": "IDPER",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": 0.657508,
+      "LocationLongitude": 101.632374
+    },
+    "Perawang, Sumatra, Indonesia": {
+      "PortId": 1551,
+      "LocationName": "PERAWANG, SUMATRA",
+      "LocationCode": "IDPWG",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": 0.665806,
+      "LocationLongitude": 101.59587
+    },
+    "Petropavlovsk-Kamchatskiy, Russian Federation": {
+      "PortId": 1522,
+      "LocationName": "PETROPAVLOVSK-KAMCHATSKIY",
+      "LocationCode": "RUPKC",
+      "CountryId": null,
+      "CountryName": "RUSSIAN FEDERATION",
+      "CountryIsoCode": "RU",
+      "LocationLatitude": 53.167702,
+      "LocationLongitude": 158.453598
+    },
+    "Philipsburg, Sint Maarten (Dutch Part)": {
+      "PortId": 24,
+      "LocationName": "PHILIPSBURG",
+      "LocationCode": "SXPHI",
+      "CountryId": null,
+      "CountryName": "SINT MAARTEN (DUTCH PART)",
+      "CountryIsoCode": "SX",
+      "LocationLatitude": 18.008695,
+      "LocationLongitude": -63.044153
+    },
+    "Phnom Penh, Cambodia": {
+      "PortId": 1249,
+      "LocationName": "PHNOM PENH",
+      "LocationCode": "KHPNH",
+      "CountryId": null,
+      "CountryName": "CAMBODIA",
+      "CountryIsoCode": "KH",
+      "LocationLatitude": 11.583551,
+      "LocationLongitude": 104.921408
+    },
+    "Pipavav, India": {
+      "PortId": 1224,
+      "LocationName": "PIPAVAV (VICTOR) PORT",
+      "LocationCode": "INPAV",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 20.921011,
+      "LocationLongitude": 71.50958
+    },
+    "Piraeus, Greece": {
+      "PortId": 339,
+      "LocationName": "PIRAEUS",
+      "LocationCode": "GRPIR",
+      "CountryId": null,
+      "CountryName": "GREECE",
+      "CountryIsoCode": "GR",
+      "LocationLatitude": 37.956095,
+      "LocationLongitude": 23.590766
+    },
+    "Pisco, Peru": {
+      "PortId": 1506,
+      "LocationName": "PISCO",
+      "LocationCode": "PEPIO",
+      "CountryId": null,
+      "CountryName": "PERU",
+      "CountryIsoCode": "PE",
+      "LocationLatitude": -13.7333,
+      "LocationLongitude": -76.216698
+    },
+    "Pitea, Sweden": {
+      "PortId": 1390,
+      "LocationName": "PITEA",
+      "LocationCode": "SEPIT",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 65.236633,
+      "LocationLongitude": 21.631397
+    },
+    "Ploce, Croatia": {
+      "PortId": 941,
+      "LocationName": "PLOCE",
+      "LocationCode": "HRPLE",
+      "CountryId": null,
+      "CountryName": "CROATIA",
+      "CountryIsoCode": "HR",
+      "LocationLatitude": 43.048023,
+      "LocationLongitude": 17.427138
+    },
+    "Point Lisas, Trinidad And Tobago": {
+      "PortId": 756,
+      "LocationName": "POINT LISAS",
+      "LocationCode": "TTPTS",
+      "CountryId": null,
+      "CountryName": "TRINIDAD AND TOBAGO",
+      "CountryIsoCode": "TT",
+      "LocationLatitude": 10.407746,
+      "LocationLongitude": -61.492438
+    },
+    "Pointe Des Galets, Reunion": {
+      "PortId": 32,
+      "LocationName": "POINTE DES GALETS",
+      "LocationCode": "REPDG",
+      "CountryId": null,
+      "CountryName": "REUNION",
+      "CountryIsoCode": "RE",
+      "LocationLatitude": -20.930252,
+      "LocationLongitude": 55.317826
+    },
+    "Pointe Noire, Congo": {
+      "PortId": 468,
+      "LocationName": "POINTE NOIRE",
+      "LocationCode": "CGPNR",
+      "CountryId": null,
+      "CountryName": "CONGO",
+      "CountryIsoCode": "CG",
+      "LocationLatitude": -4.77885,
+      "LocationLongitude": 11.86592
+    },
+    "Pontianak, Kalimantan, Indonesia": {
+      "PortId": 1264,
+      "LocationName": "PONTIANAK, KALIMANTAN",
+      "LocationCode": "IDPNK",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -0.017856,
+      "LocationLongitude": 109.334085
+    },
+    "Port Au Prince, Haiti": {
+      "PortId": 347,
+      "LocationName": "PORT AU PRINCE",
+      "LocationCode": "HTPAP",
+      "CountryId": null,
+      "CountryName": "HAITI",
+      "CountryIsoCode": "HT",
+      "LocationLatitude": 18.558065,
+      "LocationLongitude": -72.348469
+    },
+    "Port Chalmers, New Zealand": {
+      "PortId": 179,
+      "LocationName": "PORT CHALMERS",
+      "LocationCode": "NZPOE",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -45.812694,
+      "LocationLongitude": 170.622903
+    },
+    "Port Elizabeth, South Africa": {
+      "PortId": 42,
+      "LocationName": "PORT ELIZABETH",
+      "LocationCode": "ZAPLZ",
+      "CountryId": null,
+      "CountryName": "SOUTH AFRICA",
+      "CountryIsoCode": "ZA",
+      "LocationLatitude": -33.9575,
+      "LocationLongitude": 25.6369
+    },
+    "Port Harcourt, Nigeria": {
+      "PortId": 214,
+      "LocationName": "PORT HARCOURT",
+      "LocationCode": "NGPHC",
+      "CountryId": null,
+      "CountryName": "NIGERIA",
+      "CountryIsoCode": "NG",
+      "LocationLatitude": 5.013,
+      "LocationLongitude": 6.963
+    },
+    "Port Klang (Pelabuhan Klang), Malaysia": {
+      "PortId": 221,
+      "LocationName": "PORT KLANG (PELABUHAN KLANG)",
+      "LocationCode": "MYPKG",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 2.931455,
+      "LocationLongitude": 101.298539
+    },
+    "Port Louis, Mauritius": {
+      "PortId": 246,
+      "LocationName": "PORT LOUIS",
+      "LocationCode": "MUPLU",
+      "CountryId": null,
+      "CountryName": "MAURITIUS",
+      "CountryIsoCode": "MU",
+      "LocationLatitude": -20.143055,
+      "LocationLongitude": 57.492192
+    },
+    "Port Said East, Egypt": {
+      "PortId": 1433,
+      "LocationName": "PORT SAID EAST",
+      "LocationCode": "EGPSE",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.212755,
+      "LocationLongitude": 32.359026
+    },
+    "Port Said West, Egypt": {
+      "PortId": 1403,
+      "LocationName": "PORT SAID WEST",
+      "LocationCode": "EGPSW",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 31.317623,
+      "LocationLongitude": 32.451576
+    },
+    "Port Sudan, Sudan": {
+      "PortId": 146,
+      "LocationName": "PORT SUDAN",
+      "LocationCode": "SDPZU",
+      "CountryId": null,
+      "CountryName": "SUDAN",
+      "CountryIsoCode": "SD",
+      "LocationLatitude": 19.6062,
+      "LocationLongitude": 37.2244
+    },
+    "Port-Of-Spain, Trinidad And Tobago": {
+      "PortId": 92,
+      "LocationName": "PORT-OF-SPAIN",
+      "LocationCode": "TTPOS",
+      "CountryId": null,
+      "CountryName": "TRINIDAD AND TOBAGO",
+      "CountryIsoCode": "TT",
+      "LocationLatitude": 10.654483,
+      "LocationLongitude": -61.523591
+    },
+    "Portbury, United Kingdom": {
+      "PortId": 821,
+      "LocationName": "PORTBURY",
+      "LocationCode": "GBPRU",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 51.508367,
+      "LocationLongitude": -2.704686
+    },
+    "Porto Velho, Brazil": {
+      "PortId": 1267,
+      "LocationName": "PORTO VELHO",
+      "LocationCode": "BRPVH",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -8.721075,
+      "LocationLongitude": -63.91977
+    },
+    "Posorja, Ecuador": {
+      "PortId": 1526,
+      "LocationName": "POSORJA",
+      "LocationCode": "ECPSJ",
+      "CountryId": null,
+      "CountryName": "ECUADOR",
+      "CountryIsoCode": "EC",
+      "LocationLatitude": -2.6866,
+      "LocationLongitude": -80.287361
+    },
+    "Poti, Georgia": {
+      "PortId": 13,
+      "LocationName": "POTI",
+      "LocationCode": "GEPTI",
+      "CountryId": null,
+      "CountryName": "GEORGIA",
+      "CountryIsoCode": "GE",
+      "LocationLatitude": 42.154477,
+      "LocationLongitude": 41.665256
+    },
+    "Pozzallo, Italy": {
+      "PortId": 523,
+      "LocationName": "POZZALLO",
+      "LocationCode": "ITPZL",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 36.716382,
+      "LocationLongitude": 14.829284
+    },
+    "Praia, Cape Verde": {
+      "PortId": 435,
+      "LocationName": "PRAIA",
+      "LocationCode": "CVRAI",
+      "CountryId": null,
+      "CountryName": "CAPE VERDE",
+      "CountryIsoCode": "CV",
+      "LocationLatitude": 14.910155,
+      "LocationLongitude": -23.498706
+    },
+    "Prince Rupert, Canada": {
+      "PortId": 1423,
+      "LocationName": "PRINCE RUPERT",
+      "LocationCode": "CAPRR",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 54.313061,
+      "LocationLongitude": -130.326294
+    },
+    "Progreso, Mexico": {
+      "PortId": 1468,
+      "LocationName": "PROGRESO",
+      "LocationCode": "MXPGO",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 21.28252,
+      "LocationLongitude": -89.664101
+    },
+    "Providenciales, Turks And Caicos Islands": {
+      "PortId": 959,
+      "LocationName": "PROVIDENCIALES",
+      "LocationCode": "TCPLS",
+      "CountryId": null,
+      "CountryName": "TURKS AND CAICOS ISLANDS",
+      "CountryIsoCode": "TC",
+      "LocationLatitude": 21.789589,
+      "LocationLongitude": -72.267258
+    },
+    "Puerto Angamos, Chile": {
+      "PortId": 1108,
+      "LocationName": "PUERTO ANGAMOS",
+      "LocationCode": "CLPAG",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -23.068637,
+      "LocationLongitude": -70.385783
+    },
+    "Puerto Barrios, Guatemala": {
+      "PortId": 1331,
+      "LocationName": "PUERTO BARRIOS",
+      "LocationCode": "GTPBR",
+      "CountryId": null,
+      "CountryName": "GUATEMALA",
+      "CountryIsoCode": "GT",
+      "LocationLatitude": 15.734782,
+      "LocationLongitude": -88.608501
+    },
+    "Puerto Bolivar, Ecuador": {
+      "PortId": 1450,
+      "LocationName": "PUERTO BOLIVAR",
+      "LocationCode": "ECPBO",
+      "CountryId": null,
+      "CountryName": "ECUADOR",
+      "CountryIsoCode": "EC",
+      "LocationLatitude": -3.261216,
+      "LocationLongitude": -80.001096
+    },
+    "Puerto Cabello, Venezuela": {
+      "PortId": 69,
+      "LocationName": "PUERTO CABELLO",
+      "LocationCode": "VEPBL",
+      "CountryId": null,
+      "CountryName": "VENEZUELA",
+      "CountryIsoCode": "VE",
+      "LocationLatitude": 10.472667,
+      "LocationLongitude": -67.998791
+    },
+    "Puerto Cortes, Honduras": {
+      "PortId": 344,
+      "LocationName": "PUERTO CORTES",
+      "LocationCode": "HNPCR",
+      "CountryId": null,
+      "CountryName": "HONDURAS",
+      "CountryIsoCode": "HN",
+      "LocationLatitude": 15.843141,
+      "LocationLongitude": -87.944068
+    },
+    "Puerto Del Rosario-Fuerteventura, Spain": {
+      "PortId": 889,
+      "LocationName": "PUERTO DEL ROSARIO-FUERTEVENTURA",
+      "LocationCode": "ESFUE",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 28.495118,
+      "LocationLongitude": -13.855177
+    },
+    "Puerto Limon, Costa Rica": {
+      "PortId": 453,
+      "LocationName": "PUERTO LIMON",
+      "LocationCode": "CRLIO",
+      "CountryId": null,
+      "CountryName": "COSTA RICA",
+      "CountryIsoCode": "CR",
+      "LocationLatitude": 9.989579,
+      "LocationLongitude": -83.021149
+    },
+    "Puerto Morelos, Mexico": {
+      "PortId": 1198,
+      "LocationName": "PUERTO MORELOS",
+      "LocationCode": "MXPMS",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 20.841713,
+      "LocationLongitude": -86.87814
+    },
+    "Puerto Quetzal, Guatemala": {
+      "PortId": 12,
+      "LocationName": "PUERTO QUETZAL",
+      "LocationCode": "GTPRQ",
+      "CountryId": null,
+      "CountryName": "GUATEMALA",
+      "CountryIsoCode": "GT",
+      "LocationLatitude": 13.925614,
+      "LocationLongitude": -90.78548
+    },
+    "Puerto Santo Tomas De Castilla, Guatemala": {
+      "PortId": 939,
+      "LocationName": "PUERTO SANTO TOMAS DE CASTILLA",
+      "LocationCode": "GTSTC",
+      "CountryId": null,
+      "CountryName": "GUATEMALA",
+      "CountryIsoCode": "GT",
+      "LocationLatitude": 15.695267,
+      "LocationLongitude": -88.615835
+    },
+    "Puerto Seguro Fluvial (Villeta), Paraguay": {
+      "PortId": 918,
+      "LocationName": "PUERTO SEGURO FLUVIAL (VILLETA)",
+      "LocationCode": "PYVLL",
+      "CountryId": null,
+      "CountryName": "PARAGUAY",
+      "CountryIsoCode": "PY",
+      "LocationLatitude": -25.298944,
+      "LocationLongitude": -57.629116
+    },
+    "Qingdao, China": {
+      "PortId": 446,
+      "LocationName": "QINGDAO",
+      "LocationCode": "CNTAO",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 36.101082,
+      "LocationLongitude": 120.324982
+    },
+    "Qinzhou, China": {
+      "PortId": 1035,
+      "LocationName": "QINZHOU",
+      "LocationCode": "CNQZH",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 21.95731,
+      "LocationLongitude": 108.614754
+    },
+    "Quinhon, Viet Nam": {
+      "PortId": 550,
+      "LocationName": "QUINHON",
+      "LocationCode": "VNUIH",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 13.782232,
+      "LocationLongitude": 109.231989
+    },
+    "Rarotonga, Cook Islands": {
+      "PortId": 1367,
+      "LocationName": "RAROTONGA",
+      "LocationCode": "CKRAR",
+      "CountryId": null,
+      "CountryName": "COOK ISLANDS",
+      "CountryIsoCode": "CK",
+      "LocationLatitude": -21.203407,
+      "LocationLongitude": -159.783934
+    },
+    "Ras Al Khaimah, United Arab Emirates": {
+      "PortId": 549,
+      "LocationName": "RAS AL KHAIMAH",
+      "LocationCode": "AERKT",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 25.799102,
+      "LocationLongitude": 55.952497
+    },
+    "Rauma, Finland": {
+      "PortId": 381,
+      "LocationName": "RAUMA",
+      "LocationCode": "FIRAU",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 61.129966,
+      "LocationLongitude": 21.433511
+    },
+    "Ravenna, Italy": {
+      "PortId": 292,
+      "LocationName": "RAVENNA",
+      "LocationCode": "ITRAN",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 44.448614,
+      "LocationLongitude": 12.246187
+    },
+    "Reykjavik, Iceland": {
+      "PortId": 315,
+      "LocationName": "REYKJAVIK",
+      "LocationCode": "ISREY",
+      "CountryId": null,
+      "CountryName": "ICELAND",
+      "CountryIsoCode": "IS",
+      "LocationLatitude": 64.149746,
+      "LocationLongitude": -21.850989
+    },
+    "Riga, Latvia": {
+      "PortId": 37,
+      "LocationName": "RIGA",
+      "LocationCode": "LVRIX",
+      "CountryId": null,
+      "CountryName": "LATVIA",
+      "CountryIsoCode": "LV",
+      "LocationLatitude": 57.007322,
+      "LocationLongitude": 24.098954
+    },
+    "Rijeka, Croatia": {
+      "PortId": 58,
+      "LocationName": "RIJEKA",
+      "LocationCode": "HRRJK",
+      "CountryId": null,
+      "CountryName": "CROATIA",
+      "CountryIsoCode": "HR",
+      "LocationLatitude": 45.320863,
+      "LocationLongitude": 14.452166
+    },
+    "Rio De Janeiro, Brazil": {
+      "PortId": 471,
+      "LocationName": "RIO DE JANEIRO",
+      "LocationCode": "BRRIO",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -22.8769,
+      "LocationLongitude": -43.2069
+    },
+    "Rio Grande, Brazil": {
+      "PortId": 470,
+      "LocationName": "RIO GRANDE",
+      "LocationCode": "BRRIG",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -32.126045,
+      "LocationLongitude": -52.104327
+    },
+    "Rio Haina, Dominican Republic": {
+      "PortId": 415,
+      "LocationName": "RIO HAINA",
+      "LocationCode": "DOHAI",
+      "CountryId": null,
+      "CountryName": "DOMINICAN REPUBLIC",
+      "CountryIsoCode": "DO",
+      "LocationLatitude": 18.426133,
+      "LocationLongitude": -70.016008
+    },
+    "Rizhao, China": {
+      "PortId": 1593,
+      "LocationName": "RIZHAO",
+      "LocationCode": "CNRZH",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 35.422112,
+      "LocationLongitude": 119.448029
+    },
+    "Rodman, Panama": {
+      "PortId": 1314,
+      "LocationName": "RODMAN",
+      "LocationCode": "PAROD",
+      "CountryId": null,
+      "CountryName": "PANAMA",
+      "CountryIsoCode": "PA",
+      "LocationLatitude": 8.951848,
+      "LocationLongitude": -79.573759
+    },
+    "Rosario, Argentina": {
+      "PortId": 801,
+      "LocationName": "ROSARIO",
+      "LocationCode": "ARROS",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -32.977459,
+      "LocationLongitude": -60.618363
+    },
+    "Roseau, Dominica": {
+      "PortId": 414,
+      "LocationName": "ROSEAU",
+      "LocationCode": "DMRSU",
+      "CountryId": null,
+      "CountryName": "DOMINICA",
+      "CountryIsoCode": "DM",
+      "LocationLatitude": 15.312306,
+      "LocationLongitude": -61.389381
+    },
+    "Rotterdam, Netherlands": {
+      "PortId": 208,
+      "LocationName": "ROTTERDAM",
+      "LocationCode": "NLRTM",
+      "CountryId": null,
+      "CountryName": "NETHERLANDS",
+      "CountryIsoCode": "NL",
+      "LocationLatitude": 51.956694,
+      "LocationLongitude": 4.063456
+    },
+    "Rouen, France": {
+      "PortId": 372,
+      "LocationName": "ROUEN",
+      "LocationCode": "FRURO",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 49.446555,
+      "LocationLongitude": 1.049528
+    },
+    "Saint George'S, Grenada": {
+      "PortId": 359,
+      "LocationName": "SAINT GEORGE'S",
+      "LocationCode": "GDSTG",
+      "CountryId": null,
+      "CountryName": "GRENADA",
+      "CountryIsoCode": "GD",
+      "LocationLatitude": 12.0479,
+      "LocationLongitude": -61.749388
+    },
+    "Saint John, Canada": {
+      "PortId": 1294,
+      "LocationName": "SAINT JOHN",
+      "LocationCode": "CASJB",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 45.2624,
+      "LocationLongitude": -66.0682
+    },
+    "Saint Petersburg, Russian Federation": {
+      "PortId": 116,
+      "LocationName": "SAINT PETERSBURG",
+      "LocationCode": "RULED",
+      "CountryId": null,
+      "CountryName": "RUSSIAN FEDERATION",
+      "CountryIsoCode": "RU",
+      "LocationLatitude": 59.8721,
+      "LocationLongitude": 30.2018
+    },
+    "Sakaiminato, Japan": {
+      "PortId": 894,
+      "LocationName": "SAKAIMINATO",
+      "LocationCode": "JPSMN",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.541527,
+      "LocationLongitude": 133.25565
+    },
+    "Sakata, Japan": {
+      "PortId": 530,
+      "LocationName": "SAKATA",
+      "LocationCode": "JPSKT",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 38.94658,
+      "LocationLongitude": 139.816401
+    },
+    "Salalah, Oman": {
+      "PortId": 186,
+      "LocationName": "SALALAH",
+      "LocationCode": "OMSLL",
+      "CountryId": null,
+      "CountryName": "OMAN",
+      "CountryIsoCode": "OM",
+      "LocationLatitude": 16.946818,
+      "LocationLongitude": 54.00627
+    },
+    "Salaverry, Peru": {
+      "PortId": 1096,
+      "LocationName": "SALAVERRY",
+      "LocationCode": "PESVY",
+      "CountryId": null,
+      "CountryName": "PERU",
+      "CountryIsoCode": "PE",
+      "LocationLatitude": -8.22728,
+      "LocationLongitude": -78.982004
+    },
+    "Salerno, Italy": {
+      "PortId": 293,
+      "LocationName": "SALERNO",
+      "LocationCode": "ITSAL",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 40.67234,
+      "LocationLongitude": 14.742696
+    },
+    "Salten, Norway": {
+      "PortId": 1058,
+      "LocationName": "SALTEN",
+      "LocationCode": "NOSAT",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 67.363422,
+      "LocationLongitude": 15.588365
+    },
+    "Salvador, Brazil": {
+      "PortId": 473,
+      "LocationName": "SALVADOR",
+      "LocationCode": "BRSSA",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -12.9589,
+      "LocationLongitude": -38.5063
+    },
+    "Samsun, Turkiye": {
+      "PortId": 1199,
+      "LocationName": "SAMSUN",
+      "LocationCode": "TRSSX",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 41.307185,
+      "LocationLongitude": 36.338406
+    },
+    "San Antonio, Chile": {
+      "PortId": 457,
+      "LocationName": "SAN ANTONIO",
+      "LocationCode": "CLSAI",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -33.589452,
+      "LocationLongitude": -71.622259
+    },
+    "San Juan, Puerto Rico": {
+      "PortId": 161,
+      "LocationName": "SAN JUAN",
+      "LocationCode": "PRSJU",
+      "CountryId": null,
+      "CountryName": "PUERTO RICO",
+      "CountryIsoCode": "PR",
+      "LocationLatitude": 18.436258,
+      "LocationLongitude": -66.089706
+    },
+    "San Lorenzo, Honduras": {
+      "PortId": 1527,
+      "LocationName": "SAN LORENZO",
+      "LocationCode": "HNSLO",
+      "CountryId": null,
+      "CountryName": "HONDURAS",
+      "CountryIsoCode": "HN",
+      "LocationLatitude": 13.4282,
+      "LocationLongitude": -87.433296
+    },
+    "San Vicente, Chile": {
+      "PortId": 458,
+      "LocationName": "SAN VICENTE",
+      "LocationCode": "CLSVE",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -36.731069,
+      "LocationLongitude": -73.137992
+    },
+    "San-Pedro, Cote D'Ivoire": {
+      "PortId": 455,
+      "LocationName": "SAN-PEDRO",
+      "LocationCode": "CISPY",
+      "CountryId": null,
+      "CountryName": "COTE D'IVOIRE",
+      "CountryIsoCode": "CI",
+      "LocationLatitude": 4.740241,
+      "LocationLongitude": -6.619662
+    },
+    "Sandakan, Sabah, Malaysia": {
+      "PortId": 1580,
+      "LocationName": "SANDAKAN, SABAH",
+      "LocationCode": "MYSDK",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 5.838072,
+      "LocationLongitude": 118.093478
+    },
+    "Santa Cruz De Tenerife, Spain": {
+      "PortId": 398,
+      "LocationName": "SANTA CRUZ DE TENERIFE",
+      "LocationCode": "ESSCT",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 28.488839,
+      "LocationLongitude": -16.228563
+    },
+    "Santos, Brazil": {
+      "PortId": 475,
+      "LocationName": "SANTOS",
+      "LocationCode": "BRSSZ",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -23.920845,
+      "LocationLongitude": -46.362454
+    },
+    "Satsumasendai, Japan": {
+      "PortId": 1401,
+      "LocationName": "SATSUMASENDAI",
+      "LocationCode": "JPSTS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 31.808161,
+      "LocationLongitude": 130.299591
+    },
+    "Sauda, Norway": {
+      "PortId": 919,
+      "LocationName": "SAUDA",
+      "LocationCode": "NOSAU",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 59.647152,
+      "LocationLongitude": 6.35065
+    },
+    "Semarang, Indonesia": {
+      "PortId": 327,
+      "LocationName": "SEMARANG",
+      "LocationCode": "IDSRG",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -6.946126,
+      "LocationLongitude": 110.425081
+    },
+    "Sendai, Miyagi, Japan": {
+      "PortId": 545,
+      "LocationName": "SENDAI, MIYAGI",
+      "LocationCode": "JPSDJ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 38.266452,
+      "LocationLongitude": 141.022151
+    },
+    "Sete, France": {
+      "PortId": 370,
+      "LocationName": "SETE",
+      "LocationCode": "FRSET",
+      "CountryId": null,
+      "CountryName": "FRANCE",
+      "CountryIsoCode": "FR",
+      "LocationLatitude": 43.409785,
+      "LocationLongitude": 3.670449
+    },
+    "Setubal, Portugal": {
+      "PortId": 743,
+      "LocationName": "SETUBAL",
+      "LocationCode": "PTSET",
+      "CountryId": null,
+      "CountryName": "PORTUGAL",
+      "CountryIsoCode": "PT",
+      "LocationLatitude": 38.515346,
+      "LocationLongitude": -8.871773
+    },
+    "Shanghai, China": {
+      "PortId": 444,
+      "LocationName": "SHANGHAI",
+      "LocationCode": "CNSHA",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 31.332892,
+      "LocationLongitude": 121.648099
+    },
+    "Shantou, China": {
+      "PortId": 621,
+      "LocationName": "SHANTOU",
+      "LocationCode": "CNSWA",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 23.220924,
+      "LocationLongitude": 116.778399
+    },
+    "Sharjah, United Arab Emirates": {
+      "PortId": 501,
+      "LocationName": "SHARJAH",
+      "LocationCode": "AESHJ",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 25.358564,
+      "LocationLongitude": 55.370795
+    },
+    "Shekou, China": {
+      "PortId": 30,
+      "LocationName": "SHEKOU",
+      "LocationCode": "CNSHK",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 22.45994,
+      "LocationLongitude": 113.892911
+    },
+    "Shibushi, Japan": {
+      "PortId": 531,
+      "LocationName": "SHIBUSHI",
+      "LocationCode": "JPSBS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 31.468974,
+      "LocationLongitude": 131.102675
+    },
+    "Shimizu, Japan": {
+      "PortId": 524,
+      "LocationName": "SHIMIZU",
+      "LocationCode": "JPSMZ",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.036953,
+      "LocationLongitude": 138.505764
+    },
+    "Shimonoseki, Japan": {
+      "PortId": 875,
+      "LocationName": "SHIMONOSEKI",
+      "LocationCode": "JPSHS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 33.949389,
+      "LocationLongitude": 130.93674
+    },
+    "Shuaiba, Kuwait": {
+      "PortId": 248,
+      "LocationName": "SHUAIBA",
+      "LocationCode": "KWSAA",
+      "CountryId": null,
+      "CountryName": "KUWAIT",
+      "CountryIsoCode": "KW",
+      "LocationLatitude": 29.045878,
+      "LocationLongitude": 48.153235
+    },
+    "Shuwaikh, Kuwait": {
+      "PortId": 249,
+      "LocationName": "SHUWAIKH",
+      "LocationCode": "KWSWK",
+      "CountryId": null,
+      "CountryName": "KUWAIT",
+      "CountryIsoCode": "KW",
+      "LocationLatitude": 29.348917,
+      "LocationLongitude": 47.919227
+    },
+    "Sibu, Sarawak, Malaysia": {
+      "PortId": 1087,
+      "LocationName": "SIBU, SARAWAK",
+      "LocationCode": "MYSBW",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 2.28914,
+      "LocationLongitude": 111.823215
+    },
+    "Sines, Portugal": {
+      "PortId": 153,
+      "LocationName": "SINES",
+      "LocationCode": "PTSIE",
+      "CountryId": null,
+      "CountryName": "PORTUGAL",
+      "CountryIsoCode": "PT",
+      "LocationLatitude": 37.933605,
+      "LocationLongitude": -8.847091
+    },
+    "Singapore, Singapore": {
+      "PortId": 122,
+      "LocationName": "SINGAPORE",
+      "LocationCode": "SGSIN",
+      "CountryId": null,
+      "CountryName": "SINGAPORE",
+      "CountryIsoCode": "SG",
+      "LocationLatitude": 1.272,
+      "LocationLongitude": 103.7683
+    },
+    "Skagen, Denmark": {
+      "PortId": 1484,
+      "LocationName": "SKAGEN",
+      "LocationCode": "DKSKA",
+      "CountryId": null,
+      "CountryName": "DENMARK",
+      "CountryIsoCode": "DK",
+      "LocationLatitude": 57.720901,
+      "LocationLongitude": 10.5839
+    },
+    "Skelleftea, Sweden": {
+      "PortId": 1515,
+      "LocationName": "SKELLEFTEA",
+      "LocationCode": "SESFT",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 64.749451,
+      "LocationLongitude": 20.95586
+    },
+    "Skikda, Algeria": {
+      "PortId": 515,
+      "LocationName": "SKIKDA",
+      "LocationCode": "DZSKI",
+      "CountryId": null,
+      "CountryName": "ALGERIA",
+      "CountryIsoCode": "DZ",
+      "LocationLatitude": 36.886168,
+      "LocationLongitude": 6.904017
+    },
+    "Sohar, Oman": {
+      "PortId": 943,
+      "LocationName": "SOHAR",
+      "LocationCode": "OMSOH",
+      "CountryId": null,
+      "CountryName": "OMAN",
+      "CountryIsoCode": "OM",
+      "LocationLatitude": 24.495287,
+      "LocationLongitude": 56.622669
+    },
+    "Sokhna Port, Egypt": {
+      "PortId": 516,
+      "LocationName": "SOKHNA PORT",
+      "LocationCode": "EGSOK",
+      "CountryId": null,
+      "CountryName": "EGYPT",
+      "CountryIsoCode": "EG",
+      "LocationLatitude": 29.65214,
+      "LocationLongitude": 32.349044
+    },
+    "Songkhla, Thailand": {
+      "PortId": 528,
+      "LocationName": "SONGKHLA",
+      "LocationCode": "THSGZ",
+      "CountryId": null,
+      "CountryName": "THAILAND",
+      "CountryIsoCode": "TH",
+      "LocationLatitude": 7.22952,
+      "LocationLongitude": 100.57237
+    },
+    "South Shields, United Kingdom": {
+      "PortId": 1207,
+      "LocationName": "SOUTH SHIELDS",
+      "LocationCode": "GBSSH",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 54.98493,
+      "LocationLongitude": -1.455258
+    },
+    "Southampton, United Kingdom": {
+      "PortId": 361,
+      "LocationName": "SOUTHAMPTON",
+      "LocationCode": "GBSOU",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 50.9099,
+      "LocationLongitude": -1.4562
+    },
+    "Stavanger, Norway": {
+      "PortId": 205,
+      "LocationName": "STAVANGER",
+      "LocationCode": "NOSVG",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 58.972682,
+      "LocationLongitude": 5.741319
+    },
+    "Stockholm, Sweden": {
+      "PortId": 141,
+      "LocationName": "STOCKHOLM",
+      "LocationCode": "SESTO",
+      "CountryId": null,
+      "CountryName": "SWEDEN",
+      "CountryIsoCode": "SE",
+      "LocationLatitude": 59.34235,
+      "LocationLongitude": 18.126088
+    },
+    "Suape, Brazil": {
+      "PortId": 19,
+      "LocationName": "SUAPE",
+      "LocationCode": "BRSUA",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -8.393922,
+      "LocationLongitude": -34.969852
+    },
+    "Subic, Philippines": {
+      "PortId": 882,
+      "LocationName": "SUBIC",
+      "LocationCode": "PHSFS",
+      "CountryId": null,
+      "CountryName": "PHILIPPINES",
+      "CountryIsoCode": "PH",
+      "LocationLatitude": 14.877583,
+      "LocationLongitude": 120.225411
+    },
+    "Surabaya, Indonesia": {
+      "PortId": 328,
+      "LocationName": "SURABAYA",
+      "LocationCode": "IDSUB",
+      "CountryId": null,
+      "CountryName": "INDONESIA",
+      "CountryIsoCode": "ID",
+      "LocationLatitude": -7.213954,
+      "LocationLongitude": 112.719805
+    },
+    "Suva, Fiji": {
+      "PortId": 1196,
+      "LocationName": "SUVA",
+      "LocationCode": "FJSUV",
+      "CountryId": null,
+      "CountryName": "FIJI",
+      "CountryIsoCode": "FJ",
+      "LocationLatitude": -18.132963,
+      "LocationLongitude": 178.424712
+    },
+    "Svelgen, Norway": {
+      "PortId": 534,
+      "LocationName": "SVELGEN",
+      "LocationCode": "NOSVE",
+      "CountryId": null,
+      "CountryName": "NORWAY",
+      "CountryIsoCode": "NO",
+      "LocationLatitude": 61.773342,
+      "LocationLongitude": 5.294965
+    },
+    "Sydney, Australia": {
+      "PortId": 489,
+      "LocationName": "SYDNEY",
+      "LocationCode": "AUSYD",
+      "CountryId": null,
+      "CountryName": "AUSTRALIA",
+      "CountryIsoCode": "AU",
+      "LocationLatitude": -33.967249,
+      "LocationLongitude": 151.213342
+    },
+    "Taichung, Taiwan": {
+      "PortId": 96,
+      "LocationName": "TAICHUNG",
+      "LocationCode": "TWTXG",
+      "CountryId": null,
+      "CountryName": "TAIWAN",
+      "CountryIsoCode": "TW",
+      "LocationLatitude": 24.266615,
+      "LocationLongitude": 120.514674
+    },
+    "Takamatsu, Japan": {
+      "PortId": 898,
+      "LocationName": "TAKAMATSU",
+      "LocationCode": "JPTAK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.3597,
+      "LocationLongitude": 134.063717
+    },
+    "Takoradi, Ghana": {
+      "PortId": 349,
+      "LocationName": "TAKORADI",
+      "LocationCode": "GHTKD",
+      "CountryId": null,
+      "CountryName": "GHANA",
+      "CountryIsoCode": "GH",
+      "LocationLatitude": 4.886375,
+      "LocationLongitude": -1.738065
+    },
+    "Tallinn, Estonia": {
+      "PortId": 109,
+      "LocationName": "TALLINN",
+      "LocationCode": "EETLL",
+      "CountryId": null,
+      "CountryName": "ESTONIA",
+      "CountryIsoCode": "EE",
+      "LocationLatitude": 59.49032,
+      "LocationLongitude": 24.969635
+    },
+    "Tamatave, Madagascar": {
+      "PortId": 241,
+      "LocationName": "TAMATAVE",
+      "LocationCode": "MGTMM",
+      "CountryId": null,
+      "CountryName": "MADAGASCAR",
+      "CountryIsoCode": "MG",
+      "LocationLatitude": -18.152397,
+      "LocationLongitude": 49.427954
+    },
+    "Tanga, Tanzania, United Republic Of": {
+      "PortId": 99,
+      "LocationName": "TANGA",
+      "LocationCode": "TZTGT",
+      "CountryId": null,
+      "CountryName": "TANZANIA, UNITED REPUBLIC OF",
+      "CountryIsoCode": "TZ",
+      "LocationLatitude": -5.06622,
+      "LocationLongitude": 39.105799
+    },
+    "Tanger Med, Morocco": {
+      "PortId": 1295,
+      "LocationName": "TANGER MED",
+      "LocationCode": "MAPTM",
+      "CountryId": null,
+      "CountryName": "MOROCCO",
+      "CountryIsoCode": "MA",
+      "LocationLatitude": 35.893832,
+      "LocationLongitude": -5.490969
+    },
+    "Tanjung Pelepas, Malaysia": {
+      "PortId": 222,
+      "LocationName": "TANJUNG PELEPAS",
+      "LocationCode": "MYTPP",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 1.366848,
+      "LocationLongitude": 103.547734
+    },
+    "Tarragona, Spain": {
+      "PortId": 642,
+      "LocationName": "TARRAGONA",
+      "LocationCode": "ESTAR",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 41.095128,
+      "LocationLongitude": 1.211953
+    },
+    "Tartus, Syrian Arab Republic": {
+      "PortId": 1107,
+      "LocationName": "TARTUS",
+      "LocationCode": "SYTTS",
+      "CountryId": null,
+      "CountryName": "SYRIAN ARAB REPUBLIC",
+      "CountryIsoCode": "SY",
+      "LocationLatitude": 34.910119,
+      "LocationLongitude": 35.87017
+    },
+    "Tauranga, New Zealand": {
+      "PortId": 181,
+      "LocationName": "TAURANGA",
+      "LocationCode": "NZTRG",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -37.662497,
+      "LocationLongitude": 176.172666
+    },
+    "Tawau, Sabah, Malaysia": {
+      "PortId": 1581,
+      "LocationName": "TAWAU, SABAH",
+      "LocationCode": "MYTWU",
+      "CountryId": null,
+      "CountryName": "MALAYSIA",
+      "CountryIsoCode": "MY",
+      "LocationLatitude": 4.398614,
+      "LocationLongitude": 117.780498
+    },
+    "Teesport, United Kingdom": {
+      "PortId": 557,
+      "LocationName": "TEESPORT",
+      "LocationCode": "GBTEE",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 54.623016,
+      "LocationLongitude": -1.162824
+    },
+    "Tekirdag (Asyaport), Turkiye": {
+      "PortId": 1383,
+      "LocationName": "TEKIRDAG (ASYAPORT)",
+      "LocationCode": "TRTEK",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.964116,
+      "LocationLongitude": 27.506418
+    },
+    "Tema, Ghana": {
+      "PortId": 348,
+      "LocationName": "TEMA",
+      "LocationCode": "GHTEM",
+      "CountryId": null,
+      "CountryName": "GHANA",
+      "CountryIsoCode": "GH",
+      "LocationLatitude": 5.624422,
+      "LocationLongitude": 0.007214
+    },
+    "Termini Imerese Port Of Palermo, Italy": {
+      "PortId": 1613,
+      "LocationName": "TERMINI IMERESE PORT OF PALERMO",
+      "LocationCode": "ITTRI",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 37.983949,
+      "LocationLongitude": 13.696264
+    },
+    "Terport Villeta, Paraguay": {
+      "PortId": 1492,
+      "LocationName": "TERPORT VILLETA",
+      "LocationCode": "PYTVT",
+      "CountryId": null,
+      "CountryName": "PARAGUAY",
+      "CountryIsoCode": "PY",
+      "LocationLatitude": -25.612,
+      "LocationLongitude": -57.6082
+    },
+    "Thamesport, United Kingdom": {
+      "PortId": 40,
+      "LocationName": "THAMESPORT",
+      "LocationCode": "GBTHP",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 51.43395,
+      "LocationLongitude": 0.686634
+    },
+    "Thessaloniki, Greece": {
+      "PortId": 340,
+      "LocationName": "THESSALONIKI",
+      "LocationCode": "GRSKG",
+      "CountryId": null,
+      "CountryName": "GREECE",
+      "CountryIsoCode": "GR",
+      "LocationLatitude": 40.634485,
+      "LocationLongitude": 22.907551
+    },
+    "Tianjinxingang, China": {
+      "PortId": 1298,
+      "LocationName": "TIANJINXINGANG",
+      "LocationCode": "CNTXG",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 39.002229,
+      "LocationLongitude": 117.791775
+    },
+    "Tilbury, United Kingdom": {
+      "PortId": 357,
+      "LocationName": "TILBURY",
+      "LocationCode": "GBTIL",
+      "CountryId": null,
+      "CountryName": "UNITED KINGDOM",
+      "CountryIsoCode": "GB",
+      "LocationLatitude": 51.460654,
+      "LocationLongitude": 0.334763
+    },
+    "Tincan/Lagos, Nigeria": {
+      "PortId": 215,
+      "LocationName": "TINCAN/LAGOS",
+      "LocationCode": "NGTIN",
+      "CountryId": null,
+      "CountryName": "NIGERIA",
+      "CountryIsoCode": "NG",
+      "LocationLatitude": 6.431832,
+      "LocationLongitude": 3.346689
+    },
+    "Tokushima, Japan": {
+      "PortId": 277,
+      "LocationName": "TOKUSHIMA",
+      "LocationCode": "JPTKS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.055975,
+      "LocationLongitude": 134.598096
+    },
+    "Tokuyama, Japan": {
+      "PortId": 278,
+      "LocationName": "TOKUYAMA",
+      "LocationCode": "JPTKY",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.0376,
+      "LocationLongitude": 131.788091
+    },
+    "Tokyo, Japan": {
+      "PortId": 262,
+      "LocationName": "TOKYO",
+      "LocationCode": "JPTYO",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.59883,
+      "LocationLongitude": 139.769188
+    },
+    "Tomakomai, Japan": {
+      "PortId": 279,
+      "LocationName": "TOMAKOMAI",
+      "LocationCode": "JPTMK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 42.640675,
+      "LocationLongitude": 141.63039
+    },
+    "Tornio (Tornea), Finland": {
+      "PortId": 869,
+      "LocationName": "TORNIO (TORNEA)",
+      "LocationCode": "FITOR",
+      "CountryId": null,
+      "CountryName": "FINLAND",
+      "CountryIsoCode": "FI",
+      "LocationLatitude": 65.7539,
+      "LocationLongitude": 24.1563
+    },
+    "Toyamashinko, Japan": {
+      "PortId": 1156,
+      "LocationName": "TOYAMASHINKO",
+      "LocationCode": "JPTOS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 36.761788,
+      "LocationLongitude": 137.226562
+    },
+    "Toyohashi, Japan": {
+      "PortId": 934,
+      "LocationName": "TOYOHASHI",
+      "LocationCode": "JPTHS",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.735194,
+      "LocationLongitude": 137.312034
+    },
+    "Trabzon, Turkiye": {
+      "PortId": 91,
+      "LocationName": "TRABZON",
+      "LocationCode": "TRTZX",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 41.003137,
+      "LocationLongitude": 39.737144
+    },
+    "Trapani, Italy": {
+      "PortId": 1279,
+      "LocationName": "TRAPANI",
+      "LocationCode": "ITTPS",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 38.012235,
+      "LocationLongitude": 12.52024
+    },
+    "Trieste, Italy": {
+      "PortId": 296,
+      "LocationName": "TRIESTE",
+      "LocationCode": "ITTRS",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 45.629534,
+      "LocationLongitude": 13.761026
+    },
+    "Tripoli, Libya": {
+      "PortId": 257,
+      "LocationName": "TRIPOLI",
+      "LocationCode": "LYTIP",
+      "CountryId": null,
+      "CountryName": "LIBYA",
+      "CountryIsoCode": "LY",
+      "LocationLatitude": 32.906647,
+      "LocationLongitude": 13.193027
+    },
+    "Tsuruga, Japan": {
+      "PortId": 912,
+      "LocationName": "TSURUGA",
+      "LocationCode": "JPTRG",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.658959,
+      "LocationLongitude": 136.061595
+    },
+    "Tunis, Tunisia": {
+      "PortId": 102,
+      "LocationName": "TUNIS",
+      "LocationCode": "TNTUN",
+      "CountryId": null,
+      "CountryName": "TUNISIA",
+      "CountryIsoCode": "TN",
+      "LocationLatitude": 36.806023,
+      "LocationLongitude": 10.268057
+    },
+    "Turbo, Colombia": {
+      "PortId": 1332,
+      "LocationName": "TURBO",
+      "LocationCode": "COTRB",
+      "CountryId": null,
+      "CountryName": "COLOMBIA",
+      "CountryIsoCode": "CO",
+      "LocationLatitude": 8.097624,
+      "LocationLongitude": -76.739055
+    },
+    "Tuticorin, India": {
+      "PortId": 311,
+      "LocationName": "TUTICORIN",
+      "LocationCode": "INTUT",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 8.749214,
+      "LocationLongitude": 78.215368
+    },
+    "Umm Al Qaiwain, United Arab Emirates": {
+      "PortId": 556,
+      "LocationName": "UMM AL QAIWAIN",
+      "LocationCode": "AEQIW",
+      "CountryId": null,
+      "CountryName": "UNITED ARAB EMIRATES",
+      "CountryIsoCode": "AE",
+      "LocationLatitude": 25.589449,
+      "LocationLongitude": 55.582051
+    },
+    "Umm Qasr Pt, Iraq": {
+      "PortId": 312,
+      "LocationName": "UMM QASR PT",
+      "LocationCode": "IQUQR",
+      "CountryId": null,
+      "CountryName": "IRAQ",
+      "CountryIsoCode": "IQ",
+      "LocationLatitude": 30.024812,
+      "LocationLongitude": 47.951311
+    },
+    "Ushuaia, Argentina": {
+      "PortId": 537,
+      "LocationName": "USHUAIA",
+      "LocationCode": "ARUSH",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -54.808939,
+      "LocationLongitude": -68.304109
+    },
+    "Vado Ligure, Italy": {
+      "PortId": 1466,
+      "LocationName": "VADO LIGURE",
+      "LocationCode": "ITVDL",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 44.271172,
+      "LocationLongitude": 8.43559
+    },
+    "Valencia, Spain": {
+      "PortId": 401,
+      "LocationName": "VALENCIA",
+      "LocationCode": "ESVLC",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 39.440732,
+      "LocationLongitude": -0.323285
+    },
+    "Valparaiso, Chile": {
+      "PortId": 459,
+      "LocationName": "VALPARAISO",
+      "LocationCode": "CLVAP",
+      "CountryId": null,
+      "CountryName": "CHILE",
+      "CountryIsoCode": "CL",
+      "LocationLatitude": -33.033176,
+      "LocationLongitude": -71.628215
+    },
+    "Vancouver, Canada": {
+      "PortId": 608,
+      "LocationName": "VANCOUVER",
+      "LocationCode": "CAVAN",
+      "CountryId": null,
+      "CountryName": "CANADA",
+      "CountryIsoCode": "CA",
+      "LocationLatitude": 49.28749,
+      "LocationLongitude": -123.094867
+    },
+    "Varna, Bulgaria": {
+      "PortId": 483,
+      "LocationName": "VARNA",
+      "LocationCode": "BGVAR",
+      "CountryId": null,
+      "CountryName": "BULGARIA",
+      "CountryIsoCode": "BG",
+      "LocationLatitude": 43.196459,
+      "LocationLongitude": 27.91892
+    },
+    "Venice, Italy": {
+      "PortId": 297,
+      "LocationName": "VENICE",
+      "LocationCode": "ITVCE",
+      "CountryId": null,
+      "CountryName": "ITALY",
+      "CountryIsoCode": "IT",
+      "LocationLatitude": 45.455627,
+      "LocationLongitude": 12.256534
+    },
+    "Veracruz, Mexico": {
+      "PortId": 235,
+      "LocationName": "VERACRUZ",
+      "LocationCode": "MXVER",
+      "CountryId": null,
+      "CountryName": "MEXICO",
+      "CountryIsoCode": "MX",
+      "LocationLatitude": 19.212039,
+      "LocationLongitude": -96.133548
+    },
+    "Vigo, Spain": {
+      "PortId": 400,
+      "LocationName": "VIGO",
+      "LocationCode": "ESVGO",
+      "CountryId": null,
+      "CountryName": "SPAIN",
+      "CountryIsoCode": "ES",
+      "LocationLatitude": 42.233673,
+      "LocationLongitude": -8.753521
+    },
+    "Vila Do Conde, Brazil": {
+      "PortId": 1093,
+      "LocationName": "VILA DO CONDE",
+      "LocationCode": "BRVLC",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -1.539371,
+      "LocationLongitude": -48.754114
+    },
+    "Visakhapatnam, India": {
+      "PortId": 929,
+      "LocationName": "VISAKHAPATNAM",
+      "LocationCode": "INVTZ",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 17.6935,
+      "LocationLongitude": 83.300984
+    },
+    "Vitoria, Brazil": {
+      "PortId": 476,
+      "LocationName": "VITORIA",
+      "LocationCode": "BRVIX",
+      "CountryId": null,
+      "CountryName": "BRAZIL",
+      "CountryIsoCode": "BR",
+      "LocationLatitude": -20.324778,
+      "LocationLongitude": -40.32862
+    },
+    "Vizhinjam International Sea Port, India": {
+      "PortId": 1606,
+      "LocationName": "VIZHINJAM INTERNATIONAL SEA PORT",
+      "LocationCode": "INTRV",
+      "CountryId": null,
+      "CountryName": "INDIA",
+      "CountryIsoCode": "IN",
+      "LocationLatitude": 8.371563,
+      "LocationLongitude": 76.997677
+    },
+    "Vladivostok, Russian Federation": {
+      "PortId": 1103,
+      "LocationName": "VLADIVOSTOK",
+      "LocationCode": "RUVVO",
+      "CountryId": null,
+      "CountryName": "RUSSIAN FEDERATION",
+      "CountryIsoCode": "RU",
+      "LocationLatitude": 43.092015,
+      "LocationLongitude": 131.868785
+    },
+    "Vlissingen, Netherlands": {
+      "PortId": 928,
+      "LocationName": "VLISSINGEN",
+      "LocationCode": "NLVLI",
+      "CountryId": null,
+      "CountryName": "NETHERLANDS",
+      "CountryIsoCode": "NL",
+      "LocationLatitude": 51.4438,
+      "LocationLongitude": 3.5956
+    },
+    "Volos, Greece": {
+      "PortId": 341,
+      "LocationName": "VOLOS",
+      "LocationCode": "GRVOL",
+      "CountryId": null,
+      "CountryName": "GREECE",
+      "CountryIsoCode": "GR",
+      "LocationLatitude": 39.357717,
+      "LocationLongitude": 22.936041
+    },
+    "Vostochniy, Port, Russian Federation": {
+      "PortId": 1194,
+      "LocationName": "VOSTOCHNIY, PORT",
+      "LocationCode": "RUVYP",
+      "CountryId": null,
+      "CountryName": "RUSSIAN FEDERATION",
+      "CountryIsoCode": "RU",
+      "LocationLatitude": 42.73331,
+      "LocationLongitude": 133.078027
+    },
+    "Vung Tau, Vietnam": {
+      "PortId": 1292,
+      "LocationName": "VUNG TAU",
+      "LocationCode": "VNVUT",
+      "CountryId": null,
+      "CountryName": "VIET NAM",
+      "CountryIsoCode": "VN",
+      "LocationLatitude": 10.505282,
+      "LocationLongitude": 107.009849
+    },
+    "Wakayama, Japan": {
+      "PortId": 914,
+      "LocationName": "WAKAYAMA",
+      "LocationCode": "JPWAK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.208188,
+      "LocationLongitude": 135.143525
+    },
+    "Walvis Bay, Namibia": {
+      "PortId": 228,
+      "LocationName": "WALVIS BAY",
+      "LocationCode": "NAWVB",
+      "CountryId": null,
+      "CountryName": "NAMIBIA",
+      "CountryIsoCode": "NA",
+      "LocationLatitude": -22.950574,
+      "LocationLongitude": 14.497352
+    },
+    "Wellington, New Zealand": {
+      "PortId": 182,
+      "LocationName": "WELLINGTON",
+      "LocationCode": "NZWLG",
+      "CountryId": null,
+      "CountryName": "NEW ZEALAND",
+      "CountryIsoCode": "NZ",
+      "LocationLatitude": -41.278935,
+      "LocationLongitude": 174.787368
+    },
+    "Wilhelmshaven, Germany": {
+      "PortId": 1318,
+      "LocationName": "WILHELMSHAVEN",
+      "LocationCode": "DEWVN",
+      "CountryId": null,
+      "CountryName": "GERMANY",
+      "CountryIsoCode": "DE",
+      "LocationLatitude": 53.58873,
+      "LocationLongitude": 8.150453
+    },
+    "Xiamen, China": {
+      "PortId": 448,
+      "LocationName": "XIAMEN",
+      "LocationCode": "CNXMN",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 24.446303,
+      "LocationLongitude": 118.013406
+    },
+    "Yangon, Myanmar": {
+      "PortId": 1105,
+      "LocationName": "YANGON",
+      "LocationCode": "MMRGN",
+      "CountryId": null,
+      "CountryName": "MYANMAR",
+      "CountryIsoCode": "MM",
+      "LocationLatitude": 16.785552,
+      "LocationLongitude": 96.20964
+    },
+    "Yantai, China": {
+      "PortId": 623,
+      "LocationName": "YANTAI",
+      "LocationCode": "CNYNT",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 37.466458,
+      "LocationLongitude": 121.472569
+    },
+    "Yantian, China": {
+      "PortId": 2,
+      "LocationName": "YANTIAN",
+      "LocationCode": "CNYTN",
+      "CountryId": null,
+      "CountryName": "CHINA",
+      "CountryIsoCode": "CN",
+      "LocationLatitude": 22.5749,
+      "LocationLongitude": 114.260284
+    },
+    "Yarimca, Turkiye": {
+      "PortId": 1428,
+      "LocationName": "YARIMCA",
+      "LocationCode": "TRYAR",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 40.76174,
+      "LocationLongitude": 29.747994
+    },
+    "Yatsushiro, Japan": {
+      "PortId": 837,
+      "LocationName": "YATSUSHIRO",
+      "LocationCode": "JPYAT",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 32.508385,
+      "LocationLongitude": 130.567991
+    },
+    "Yokkaichi, Japan": {
+      "PortId": 822,
+      "LocationName": "YOKKAICHI",
+      "LocationCode": "JPYKK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 34.990639,
+      "LocationLongitude": 136.663669
+    },
+    "Yokohama, Japan": {
+      "PortId": 264,
+      "LocationName": "YOKOHAMA",
+      "LocationCode": "JPYOK",
+      "CountryId": null,
+      "CountryName": "JAPAN",
+      "CountryIsoCode": "JP",
+      "LocationLatitude": 35.457975,
+      "LocationLongitude": 139.694007
+    },
+    "Zanzibar, Tanzania, United Republic Of": {
+      "PortId": 100,
+      "LocationName": "ZANZIBAR",
+      "LocationCode": "TZZNZ",
+      "CountryId": null,
+      "CountryName": "TANZANIA, UNITED REPUBLIC OF",
+      "CountryIsoCode": "TZ",
+      "LocationLatitude": -6.155683,
+      "LocationLongitude": 39.19222
+    },
+    "Zarate, Argentina": {
+      "PortId": 938,
+      "LocationName": "ZARATE",
+      "LocationCode": "ARZAE",
+      "CountryId": null,
+      "CountryName": "ARGENTINA",
+      "CountryIsoCode": "AR",
+      "LocationLatitude": -34.066265,
+      "LocationLongitude": -59.034559
+    },
+    "Zeebrugge, Belgium": {
+      "PortId": 589,
+      "LocationName": "ZEEBRUGGE",
+      "LocationCode": "BEZEE",
+      "CountryId": null,
+      "CountryName": "BELGIUM",
+      "CountryIsoCode": "BE",
+      "LocationLatitude": 51.336992,
+      "LocationLongitude": 3.192726
+    },
+    "Ziguinchor, Senegal": {
+      "PortId": 1501,
+      "LocationName": "ZIGUINCHOR",
+      "LocationCode": "SNZIG",
+      "CountryId": null,
+      "CountryName": "SENEGAL",
+      "CountryIsoCode": "SN",
+      "LocationLatitude": 12.57476,
+      "LocationLongitude": -16.263149
+    },
+    "Zonguldak, Turkiye": {
+      "PortId": 1543,
+      "LocationName": "ZONGULDAK",
+      "LocationCode": "TRZON",
+      "CountryId": null,
+      "CountryName": "TURKIYE",
+      "CountryIsoCode": "TR",
+      "LocationLatitude": 41.450851,
+      "LocationLongitude": 31.78484
+    },
+    "Baltimore, MD": {
+      "PortId": 84,
+      "LocationName": "BALTIMORE",
+      "LocationCode": "USBAL",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 39.255374,
+      "LocationLongitude": -76.545758
+    },
+    "Boston, MA": {
+      "PortId": 89,
+      "LocationName": "BOSTON",
+      "LocationCode": "USBOS",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 42.340611,
+      "LocationLongitude": -71.021392
+    },
+    "Charleston, SC": {
+      "PortId": 90,
+      "LocationName": "CHARLESTON",
+      "LocationCode": "USCHS",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 32.831492,
+      "LocationLongitude": -79.89125
+    },
+    "Houston, TX": {
+      "PortId": 86,
+      "LocationName": "HOUSTON",
+      "LocationCode": "USHOU",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 29.611229,
+      "LocationLongitude": -95.0049
+    },
+    "Jacksonville, FL": {
+      "PortId": 81,
+      "LocationName": "JACKSONVILLE",
+      "LocationCode": "USJAX",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 30.353385,
+      "LocationLongitude": -81.623043
+    },
+    "Los Angeles, CA": [
+      {
+        "PortId": 775,
+        "LocationName": "LOS ANGELES",
+        "LocationCode": "USLAX",
+        "CountryId": null,
+        "CountryName": "UNITED STATES",
+        "CountryIsoCode": "US",
+        "LocationLatitude": 33.728194,
+        "LocationLongitude": -118.25582
+      },
+      {
+        "PortId": 82,
+        "LocationName": "LONG BEACH",
+        "LocationCode": "USLGB",
+        "CountryId": null,
+        "CountryName": "UNITED STATES",
+        "CountryIsoCode": "US",
+        "LocationLatitude": 33.769827,
+        "LocationLongitude": -118.235519
+      }
+    ],
+    "Miami, FL": [
+      {
+        "PortId": 83,
+        "LocationName": "MIAMI",
+        "LocationCode": "USMIA",
+        "CountryId": null,
+        "CountryName": "UNITED STATES",
+        "CountryIsoCode": "US",
+        "LocationLatitude": 25.767709,
+        "LocationLongitude": -80.159493
+      },
+      {
+        "PortId": 819,
+        "LocationName": "PORT EVERGLADES",
+        "LocationCode": "USPEF",
+        "CountryId": null,
+        "CountryName": "UNITED STATES",
+        "CountryIsoCode": "US",
+        "LocationLatitude": 26.068256,
+        "LocationLongitude": -80.117346
+      }
+    ],
+    "Mobile, AL": {
+      "PortId": 1110,
+      "LocationName": "MOBILE",
+      "LocationCode": "USMOB",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 30.693902,
+      "LocationLongitude": -88.038465
+    },
+    "New Orleans, LA": {
+      "PortId": 78,
+      "LocationName": "NEW ORLEANS",
+      "LocationCode": "USMSY",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 29.913554,
+      "LocationLongitude": -90.106185
+    },
+    "New York, NY": {
+      "PortId": 79,
+      "LocationName": "NEW YORK",
+      "LocationCode": "USNYC",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 40.684996,
+      "LocationLongitude": -74.151116
+    },
+    "Norfolk, VA": {
+      "PortId": 777,
+      "LocationName": "NORFOLK",
+      "LocationCode": "USORF",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 36.91072,
+      "LocationLongitude": -76.3246
+    },
+    "Oakland, CA": {
+      "PortId": 519,
+      "LocationName": "OAKLAND",
+      "LocationCode": "USOAK",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 37.814335,
+      "LocationLongitude": -122.315864
+    },
+    "Philadelphia, PA": {
+      "PortId": 74,
+      "LocationName": "PHILADELPHIA",
+      "LocationCode": "USPHL",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 39.900626,
+      "LocationLongitude": -75.136299
+    },
+    "Portland, OR": {
+      "PortId": 80,
+      "LocationName": "PORTLAND, OR",
+      "LocationCode": "USPDX",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 45.511791,
+      "LocationLongitude": -122.675629
+    },
+    "Savannah, GA": {
+      "PortId": 70,
+      "LocationName": "SAVANNAH",
+      "LocationCode": "USSAV",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 32.128924,
+      "LocationLongitude": -81.140998
+    },
+    "Seattle, WA": {
+      "PortId": 783,
+      "LocationName": "SEATTLE",
+      "LocationCode": "USSEA",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 47.595208,
+      "LocationLongitude": -122.33917
+    },
+    "Tacoma, WA": {
+      "PortId": 72,
+      "LocationName": "TACOMA",
+      "LocationCode": "USTIW",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 47.255131,
+      "LocationLongitude": -122.44165
+    },
+    "Tampa, FL": {
+      "PortId": 73,
+      "LocationName": "TAMPA",
+      "LocationCode": "USTPA",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 27.912158,
+      "LocationLongitude": -82.430534
+    },
+    "Wilmington, DE": {
+      "PortId": 1365,
+      "LocationName": "WILMINGTON, DE",
+      "LocationCode": "USILG",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 39.718539,
+      "LocationLongitude": -75.521353
+    },
+    "Wilmington, NC": {
+      "PortId": 87,
+      "LocationName": "WILMINGTON, NC",
+      "LocationCode": "USILM",
+      "CountryId": null,
+      "CountryName": "UNITED STATES",
+      "CountryIsoCode": "US",
+      "LocationLatitude": 34.191972,
+      "LocationLongitude": -77.95474
+    }
+  }
+}
