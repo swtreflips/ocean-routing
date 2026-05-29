@@ -113,8 +113,6 @@ print("✅ Geocoding complete.")
 print(quotes_progress[["ID", "Final Destination", "LastCY", "status"]])
 
 # API Call Script
-cities_file = CARRIER_DIR / "assets" / "zim_cities.json"
-
 quotes = quotes_progress
 
 # Ensure tracking columns exist
@@ -139,22 +137,6 @@ with open(cities_file, "r", encoding="utf-8") as f:
 API_URL = "https://apigw.zim.com/digitalSchedules/PointToPoint/v1"
 API_KEY = "9d63cf020a4c4708a7b0ebfe39578300"
 
-FROM_DATE = today
-DELAY_RANGE = (2, 4.5)
-MAX_RETRIES = 1
-
-# === LOAD CITIES ===
-cities_file = CARRIER_DIR / "assets" / "zim_cities.json"
-if not cities_file.exists():
-    raise FileNotFoundError(f"zim_cities.json not found at {cities_file}")
-
-with open(cities_file, "r", encoding="utf-8") as f:
-    zim_cities = json.load(f)
-
-
-API_URL = "https://apigw.zim.com/digitalSchedules/PointToPoint/v1"
-API_KEY = "9d63cf020a4c4708a7b0ebfe39578300"
-
 FROM_DATE = today  # Dynamic current date
 DELAY_RANGE = (2, 4.5)
 MAX_RETRIES = 1
@@ -163,14 +145,6 @@ MAX_RETRIES = 1
 FROM_DATE_STR = FROM_DATE.strftime("%d-%B-%Y")
 
 print(f"📅 Running for date: {FROM_DATE_STR}")
-
-# === LOAD CITIES ===
-cities_file = CARRIER_DIR / "assets" / "zim_cities.json"
-if not cities_file.exists():
-    raise FileNotFoundError(f"zim_cities.json not found at {cities_file}")
-
-with open(cities_file, "r", encoding="utf-8") as f:
-    zim_cities = json.load(f)
 
 # === HELPERS ===
 
