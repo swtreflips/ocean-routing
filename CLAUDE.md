@@ -2,7 +2,7 @@
 
 Conventions established when migrating from the legacy Schedules folder (OneDrive) to this repo. Read this before migrating any of the remaining carriers (COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM).
 
-The plan lives in [TREE.md](TREE.md). Migrated so far: **CMA, COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL**. CMA is the reference implementation; CMA, EMC, WHL are the HTML carriers. Remaining: YML, ZIM.
+The plan lives in [TREE.md](TREE.md). **All 12 carriers migrated** (CMA, COS, EMC, HPL, HMM, MSC, MSK, ONE, OOCL, WHL, YML, ZIM). CMA is the reference implementation; CMA, EMC, WHL are the HTML carriers; HMM and OOCL run in the `patch` conda env.
 
 ## Carrier-code naming
 
