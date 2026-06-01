@@ -71,6 +71,7 @@ PROCESSING_DIR.mkdir(parents=True, exist_ok=True)
 TABLES_DIR.mkdir(parents=True, exist_ok=True)
 CSV_DIR.mkdir(parents=True, exist_ok=True)
 CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
+HTML_DIR.mkdir(parents=True, exist_ok=True)
 
 
 run_timestamp = datetime.now(timezone.utc)

@@ -71,6 +71,10 @@ CANONICAL_DIR = PROJECT_ROOT / "src" / "data" / "cos" / "canonical"
 # --- Carrier-specific folder (cosco/) ---
 CARRIER_DIR = Path(__file__).resolve().parent
 
+# --- Ensure output dirs exist (they're gitignored, so a fresh clone lacks them) ---
+for _d in (LOG_DIR, RAW_DIR, PROCESSING_DIR, TABLES_DIR, CSV_DIR, CANONICAL_DIR):
+    _d.mkdir(parents=True, exist_ok=True)
+
 # --- Capture a single UTC run timestamp at startup (see DATE.md). All rows,
 #     files, and metadata produced by this run derive from this one moment. ---
 run_timestamp = datetime.datetime.now(datetime.timezone.utc)

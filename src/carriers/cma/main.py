@@ -98,6 +98,10 @@ HTML_DIR = PROJECT_ROOT / "src" / "data" / "cma" / "html"
 # --- Carrier-specific folder (cosco/) ---
 CARRIER_DIR = Path(__file__).resolve().parent
 
+# --- Ensure output dirs exist (gitignored, so a fresh clone lacks them) ---
+for d in (LOG_DIR, RAW_DIR, PROCESSING_DIR, TABLES_DIR, CSV_DIR, CANONICAL_DIR, HTML_DIR):
+    d.mkdir(parents=True, exist_ok=True)
+
 
 run_timestamp = datetime.now(timezone.utc)
 today = run_timestamp.date()

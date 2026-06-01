@@ -43,7 +43,7 @@ CANONICAL_DIR = PROJECT_ROOT / "src" / "data" / "yml" / "canonical"
 # --- Carrier-specific folder (cosco/) ---
 CARRIER_DIR = Path(__file__).resolve().parent
 
-for d in (CSV_DIR, CANONICAL_DIR):
+for d in (LOG_DIR, RAW_DIR, PROCESSING_DIR, TABLES_DIR, CSV_DIR, CANONICAL_DIR):
     d.mkdir(parents=True, exist_ok=True)
 
 

@@ -56,7 +56,7 @@ TABLES_DIR = PROJECT_ROOT / "src" / "data" / "tables"
 CSV_DIR = PROJECT_ROOT / "src" / "data" / "oocl" / "csvs"
 CANONICAL_DIR = PROJECT_ROOT / "src" / "data" / "oocl" / "canonical"
 
-for d in (CSV_DIR, CANONICAL_DIR):
+for d in (LOG_DIR, RAW_DIR, PROCESSING_DIR, TABLES_DIR, CSV_DIR, CANONICAL_DIR):
     d.mkdir(parents=True, exist_ok=True)
 # --- Carrier-specific folder (cosco/) ---
 CARRIER_DIR = Path(__file__).resolve().parent
