@@ -6,6 +6,12 @@ __pycache__/
 venv/
 schedulesenv/
 
+# Secrets (Supabase URL + service_role key)
+.env
+
+# Per-carrier Supabase ingest ledger (local runtime state, not an asset)
+src/data/*/ingest_ledger.json
+
 # IDE
 .vscode/
 .idea/

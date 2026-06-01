@@ -300,6 +300,16 @@ try:
 
     print("✅ All JSONs archived to RAW_DIR.")
 
+    # --- Ingest newly written canonicals into Supabase (only new ones; ledger-tracked) ---
+    try:
+        sys.path.insert(0, str(PROJECT_ROOT / "src"))
+        from ingest.ingest import ingest_new_canonicals
+        ingest_new_canonicals("WHL")
+    except Exception as e:
+        # Ingestion is best-effort and crash-safe (re-runs retry un-ledgered files);
+        # never let it sink an otherwise-successful scrape.
+        print(f"⚠️ Supabase ingestion step failed (non-fatal): {e}")
+
 except Exception as e:
     print(f"❌ Transform failed. JSONs kept in {PROCESSING_DIR}.")
     print("Error:", e)
