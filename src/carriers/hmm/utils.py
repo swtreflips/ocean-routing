@@ -149,7 +149,12 @@ def resolve_missing_locations(quotes_progress, locations, locations_file, geocod
     Returns:
         pd.DataFrame: Updated locations dataframe
     """
-    missing = set(quotes_progress["Final Destination"].unique()) - set(locations["Place of Discharge"].unique())
+    # Only consider real (non-null) destinations. NaN/empty rows are valid in
+    # quotes.csv (option 2: POL + LastCY already populated, no Voronoi needed)
+    # — they must not be sent to the geocoder as the string "nan".
+    dest_series = quotes_progress["Final Destination"].dropna()
+    dest_present = {d for d in dest_series.unique() if str(d).strip()}
+    missing = dest_present - set(locations["Place of Discharge"].dropna().unique())
 
     for city in missing:
         lat, lon = geocode_fn(city, geolocator)
@@ -184,10 +189,17 @@ def build_voronoi_lookup(quotes_progress, locations, gdf_voronoi):
     Returns:
         dict: {Final Destination: CityYard}
     """
-    # Step 1: Deduplicate destinations
-    unique_dest = quotes_progress[["Final Destination"]].drop_duplicates()
+    # Step 1: Deduplicate destinations (drop NaN to avoid float64/str merge errors)
+    unique_dest = (
+        quotes_progress[["Final Destination"]]
+        .dropna(subset=["Final Destination"])
+        .drop_duplicates()
+    )
+    unique_dest["Final Destination"] = unique_dest["Final Destination"].astype(str)
 
-    # Step 2: Attach coordinates from locations
+    # Step 2: Attach coordinates from locations (coerce key to str for safe merge)
+    locations = locations.copy()
+    locations["Place of Discharge"] = locations["Place of Discharge"].astype(str)
     unique_dest = unique_dest.merge(
         locations,
         left_on="Final Destination",

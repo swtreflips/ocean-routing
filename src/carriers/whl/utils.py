@@ -133,7 +133,12 @@ def geocode_city(city_name, geolocator):
 
 def resolve_missing_locations(quotes_progress, locations, locations_file, geocode_fn, geolocator):
     """Ensure every Final Destination in quotes_progress has a row in locations; geocode the rest."""
-    missing = set(quotes_progress["Final Destination"].unique()) - set(locations["Place of Discharge"].unique())
+    # Only consider real (non-null) destinations. NaN/empty rows are valid in
+    # quotes.csv (option 2: POL + LastCY already populated, no Voronoi needed)
+    # — they must not be sent to the geocoder as the string "nan".
+    dest_series = quotes_progress["Final Destination"].dropna()
+    dest_present = {d for d in dest_series.unique() if str(d).strip()}
+    missing = dest_present - set(locations["Place of Discharge"].dropna().unique())
 
     for city in missing:
         lat, lon = geocode_fn(city, geolocator)
@@ -162,6 +167,10 @@ def build_voronoi_lookup(quotes_progress, locations, gdf_voronoi):
     unique_dest = quotes_progress[["Final Destination"]].dropna().drop_duplicates()
     if unique_dest.empty:
         return {}
+    # Coerce merge keys to str so a float64/str dtype mismatch can't raise.
+    unique_dest["Final Destination"] = unique_dest["Final Destination"].astype(str)
+    locations = locations.copy()
+    locations["Place of Discharge"] = locations["Place of Discharge"].astype(str)
     unique_dest = unique_dest.merge(
         locations,
         left_on="Final Destination",

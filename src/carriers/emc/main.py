@@ -468,7 +468,7 @@ try:
 
     # --- STEP 3: Both outputs succeeded → archive raw JSONs ---
     for file in os.listdir(PROCESSING_DIR):
-        if file.endswith(".json"):
+        if file.startswith("EMC_") and file.endswith(".json"):
             src = PROCESSING_DIR / file
             dst = get_unique_path(RAW_DIR / file)
             shutil.move(src, dst)

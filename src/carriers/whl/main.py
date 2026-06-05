@@ -292,7 +292,7 @@ try:
 
     # --- Both outputs succeeded → archive raw JSONs
     for file in os.listdir(PROCESSING_DIR):
-        if file.endswith(".json"):
+        if file.startswith("wanhai_") and file.endswith(".json"):
             src = PROCESSING_DIR / file
             dst = get_unique_path(RAW_DIR / file)
             shutil.move(src, dst)

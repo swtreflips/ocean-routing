@@ -9,6 +9,13 @@ from geopy.geocoders import Nominatim
 import json
 from bs4 import BeautifulSoup, Comment
 import traceback
+import sys
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
 
 CARRIER_DIR = Path(__file__).resolve().parent
 # === LOAD DATA ===
@@ -138,7 +145,12 @@ def resolve_missing_locations(quotes_progress, locations, locations_file, geocod
     Returns:
         pd.DataFrame: Updated locations dataframe
     """
-    missing = set(quotes_progress["Final Destination"].unique()) - set(locations["Place of Discharge"].unique())
+    # Only consider real (non-null) destinations. NaN/empty rows are valid in
+    # quotes.csv (option 2: POL + LastCY already populated, no Voronoi needed)
+    # — they must not be sent to the geocoder as the string "nan".
+    dest_series = quotes_progress["Final Destination"].dropna()
+    dest_present = {d for d in dest_series.unique() if str(d).strip()}
+    missing = dest_present - set(locations["Place of Discharge"].dropna().unique())
 
     for city in missing:
         lat, lon = geocode_fn(city, geolocator)
@@ -182,7 +194,10 @@ def build_voronoi_lookup(quotes_progress, locations, gdf_voronoi):
     if unique_dest.empty:
         return {}
 
-    # Step 2: Attach coordinates from locations
+    # Step 2: Attach coordinates from locations (coerce keys to str for safe merge)
+    unique_dest["Final Destination"] = unique_dest["Final Destination"].astype(str)
+    locations = locations.copy()
+    locations["Place of Discharge"] = locations["Place of Discharge"].astype(str)
     unique_dest = unique_dest.merge(
         locations,
         left_on="Final Destination",
@@ -837,9 +852,9 @@ def build_canonical_record(file_path):
             "transit_time_days": _to_int_or_none(summary.get("transit_days")),
             "transport_type": transport_type,
             "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
+            "ts_ports": normalize_ports(ts_ports),
             "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
+            "route_ports": normalize_ports(route_ports),
             "vessel_sequence": vessel_sequence,
         })
 

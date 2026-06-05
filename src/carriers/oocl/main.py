@@ -278,7 +278,7 @@ print("🏁 All done.")
 all_rows = []
 all_canonical = []
 for file in os.listdir(PROCESSING_DIR):
-    if not file.endswith(".json"):
+    if not file.endswith(".json") or not file.startswith("oocl_"):
         continue
     full_path = os.path.join(PROCESSING_DIR, file)
     all_rows.extend(build_schedule_rows(full_path))
@@ -319,7 +319,7 @@ try:
 
     # --- Both outputs succeeded → archive raw JSONs
     for file in os.listdir(PROCESSING_DIR):
-        if file.endswith(".json"):
+        if file.startswith("oocl_") and file.endswith(".json"):
             src = PROCESSING_DIR / file
             dst = get_unique_path(RAW_DIR / file)
             shutil.move(src, dst)

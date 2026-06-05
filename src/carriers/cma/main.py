@@ -38,6 +38,7 @@ from utils import (
     transform_html_to_json,
     batch_transform_processing_dir,
     build_canonical_record,
+    get_unresolved,
 )
 
 def normalize_city_state(value):
@@ -514,6 +515,13 @@ for file in os.listdir(PROCESSING_DIR):
     if rec is not None:
         all_canonical.append(rec)
 
+# --- Log any ports that couldn't be resolved against portdbCanonical.json ---
+unresolved = get_unresolved()
+if unresolved:
+    uf = get_unique_filename(LOG_DIR / f"CMA_unresolved_ports_{today_str}.csv")
+    safe_to_csv(pd.DataFrame({"raw_port": unresolved}), uf, index=False)
+    print(f"⚠️ {len(unresolved)} unresolved port(s) → {uf}")
+
 try:
     # --- STEP 1: CSV (unchanged format — same column order as HPL/MSK) ---
     df = build_schedule_dataframe(PROCESSING_DIR)
@@ -542,7 +550,7 @@ try:
 
     # --- STEP 3: Both outputs succeeded → archive raw JSONs ---
     for file in os.listdir(PROCESSING_DIR):
-        if file.endswith(".json"):
+        if file.startswith("cma_") and file.endswith(".json"):
             src = PROCESSING_DIR / file
             dst = get_unique_path(RAW_DIR / file)
             shutil.move(src, dst)

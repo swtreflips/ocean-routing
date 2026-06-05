@@ -398,7 +398,7 @@ except (Exception, KeyboardInterrupt) as e:
 
 # --- Step A: forward-fill leg IDs in every raw JSON ---
 for file in os.listdir(PROCESSING_DIR):
-    if file.endswith(".json"):
+    if file.startswith("COS_") and file.endswith(".json"):
         full_path = os.path.join(PROCESSING_DIR, file)
         assign_ids_inplace(full_path)
 
@@ -406,7 +406,7 @@ for file in os.listdir(PROCESSING_DIR):
 all_rows = []
 all_canonical = []
 for file in os.listdir(PROCESSING_DIR):
-    if file.endswith(".json"):
+    if file.startswith("COS_") and file.endswith(".json"):
         full_path = os.path.join(PROCESSING_DIR, file)
         all_rows.extend(build_schedule_rows(full_path))
         rec = build_canonical_record(full_path)
@@ -449,7 +449,7 @@ try:
 
     # --- Both outputs succeeded → archive raw JSONs
     for file in os.listdir(PROCESSING_DIR):
-        if file.endswith(".json"):
+        if file.startswith("COS_") and file.endswith(".json"):
             src = PROCESSING_DIR / file
             dst = get_unique_path(RAW_DIR / file)
             shutil.move(src, dst)
