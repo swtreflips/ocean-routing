@@ -3,9 +3,49 @@ from datetime import datetime
 import calendar
 import json
 import hashlib
+import sys
 import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
+
+
+def _trim_vessel(raw):
+    """Strip the trailing voyage code from a ONE vessel string.
+
+    ONE emits 'VESSELNAME <VOYAGE>', whitespace-separated. Voyages are
+    either alphanumeric (digits + letters, 4-9 chars) or pure-digit
+    (>=4 chars). Vessel model numbers that appear mid-name (DANUM 171,
+    WAN HAI 323) are at most 3 chars pure-digit, so the >=4 threshold
+    preserves them when they're the last token (i.e. naked, no voyage).
+
+        'JAZAN 2614N'           -> 'JAZAN'
+        'SSF LEO 0106'          -> 'SSF LEO'        (pure-digit voyage)
+        'DANUM 171 097N'        -> 'DANUM 171'      (model 171 preserved)
+        'WAN HAI 323 E058'      -> 'WAN HAI 323'
+        'WAN HAI A03 E016'      -> 'WAN HAI A03'    (alphanumeric model preserved)
+        'CMA CGM VISBY 5IUGOS1NC' -> 'CMA CGM VISBY'
+        'SHANGHAI'              -> 'SHANGHAI'       (single-token, untouched)
+    """
+    if not raw or not isinstance(raw, str):
+        return raw
+    parts = raw.split()
+    if len(parts) < 2:
+        return raw
+    last = parts[-1]
+    has_digit = any(c.isdigit() for c in last)
+    has_letter = any(c.isalpha() for c in last)
+    if has_digit and has_letter:
+        return " ".join(parts[:-1])
+    if last.isdigit() and len(last) >= 4:
+        return " ".join(parts[:-1])
+    return raw
+
 
 # Functions
 def get_month_periods(year, month): 
@@ -453,11 +493,11 @@ def build_canonical_record(file_path):
             "pod_eta": _iso_date_or_none(sched.get("podArrivalDate")),
             "transit_time_days": _to_int_or_none(sched.get("displayTransitDays")),
             "transport_type": transport_type,
-            "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
-            "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
-            "vessel_sequence": vessel_sequence,
+            "mother_vessel": _trim_vessel(mother_vessel),
+            "ts_ports": normalize_ports(ts_ports),
+            "ts_vessels": [_trim_vessel(v) for v in ts_vessels],
+            "route_ports": normalize_ports(route_ports),
+            "vessel_sequence": [_trim_vessel(v) for v in vessel_sequence],
         })
 
     if not schedules:

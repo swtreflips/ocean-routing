@@ -25,6 +25,7 @@ Thumbs.db
 # and grows locally as Nominatim adds new cities (see instructions.txt for
 # how to silence the resulting git noise).
 data/quotes.csv
+data/quotes[0-9]*.csv
 data/combinations.csv
 
 # Per-carrier scratch notes (personal TODO files, not part of the repo)

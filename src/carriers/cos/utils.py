@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
@@ -6,6 +7,12 @@ import json
 import hashlib
 from collections import defaultdict
 from datetime import datetime
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
 
 def load_progress(quotes_file, progress_file):
     """
@@ -364,9 +371,9 @@ def build_canonical_record(file_path):
             "transit_time_days": _to_int_or_none(first_leg.get("transitTime")),
             "transport_type": "Direct" if max_seq == 1 else f"{max_seq-1} TS",
             "mother_vessel": mother_vessel,
-            "ts_ports": [leg.get("pod") for leg in legs[:-1]],
+            "ts_ports": normalize_ports([leg.get("pod") for leg in legs[:-1]]),
             "ts_vessels": [leg.get("vessel") for leg in legs[1:]],
-            "route_ports": [legs[0].get("pol")] + [leg.get("pod") for leg in legs],
+            "route_ports": normalize_ports([legs[0].get("pol")] + [leg.get("pod") for leg in legs]),
             "vessel_sequence": [leg.get("vessel") for leg in legs],
         })
 

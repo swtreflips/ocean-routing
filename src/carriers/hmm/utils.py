@@ -1,11 +1,18 @@
 from pathlib import Path
 from datetime import datetime
 import calendar
+import sys
 import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
 import json
 import hashlib
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
 
 # === LOAD DATA ===
 CARRIER_DIR = Path(__file__).resolve().parent
@@ -515,9 +522,9 @@ def build_canonical_record(file_path):
             "transit_time_days": transit_days,
             "transport_type": transport_type,
             "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
+            "ts_ports": normalize_ports(ts_ports),
             "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
+            "route_ports": normalize_ports(route_ports),
             "vessel_sequence": vessel_sequence,
         })
 

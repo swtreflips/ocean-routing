@@ -27,6 +27,7 @@ from utils import (
     build_schedule_dataframe,
     build_schedule_rows,
     build_canonical_record,
+    get_unresolved,
 )
 
 
@@ -285,6 +286,13 @@ for file in os.listdir(PROCESSING_DIR):
     rec = build_canonical_record(full_path)
     if rec is not None:
         all_canonical.append(rec)
+
+# --- Log any ports that couldn't be resolved against portdbCanonical.json ---
+unresolved = get_unresolved()
+if unresolved:
+    uf = get_unique_filename(LOG_DIR / f"OOCL_unresolved_ports_{today_str}.csv")
+    safe_to_csv(pd.DataFrame({"raw_port": unresolved}), uf, index=False)
+    print(f"⚠️ {len(unresolved)} unresolved port(s) → {uf}")
 
 try:
     df = pd.DataFrame(all_rows)

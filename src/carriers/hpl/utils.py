@@ -2,10 +2,45 @@ from pathlib import Path
 from datetime import datetime
 import calendar
 import hashlib
+import sys
 import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
 import json
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
+
+
+def _trim_vessel(raw):
+    """Strip the trailing HPL voyage code from a vessel string.
+
+    HPL emits the vessel name and voyage as a single combined string, with
+    the voyage as the last whitespace-separated token. Voyages are ALWAYS
+    pure digits, 5 or 6 chars long across the entire data set surveyed.
+    Vessel model numbers that legitimately appear inside the name (e.g.
+    'WAN HAI 507', 'DANUM 171') are at most 3-4 chars, so the 5-char
+    threshold cleanly separates the two:
+
+        'BSG BAHAMAS 681521'   -> 'BSG BAHAMAS'
+        'MAERSK KINLOSS 30721' -> 'MAERSK KINLOSS'
+        'WAN HAI 507 683666'   -> 'WAN HAI 507'      (model preserved)
+        'WAN HAI A18 684151'   -> 'WAN HAI A18'      (alphanumeric model preserved)
+        'WAN HAI 507'          -> 'WAN HAI 507'      (no voyage, unchanged)
+    """
+    if not raw or not isinstance(raw, str):
+        return raw
+    parts = raw.split()
+    if len(parts) < 2:
+        return raw
+    last = parts[-1]
+    if last.isdigit() and len(last) >= 5:
+        return " ".join(parts[:-1])
+    return raw
+
 
 CARRIER_DIR = Path(__file__).resolve().parent
 
@@ -469,11 +504,11 @@ def build_canonical_record(file_path):
             "pod_eta": pod_eta,
             "transit_time_days": _to_int_or_none(schedule.get("transitTimeInDays")),
             "transport_type": transport_type,
-            "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
-            "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
-            "vessel_sequence": vessel_sequence,
+            "mother_vessel": _trim_vessel(mother_vessel),
+            "ts_ports": normalize_ports(ts_ports),
+            "ts_vessels": [_trim_vessel(v) for v in ts_vessels],
+            "route_ports": normalize_ports(route_ports),
+            "vessel_sequence": [_trim_vessel(v) for v in vessel_sequence],
         })
 
     if not schedules:

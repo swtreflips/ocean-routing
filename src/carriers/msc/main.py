@@ -26,6 +26,7 @@ from utils import (
     get_locations as util_get_locations,  # kept in case you use utils' version elsewhere
     build_schedule_rows,
     build_canonical_record,
+    get_unresolved,
 )
 
 def safe_to_csv(df, path, retries=5, backoff=1.0, **kwargs):
@@ -342,6 +343,13 @@ for file in os.listdir(PROCESSING_DIR):
     rec = build_canonical_record(full_path)
     if rec is not None:
         all_canonical.append(rec)
+
+# --- Log any ports that couldn't be resolved against portdbCanonical.json ---
+unresolved = get_unresolved()
+if unresolved:
+    uf = get_unique_filename(LOG_DIR / f"MSC_unresolved_ports_{today_str}.csv")
+    safe_to_csv(pd.DataFrame({"raw_port": unresolved}), uf, index=False)
+    print(f"⚠️ {len(unresolved)} unresolved port(s) → {uf}")
 
 try:
     df = pd.DataFrame(all_rows)

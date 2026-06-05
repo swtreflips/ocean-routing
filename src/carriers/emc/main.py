@@ -32,6 +32,7 @@ from utils import (
     batch_transform_processing_dir,
     build_schedule_dataframe,
     build_canonical_record,
+    get_unresolved,
 )
 
 def safe_to_csv(df, path, retries=5, backoff=1.0, **kwargs):
@@ -440,9 +441,17 @@ for file in os.listdir(PROCESSING_DIR):
     if rec is not None:
         all_canonical.append(rec)
 
+# --- Log any ports that couldn't be resolved against portdbCanonical.json ---
+unresolved = get_unresolved()
+if unresolved:
+    uf = get_unique_filename(LOG_DIR / f"EMC_unresolved_ports_{today_str}.csv")
+    safe_to_csv(pd.DataFrame({"raw_port": unresolved}), uf, index=False)
+    print(f"⚠️ {len(unresolved)} unresolved port(s) → {uf}")
+
 try:
-    # --- STEP 1: CSV (unchanged format — same column order as HPL/MSK/CMA) ---
-    df = build_schedule_dataframe(PROCESSING_DIR)
+    # --- STEP 1: CSV (built from the canonical records so the port + vessel
+    #     normalization done in build_canonical_record reaches the CSV too). ---
+    df = build_schedule_dataframe(all_canonical)
     output_file = get_unique_filename(CSV_DIR / f"EMC_{filename_timestamp}.csv")
     safe_to_csv(df, output_file, index=False, encoding="utf-8-sig")
 

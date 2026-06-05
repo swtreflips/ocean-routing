@@ -3,6 +3,7 @@ from datetime import datetime
 import calendar
 import hashlib
 import shutil
+import sys
 import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
@@ -11,6 +12,42 @@ import traceback
 import re
 import os
 from bs4 import BeautifulSoup, Comment
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
+
+
+def _trim_vessel(raw):
+    """Strip the trailing voyage code from an EMC vessel string.
+
+    EMC's HTML emits the vessel and the voyage as a single combined cell
+    (the column is literally marked `<!--vslvoy-->`), so we never see them
+    as separate fields. The voyage is always the last whitespace-separated
+    token, in shapes like '1266-032E', '082E', '26021W', 'E243', or the
+    longer CMA-style '0PGO7E1MA'. A token is treated as a voyage iff it
+    contains BOTH digits and letters — this keeps Wan Hai model numbers
+    (e.g. 'WAN HAI 507') intact when they appear as part of the name and
+    only strips them when followed by a real voyage code:
+
+        'EVER FRANK 1266-032E' -> 'EVER FRANK'
+        'OOCL GENOA 082E'      -> 'OOCL GENOA'
+        'WAN HAI 507 E243'     -> 'WAN HAI 507'
+        'WAN HAI 507'          -> 'WAN HAI 507'  (no voyage, unchanged)
+        '----'                 -> '----'         (placeholder, unchanged)
+    """
+    if not raw or not isinstance(raw, str):
+        return raw
+    parts = raw.split()
+    if len(parts) < 2:
+        return raw
+    last = parts[-1]
+    if any(c.isdigit() for c in last) and any(c.isalpha() for c in last):
+        return " ".join(parts[:-1])
+    return raw
+
 
 CARRIER_DIR = Path(__file__).resolve().parent
 
@@ -524,54 +561,44 @@ def get_ts_vessels(legs: list[dict]) -> str:
 
     return " - ".join(ts_vessels)
 
-def build_schedule_dataframe(processing_dir):
+def build_schedule_dataframe(canonical_records):
     """
-    Reads all Evergreen JSON files from processing_dir,
-    extracts schedule data, and returns a combined DataFrame.
+    Build the EMC schedule CSV DataFrame from the already-normalized canonical
+    records produced by ``build_canonical_record``.
+
+    The CSV columns match the legacy shape so downstream consumers don't break,
+    but every value comes from canonical, which means the port-name resolver
+    (``normalize_ports``) and the vessel-voyage trim (``_trim_vessel``) are
+    automatically reflected in the CSV as well — no parallel/raw pipeline.
     """
-    records = []
-
-    for file in os.listdir(processing_dir):
-        if not file.endswith(".json"):
-            continue
-
-        full_path = os.path.join(processing_dir, file)
-        with open(full_path, "r", encoding="utf-8") as infile:
-            data = json.load(infile)
-
-        carrier = "EMC"
-
-        request = data.get("request", {})
-        schedules = data.get("schedules", [])
-
-        for sched in schedules:
-            legs = sched.get("legs", [])
-            if not legs:
-                continue
-
-            first_leg = legs[0]
-            last_leg = legs[-1]
-
-            record = {
-                "Carrier": carrier,
-                "Port of Loading": request.get("POL", ""),
-                "Port of Discharge": normalize_pod(get_pod(legs)),
-                "Last CY": request.get("LastCY", ""),
-                "Final Destination": "",
-                "Query Date": request.get("query_date", ""),
-                "Period": request.get("snapshot_date", ""),
-                "ETD": _iso_date_or_none(first_leg.get("departure_date")) or "",
-                "ETA": _iso_date_or_none(last_leg.get("arrival_date")) or "",
-                "POD ETA": _iso_date_or_none(get_pod_eta(legs)) or "",
-                "Transit Time": sched.get("transit_days", ""),
-                "Transport Type": get_transport_type(legs),
-                "TS Port(s)": get_ts_ports(legs),
-                "Mother Vessel": first_leg.get("vessel_voyage", ""),
-                "TS Vessel(s)": get_ts_vessels(legs),
-                "Cut-Off Date": sched.get("cutoff_date", ""),
-            }
-
-            records.append(record)
+    rows = []
+    for rec in canonical_records or []:
+        carrier  = (rec.get("carrier") or {}).get("code") or "EMC"
+        pol      = rec.get("port_of_loading") or ""
+        last_cy  = rec.get("last_cy") or ""
+        fdest    = rec.get("final_destination") or ""
+        qdate    = rec.get("query_date") or ""
+        period   = rec.get("snapshot_date") or ""
+        for sch in rec.get("schedules") or []:
+            tt = sch.get("transit_time_days")
+            rows.append({
+                "Carrier":           carrier,
+                "Port of Loading":   pol,
+                "Port of Discharge": sch.get("port_of_discharge") or "",
+                "Last CY":           last_cy,
+                "Final Destination": fdest,
+                "Query Date":        qdate,
+                "Period":            period,
+                "ETD":               sch.get("etd") or "",
+                "ETA":               sch.get("eta") or "",
+                "POD ETA":           sch.get("pod_eta") or "",
+                "Transit Time":      "" if tt is None else tt,
+                "Transport Type":    sch.get("transport_type") or "",
+                "TS Port(s)":        " - ".join(p for p in (sch.get("ts_ports") or []) if p),
+                "Mother Vessel":     sch.get("mother_vessel") or "",
+                "TS Vessel(s)":      " - ".join(v for v in (sch.get("ts_vessels") or []) if v),
+                "Cut-Off Date":      sch.get("cutoff_date") or "",
+            })
 
     cols = [
         "Carrier",
@@ -592,7 +619,7 @@ def build_schedule_dataframe(processing_dir):
         "Cut-Off Date",
     ]
 
-    return pd.DataFrame(records, columns=cols)
+    return pd.DataFrame(rows, columns=cols)
 
 # ==========================================================================
 # Canonical-record builder (was utilsemccanonical.py)
@@ -860,11 +887,11 @@ def build_canonical_record(file_path):
             "pod_eta": pod_eta,
             "transit_time_days": _to_int_or_none(schedule.get("transit_days")),
             "transport_type": transport_type,
-            "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
-            "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
-            "vessel_sequence": vessel_sequence,
+            "mother_vessel": _trim_vessel(mother_vessel),
+            "ts_ports": normalize_ports(ts_ports),
+            "ts_vessels": [_trim_vessel(v) for v in ts_vessels],
+            "route_ports": normalize_ports(route_ports),
+            "vessel_sequence": [_trim_vessel(v) for v in vessel_sequence],
         })
 
     if not schedules:

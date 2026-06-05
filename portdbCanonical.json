@@ -150,8 +150,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "UT"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Denver, CO": {
     "id": null,
@@ -170,8 +169,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "CO"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Minneapolis, MN": {
     "id": null,
@@ -190,8 +188,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "MN"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Saint Paul, MN": {
     "id": null,
@@ -202,7 +199,7 @@
     "type": "I",
     "size": "L",
     "unlocode": "USSTP",
-    "lon": -93.044670,
+    "lon": -93.04467,
     "lat": 44.942176,
     "timezone": -6,
     "country": {
@@ -210,8 +207,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "MN"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Omaha, NE": {
     "id": null,
@@ -230,8 +226,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "NE"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Santa Teresa, NM": {
     "id": null,
@@ -250,8 +245,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "NM"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Chicago, IL": {
     "id": null,
@@ -270,8 +264,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "IL"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Detroit, MI": {
     "id": null,
@@ -290,8 +283,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "MI"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Cleveland, OH": {
     "id": null,
@@ -310,8 +302,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "OH"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Buffalo, NY": {
     "id": null,
@@ -330,8 +321,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "NY"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Pittsburgh, PA": {
     "id": null,
@@ -342,7 +332,7 @@
     "type": "I",
     "size": "L",
     "unlocode": "USPIT",
-    "lon": -80.231040,
+    "lon": -80.23104,
     "lat": 40.584477,
     "timezone": -5,
     "country": {
@@ -350,8 +340,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "PA"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Columbus, OH": {
     "id": null,
@@ -363,15 +352,14 @@
     "size": "L",
     "unlocode": "USCMH",
     "lon": -83.126477,
-    "lat": 39.99240,
+    "lat": 39.9924,
     "timezone": -5,
     "country": {
       "code": "US",
       "name": "UNITED STATES OF AMERICA",
       "statecode": "OH"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Cincinnati, OH": {
     "id": null,
@@ -390,8 +378,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "OH"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Indianapolis, IN": {
     "id": null,
@@ -403,15 +390,14 @@
     "size": "L",
     "unlocode": "USIND",
     "lon": -86.164391,
-    "lat": 39.745560,
+    "lat": 39.74556,
     "timezone": -5,
     "country": {
       "code": "US",
       "name": "UNITED STATES OF AMERICA",
       "statecode": "IN"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Louisville, KY": {
     "id": null,
@@ -423,15 +409,14 @@
     "size": "L",
     "unlocode": "USLUI",
     "lon": -85.742193,
-    "lat": 38.135790,
+    "lat": 38.13579,
     "timezone": -5,
     "country": {
       "code": "US",
       "name": "UNITED STATES OF AMERICA",
       "statecode": "KY"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "St. Louis, Missouri": {
     "id": null,
@@ -450,8 +435,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "MO"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Kansas City, KS": {
     "id": null,
@@ -470,8 +454,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "KS"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Nashville, TN": {
     "id": null,
@@ -490,8 +473,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "TN"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Huntsville, AL": {
     "id": null,
@@ -503,15 +485,14 @@
     "size": "L",
     "unlocode": "USHUN",
     "lon": -86.759683,
-    "lat": 34.643120,
+    "lat": 34.64312,
     "timezone": -6,
     "country": {
       "code": "US",
       "name": "UNITED STATES OF AMERICA",
       "statecode": "AL"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Atlanta, GA": {
     "id": null,
@@ -530,8 +511,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "GA"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Birmingham, AL": {
     "id": null,
@@ -550,8 +530,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "AL"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Memphis, TN": {
     "id": null,
@@ -570,8 +549,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "TN"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Dallas, TX": {
     "id": null,
@@ -590,8 +568,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "TX"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Charlotte, NC": {
     "id": null,
@@ -610,8 +587,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "NC"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Greensboro, NC": {
     "id": null,
@@ -630,8 +606,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "NC"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Greer, SC": {
     "id": null,
@@ -650,8 +625,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "SC"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Front Royal, VA": {
     "id": null,
@@ -670,8 +644,7 @@
       "name": "UNITED STATES OF AMERICA",
       "statecode": "VA"
     },
-    "relations": {
-    }
+    "relations": {}
   },
   "Karachi, Pakistan": {
     "id": 288,
@@ -754,7 +727,7 @@
       "ports": []
     }
   },
-  "Vancouver, Canada": {
+  "Vancouver, BC": {
     "id": 682,
     "name": "VANCOUVER",
     "alternativeNames": [
@@ -2237,7 +2210,7 @@
       "ports": []
     }
   },
-  "dtle, WA": {
+  "Seattle, WA": {
     "id": 194,
     "name": "SEATTLE",
     "alternativeNames": [],
@@ -3307,7 +3280,7 @@
       "ports": []
     }
   },
-  "Halifax, Canada": {
+  "Halifax, NS": {
     "id": 207,
     "name": "HALIFAX",
     "alternativeNames": [
@@ -6699,7 +6672,7 @@
       ]
     }
   },
-  "Prince Rupert, Canada": {
+  "Prince Rupert, BC": {
     "id": 2512,
     "name": "PRINCE RUPERT",
     "alternativeNames": [],
@@ -14482,6 +14455,54 @@
           "name": "BARRANQUILLA"
         }
       ]
+    }
+  },
+  "Saint John, NB": {
+    "id": 2737,
+    "name": "SAINT JOHN",
+    "alternativeNames": [],
+    "type": "P",
+    "size": "M",
+    "unlocode": "CASJB",
+    "lon": -66.054001,
+    "lat": 45.264999,
+    "timezone": -3,
+    "country": {
+      "code": "CA",
+      "name": "CANADA"
+    },
+    "relations": {
+      "anchorages": [
+        {
+          "id": "22752",
+          "name": "SAINT JOHN ANCH"
+        }
+      ],
+      "ports": []
+    }
+  },
+  "Sines, Portugal": {
+    "id": 2226,
+    "name": "SINES",
+    "alternativeNames": [],
+    "type": "P",
+    "size": "L",
+    "unlocode": "PTSIE",
+    "lon": -8.8663311,
+    "lat": 37.944237,
+    "timezone": 1,
+    "country": {
+      "code": "PT",
+      "name": "PORTUGAL"
+    },
+    "relations": {
+      "anchorages": [
+        {
+          "id": "20646",
+          "name": "SINES ANCH"
+        }
+      ],
+      "ports": []
     }
   }
 }
