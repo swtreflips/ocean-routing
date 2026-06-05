@@ -14,6 +14,7 @@ import json
 import os
 import re
 import shutil
+import sys
 import time
 import traceback
 from datetime import datetime, timedelta
@@ -31,6 +32,37 @@ from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
+
+# Make the shared `src/` packages importable (portdb resolver lives in src/common).
+_SRC = Path(__file__).resolve().parents[2]            # ocean-routing/src
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+from common.portdb import normalize_ports, get_unresolved  # noqa: E402
+
+
+def _trim_vessel(raw):
+    """Strip the trailing voyage code from a WHL vessel string.
+
+    WHL emits 'VESSELNAME/VOYAGE' (e.g. 'XIN FU ZHOU/E098', 'WAN HAI 295/N065').
+    142 of 143 distinct vessel strings surveyed (3,370 of 3,720 occurrences)
+    use this exact shape with exactly one '/' per string, so the split is
+    unambiguous. The one exception is the placeholder 'FEEDER' (350
+    occurrences, no slash, generic carrier label) -- naturally untouched
+    because the split only triggers when '/' is present. WAN HAI model
+    numbers (172, A05, 507, etc.) are preserved because they sit before
+    the '/' as part of the vessel name.
+
+        'XIN FU ZHOU/E098'   -> 'XIN FU ZHOU'
+        'TEMPANOS/E522'      -> 'TEMPANOS'
+        'WAN HAI 295/N065'   -> 'WAN HAI 295'   (model preserved)
+        'WAN HAI A18/E006'   -> 'WAN HAI A18'   (alphanumeric model preserved)
+        'FEEDER'             -> 'FEEDER'        (no slash, unchanged)
+    """
+    if not raw or not isinstance(raw, str):
+        return raw
+    if "/" in raw:
+        return raw.split("/", 1)[0].strip()
+    return raw
 
 
 CARRIER = "Wan Hai"
@@ -1118,11 +1150,11 @@ def build_canonical_record(file_path, connections=None):
             "pod_eta": pod_eta_iso,
             "transit_time_days": transit_days,
             "transport_type": transport_type,
-            "mother_vessel": mother_vessel,
-            "ts_ports": ts_ports,
-            "ts_vessels": ts_vessels,
-            "route_ports": route_ports,
-            "vessel_sequence": vessel_sequence,
+            "mother_vessel": _trim_vessel(mother_vessel),
+            "ts_ports": normalize_ports(ts_ports),
+            "ts_vessels": [_trim_vessel(v) for v in ts_vessels],
+            "route_ports": normalize_ports(route_ports),
+            "vessel_sequence": [_trim_vessel(v) for v in vessel_sequence],
         })
 
     if not schedules:
