@@ -364,10 +364,14 @@ def _zim_is_ground(vessel_name):
 
 
 def _zim_leg_label(vessel_name, voyage_no):
-    """For ocean legs return 'Vessel/Voyage'; for ground legs return short 'TRUCK' label."""
+    """For ocean legs return 'VESSEL/Voyage'; for ground legs return short 'TRUCK' label.
+
+    ZIM emits vessel names in mixed/title case ('Interasia Inspiration'); upper-case
+    them so they match every other carrier ('INTERASIA INSPIRATION').
+    """
     if _zim_is_ground(vessel_name):
         return "TRUCK"
-    vn = (vessel_name or "").strip()
+    vn = (vessel_name or "").strip().upper()
     voy = (voyage_no or "").strip()
     return f"{vn}/{voy}" if voy else vn
 
