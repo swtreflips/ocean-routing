@@ -99,7 +99,36 @@ def main():
     assert_in(("DELIVERED", "DELIVERED"), types(alerts), "delivered")
     assert state["status"] == "delivered", "status delivered"
 
-    print("\nAll engine self-tests passed.")
+    _cadence_tests()
+
+    print("\nAll engine + cadence self-tests passed.")
+
+
+def _cadence_tests():
+    from . import cadence
+    now = datetime.datetime(2026, 6, 10, 12, 0, tzinfo=UTC)
+    H = 3600
+    DAY = 86400
+
+    def hours(dt):
+        return round((dt - now).total_seconds() / H, 2)
+
+    print("\nCadence buckets:")
+    checks = [
+        ("moored -> 45min", cadence.compute_next_check(now, "Moored", None), 0.75),
+        ("at anchor -> 45min", cadence.compute_next_check(now, "At Anchor", now.timestamp() + 9 * DAY), 0.75),
+        ("near port -> 2h", cadence.compute_next_check(now, "Underway using Engine", None, near_port=True), 2),
+        ("no eta, mid-sea -> 12h", cadence.compute_next_check(now, "Underway using Engine", None), 12),
+        ("eta today -> 2h", cadence.compute_next_check(now, "Underway", now.timestamp() + 3 * H), 2),
+        ("eta <4d -> 4h", cadence.compute_next_check(now, "Underway", now.timestamp() + 2 * DAY), 4),
+        ("eta <7d -> 8h", cadence.compute_next_check(now, "Underway", now.timestamp() + 6 * DAY), 8),
+        ("eta 7-10d -> 8h", cadence.compute_next_check(now, "Underway", now.timestamp() + 8 * DAY), 8),
+        ("eta >10d -> 12h", cadence.compute_next_check(now, "Underway", now.timestamp() + 12 * DAY), 12),
+    ]
+    for label, got, want_h in checks:
+        ok = abs(hours(got) - want_h) < 0.01
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}: got {hours(got)}h")
+        assert ok, label
 
 
 if __name__ == "__main__":

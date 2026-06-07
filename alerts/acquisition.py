@@ -5,9 +5,15 @@ AIS API, replace `fetch_positions` and nothing else in the engine changes.
 
 Usage:
     with PositionFetcher() as fetcher:
-        positions = fetcher.fetch_positions([755947, 2949, ...])
-    # positions: {vessel_id: {"lat":..., "lon":..., "speed":..., "timestamp":...} or None}
+        obs = fetcher.fetch_observations([755947, 2949, ...])
+    # obs: {vessel_id: {"lat","lon","speed","status","arrival_ts",...} or None}
+
+`status` (navigationalStatus) and `arrival_ts` (voyage.arrivalTimestamp) drive the
+adaptive cadence; lat/lon/speed drive the geofence engine.
 """
+
+import time
+import random
 
 from patchright.sync_api import sync_playwright
 
@@ -79,23 +85,35 @@ class PositionFetcher:
         self._page.wait_for_selector("h1", timeout=15000)
         self._page.wait_for_timeout(3000)
 
-    def fetch_positions(self, vessel_ids) -> dict:
-        """{vessel_id: position-dict | None}. Dedups ids; None on error/missing."""
+    def fetch_observations(self, vessel_ids) -> dict:
+        """{vessel_id: obs-dict | None}. Fetches position + voyage with a randomized
+        delay before each vessel (anti-bot). None on error/missing position."""
         out = {}
+        lo, hi = config.FETCH_JITTER_SEC
         for vid in {v for v in vessel_ids if v is not None}:
             try:
-                res = _fetch_endpoint(self._page, vid, "position")
-                if isinstance(res, dict) and not res.get("error") and "lat" in res:
-                    out[vid] = {
-                        "lat": float(res["lat"]),
-                        "lon": float(res["lon"]),
-                        "speed": res.get("speed"),
-                        "course": res.get("course"),
-                        "timestamp": res.get("timestamp"),
-                        "area": res.get("areaName"),
-                    }
-                else:
+                wait = random.uniform(lo, hi)
+                print(f"[acquisition] waiting {wait:.1f}s before fetching {vid}...")
+                time.sleep(wait)
+
+                pos = _fetch_endpoint(self._page, vid, "position")
+                if not (isinstance(pos, dict) and not pos.get("error") and "lat" in pos):
                     out[vid] = None
+                    continue
+
+                voy = _fetch_endpoint(self._page, vid, "voyage")
+                arrival_ts = voy.get("arrivalTimestamp") if isinstance(voy, dict) else None
+
+                out[vid] = {
+                    "lat": float(pos["lat"]),
+                    "lon": float(pos["lon"]),
+                    "speed": pos.get("speed"),
+                    "course": pos.get("course"),
+                    "timestamp": pos.get("timestamp"),
+                    "area": pos.get("areaName"),
+                    "status": pos.get("navigationalStatus"),
+                    "arrival_ts": arrival_ts,
+                }
             except Exception as e:  # noqa: BLE001 - one bad vessel must not kill the tick
                 print(f"[acquisition] fetch failed for {vid}: {e}")
                 out[vid] = None

@@ -17,28 +17,54 @@ $env:PYTHONUTF8=1
 $py = "C:\Users\Mike\OneDrive - Prime Time Packaging\Schedules\schedulesenv\Scripts\python.exe"
 
 & $py -m alerts.seed_watchlist     # pick ~5-6 pilot schedules -> data/watchlist.json
-& $py -m alerts.run --once         # one tick (opens Chrome, fetches, evaluates)
-& $py -m alerts.run --loop         # repeat every CADENCE_HOURS
+& $py -m alerts.run --once         # process shipments due now, then exit
+& $py -m alerts.run --loop         # keep ONE warm browser; recheck due shipments forever
 ```
 
-## How it works (one tick)
+## How it works (one pass)
 
-1. Load `data/watchlist.json` (the plan) + `data/state.json` (cursor/edges/fired).
-2. Resolve each leg's vessel → `vessel_id` (`vessels` table, voyage suffix stripped) and
-   each port → coords (`ports` table).
-3. Open **one** warm MarineTraffic browser, fetch every needed vessel position
-   (active vessel + onward vessel at a transshipment).
-4. `engine.evaluate_shipment(...)` (pure) walks the leg state machine, detects geofence
+1. Load `data/watchlist.json` (the plan) + `data/state.json` (cursor/edges/fired/next_check).
+2. Select **due** shipments — non-terminal and `now >= next_check`.
+3. Resolve each due leg's vessel → `vessel_id` (`vessels` table, voyage suffix stripped)
+   and each port → coords (`ports` table).
+4. With **one** warm MarineTraffic browser, fetch each needed vessel's position + voyage
+   (active vessel + onward vessel at a transshipment), with a random delay between vessels.
+5. `engine.evaluate_shipment(...)` (pure) walks the leg state machine, detects geofence
    edges, classifies timings vs ETD/ETA with buffers, and runs the §2b connection check.
-5. Persist new state, append alerts to `data/alerts.jsonl`, write a debug trace.
+6. Compute each shipment's **next_check** from its active vessel's status + ETA (cadence).
+7. Persist state, append alerts to `data/alerts.jsonl`, write a debug trace.
+
+## Adaptive cadence
+
+Each shipment carries its own `next_check`; `--loop` wakes every `POLL_INTERVAL_MIN` and
+only fetches shipments that are due. The active vessel's navigational status + ETA
+proximity decide the interval (mirrors the proven AIS scraper) — so the watchlist
+self-splits into a high-frequency "near port operations" group and a low-frequency
+"mid-ocean" group:
+
+| Condition (active vessel) | Next check |
+|---|---|
+| Moored / At Anchor | 45 min |
+| Approaching its port (within `APPROACH_RADIUS_MI`) | 2 h |
+| ETA today | 2 h |
+| ETA < 4 days | 4 h |
+| ETA < 7 days | 8 h |
+| ETA 7–10 days | 8 h |
+| ETA > 10 days | 12 h |
+| No ETA, mid-ocean | 12 h |
+| Fetch error | retry in `ERROR_RETRY_MIN` (30 min) |
+
+`--loop` keeps a single browser session alive for the whole run (set
+`MAX_RUNTIME_HOURS`, e.g. `23.33`, for a daily-cron restart).
 
 ## Modules
 
 | File | Role |
 |------|------|
-| `config.py` | buffers, geofence radius, cadence, paths |
+| `config.py` | buffers, geofence radius, cadence buckets, paths |
 | `db.py` | shared Supabase client |
-| `acquisition.py` | warm-browser position fetch (the swappable AIS layer) |
+| `acquisition.py` | warm-browser position+voyage fetch w/ jitter (the swappable AIS layer) |
+| `cadence.py` | adaptive next-check interval from status + ETA |
 | `resolve.py` | vessel name→id, port→coords, reconnection candidates |
 | `legs.py` | schedule → ordered legs |
 | `geo.py` | geopy distance + rough ETA projection |
@@ -55,8 +81,11 @@ $py = "C:\Users\Mike\OneDrive - Prime Time Packaging\Schedules\schedulesenv\Scri
 
 ## Tuning (`config.py`)
 
-`ON_TIME_TOLERANCE_DAYS=1`, `MCT_DAYS=2`, `ARRIVE_RADIUS_MI=50`, `SPEED_FLOOR_KN=1`,
-`CADENCE_HOURS=6`. Start generous; tighten after calibrating against a few manual checks.
+Buffers: `ON_TIME_TOLERANCE_DAYS=1`, `MCT_DAYS=2`, `ARRIVE_RADIUS_MI=50`,
+`APPROACH_RADIUS_MI=150`, `SPEED_FLOOR_KN=1`.
+Cadence: `POLL_INTERVAL_MIN=15`, `FETCH_JITTER_SEC=(5,20)`, `MAX_RUNTIME_HOURS=None`,
+and the `CADENCE` bucket dict. Start generous; tighten after calibrating against a few
+manual checks.
 
 ## Caveats (from §2b / §4)
 

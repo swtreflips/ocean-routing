@@ -24,8 +24,30 @@ SPEED_FLOOR_KN = 1.0          # below this SOG, skip ETA projection (stopped/anc
 ARRIVE_RADIUS_MI = 50.0       # geofence radius that counts as "at" a port
 APPROACH_RADIUS_MI = 150.0    # wider ring meaning "approaching" a port
 
-# ---- run cadence (informational; used by run.py loop mode) ----
-CADENCE_HOURS = 6
+# ---- adaptive cadence ----
+# Each shipment carries its own next_check; the loop wakes every POLL_INTERVAL_MIN and
+# only fetches shipments whose next_check has passed. Cadence is driven by the active
+# vessel's navigational status + proximity to its destination — near port operations
+# (moored / at anchor / approaching / arriving soon) is checked far more often than a
+# vessel mid-ocean.
+POLL_INTERVAL_MIN = 15          # how often --loop wakes to look for due shipments
+MAX_RUNTIME_HOURS = None        # e.g. 23.33 for a daily-cron restart; None = unlimited
+FETCH_JITTER_SEC = (5, 20)      # random delay before each vessel fetch (anti-bot)
+ERROR_RETRY_MIN = 30            # recheck sooner after a fetch error
+
+# Navigational statuses that mean "in port operations" -> highest frequency.
+MOORED_STATUSES = ("Moored", "At Anchor")
+
+# Cadence buckets (mirrors the proven AIS scraper). Minutes for moored, else hours.
+CADENCE = {
+    "moored_min": 45,       # Moored / At Anchor
+    "near_or_today_h": 2,   # near destination, or ETA is today
+    "lt4_h": 4,             # ETA < 4 days out
+    "lt7_h": 8,             # ETA < 7 days out
+    "gt10_h": 12,           # ETA > 10 days out
+    "default_h": 8,         # 7-10 days out
+    "no_eta_h": 12,         # no ETA known and not near port
+}
 
 # ---- acquisition ----
 SHIP_BOOTSTRAP_ID = "9765586"   # IMO used to warm the MarineTraffic session
