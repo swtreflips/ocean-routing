@@ -47,7 +47,9 @@ window. The leg-0 vessel must be real (skips `TBN`/`FEEDER`/`BARGE` starts). Wri
 ```cmd
 python -m alerts.seed_watchlist                                   :: today .. today+45d
 python -m alerts.seed_watchlist --etd-min 2026-06-10 --etd-max 2026-06-13
+python -m alerts.seed_watchlist --etd-min 2026-06-10 --etd-max 2026-06-13 --exclude CMA
 ```
+`--exclude` takes one or more carrier codes (comma-separated) to skip.
 
 **What to expect:**
 ```

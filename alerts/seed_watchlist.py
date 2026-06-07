@@ -10,6 +10,7 @@ missing a type just contribute fewer. Then prints a vessel/port resolution repor
 Run (defaults to today .. today+45 days):
     python -m alerts.seed_watchlist
     python -m alerts.seed_watchlist --etd-min 2026-06-10 --etd-max 2026-06-13
+    python -m alerts.seed_watchlist --exclude CMA          (skip carrier code(s), CSV)
 """
 
 import sys
@@ -84,12 +85,15 @@ def main():
     today = datetime.date.today()
     etd_min = _arg("--etd-min", today.isoformat())
     etd_max = _arg("--etd-max", (today + datetime.timedelta(days=45)).isoformat())
+    exclude = {c.strip().upper() for c in (_arg("--exclude", "") or "").split(",") if c.strip()}
 
     cands = _candidates(etd_min, etd_max)
 
     # group by carrier, then by routing type (0/1/2 transshipments)
     by_carrier = defaultdict(lambda: {0: [], 1: [], 2: []})
     for x in cands:
+        if x["carrier_code"].upper() in exclude:
+            continue
         tc = _ts_count(x)
         if tc in (0, 1, 2):
             by_carrier[x["carrier_code"]][tc].append(x)
@@ -103,8 +107,9 @@ def main():
     watchlist = [_to_shipment(x) for x in picks]
     store.save_watchlist(watchlist)
 
+    excl_note = f" (excluding {', '.join(sorted(exclude))})" if exclude else ""
     print(f"[seed] ETD window {etd_min} .. {etd_max}: {len(cands)} candidate(s) "
-          f"across {len(by_carrier)} carrier(s)")
+          f"across {len(by_carrier)} carrier(s){excl_note}")
     print(f"[seed] picked {len(watchlist)} shipment(s) "
           f"({sum(1 for p in picks if _ts_count(p)==0)} direct, "
           f"{sum(1 for p in picks if _ts_count(p)==1)} single-TS, "
