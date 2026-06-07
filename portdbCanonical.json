@@ -6696,6 +6696,25 @@
       "ports": []
     }
   },
+  "Montreal, QC": {
+    "id": 208,
+    "name": "MONTREAL",
+    "alternativeNames": [],
+    "type": "P",
+    "size": "L",
+    "unlocode": "CAMTR",
+    "lon": -73.516739,
+    "lat": 45.557014,
+    "timezone": -4,
+    "country": {
+        "code": "CA",
+        "name": "CANADA"
+    },
+    "relations": {
+        "anchorages": [],
+        "ports": []
+    }
+},
   "Buenaventura, Colombia": {
     "id": 2776,
     "name": "BUENAVENTURA",
