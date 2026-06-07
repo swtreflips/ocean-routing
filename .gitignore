@@ -45,3 +45,6 @@ src/data/tables/
 
 # Carriers should still ship their lookup assets
 !src/carriers/*/assets/
+
+# Alert-engine local state (watchlist, tracking state, alerts log, debug traces)
+alerts/data/
