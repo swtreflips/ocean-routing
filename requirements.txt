@@ -7,3 +7,4 @@ undetected-chromedriver
 selenium
 supabase
 python-dotenv
+searoute

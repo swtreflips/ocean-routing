@@ -270,3 +270,35 @@ runs on a hosted worker. Identical logic — the pilot *is* the engine.
 > Phase 1 implements this with **local files** instead of the Supabase
 > InboundShipments/positions/state tables (see [`alerts/`](alerts/)). Promoting those
 > local files to Supabase tables is the Phase 2 step; the engine logic doesn't change.
+
+---
+
+## 9. Future enhancements
+
+### Realistic-route ETA via `searoute` — **IMPLEMENTED (Phase 1)**
+
+The projected arrival now uses the realistic marine route distance from
+[`searoute`](https://pypi.org/project/searoute/) ÷ current speed, not a straight line.
+`geo.route_distance_km` routes around land and through canals; `geo.project_eta` uses it,
+with an automatic great-circle fallback if searoute is missing or can't route a pair
+(`config.USE_SEAROUTE` toggles it). Localized change — only `geo.py` touched; engine /
+acquisition / cadence unchanged (the acquisition/logic split paying off). Measured impact:
+straight-line was optimistic by ~10–27 h on typical legs (worst where land forces a detour,
+e.g. ~+760 km routing around Sri Lanka on Nhava Sheva → Singapore).
+
+Accuracy ladder (where we are / what's left):
+1. ~~great-circle distance ÷ current speed (optimistic)~~ — fallback only.
+2. **searoute distance ÷ current speed** — *current default*. Fixes the *distance*.
+3. **Still open:** also fold in MarineTraffic's `voyage.arrivalTimestamp` (already fetched
+   for cadence; bakes in MT's own *speed* model) — searoute fixes distance, MT's value fixes
+   distance + speed; they're complementary.
+
+Caveat: searoute is a graph approximation (not AIS-historical lanes) and `distance ÷ speed`
+still uses the instantaneous SOG (no weather), so it remains an estimate — just no longer an
+optimistic straight-line one.
+
+### Route polyline on the map (Phase 3, not yet)
+
+`searoute` also returns `route.geometry["coordinates"]` — the exact LineString to draw the
+vessel's route on the MapLibre map. We compute distance from it today but don't persist the
+polyline yet; wire it into the dashboard layer when Phase 3 lands.

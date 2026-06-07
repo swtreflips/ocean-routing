@@ -22,6 +22,31 @@ $py = "C:\Users\Mike\OneDrive - Prime Time Packaging\Schedules\schedulesenv\Scri
 & $py -m alerts.report             # read-only status board + alert timeline (no browser)
 ```
 
+## Running unattended (always-on laptop, daily restart)
+
+`--loop` keeps one warm browser and rechecks due shipments forever, but a single
+infinite run won't recover if the MarineTraffic session goes stale. The robust pattern
+is a **daily restart**: `MAX_RUNTIME_HOURS = 23.5` makes the loop exit cleanly each day,
+and a Windows Task Scheduler job relaunches it — a fresh session every cycle. State lives
+in `data/`, so it resumes exactly where it left off.
+
+Launcher: [`run_loop.bat`](run_loop.bat) (sets repo root as cwd, UTF-8, logs to
+`data/run.log`).
+
+**Task Scheduler setup:**
+1. Task Scheduler → *Create Task* (not Basic).
+2. General → **Run only when user is logged on** (the visible Chrome needs a desktop).
+3. Triggers → **Daily**, pick a time; optionally "Repeat task" off (the 23.5h cap handles
+   the run length, the daily trigger handles relaunch).
+4. Actions → *Start a program* → `alerts\run_loop.bat` (full path).
+5. Settings → enable **"If the task is already running … Do not start a new instance"**
+   (the 23.5h cap means it won't be, but this is a safety net).
+
+**Power:** set the power plan to **never sleep on AC**, or the loop freezes when the
+laptop sleeps. Keep the user logged in (visible browser needs the desktop session).
+
+To run it by hand instead: `python -m alerts.run --loop` from the repo root.
+
 ## Checking results over time
 
 The engine writes three artifacts to `data/`, each answering a different question:
@@ -92,7 +117,7 @@ self-splits into a high-frequency "near port operations" group and a low-frequen
 | `cadence.py` | adaptive next-check interval from status + ETA |
 | `resolve.py` | vessel name→id, port→coords, reconnection candidates |
 | `legs.py` | schedule → ordered legs |
-| `geo.py` | geopy distance + rough ETA projection |
+| `geo.py` | geopy geofence distance + searoute-based ETA projection |
 | `engine.py` | **pure** state machine + connection logic (idempotent alerts) |
 | `store.py` | local-file persistence |
 | `seed_watchlist.py` | auto-pick pilot schedules |
@@ -108,7 +133,8 @@ self-splits into a high-frequency "near port operations" group and a low-frequen
 ## Tuning (`config.py`)
 
 Buffers: `ON_TIME_TOLERANCE_DAYS=1`, `MCT_DAYS=2`, `ARRIVE_RADIUS_MI=50`,
-`APPROACH_RADIUS_MI=150`, `SPEED_FLOOR_KN=1`.
+`APPROACH_RADIUS_MI=150`, `SPEED_FLOOR_KN=1`, `USE_SEAROUTE=True` (realistic-route ETA
+distance; falls back to great-circle automatically).
 Cadence: `POLL_INTERVAL_MIN=15`, `FETCH_JITTER_SEC=(5,20)`, `MAX_RUNTIME_HOURS=None`,
 and the `CADENCE` bucket dict. Start generous; tighten after calibrating against a few
 manual checks.

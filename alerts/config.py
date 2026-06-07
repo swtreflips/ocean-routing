@@ -24,6 +24,12 @@ SPEED_FLOOR_KN = 1.0          # below this SOG, skip ETA projection (stopped/anc
 ARRIVE_RADIUS_MI = 50.0       # geofence radius that counts as "at" a port
 APPROACH_RADIUS_MI = 150.0    # wider ring meaning "approaching" a port
 
+# ---- routing ----
+# ETA projection uses the realistic marine route distance (searoute) instead of a
+# straight line. Falls back to great-circle automatically if searoute is missing or
+# can't route a pair. Set False to force straight-line.
+USE_SEAROUTE = True
+
 # ---- adaptive cadence ----
 # Each shipment carries its own next_check; the loop wakes every POLL_INTERVAL_MIN and
 # only fetches shipments whose next_check has passed. Cadence is driven by the active
@@ -31,7 +37,8 @@ APPROACH_RADIUS_MI = 150.0    # wider ring meaning "approaching" a port
 # (moored / at anchor / approaching / arriving soon) is checked far more often than a
 # vessel mid-ocean.
 POLL_INTERVAL_MIN = 15          # how often --loop wakes to look for due shipments
-MAX_RUNTIME_HOURS = None        # e.g. 23.33 for a daily-cron restart; None = unlimited
+MAX_RUNTIME_HOURS = 23.5        # exit ~30min before a daily relaunch so the mt_profile
+                                # lock clears for a clean handoff; None = run forever
 FETCH_JITTER_SEC = (5, 20)      # random delay before each vessel fetch (anti-bot)
 ERROR_RETRY_MIN = 30            # recheck sooner after a fetch error
 
