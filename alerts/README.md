@@ -19,7 +19,32 @@ $py = "C:\Users\Mike\OneDrive - Prime Time Packaging\Schedules\schedulesenv\Scri
 & $py -m alerts.seed_watchlist     # pick ~5-6 pilot schedules -> data/watchlist.json
 & $py -m alerts.run --once         # process shipments due now, then exit
 & $py -m alerts.run --loop         # keep ONE warm browser; recheck due shipments forever
+& $py -m alerts.report             # read-only status board + alert timeline (no browser)
 ```
+
+## Checking results over time
+
+The engine writes three artifacts to `data/`, each answering a different question:
+
+| File | Question | Nature |
+|------|----------|--------|
+| `alerts.jsonl` | what changed, and when? | append-only **timeline** (one event/line) |
+| `state.json` | where is everything now? | current **snapshot** per shipment |
+| `debug/<ts>.log` | why did it decide that? | per-pass trace |
+
+Alerts are idempotent (fire once per state change), so every `alerts.jsonl` line is a
+real event, not noise. Read it all with **`report.py`** (read-only, no browser/DB):
+
+```powershell
+& $py -m alerts.report                      # status board + last 24h timeline
+& $py -m alerts.report --since 48h          # window: 90m / 12h / 7d
+& $py -m alerts.report --severity medium    # info < medium < high
+& $py -m alerts.report --shipment 11b3a8e5  # one shipment (id prefix)
+& $py -m alerts.report --all                # whole timeline, no window
+```
+
+Typical pilot use: run `--loop` in one terminal; run `report.py` whenever you want a
+snapshot.
 
 ## How it works (one pass)
 
@@ -72,6 +97,7 @@ self-splits into a high-frequency "near port operations" group and a low-frequen
 | `store.py` | local-file persistence |
 | `seed_watchlist.py` | auto-pick pilot schedules |
 | `run.py` | the tick loop |
+| `report.py` | read-only status board + alert timeline viewer |
 
 ## Alert types
 
