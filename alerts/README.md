@@ -16,7 +16,8 @@ Use the `schedulesenv` venv and force UTF-8 (the browser step prints emoji). Run
 $env:PYTHONUTF8=1
 $py = "C:\Users\Mike\OneDrive - Prime Time Packaging\Schedules\schedulesenv\Scripts\python.exe"
 
-& $py -m alerts.seed_watchlist     # pick ~5-6 pilot schedules -> data/watchlist.json
+& $py -m alerts.seed_watchlist     # per carrier: 1 direct + 1 single-TS + 1 double-TS
+                                   #   optional: --etd-min 2026-06-10 --etd-max 2026-06-13
 & $py -m alerts.run --once         # process shipments due now, then exit
 & $py -m alerts.run --loop         # keep ONE warm browser; recheck due shipments forever
 & $py -m alerts.report             # read-only status board + alert timeline (no browser)

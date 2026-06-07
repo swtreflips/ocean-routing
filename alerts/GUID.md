@@ -38,25 +38,32 @@ talk to each other through files in `alerts/data/`.
 
 ## 2. `seed_watchlist` — pick what to track
 
-Run this **once** to populate the watchlist (re-run to add/replace shipments). It does no
-AIS — it queries Supabase `schedules_latest`, picks ~6 shipments (transshipment + direct,
-near-term ETD), writes them to `data/watchlist.json`, and prints a **coverage report**.
+Run this to populate the watchlist (re-run to replace it). It does no AIS — it queries
+Supabase `schedules_latest` and picks, **per carrier**, one of each routing type:
+**direct** (2 ports), **single-TS** (3 ports), **double-TS** (4 ports), within an ETD
+window. The leg-0 vessel must be real (skips `TBN`/`FEEDER`/`BARGE` starts). Writes
+`data/watchlist.json` and prints a **coverage report**.
+
+```cmd
+python -m alerts.seed_watchlist                                   :: today .. today+45d
+python -m alerts.seed_watchlist --etd-min 2026-06-10 --etd-max 2026-06-13
+```
 
 **What to expect:**
 ```
-[seed] candidates: 806 (ts_named=664 ts_tbn=13 direct=129)
-[seed] wrote 6 shipments -> ...\alerts\data\watchlist.json
+[seed] ETD window 2026-06-10 .. 2026-06-13: 1864 candidate(s) across 12 carrier(s)
+[seed] picked 33 shipment(s) (12 direct, 12 single-TS, 9 double-TS) -> ...\watchlist.json
 
 [seed] resolution coverage:
-  MSC Nhava Sheva, India -> Singapore (ETD 2026-06-21)
-      vessel[0] 'MSC DOUALA VIII': vid=8905859        <- resolved to a MarineTraffic id
-      vessel[1] 'MSC TRIESTE': vid=2949
-      port  NHAVA SHEVA: OK Nhava Sheva, India
+  EMC  [double-TS] Karachi, Pakistan -> Seattle, WA (ETD 2026-06-12)
+      vessel[0] 'EVER LUNAR': vid=1869913       <- resolved to a MarineTraffic id
+      vessel[1] 'EVER VISTA': vid=9754682
       ...
 ```
-- `vid=...` = the vessel was matched in your `vessels` table → trackable.
-- `TBN` / `UNRESOLVED` = not trackable (vessel not nominated yet, or no name match).
+- `vid=...` = matched in your `vessels` table → trackable.
+- `TBN` / `UNRESOLVED` = not trackable (onward vessel not nominated yet, or no name match).
 - `port ... NO MATCH` only matters for an intermediate port; POL/POD use canonical coords.
+- A carrier missing a type in the window just contributes fewer than 3.
 
 To track your own shipments instead of the auto-pick, hand-edit `data/watchlist.json`
 (copy an entry, change the fields).

@@ -1,44 +1,66 @@
-"""Auto-pick a spread of pilot schedules into watchlist.json.
+"""Auto-pick pilot schedules into watchlist.json.
 
-Picks (near-term ETD, named leg-0 vessel):
-  - up to 3 transshipment routes with a named onward vessel (exercise connection logic)
-  - 1 transshipment with a TBN onward vessel (exercise the coverage-gap path)
-  - up to 2 direct routes
-Then prints a vessel/port resolution coverage report.
+Selection: for each carrier, one of each routing complexity (by route_ports length):
+  - direct      (2 ports, no transshipment)
+  - single-TS   (3 ports, 1 transshipment)
+  - double-TS   (4 ports, 2 transshipments)
+within an ETD range, leg-0 vessel named (so it's trackable from the start). Carriers
+missing a type just contribute fewer. Then prints a vessel/port resolution report.
 
-Run:  python -m alerts.seed_watchlist
+Run (defaults to today .. today+45 days):
+    python -m alerts.seed_watchlist
+    python -m alerts.seed_watchlist --etd-min 2026-06-10 --etd-max 2026-06-13
 """
 
+import sys
 import uuid
 import datetime
+from collections import defaultdict
 
 from .db import client
 from . import store
-from .legs import is_tbn, strip_voyage
+from .legs import is_tbn, is_non_vessel, strip_voyage
 from .resolve import resolve_vessel_id, resolve_port
 
-WINDOW_DAYS = 45
+TYPE_LABEL = {0: "direct", 1: "single-TS", 2: "double-TS"}
 
 
-def _candidates():
+def _arg(flag, default=None):
+    return sys.argv[sys.argv.index(flag) + 1] if flag in sys.argv else default
+
+
+def _ts_count(x) -> int:
+    """Transshipments = ports - 2  (direct=0, single=1, double=2, ...)."""
+    return len(x["route_ports"]) - 2
+
+
+def _candidates(etd_min, etd_max):
+    """All schedules in the ETD window (paged past the 1000-row PostgREST cap)."""
     c = client()
-    r = c.table("schedules_latest").select(
-        "schedule_hash,carrier_code,port_of_loading,port_of_discharge,"
-        "etd,eta,route_ports,vessel_sequence"
-    ).execute()
-    today = datetime.date.today().isoformat()
-    horizon = (datetime.date.today() + datetime.timedelta(days=WINDOW_DAYS)).isoformat()
+    rows, start, page = [], 0, 1000
+    while True:
+        r = (
+            c.table("schedules_latest")
+            .select("schedule_hash,carrier_code,port_of_loading,port_of_discharge,"
+                    "etd,eta,route_ports,vessel_sequence")
+            .gte("etd", etd_min)
+            .lte("etd", etd_max)
+            .range(start, start + page - 1)
+            .execute()
+        )
+        batch = r.data or []
+        rows.extend(batch)
+        if len(batch) < page:
+            break
+        start += page
+
     out = []
-    for x in r.data:
-        vs = x.get("vessel_sequence")
-        rp = x.get("route_ports")
-        etd = x.get("etd")
-        if not (isinstance(vs, list) and isinstance(rp, list) and vs and rp):
+    for x in rows:
+        vs, rp = x.get("vessel_sequence"), x.get("route_ports")
+        if not (isinstance(vs, list) and isinstance(rp, list) and vs and len(rp) >= 2):
             continue
-        if not etd or etd < today or etd > horizon:
-            continue
-        if is_tbn(vs[0]):           # leg-0 must be named
-            continue
+        if is_non_vessel(vs[0]):          # leg-0 must be a real, trackable vessel
+            continue                      # (skip TBN / FEEDER / BARGE starts)
         out.append(x)
     return out
 
@@ -59,28 +81,41 @@ def _to_shipment(x) -> dict:
 
 
 def main():
-    cands = _candidates()
-    ts_named, ts_tbn, direct = [], [], []
-    for x in cands:
-        vs = x["vessel_sequence"]
-        if len(vs) == 1:
-            direct.append(x)
-        elif len(vs) >= 2 and not is_tbn(vs[1]):
-            ts_named.append(x)
-        elif len(vs) >= 2 and is_tbn(vs[1]):
-            ts_tbn.append(x)
+    today = datetime.date.today()
+    etd_min = _arg("--etd-min", today.isoformat())
+    etd_max = _arg("--etd-max", (today + datetime.timedelta(days=45)).isoformat())
 
-    picks = ts_named[:3] + ts_tbn[:1] + direct[:2]
+    cands = _candidates(etd_min, etd_max)
+
+    # group by carrier, then by routing type (0/1/2 transshipments)
+    by_carrier = defaultdict(lambda: {0: [], 1: [], 2: []})
+    for x in cands:
+        tc = _ts_count(x)
+        if tc in (0, 1, 2):
+            by_carrier[x["carrier_code"]][tc].append(x)
+
+    picks = []
+    for carrier in sorted(by_carrier):
+        for tc in (0, 1, 2):
+            if by_carrier[carrier][tc]:
+                picks.append(by_carrier[carrier][tc][0])
+
     watchlist = [_to_shipment(x) for x in picks]
     store.save_watchlist(watchlist)
 
-    print(f"[seed] candidates: {len(cands)} "
-          f"(ts_named={len(ts_named)} ts_tbn={len(ts_tbn)} direct={len(direct)})")
-    print(f"[seed] wrote {len(watchlist)} shipments -> {store.config.WATCHLIST_PATH}\n")
+    print(f"[seed] ETD window {etd_min} .. {etd_max}: {len(cands)} candidate(s) "
+          f"across {len(by_carrier)} carrier(s)")
+    print(f"[seed] picked {len(watchlist)} shipment(s) "
+          f"({sum(1 for p in picks if _ts_count(p)==0)} direct, "
+          f"{sum(1 for p in picks if _ts_count(p)==1)} single-TS, "
+          f"{sum(1 for p in picks if _ts_count(p)==2)} double-TS) "
+          f"-> {store.config.WATCHLIST_PATH}\n")
 
     print("[seed] resolution coverage:")
     for s in watchlist:
-        print(f"  {s['carrier_code']} {s['pol']} -> {s['pod']} (ETD {s['etd']})")
+        tc = len(s["route_ports"]) - 2
+        print(f"  {s['carrier_code']:4} [{TYPE_LABEL.get(tc, f'{tc}-TS')}] "
+              f"{s['pol']} -> {s['pod']} (ETD {s['etd']})")
         for i, v in enumerate(s["vessel_sequence"]):
             vid = resolve_vessel_id(v)
             tag = "TBN" if is_tbn(v) else (f"vid={vid}" if vid else "UNRESOLVED")

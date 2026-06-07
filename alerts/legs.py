@@ -19,6 +19,16 @@ def is_tbn(vessel_name: str | None) -> bool:
     return "TBN" in (vessel_name or "").upper()
 
 
+# Placeholder tokens that aren't real, trackable vessels.
+NON_VESSEL_TOKENS = ("TBN", "FEEDER", "BARGE")
+
+
+def is_non_vessel(vessel_name: str | None) -> bool:
+    """True for placeholders (TBN / FEEDER / BARGE) — not a real vessel to track."""
+    u = (vessel_name or "").upper()
+    return any(tok in u for tok in NON_VESSEL_TOKENS)
+
+
 def build_legs(route_ports: list[str], vessel_sequence: list[str]) -> list[dict]:
     """Return ordered legs. Length = len(route_ports) - 1.
 

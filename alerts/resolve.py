@@ -6,6 +6,7 @@ Vessel match order (case-insensitive, on the voyage-stripped name):
 Misses and TBN are surfaced (vessel_id = None) so the engine can log coverage gaps.
 """
 
+import json
 from functools import lru_cache
 
 from .db import client
@@ -14,7 +15,7 @@ from .legs import strip_voyage, is_tbn
 
 @lru_cache(maxsize=2048)
 def resolve_vessel_id(vessel_name: str | None) -> int | None:
-    """Voyage-stripped name -> vessel_id, or None if TBN / unmatched."""
+    """Voyage-stripped name -> vessel_id, or None if TBN / unmatched / lookup error."""
     if is_tbn(vessel_name):
         return None
     name = strip_voyage(vessel_name)
@@ -22,16 +23,24 @@ def resolve_vessel_id(vessel_name: str | None) -> int | None:
         return None
 
     c = client()
-    # exact-ish matches first (marinetraffic_name, then carrier_name)
-    for col in ("marinetraffic_name", "carrier_name"):
-        r = c.table("vessels").select("vessel_id").ilike(col, name).limit(1).execute()
+    try:
+        # exact-ish matches first (marinetraffic_name, then carrier_name)
+        for col in ("marinetraffic_name", "carrier_name"):
+            r = c.table("vessels").select("vessel_id").ilike(col, name).limit(1).execute()
+            if r.data:
+                return r.data[0]["vessel_id"]
+
+        # aliases is JSONB -> contains needs a JSON value (a bare list becomes a Postgres
+        # array literal and errors). Pass a JSON string: cs.["NAME"].
+        r = (
+            c.table("vessels").select("vessel_id")
+            .contains("aliases", json.dumps([name]))
+            .limit(1).execute()
+        )
         if r.data:
             return r.data[0]["vessel_id"]
-
-    # aliases is a jsonb array of strings -> contains match
-    r = c.table("vessels").select("vessel_id").contains("aliases", [name]).limit(1).execute()
-    if r.data:
-        return r.data[0]["vessel_id"]
+    except Exception:  # noqa: BLE001 - a bad token must yield "unresolved", never crash
+        return None
 
     return None
 
