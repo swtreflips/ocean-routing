@@ -368,14 +368,25 @@ def _yml_leg_label(leg):
 
 
 def _yml_legs(schedule):
-    """Normalize YML routeDetails into [{pol, pod, label, is_ocean, etd, eta}, ...]"""
+    """Normalize YML routeDetails into [{pol, pod, label, is_ocean, is_feeder, etd, eta}, ...]
+
+    routeDetails are sorted by detailSeq first: YML usually returns them in order,
+    but occasionally shuffles them (e.g. a trailing RAIL leg appearing first). Array
+    position drives ETD (legs[0]) / ETA (legs[-1]), so we must not trust raw order.
+    """
     out = []
-    for leg in schedule.get("routeDetails", []) or []:
+    legs_in = sorted(
+        schedule.get("routeDetails", []) or [],
+        key=lambda lg: lg.get("detailSeq") if lg.get("detailSeq") is not None else 1e9,
+    )
+    for leg in legs_in:
+        mode = (leg.get("transitMode") or "").strip().upper()
         out.append({
             "pol": leg.get("locationNameFrom"),
             "pod": leg.get("locationNameTo"),
             "label": _yml_leg_label(leg),
             "is_ocean": _yml_is_ocean(leg.get("transitMode")),
+            "is_feeder": mode == "FEEDER",
             "etd": leg.get("etd"),
             "eta": leg.get("eta"),
         })
@@ -407,7 +418,13 @@ def _yml_legs_summary(legs):
         return "Direct", None, [], [], [], []
 
     transport_type = "Direct" if n_ocean == 1 else f"{n_ocean - 1} TS"
-    mother_vessel = ocean[0]["label"] or None
+
+    # Vessels are positional: the mother vessel is whatever sits on the FIRST
+    # ocean leg, and the TS vessels are the rest. We deliberately do NOT promote
+    # a deep-sea vessel over a leading feeder. When the first ocean leg is a
+    # feeder hop (e.g. Hai Phong -> Cai Mep), the mother slot reads literally
+    # "FEEDER"; the actual deep-sea vessel then surfaces as the TS vessel.
+    mother_vessel = ("FEEDER" if ocean[0]["is_feeder"] else ocean[0]["label"]) or None
     ts_ports = [lg["pod"] for lg in ocean[:-1]]
     ts_vessels = [lg["label"] for lg in ocean[1:]]
     route_ports = [ocean[0]["pol"]] + [lg["pod"] for lg in ocean]
