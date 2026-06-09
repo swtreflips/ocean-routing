@@ -332,14 +332,46 @@ def get_options(driver, name):
     raise StaleElementReferenceException("get_options never settled")
 
 
-def wait_for_pod_populated(driver, timeout=15):
-    """After to_nation is selected, pod is re-rendered. Wait until real options appear."""
-    WebDriverWait(driver, timeout, ignored_exceptions=[StaleElementReferenceException]).until(
-        lambda d: any(
-            (o.get_attribute("value") or "").strip()
-            for o in d.find_element(By.NAME, "pod").find_elements(By.TAG_NAME, "option")
-        )
+def _count_pod_options(driver):
+    """Count non-placeholder <option>s currently in the pod dropdown."""
+    el = driver.find_element(By.NAME, "pod")
+    return sum(
+        1 for o in el.find_elements(By.TAG_NAME, "option")
+        if (o.get_attribute("value") or "").strip()
     )
+
+
+def wait_for_pod_populated(driver, timeout=20, stable_polls=3, poll_interval=0.3):
+    """Wait until the pod dropdown has finished (re-)rendering, then return.
+
+    After to_nation is selected, WHL repopulates pod — often in two phases (a
+    quick partial list, then the full AJAX-driven set). Waiting on the *first*
+    option is racy: a snapshot taken in the gap misses real PODs (e.g. the
+    'LOS ANGELES, CA' miss that skipped Qingdao→USLAX). Instead, poll the option
+    count and only return once it's non-zero AND unchanged across `stable_polls`
+    consecutive reads, so the list has demonstrably stopped growing.
+
+    Returns the settled option count (0 if it never populated before timeout).
+    """
+    deadline = time.time() + timeout
+    last_count = -1
+    stable = 0
+    while time.time() < deadline:
+        try:
+            count = _count_pod_options(driver)
+        except StaleElementReferenceException:
+            count = -1  # mid-rerender; treat as not-yet-stable
+        if count > 0 and count == last_count:
+            stable += 1
+            if stable >= stable_polls:
+                return count
+        else:
+            stable = 0
+        last_count = count
+        time.sleep(poll_interval)
+    print(f"      ⚠️ pod dropdown didn't stabilize within {timeout}s "
+          f"(last count={last_count}); proceeding with whatever loaded")
+    return max(last_count, 0)
 
 
 # ---------------------------------------------------------------------------
@@ -476,9 +508,9 @@ def scrape_with_decision(driver, wait, origin, dest_name, wanhai_locations, conn
     actual_pol = open_search_and_set_origin(driver, wait, origin)
 
     safe_select(driver, "to_nation", to_nation)
-    wait_for_pod_populated(driver)
-    time.sleep(0.3)
+    n_pod = wait_for_pod_populated(driver)
     pod_options = get_options(driver, "pod")
+    print(f"      pod dropdown settled: {n_pod} option(s)")
 
     decision = pick_pod(dest_name, dest_resolved, pod_options, connections)
     if decision is None:
@@ -649,38 +681,84 @@ def _synthesize_legs(pol, departure, ts_ports, pod, arrival):
     return legs
 
 
+def _build_schedule(pol, cut_off, departure, ts_ports, pod, arrival, transit, transfer):
+    """Assemble one schedule dict (shared by both table layouts)."""
+    return {
+        "POL": pol,
+        "CutOff": cut_off,
+        "Departure": departure,
+        "TSPorts": ts_ports,
+        "POD": pod,
+        "Arrival": arrival,
+        "TransitTime": transit,
+        "TransferFlag": transfer,
+        # Synthesized per-leg view (makes feeder hops explicit when
+        # there are >=2 TS ports — WHL only names mother + arrival).
+        "Legs": _synthesize_legs(pol, departure, ts_ports, pod, arrival),
+    }
+
+
+def _parse_rows_us(table):
+    """8-column DATA_TABLE_US layout (US-import view, has cut-off + TS column)."""
+    tbody = table.find("tbody")
+    rows = tbody.find_all("tr", recursive=False) if tbody else []
+    schedules = []
+    for tr in rows:
+        cells = tr.find_all("td", recursive=False)
+        if len(cells) < 8:
+            continue
+        pol = cells[0].get_text(strip=True)
+        departure = _parse_vessel_block(cells[2])
+        ts_ports = _parse_ts_ports(cells[3])
+        pod = cells[4].get_text(strip=True)
+        arrival = _parse_vessel_block(cells[5])
+        schedules.append(_build_schedule(
+            pol, _parse_cut_off(cells[1]), departure, ts_ports, pod, arrival,
+            cells[6].get_text(strip=True), _parse_transfer_flag(cells[7]),
+        ))
+    return schedules
+
+
+def _parse_rows_p2p(table):
+    """7-column DATA_TABLE layout (generic P2P view, no cut-off / no TS column).
+
+    Columns: POL | Departure | POD | Arrival | Transit Time | Initial Service |
+    Transfer/Direct. The Service lives in its own column here (not in the
+    vessel block), so fold it back into the Departure block for leg parity.
+    """
+    tbody = table.find("tbody")
+    rows = tbody.find_all("tr", recursive=False) if tbody else []
+    schedules = []
+    for tr in rows:
+        cells = tr.find_all("td", recursive=False)
+        if len(cells) < 7:
+            continue
+        pol = cells[0].get_text(strip=True)
+        departure = _parse_vessel_block(cells[1])
+        departure["Service"] = cells[5].get_text(strip=True)
+        pod = cells[2].get_text(strip=True)
+        arrival = _parse_vessel_block(cells[3])
+        schedules.append(_build_schedule(
+            pol, "", departure, [], pod, arrival,
+            cells[4].get_text(strip=True), _parse_transfer_flag(cells[6]),
+        ))
+    return schedules
+
+
 def parse_html(html_text):
     """Parse a single Wan Hai HTML page → dict mirroring the CMA wrapper shape."""
     meta = _parse_metadata_comment(html_text)
     soup = BeautifulSoup(html_text, "html.parser")
-    table = soup.find("table", id="DATA_TABLE_US")
 
-    schedules = []
+    # WHL serves two table layouts depending on the route:
+    #   DATA_TABLE_US — US-import view, 8 cols (cut-off + a TS-port column).
+    #   DATA_TABLE    — generic P2P view, 7 cols (no cut-off, no TS column).
+    table = soup.find("table", id="DATA_TABLE_US")
     if table is not None:
-        tbody = table.find("tbody")
-        rows = tbody.find_all("tr", recursive=False) if tbody else []
-        for tr in rows:
-            cells = tr.find_all("td", recursive=False)
-            if len(cells) < 8:
-                continue
-            pol = cells[0].get_text(strip=True)
-            departure = _parse_vessel_block(cells[2])
-            ts_ports = _parse_ts_ports(cells[3])
-            pod = cells[4].get_text(strip=True)
-            arrival = _parse_vessel_block(cells[5])
-            schedules.append({
-                "POL": pol,
-                "CutOff": _parse_cut_off(cells[1]),
-                "Departure": departure,
-                "TSPorts": ts_ports,
-                "POD": pod,
-                "Arrival": arrival,
-                "TransitTime": cells[6].get_text(strip=True),
-                "TransferFlag": _parse_transfer_flag(cells[7]),
-                # Synthesized per-leg view (makes feeder hops explicit when
-                # there are >=2 TS ports — WHL only names mother + arrival).
-                "Legs": _synthesize_legs(pol, departure, ts_ports, pod, arrival),
-            })
+        schedules = _parse_rows_us(table)
+    else:
+        table = soup.find("table", id="DATA_TABLE")
+        schedules = _parse_rows_p2p(table) if table is not None else []
 
     # CMA-compatible wrapper: a `request` dict so build_schedule_dataframe can
     # read POL / LastCY / FinalDestination / query_date / snapshot_date / OFQ
