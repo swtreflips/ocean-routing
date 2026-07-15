@@ -314,7 +314,9 @@ PORT_NAMES = [
     "Prince Rupert, BC",
     "Vancouver, BC",
     "Kansas City, KS",
-    "Kansas City, MO"
+    "Kansas City, MO",
+    "Newark, NJ",
+    "Wilmington, NC"
 ]
 
 _PORT_LOOKUP = {p.lower(): p for p in PORT_NAMES}

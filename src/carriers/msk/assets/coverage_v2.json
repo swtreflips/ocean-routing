@@ -1,0 +1,57 @@
+{
+  "carrier": "MSK",
+  "description": "Port universe for MSK v2 (port-to-port only). Keys+type; ports queried origin->port. Long Beach, Seattle, Port Everglades are each their own GEO_ID call (MSK uses a per-city GEO_ID, distinct results). Independent from v3s coverage.json so the two workers do not affect each others call set.",
+  "coverage": {
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Houston, TX": {
+      "type": "port"
+    },
+    "Jacksonville, FL": {
+      "type": "port"
+    },
+    "Long Beach, CA": {
+      "type": "port"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "Miami, FL": {
+      "type": "port"
+    },
+    "Mobile, AL": {
+      "type": "port"
+    },
+    "New Orleans, LA": {
+      "type": "port"
+    },
+    "Newark, NJ": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Port Everglades, FL": {
+      "type": "port"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Seattle, WA": {
+      "type": "port"
+    },
+    "Tacoma, WA": {
+      "type": "port"
+    },
+    "Tampa, FL": {
+      "type": "port"
+    },
+    "Wilmington, NC": {
+      "type": "port"
+    }
+  }
+}

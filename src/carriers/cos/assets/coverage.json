@@ -1,0 +1,132 @@
+{
+  "carrier": "COS",
+  "description": "Port universe + inland yards for COSCO (COS). Keys from cos_yards.geojson (CityYard) plus Vancouver, BC and Prince Rupert, BC (trans-Pacific discharge ports not in the geojson). type is port (queried origin->port in v2), inland (rail-served, not queried in v2), or sibling (a co-located port intentionally NOT queried because its sibling_of port already returns the shared sailings — e.g. Long Beach is a sibling of Los Angeles; querying both would duplicate schedules). Utility lookup for the scraper; port<->inland-yard relationships are maintained in a separate project.",
+  "coverage": {
+    "Bessemer, AL": {
+      "type": "inland"
+    },
+    "Boston, MA": {
+      "type": "port"
+    },
+    "Buffalo, NY": {
+      "type": "inland"
+    },
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Charlotte, NC": {
+      "type": "inland"
+    },
+    "Chicago, IL": {
+      "type": "inland"
+    },
+    "Chippewa Falls, WI": {
+      "type": "inland"
+    },
+    "Cincinnati, OH": {
+      "type": "inland"
+    },
+    "Cleveland, OH": {
+      "type": "inland"
+    },
+    "Columbus, OH": {
+      "type": "inland"
+    },
+    "Crandall, GA": {
+      "type": "inland"
+    },
+    "Denver, CO": {
+      "type": "inland"
+    },
+    "Detroit, MI": {
+      "type": "inland"
+    },
+    "Fort Worth, TX": {
+      "type": "inland"
+    },
+    "Greer, SC": {
+      "type": "inland"
+    },
+    "Houston, TX": {
+      "type": "port"
+    },
+    "Huntsville, AL": {
+      "type": "inland"
+    },
+    "Indianapolis, IN": {
+      "type": "inland"
+    },
+    "Kansas City, KS": {
+      "type": "inland"
+    },
+    "Long Beach, CA": {
+      "type": "port"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "Louisville, KY": {
+      "type": "inland"
+    },
+    "Memphis, TN": {
+      "type": "inland"
+    },
+    "Miami, FL": {
+      "type": "port"
+    },
+    "Minneapolis, MN": {
+      "type": "inland"
+    },
+    "Mobile, AL": {
+      "type": "port"
+    },
+    "Nashville, TN": {
+      "type": "inland"
+    },
+    "New Orleans, LA": {
+      "type": "port"
+    },
+    "New York, NY": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Omaha, NE": {
+      "type": "inland"
+    },
+    "Pittsburgh, PA": {
+      "type": "inland"
+    },
+    "Prince Rupert, BC": {
+      "type": "port"
+    },
+    "Saint Louis, MO": {
+      "type": "inland"
+    },
+    "Salt Lake City, UT": {
+      "type": "inland"
+    },
+    "San Antonio, TX": {
+      "type": "inland"
+    },
+    "Santa Teresa, NM": {
+      "type": "inland"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Seattle, WA": {
+      "type": "port"
+    },
+    "Tampa, FL": {
+      "type": "port"
+    },
+    "Vancouver, BC": {
+      "type": "port"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "carrier": "MSC",
+  "description": "Port universe for MSC (Mediterranean Shipping Company). MSC provides PORT-TO-PORT schedules only (no inland rail), so v3 has NO inland scrape / derive / secondary pass: it simply loops each origin over these ports. Keys from msc_yards.geojson, with the two MSC-nested co-located ports split out so each is called separately with its own name (see /synth.md and msc_citiesv3.json): Los Angeles/Long Beach and Miami/Port Everglades. type is always port. [v2 copy — independent from v3 coverage.json so the two workers never affect each other's call set.]",
+  "coverage": {
+    "Baltimore, MD": {
+      "type": "port"
+    },
+    "Boston, MA": {
+      "type": "port"
+    },
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Houston, TX": {
+      "type": "port"
+    },
+    "Jacksonville, FL": {
+      "type": "port"
+    },
+    "Long Beach, CA": {
+      "type": "port"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "Miami, FL": {
+      "type": "port"
+    },
+    "Mobile, AL": {
+      "type": "port"
+    },
+    "New Orleans, LA": {
+      "type": "port"
+    },
+    "New York, NY": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Philadelphia, PA": {
+      "type": "port"
+    },
+    "Port Everglades, FL": {
+      "type": "port"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Seattle, WA": {
+      "type": "port"
+    },
+    "Tampa, FL": {
+      "type": "port"
+    }
+  }
+}

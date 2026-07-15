@@ -570,6 +570,44 @@
     },
     "relations": {}
   },
+  "Fort Worth, TX": {
+    "id": null,
+    "name": "Fort Worth",
+    "alternativeNames": [
+      "Alliance, TX"
+    ],
+    "type": "I",
+    "size": "L",
+    "unlocode": "USHSX",
+    "lon": -97.352471,
+    "lat": 32.990468,
+    "timezone": -6,
+    "country": {
+      "code": "US",
+      "name": "UNITED STATES OF AMERICA",
+      "statecode": "TX"
+    },
+    "relations": {}
+  },
+  "Phoenix, AZ": {
+    "id": null,
+    "name": "Dallas",
+    "alternativeNames": [
+      "Duncan and Son Lines, Inc"
+    ],
+    "type": "I",
+    "size": "L",
+    "unlocode": "USDAL",
+    "lon": -112.214286,
+    "lat": 33.390970,
+    "timezone": -6,
+    "country": {
+      "code": "US",
+      "name": "UNITED STATES OF AMERICA",
+      "statecode": "AZ"
+    },
+    "relations": {}
+  },
   "Charlotte, NC": {
     "id": null,
     "name": "Charlotte",

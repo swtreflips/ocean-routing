@@ -1,0 +1,5 @@
+{
+  "carrier": "EMC",
+  "description": "Inland yards that still have no rail connections in coverage.json (no schedules returned during calibration). mainv2.py in MODE='calibrate' scrapes origins x these yards to fill them. Add more origins to data/origins.csv that route to these yards. Remove a yard once coverage.json has its connections.",
+  "pending": []
+}

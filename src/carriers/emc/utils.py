@@ -645,13 +645,17 @@ PORT_NAMES = [
     "Tacoma, WA",
     "Philadelphia, PA",
     "Boston, MA",
-    "Long Beach, CA",
     "Seattle, WA",
     "Prince Rupert, BC",
     "Vancouver, BC",
+    "Baltimore, MD",
 ]
 
 _PORT_LOOKUP = {p.split(",", 1)[0].strip().lower(): p for p in PORT_NAMES}
+# EMC returns identical voyages for Long Beach and Los Angeles, so collapse Long
+# Beach into LA to avoid double-counting the same sailings. (Seattle and Tacoma
+# DO return distinct services — they stay separate.)
+_PORT_LOOKUP["long beach"] = "Los Angeles, CA"
 
 
 def normalize_pod(pod):

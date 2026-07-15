@@ -753,6 +753,13 @@
       "short_name": "SAVANNAH, GA [ZIP:31401]"
     }
   ],
+  "Vancouver, BC": [
+    {
+      "display_name": "VANCOUVER, BC (CAVAN) [ZIP:V5A]",
+      "unlocode": "CAVCR",
+      "short_name": ""
+    }
+  ],
   "Crandall, GA": [
     {
       "display_name": "CRANDALL, GA (USKR7) [ZIP:30711]",
@@ -841,6 +848,13 @@
       "display_name": "NORFOLK, VA (USORF) [ZIP:23502]",
       "unlocode": "USNFK",
       "short_name": "NORFOLK, VA [ZIP:23502]"
+    }
+  ],
+  "Baltimore, MD": [
+    {
+      "display_name": "BALTIMORE, MD (USBAL) [ZIP:21201]",
+      "unlocode": "",
+      "short_name": ""
     }
   ],
   "Philadelphia, PA": [

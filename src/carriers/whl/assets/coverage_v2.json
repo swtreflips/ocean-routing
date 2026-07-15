@@ -1,0 +1,30 @@
+{
+  "carrier": "WHL",
+  "description": "Port coverage for Wan Hai (WHL) v2 port-to-port scrape. Keys are the 8 curated US ports from whl_connections.json['ports']; type is 'port' (queried origin->port in v2). Cities from whl_cities.json (shared read-only). WHL quirk: for some origins the pod dropdown lists inland destinations but NOT the port that serves them; scrape_with_decision/pick_pod handle this by falling back to an inland served via that port (relationship in whl_connections.json), so port coverage is preserved.",
+  "coverage": {
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Long Beach, CA": {
+      "type": "port"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "New York, NY": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Seattle, WA": {
+      "type": "port"
+    }
+  }
+}

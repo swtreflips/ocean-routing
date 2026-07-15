@@ -179595,6 +179595,24 @@
       }
     }
   ],
+  "Tacoma, Wa": [
+    {
+      "city": "TACOMA",
+      "country": "WA",
+      "codes": {
+        "code1": "USTIW"
+      }
+    }
+  ],
+  "Vancouver, BC": [
+    {
+      "city": "VANCOUVER",
+      "country": "BC",
+      "codes": {
+        "code1": "CAVAN"
+      }
+    }
+  ],
   "Sebastopol, Ca": [
     {
       "city": "SEBASTOPOL",

@@ -1,0 +1,114 @@
+{
+  "carrier": "ONE",
+  "description": "Port universe + inland yards for Ocean Network Express (ONE). Keys from one_yards.geojson (CityYard). type is port (v3 secondary-scrape target) or inland (v3 main scrape). v3 = scrape inland, derive ports, secondary-scrape missing ports (see /synth.md). READ-ONLY: v3 only reads type. ONE returns port names (podName) directly, so no location-code enrichment is needed. NOTE: yard set has only Los Angeles (no Long Beach) and Tacoma (no Seattle); utils.normalize_pod keeps Los Angeles/Long Beach and Seattle/Tacoma distinct, so any Long Beach/Seattle voyages appear only as derive-only distinct discharge ports (never queried), like HPL Long Beach.",
+  "coverage": {
+    "Atlanta, GA": {
+      "type": "inland"
+    },
+    "Buffalo, NY": {
+      "type": "inland"
+    },
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Charlotte, NC": {
+      "type": "inland"
+    },
+    "Chicago, IL": {
+      "type": "inland"
+    },
+    "Cincinnati, OH": {
+      "type": "inland"
+    },
+    "Cleveland, OH": {
+      "type": "inland"
+    },
+    "Columbus, OH": {
+      "type": "inland"
+    },
+    "Dallas, TX": {
+      "type": "inland"
+    },
+    "Denver, CO": {
+      "type": "inland"
+    },
+    "Detroit, MI": {
+      "type": "inland"
+    },
+    "Greer, SC": {
+      "type": "inland"
+    },
+    "Houston, TX": {
+      "type": "port"
+    },
+    "Indianapolis, IN": {
+      "type": "inland"
+    },
+    "Jacksonville, FL": {
+      "type": "port"
+    },
+    "Kansas City, KS": {
+      "type": "inland"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "Louisville, KY": {
+      "type": "inland"
+    },
+    "Memphis, TN": {
+      "type": "inland"
+    },
+    "Miami, FL": {
+      "type": "port"
+    },
+    "Minneapolis, MN": {
+      "type": "inland"
+    },
+    "Mobile, AL": {
+      "type": "port"
+    },
+    "Nashville, TN": {
+      "type": "inland"
+    },
+    "New Orleans, LA": {
+      "type": "port"
+    },
+    "New York, NY": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Omaha, NE": {
+      "type": "inland"
+    },
+    "Pittsburgh, PA": {
+      "type": "inland"
+    },
+    "Saint Louis, MO": {
+      "type": "inland"
+    },
+    "Salt Lake City, UT": {
+      "type": "inland"
+    },
+    "San Antonio, TX": {
+      "type": "inland"
+    },
+    "Santa Teresa, NM": {
+      "type": "inland"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Tacoma, WA": {
+      "type": "port"
+    },
+    "Tampa, FL": {
+      "type": "port"
+    }
+  }
+}

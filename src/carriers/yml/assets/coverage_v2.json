@@ -1,0 +1,117 @@
+{
+  "carrier": "YML",
+  "description": "Port universe + inland yards for Yang Ming (YML). Keys from yml_yards.geojson (CityYard). type is port (queried origin->port in v2) or inland. v2 coverage (bare keys+type). Cities from yml_cities.json (shared read-only; 2 multi-code keys are origins Vung Tau + Manila-harbours, not US ports).",
+  "coverage": {
+    "Atlanta, GA": {
+      "type": "inland"
+    },
+    "Boston, MA": {
+      "type": "port"
+    },
+    "Buffalo, NY": {
+      "type": "inland"
+    },
+    "Charleston, SC": {
+      "type": "port"
+    },
+    "Charlotte, NC": {
+      "type": "inland"
+    },
+    "Chicago, IL": {
+      "type": "inland"
+    },
+    "Cincinnati, OH": {
+      "type": "inland"
+    },
+    "Cleveland, OH": {
+      "type": "inland"
+    },
+    "Columbus, OH": {
+      "type": "inland"
+    },
+    "Crandall, GA": {
+      "type": "inland"
+    },
+    "Dallas, TX": {
+      "type": "inland"
+    },
+    "Denver, CO": {
+      "type": "inland"
+    },
+    "Detroit, MI": {
+      "type": "inland"
+    },
+    "Front Royal, VA": {
+      "type": "inland"
+    },
+    "Greer, SC": {
+      "type": "inland"
+    },
+    "Houston, TX": {
+      "type": "port"
+    },
+    "Huntsville, AL": {
+      "type": "inland"
+    },
+    "Indianapolis, IN": {
+      "type": "inland"
+    },
+    "Jacksonville, FL": {
+      "type": "port"
+    },
+    "Kansas City, KS": {
+      "type": "inland"
+    },
+    "Los Angeles, CA": {
+      "type": "port"
+    },
+    "Louisville, KY": {
+      "type": "inland"
+    },
+    "Memphis, TN": {
+      "type": "inland"
+    },
+    "Miami, FL": {
+      "type": "port"
+    },
+    "Minneapolis, MN": {
+      "type": "inland"
+    },
+    "Nashville, TN": {
+      "type": "inland"
+    },
+    "New Orleans, LA": {
+      "type": "port"
+    },
+    "New York, NY": {
+      "type": "port"
+    },
+    "Norfolk, VA": {
+      "type": "port"
+    },
+    "North Baltimore, OH": {
+      "type": "inland"
+    },
+    "Oakland, CA": {
+      "type": "port"
+    },
+    "Pittsburgh, PA": {
+      "type": "inland"
+    },
+    "Saint Louis, MO": {
+      "type": "inland"
+    },
+    "Salt Lake City, UT": {
+      "type": "inland"
+    },
+    "Santa Teresa, NM": {
+      "type": "inland"
+    },
+    "Savannah, GA": {
+      "type": "port"
+    },
+    "Tacoma, WA": {
+      "type": "port"
+    }
+  }
+}

@@ -305,6 +305,11 @@ def normalize_pod(pod):
         state = state.strip().upper()
         if len(state) == 2 and state.isalpha():
             return f"{city.strip().title()}, {state}"
+    # Bare-city fallback: handles 3-part 'City, Prov, Country' (HMM returns
+    # Canadian ports as 'Vancouver, Bc, Canada') by matching the leading city.
+    bare = _PORT_LOOKUP.get(raw.split(",", 1)[0].strip().lower())
+    if bare:
+        return bare
     return raw.title()
 
 

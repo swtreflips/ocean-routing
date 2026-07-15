@@ -48,3 +48,16 @@ src/data/tables/
 
 # Alert-engine local state (watchlist, tracking state, alerts log, debug traces)
 alerts/data/
+
+# v2/v3 scrape working + output dirs. These live under assets/ (so the
+# !src/carriers/*/assets/ rule above would otherwise track them) but they are
+# runtime output — logs, csvs, canonicals, raw, ingest ledgers — not assets.
+src/carriers/*/assets/temp/
+src/carriers/*/assets/temp_v3/
+
+# Chrome/patchright browser profile dir created at scrape time
+mt_profile/
+
+# Local backups + per-carrier scratch
+*.bak
+src/carriers/*/temp.txt
