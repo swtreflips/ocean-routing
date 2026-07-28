@@ -37,6 +37,10 @@ uc.Chrome.__del__ = lambda self: None
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    ElementClickInterceptedException,
+    TimeoutException,
+)
 import random
 import sys
 from pathlib import Path
@@ -208,11 +212,35 @@ def get_new_session():
     print("  ✓ Schedule page loaded")
 
     # Step 4: Interact with input
+    #
+    # This click exists only to make the Vue city-select fire its session-establishing
+    # XHR; the real data fetch is plain HTTP with the cookies harvested below. So it does
+    # not matter HOW the click lands, only that it does.
+    #
+    # COSCO renders banners and notices over the search form, and a fixed sleep(2) races
+    # them — the failure is ElementClickInterceptedException, "Other element would receive
+    # the click: <p data-v-...>". Wait for clickability rather than for time, and fall
+    # back to a JS click, which is not subject to the interception check at all.
     print("  🔍 Probing city-select to populate session state...")
-    input_el = driver.find_element(By.CSS_SELECTOR, "input.ivu-select-input")
-    input_el.click()
+    wait = WebDriverWait(driver, 20)
+    input_el = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "input.ivu-select-input"))
+    )
+    driver.execute_script(
+        "arguments[0].scrollIntoView({block: 'center'});", input_el
+    )
+
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "input.ivu-select-input"))
+        ).click()
+    except (ElementClickInterceptedException, TimeoutException):
+        # Something is still overlaying it. Focus and click via JS — Vue's listeners
+        # respond to the dispatched event the same way.
+        print("  ⚠ click intercepted by an overlay — falling back to JS click")
+        driver.execute_script("arguments[0].focus(); arguments[0].click();", input_el)
+
     input_el.send_keys("Los")
-    wait = WebDriverWait(driver, 10)
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "li.ivu-select-item")))
     print("  ✓ City-select responded — session is warm")
 
