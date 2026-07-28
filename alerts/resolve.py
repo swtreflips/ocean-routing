@@ -26,14 +26,14 @@ def resolve_vessel_id(vessel_name: str | None) -> int | None:
     try:
         # exact-ish matches first (marinetraffic_name, then carrier_name)
         for col in ("marinetraffic_name", "carrier_name"):
-            r = c.table("vessels").select("vessel_id").ilike(col, name).limit(1).execute()
+            r = c.table("sched_vessels").select("vessel_id").ilike(col, name).limit(1).execute()
             if r.data:
                 return r.data[0]["vessel_id"]
 
         # aliases is JSONB -> contains needs a JSON value (a bare list becomes a Postgres
         # array literal and errors). Pass a JSON string: cs.["NAME"].
         r = (
-            c.table("vessels").select("vessel_id")
+            c.table("sched_vessels").select("vessel_id")
             .contains("aliases", json.dumps([name]))
             .limit(1).execute()
         )
@@ -61,11 +61,11 @@ def resolve_port(name: str) -> dict | None:
     c = client()
     cols = "canonical_name,name,latitude,longitude"
 
-    r = c.table("ports").select(cols).eq("canonical_name", name).limit(1).execute()
+    r = c.table("world_ports").select(cols).eq("canonical_name", name).limit(1).execute()
     if not r.data:
-        r = c.table("ports").select(cols).ilike("name", name).limit(1).execute()
+        r = c.table("world_ports").select(cols).ilike("name", name).limit(1).execute()
     if not r.data:
-        r = c.table("ports").select(cols).ilike("canonical_name", f"{name}%").limit(1).execute()
+        r = c.table("world_ports").select(cols).ilike("canonical_name", f"{name}%").limit(1).execute()
     if not r.data:
         return None
 

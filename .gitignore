@@ -61,3 +61,7 @@ mt_profile/
 # Local backups + per-carrier scratch
 *.bak
 src/carriers/*/temp.txt
+
+# every .env variant, including backups taken during the rates migration
+.env.*
+!.env.example

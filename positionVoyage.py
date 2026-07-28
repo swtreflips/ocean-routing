@@ -63,7 +63,7 @@ def get_port_coords(name):
     """Look up a port's latitude/longitude from the Supabase ports table."""
     client = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_KEY"])
     r = (
-        client.table("ports")
+        client.table("world_ports")
         .select("canonical_name,latitude,longitude")
         .eq("canonical_name", name)
         .limit(1)

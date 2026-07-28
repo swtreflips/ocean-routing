@@ -97,7 +97,7 @@ def main() -> None:
     pushed = 0
     for start in range(0, len(rows), CHUNK_SIZE):
         chunk = rows[start:start + CHUNK_SIZE]
-        client.table("vessels").upsert(chunk, on_conflict="vessel_id").execute()
+        client.table("sched_vessels").upsert(chunk, on_conflict="vessel_id").execute()
         pushed += len(chunk)
         print(f"[vessels] upserted {pushed}/{len(rows)}")
 
