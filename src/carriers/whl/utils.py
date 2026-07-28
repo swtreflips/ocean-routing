@@ -28,7 +28,7 @@ from geopy.geocoders import Nominatim
 import undetected_chromedriver as uc
 uc.Chrome.__del__ = lambda self: None
 
-from selenium.common.exceptions import StaleElementReferenceException
+from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
@@ -255,6 +255,14 @@ class WHLDestinationUnmapped(Exception):
     status 'skipped_unmapped' and move on quietly."""
 
 
+class WHLOriginUnavailable(Exception):
+    """The POL resolved from wanhai_locations, but WHL's pol dropdown for that
+    country doesn't offer it — e.g. Pipavav (INPAV) is in the cities file but
+    India's dropdown lists only 28 other origins. Not transient: retrying just
+    burns another dropdown timeout. Caller should set status 'skipped_not_found'.
+    """
+
+
 def _is_fallback_eligible_port(name, connections):
     """A LastCY is fallback-eligible only if it's listed in connections['ports'].
     Inland cities (connections['inlands']) and anything else are NOT eligible —
@@ -279,9 +287,12 @@ def resolve(name, locations):
     entries = locations.get(name)
     if not entries:
         return None, "name not in wanhai_locations.json"
+    # .get("port") rather than e["port"]: a malformed entry (missing/misspelled
+    # port key) must not raise mid-scrape — the portcode alone is enough to drive
+    # the dropdown, and the name is only used for text matching.
     for e in entries:
-        if "portcode" in e:
-            return (e["countrycode"], e["portcode"], e["port"]), None
+        if "portcode" in e and "countrycode" in e:
+            return (e["countrycode"], e["portcode"], e.get("port")), None
     for e in entries:
         if "countrycode" in e and "port" in e:
             return (e["countrycode"], None, e["port"]), None
@@ -423,21 +434,32 @@ def open_search_and_set_origin(driver, wait, origin):
     wait.until(EC.presence_of_element_located((By.NAME, "from_nation")))
     safe_select(driver, "from_nation", from_nation)
     if pol_code is not None:
-        wait_for_option(driver, "pol", pol_code)
+        try:
+            wait_for_option(driver, "pol", pol_code)
+        except TimeoutException:
+            raise WHLOriginUnavailable(
+                f"{pol_name or pol_code!r} ({pol_code}) not in WHL's pol dropdown "
+                f"for {from_nation}"
+            ) from None
         safe_select(driver, "pol", pol_code)
         actual_pol = pol_code
     else:
         target = (pol_name or "").upper()
-        WebDriverWait(driver, 15, ignored_exceptions=[StaleElementReferenceException]).until(
-            lambda d: any(
-                (o.text or "").strip().upper() == target
-                for o in d.find_element(By.NAME, "pol").find_elements(By.TAG_NAME, "option")
+        try:
+            WebDriverWait(driver, 15, ignored_exceptions=[StaleElementReferenceException]).until(
+                lambda d: any(
+                    (o.text or "").strip().upper() == target
+                    for o in d.find_element(By.NAME, "pol").find_elements(By.TAG_NAME, "option")
+                )
             )
-        )
+        except TimeoutException:
+            raise WHLOriginUnavailable(
+                f"{pol_name!r} not in WHL's pol dropdown for {from_nation}"
+            ) from None
         opts = get_options(driver, "pol")
         match = next((o for o in opts if o["name"].upper() == target), None)
         if not match:
-            raise RuntimeError(f"pol option {pol_name!r} not found")
+            raise WHLOriginUnavailable(f"pol option {pol_name!r} not found")
         safe_select(driver, "pol", match["code"])
         actual_pol = match["code"]
     time.sleep(0.5)
@@ -531,11 +553,60 @@ def scrape_with_decision(driver, wait, origin, dest_name, wanhai_locations, conn
 # Driver factory (Cloudflare warmup)
 # ---------------------------------------------------------------------------
 
-def create_wanhai_session(headless=False, chrome_version=148, warmup_timeout=90):
+# uc.Chrome(version_main=N) must match the INSTALLED Chrome major version, or the
+# driver refuses to start:
+#   "This version of ChromeDriver only supports Chrome version 148,
+#    Current browser version is 150.0.7871.187"
+#
+# Chrome auto-updates silently, so any hardcoded N breaks on its own schedule —
+# which is exactly what happened to the 148 that used to be pinned here. Detect it
+# at runtime instead.
+#
+# Returns None if detection fails, which lets undetected_chromedriver fall back to
+# its own auto-detection rather than pinning a number that is definitely wrong.
+def chrome_major():
+    """Installed Chrome major version as an int, or None to let uc auto-detect."""
+    import subprocess
+
+    if sys.platform == "win32":
+        try:
+            import winreg
+
+            for hive in (winreg.HKEY_CURRENT_USER, winreg.HKEY_LOCAL_MACHINE):
+                try:
+                    with winreg.OpenKey(
+                        hive, r"Software\Google\Chrome\BLBeacon"
+                    ) as key:
+                        version, _ = winreg.QueryValueEx(key, "version")
+                        return int(str(version).split(".")[0])
+                except OSError:
+                    continue
+        except Exception:
+            pass
+
+    for cmd in (["google-chrome", "--version"], ["chrome", "--version"]):
+        try:
+            out = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=10
+            ).stdout
+            match = re.search(r"(\d+)\.", out)
+            if match:
+                return int(match.group(1))
+        except Exception:
+            continue
+
+    return None
+
+
+def create_wanhai_session(headless=False, chrome_version=None, warmup_timeout=90):
     """Create an undetected_chromedriver session + WebDriverWait, warming Cloudflare.
+
+    chrome_version=None detects the installed Chrome major version at runtime.
 
     Returns (driver, wait).
     """
+    if chrome_version is None:
+        chrome_version = chrome_major()
     options = uc.ChromeOptions()
     if headless:
         options.headless = True

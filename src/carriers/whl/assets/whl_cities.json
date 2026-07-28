@@ -3728,7 +3728,7 @@
   "Chicago, IL": [
     {
       "country": "UNITED STATES",
-      "ports": "CHICAGO, IL",
+      "port": "CHICAGO, IL",
       "countrycode": "US",
       "portcode": "USCHI"
     }

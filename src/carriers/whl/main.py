@@ -34,6 +34,7 @@ from utils import (
     scrape_with_decision,
     WHLDestinationSkipped,
     WHLDestinationUnmapped,
+    WHLOriginUnavailable,
 )
 
 
@@ -188,6 +189,12 @@ try:
             print(f"      ⏭️  skipped_not_found: {e}")
             quotes.at[idx, "status"] = "skipped_not_found"
             continue
+        except WHLOriginUnavailable as e:
+            # POL is in whl_cities.json but WHL doesn't offer it as an origin.
+            # Deterministic — don't retry.
+            print(f"      ⏭️  skipped_not_found: {e}")
+            quotes.at[idx, "status"] = "skipped_not_found"
+            continue
         except Exception as e:
             print(f"      transient {type(e).__name__}; retrying...")
             time.sleep(2)
@@ -199,7 +206,7 @@ try:
                 print(f"      ⏭️  skipped_unmapped: {e2}")
                 quotes.at[idx, "status"] = "skipped_unmapped"
                 continue
-            except WHLDestinationSkipped as e2:
+            except (WHLDestinationSkipped, WHLOriginUnavailable) as e2:
                 print(f"      ⏭️  skipped_not_found: {e2}")
                 quotes.at[idx, "status"] = "skipped_not_found"
                 continue
