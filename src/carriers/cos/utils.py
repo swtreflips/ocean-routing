@@ -391,3 +391,53 @@ def build_canonical_record(file_path):
         "final_destination": final_destination,
         "schedules": schedules,
     }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Chrome version detection for undetected_chromedriver.
+#
+# uc.Chrome(version_main=N) must match the INSTALLED Chrome major version, or the
+# driver refuses to start:
+#   "This version of ChromeDriver only supports Chrome version 148,
+#    Current browser version is 150.0.7871.187"
+#
+# Chrome auto-updates silently, so any hardcoded N breaks on its own schedule —
+# which is exactly what happened to the 148 that used to be pinned here. Detect it
+# at runtime instead.
+#
+# Returns None if detection fails, which lets undetected_chromedriver fall back to
+# its own auto-detection rather than pinning a number that is definitely wrong.
+# ─────────────────────────────────────────────────────────────────────────────
+def chrome_major():
+    """Installed Chrome major version as an int, or None to let uc auto-detect."""
+    import re
+    import subprocess
+
+    if sys.platform == "win32":
+        try:
+            import winreg
+
+            for hive in (winreg.HKEY_CURRENT_USER, winreg.HKEY_LOCAL_MACHINE):
+                try:
+                    with winreg.OpenKey(
+                        hive, r"Software\Google\Chrome\BLBeacon"
+                    ) as key:
+                        version, _ = winreg.QueryValueEx(key, "version")
+                        return int(str(version).split(".")[0])
+                except OSError:
+                    continue
+        except Exception:
+            pass
+
+    for cmd in (["google-chrome", "--version"], ["chrome", "--version"]):
+        try:
+            out = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=10
+            ).stdout
+            match = re.search(r"(\d+)\.", out)
+            if match:
+                return int(match.group(1))
+        except Exception:
+            continue
+
+    return None

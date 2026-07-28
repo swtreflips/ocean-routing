@@ -3,6 +3,7 @@ import sys
 os.environ['GDAL_DATA'] = os.path.join(f'{os.sep}'.join(sys.executable.split(os.sep)[:-1]), 'Library', 'share', 'gdal')
 
 from utils import (
+    chrome_major,
     load_progress,
     geocode_city,
     resolve_missing_locations,
@@ -174,7 +175,7 @@ def get_new_session():
 
     print("  🚗 Launching undetected Chrome (headless)...")
     driver = uc.Chrome(
-        version_main=148,   # ✅ THIS goes here
+        version_main=chrome_major(),   # detected at runtime; Chrome auto-updates
         options=options
     )
     print("  ✓ Chrome launched")
@@ -282,113 +283,184 @@ with open(cities_file, "r") as f:
     allcoscocities = json.load(f)
 
 snapshot_date = assign_snapshot(today_iso)
-# Start session
-cookies, headers = get_new_session()
+# --- Retry config (v2-style multi-sweep drain) ---------------------------
+# Sweep 1 tries every pending quote; a quote that hits a TRANSIENT failure
+# (403/429/5xx anti-bot, timeout, connection error) stays 'pending' and is
+# re-attempted on the next sweep after an escalating cooldown. The first non-200
+# in a sweep re-bootstraps the COSCO session once (fresh cookies usually clear
+# the block); a whole sweep that resolves nothing aborts. A valid 200 with an
+# empty records list is a terminal 'no_records' — cleanly distinct from a failure.
+MAX_SWEEPS = 6
+SWEEP_COOLDOWNS = [30, 60, 120, 240, 480]   # seconds before each requeue sweep
+# Cadence tightened ~3.3x (was (2,5) + a 6% 10–20s spike), same proportion and
+# approach as the v2 scripts (spike dropped).
+PAIR_DELAY_RANGE = (0.5, 1.5)
+
+
+def _scrape_pair(idx, pol_name, pod_name, row, creds, sweep_state, stats):
+    """Query one quote (origin, LastCY) ONCE; write a wrapped raw file on success.
+
+    Returns status:
+      'completed'    -> schedules saved
+      'no_records'   -> 200 but empty records (a real "nothing here" answer)
+      'not_found'    -> POL or LastCY missing from cos_cities.json
+      'pending'      -> TRANSIENT failure (403/429/5xx anti-bot / timeout / conn
+                        error) — leave pending so the next sweep retries it
+      'error_<code>' -> a non-transient 4xx (surfaced, not requeued)
+    """
+    key = f"{pol_name}__{pod_name}"
+    origin_data = allcoscocities.get(pol_name)
+    destination_data = allcoscocities.get(pod_name)
+    if not origin_data or not destination_data:
+        print(f"⚠️ Skipping: city not found for {key}")
+        return "not_found"
+
+    payload = {
+        "fromDate": fromDate,
+        "toDate": toDate,
+        "pickup": "C",
+        "delivery": "C",
+        "estimateDate": "D",
+        "originCityUuid": origin_data["cityUuid"],
+        "destinationCityUuid": destination_data["cityUuid"],
+        "originCity": origin_data["fullFormate"] + "," + origin_data["unloCode"],
+        "destinationCity": destination_data["fullFormate"] + "," + destination_data["unloCode"],
+        "cargoNature": "GC",
+        "dataSource": "COSCO IRIS4",
+    }
+
+    for attempt in (1, 2):
+        creds["headers"]["X-Client-Timestamp"] = str(int(time.time() * 1000))
+        stats["calls"] += 1
+        print(f"🔎 Fetching {key} ... (attempt {attempt})")
+        try:
+            resp = requests.post(
+                url, headers=creds["headers"],
+                cookies={c["name"]: c["value"] for c in creds["cookies"]},
+                json=payload, timeout=20)
+        except requests.RequestException as e:
+            print(f"💥 {key}: {e} (transient → requeue)")
+            return "pending"
+
+        code = resp.status_code
+        if code != 200:
+            print(f"❌ Status {code} for {key}")
+            if attempt == 1 and not sweep_state["rebooted"]:
+                sweep_state["rebooted"] = True
+                print("🔄 re-bootstrapping COSCO session...")
+                c, h = get_new_session()
+                creds["cookies"], creds["headers"] = c, h
+                continue                              # retry same quote with fresh creds
+            # blocked/throttled/server → requeue; other 4xx → surface
+            return "pending" if code in (403, 429) or code >= 500 else f"error_{code}"
+
+        data = resp.json().get("data", {})
+        records = data.get("records") or data.get("content", {}).get("data", [])
+        print(f"DEBUG: keys={list(data.keys())}, records={len(records)}")
+        if not records:
+            print(f"⚠️ No schedules found for {key}")
+            return "no_records"
+
+        wrapped_data = {
+            "query_date": query_timestamp,
+            "snapshot_date": snapshot_date.strftime("%Y-%m-%d"),
+            "LastCY": pod_name,
+            "OFQ": row.get("ID"),
+            "FinalDestination": row.get("Final Destination"),
+            "PortofLoading": pol_name,
+            "schedules": records,
+        }
+        pol_short = pol_name.replace(" ", "")[:5]
+        pod_short = pod_name.replace(" ", "")[:5]
+        out_file = PROCESSING_DIR / f"COS_{pol_short}_{pod_short}_{filename_timestamp}.json"
+        with open(out_file, "w") as f:
+            json.dump(wrapped_data, f, indent=2)
+        quotes.at[idx, "LastCY"] = pod_name
+        quotes.at[idx, "result_file"] = str(out_file)
+        print(f"✅ Got {len(records)} total schedules for {key}")
+        return "completed"
+
+    return "pending"
+
+
+def _log_run_stats(quotes, calls, elapsed):
+    """Run summary to the log: totals, wall-clock, throughput. `elapsed` is the full
+    scrape wall-clock (includes cooldowns + session re-bootstraps)."""
+    def _n(pred):
+        return int(sum(1 for i in quotes.index if pred(quotes.at[i, "status"])))
+
+    completed = _n(lambda s: s == "completed")
+    no_records = _n(lambda s: s == "no_records")
+    not_found = _n(lambda s: s == "not_found")
+    pending = _n(lambda s: s == "pending")
+    errors = _n(lambda s: isinstance(s, str) and s.startswith("error_"))
+
+    mins = elapsed / 60
+    per_min = calls / mins if mins > 0 else 0.0
+    min_per_100 = (mins / calls * 100) if calls > 0 else 0.0
+
+    print("\n" + "=" * 48)
+    print("RUN STATS")
+    print("=" * 48)
+    print(f"  quotes          : {len(quotes)} total")
+    print(f"    completed     : {completed}")
+    print(f"    no_records    : {no_records}")
+    print(f"    not_found     : {not_found}")
+    print(f"    error         : {errors}")
+    print(f"    pending(left) : {pending}")
+    print(f"  API calls       : {calls}")
+    print(f"  scrape elapsed  : {elapsed:.1f}s  ({mins:.2f} min)")
+    print(f"  throughput      : {per_min:.1f} calls/min")
+    print(f"                    {min_per_100:.2f} min per 100 calls")
+    print("=" * 48)
+    if pending:
+        print(f"⚠️ {pending} quote(s) still pending after {MAX_SWEEPS} sweeps (no raw file for them).")
+
+
+def scrape_quotes(quotes, creds):
+    """Multi-sweep drain of the pending quotes (the v2 retry model)."""
+    stats = {"calls": 0}
+    t0 = time.perf_counter()
+
+    for sweep in range(1, MAX_SWEEPS + 1):
+        pending_idx = [i for i in quotes.index if quotes.at[i, "status"] == "pending"]
+        if not pending_idx:
+            break
+        print(f"\n--- sweep {sweep}/{MAX_SWEEPS}: {len(pending_idx)} pending quote(s) ---")
+        sweep_state = {"rebooted": False}      # one session re-bootstrap allowed per sweep
+        resolved = 0
+        for idx in pending_idx:
+            row = quotes.loc[idx]
+            status = _scrape_pair(idx, row["Port of Loading"], row["LastCY"], row, creds, sweep_state, stats)
+            quotes.at[idx, "status"] = status
+            if status != "pending":
+                resolved += 1
+            sleep_time = random.uniform(*PAIR_DELAY_RANGE)
+            print(f"⏳ Sleeping {sleep_time:.1f}s...")
+            time.sleep(sleep_time)
+
+        still = sum(1 for i in quotes.index if quotes.at[i, "status"] == "pending")
+        print(f"--- sweep {sweep} done: {resolved} resolved, {still} still pending ---")
+        if still == 0:
+            break
+        if resolved == 0:
+            print(f"🛑 zero progress this sweep — COSCO blocking; stopping with {still} pending.")
+            break
+        if sweep < MAX_SWEEPS:
+            cd = SWEEP_COOLDOWNS[min(sweep - 1, len(SWEEP_COOLDOWNS) - 1)]
+            print(f"😴 cooldown {cd}s before requeue sweep {sweep + 1}...")
+            time.sleep(cd)
+
+    _log_run_stats(quotes, stats["calls"], time.perf_counter() - t0)
+
+
+# --- Start session (bootstrapped once; re-bootstrapped inside a sweep on non-200) ---
+_c, _h = get_new_session()
+creds = {"cookies": _c, "headers": _h}
 
 try:
-    for idx, row in quotes.iterrows():
-        if row["status"] in ["completed", "no_data", "not_found"]:
-            continue
-
-        pol_name = row["Port of Loading"]
-        pod_name = row["LastCY"]
-        key = f"{pol_name}__{pod_name}"
-
-        origin_data = allcoscocities.get(pol_name)
-        destination_data = allcoscocities.get(pod_name)
-
-        if not origin_data or not destination_data:
-            print(f"⚠️ Skipping: city not found for {key}")
-            quotes.at[idx, "status"] = "not_found"
-            continue
-
-        retried = False
-        all_records = []
-
-        while True:
-            headers["X-Client-Timestamp"] = str(int(time.time() * 1000))
-            print(f"🔎 Fetching {key} ... (retry={retried})")
-
-            resp = requests.post(
-                url,
-                headers=headers,
-                cookies={c["name"]: c["value"] for c in cookies},
-                json={
-                    "fromDate": fromDate,
-                    "toDate": toDate,
-                    "pickup": "C",
-                    "delivery": "C",
-                    "estimateDate": "D",
-                    "originCityUuid": origin_data["cityUuid"],
-                    "destinationCityUuid": destination_data["cityUuid"],
-                    "originCity": origin_data["fullFormate"] + "," + origin_data["unloCode"],
-                    "destinationCity": destination_data["fullFormate"] + "," + destination_data["unloCode"],
-                    "cargoNature": "GC",
-                    "dataSource": "COSCO IRIS4"
-                    # 👈 notice: no pageNum, no pageSize
-                },
-                timeout=20,
-            )
-
-            if resp.status_code != 200:
-                print(f"❌ Status {resp.status_code} for {key}")
-                if not retried:
-                    cookies, headers = get_new_session()
-                    retried = True
-                    print("🔄 Retrying with new session...")
-                    continue
-                else:
-                    quotes.at[idx, "status"] = f"error_{resp.status_code}"
-                    break
-
-            # Parse records (single batch, no paging)
-            data = resp.json().get("data", {})
-            records = data.get("records") or data.get("content", {}).get("data", [])
-
-            print(f"DEBUG: keys={list(data.keys())}, records={len(records)}")
-
-            if not records:
-                print(f"⚠️ No schedules found for {key}")
-                quotes.at[idx, "status"] = "no_records"
-                break
-
-            # ✅ Store all records directly
-            all_records.extend(records)
-
-            # Save once
-            wrapped_data = {
-                "query_date": query_timestamp,   # ISO 8601 UTC timestamp (see DATE.md)
-                "snapshot_date": snapshot_date.strftime("%Y-%m-%d"),  # assigned snapshot
-                "LastCY": pod_name,
-                "OFQ": row.get("ID"),
-                "FinalDestination": row.get("Final Destination"),
-                "PortofLoading": pol_name,
-                "schedules": all_records
-            }
-
-            # Build dynamic filename (timestamp keeps multi-run-per-day files unique)
-            pol_short = pol_name.replace(" ", "")[:5]   # first 5 letters, no spaces
-            pod_short = pod_name.replace(" ", "")[:5]   # first 5 letters, no spaces
-            filename = f"COS_{pol_short}_{pod_short}_{filename_timestamp}.json"
-
-            out_file = PROCESSING_DIR / filename
-            with open(out_file, "w") as f:
-                json.dump(wrapped_data, f, indent=2)
-
-            quotes.at[idx, "status"] = "completed"
-            quotes.at[idx, "LastCY"] = pod_name
-            quotes.at[idx, "result_file"] = str(out_file)
-            print(f"✅ Got {len(all_records)} total schedules for {key}")
-
-            break  # ✅ no pagination loop
-
-        sleep_time = random.uniform(2, 5)
-        if random.random() < 0.06:
-            sleep_time = random.uniform(10, 20)
-        print(f"⏳ Sleeping {sleep_time:.1f}s...")
-        time.sleep(sleep_time)
-
-        print("\n🎉 Quotes fetch complete!")
+    scrape_quotes(quotes, creds)
+    print("\n🎉 Quotes fetch complete!")
 except (Exception, KeyboardInterrupt) as e:
     crash_file = get_unique_filename(progress_file.with_stem(progress_file.stem + "_CRASH"))
     safe_to_csv(quotes, crash_file, index=False)

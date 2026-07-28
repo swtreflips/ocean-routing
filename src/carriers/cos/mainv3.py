@@ -17,6 +17,7 @@ os.environ['GDAL_DATA'] = os.path.join(f'{os.sep}'.join(sys.executable.split(os.
 # v2 connection stats are kept for analysis; we only read type=="port" keys.
 
 from utils import (
+    chrome_major,
     get_unique_filename,
     get_unique_path,
     assign_ids_inplace,
@@ -127,7 +128,7 @@ def get_new_session():
     options.headless = True
     options.add_argument("--window-size=1920,1080")
     print("  🚗 Launching undetected Chrome (headless)...")
-    driver = uc.Chrome(version_main=148, options=options)
+    driver = uc.Chrome(version_main=chrome_major(), options=options)
     print("  ✓ Chrome launched")
 
     driver.get("https://elines.coscoshipping.com")

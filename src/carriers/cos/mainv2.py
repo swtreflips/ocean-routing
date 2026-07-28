@@ -21,6 +21,7 @@ os.environ['GDAL_DATA'] = os.path.join(f'{os.sep}'.join(sys.executable.split(os.
 #     relationships live in a separate project.
 
 from utils import (
+    chrome_major,
     get_unique_filename,
     get_unique_path,
     assign_ids_inplace,
@@ -170,7 +171,7 @@ def get_new_session():
 
     print("  🚗 Launching undetected Chrome (headless)...")
     driver = uc.Chrome(
-        version_main=148,   # ✅ THIS goes here
+        version_main=chrome_major(),   # detected at runtime; Chrome auto-updates
         options=options
     )
     print("  ✓ Chrome launched")
